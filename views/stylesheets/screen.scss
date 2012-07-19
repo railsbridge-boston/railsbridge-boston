@@ -1,0 +1,145 @@
+@import "compass/reset";
+@import "compass/typography/lists/horizontal-list";
+@import "compass/css3/border-radius";
+@import "coderay";
+
+
+a {
+  color: #333;
+}
+
+body {
+  background: #FFF;
+  color: #333;
+  font-family: verdana, helvetica, arial, sans;
+  text-rendering: optimizeLegibility;
+  width: 600px;
+  margin: 10px 50px 75px 250px;
+
+  > header {
+    padding-top: 9px;
+    margin-bottom: 16px;
+    p {
+      font-size: .85em;
+      @include border-radius(8px);
+      background-color: #ECECEC;
+      padding: 10px;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+    h1 {
+      a {
+        font-size: 36px;
+        text-decoration: none;
+        padding-left: 6px;
+      }
+      img {
+        height: 70px;
+        position: relative;
+        top: 5px;
+      }
+    }
+  }
+}
+
+nav.links {
+  margin-bottom: 20px;
+  ul {
+    @include horizontal-list;
+    font-size: 12px;
+    margin-bottom: 10px;
+    li {
+      padding-left: 0px;
+      line-height: 1.5em;
+      &:after {
+        content: " /";
+      }
+      &:last-child:after {
+        content: "";
+      }
+      a {
+        text-decoration: none;
+        padding-bottom: 1px;
+        &:hover {
+          border-bottom: 1px solid;
+        }
+      }
+    }
+  }
+}
+
+section#container {
+    margin-bottom: 20px;
+    h2 {
+      position: relative;
+      left: -160px;
+      width: 140px;
+      text-align: right;
+      top: 20px;
+      &:after {
+        content: "/"
+      }
+    }
+    h3 {
+      font-size: 24px;
+      margin-bottom: 20px
+    }
+}
+
+#slides {
+  position: relative; }
+
+#slides div {
+  position: absolute; }
+
+#os-select {
+  list-style-type: none;
+  @include border-radius(8px);
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px 0;
+}
+
+#os-select a {
+  color: #222;
+}
+
+#os-select li {
+  display: inline-block;
+  width: 175px;
+  margin: 0px 10px;
+  text-align: center; }
+
+#os-select li img {
+  width: 180px; }
+
+p {
+  @include border-radius(8px);
+  background-color: #ECECEC;
+  padding: 10px;
+  margin-bottom: 25px;
+  line-height: 28px;
+  text-align: left;
+}
+
+code {
+  display: block;
+  padding: 10px;
+  @include border-radius(8px);
+  margin-bottom: 25px;
+  color: #333;
+
+  p {
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 0;
+
+    a {
+      color: #222;
+    }
+  }
+}
+
+strong {
+  font-weight: bold;
+}
