@@ -8,25 +8,24 @@ require 'redcarpet'
 require 'haml'
 require 'coderay'
 
-configure do
-  class HTMLwithCodeRay < Redcarpet::Render::HTML
-    INNER_RENDERER = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new)
+class HTMLwithCodeRay < Redcarpet::Render::HTML
+  INNER_RENDERER = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new)
 
-    def block_code(code, language)
-      if language
-        code = CodeRay.scan(code, language).div(:css => :class)
-      else
-        code = INNER_RENDERER.render(code)
-      end
-      "<code attr-language='#{language}'>#{code}</code>"
+  def block_code(code, language)
+    if language
+      CodeRay.scan(code, language).div(:css => :class)
+    else
+      INNER_RENDERER.render(code)
     end
   end
+end
 
+configure do
   Compass.configuration do |config|
     config.project_path = File.dirname(__FILE__)
     config.sass_dir = 'views/stylesheets'
     config.cache_dir = 'tmp/sass-cache'
-    config.images_path = 'images'
+    config.images_path = 'public/images'
   end
 
   set :scss, Compass.sass_engine_options

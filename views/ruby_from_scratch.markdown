@@ -1,6 +1,5 @@
-## Friday Setup: Ruby from Scratch
+# Friday Setup: Ruby from Scratch
 Install Ruby, Install a Text Editor, and Start Coding
-
 
 At the end of this tutorial, you will have all the tools you need to write and run Ruby code. Work thourgh
 these sections in order, and ask questions if you get stuck! That's what the TAs and instructors are here for.
