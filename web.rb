@@ -31,7 +31,7 @@ configure do
   set :scss, Compass.sass_engine_options
 
   set :markdown,
-    :layout_engine => :haml,
+    :layout_engine => :erb,
     :no_intra_emphasis => true,
     :fenced_code_blocks => true,
     :renderer => HTMLwithCodeRay.new

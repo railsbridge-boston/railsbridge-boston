@@ -62,7 +62,7 @@ hr.soften {
 }
 .jumbotron h1 {
   margin-bottom: 9px;
-  font-size: 81px;
+  font-size: 41px;
   font-weight: bold;
   letter-spacing: -1px;
   line-height: 1;
@@ -112,7 +112,15 @@ hr.soften {
   margin-bottom: 9px;
 }
 .subhead h1 {
-  font-size: 54px;
+  font-size: 44px;
+}
+.subhead img {
+  float:left;
+  margin-right: 20px;
+  margin-top: -14px;
+}
+.lead {
+
 }
 
 /* Subnav */
