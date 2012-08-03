@@ -851,3 +851,9 @@ form.well {
   }
 
 }
+
+.sponsors img {
+  float: left;
+  margin-right: 50px;
+  max-height: 150px;
+}
