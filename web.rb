@@ -38,7 +38,7 @@ configure do
 end
 
 get '/' do
-  markdown :index
+  erb :index
 end
 
 get '/screen.css' do
