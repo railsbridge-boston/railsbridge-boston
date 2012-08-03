@@ -11,41 +11,55 @@ When you are done with all the sections, find a staff member to go through the c
 
 Instructions for installing and running Ruby.
 
-[Install Ruby on Windows](/ruby_from_scratch/install_ruby_on_windows)  
-[Install Ruby on Mac OS X](/ruby_from_scratch/install_ruby_on_mac_os_x)  
-[Install Ruby on Linux](/ruby_from_scratch/install_ruby_on_linux)  
+[Install Ruby on Windows](/ruby_from_scratch/install/windows)  
+[Install Ruby on Mac OS X](/ruby_from_scratch/install/osx)  
+[Install Ruby on Linux](/ruby_from_scratch/install/linux)  
 
 
-### 2. Install a Text Editor
-
-You will want a text editor that designed for coding. These instructions will show you how to install a good text 
-editor, and the basics of using it effectively.
-
-[Text Editor for Windows](/ruby_from_scratch/text_editor_for_windows)  
-[Text Editor for Mac OS X](/ruby_from_scratch/text_editor_for_mac_os_x)  
-[Text Editor for Linux](/ruby_from_scratch/text_editor_for_linux)  
-
-
-### 3. Starting and Exiting Interactive Ruby
+### 2. Starting and Exiting Interactive Ruby
 
 To start writing Ruby code, you will use the Interactive Ruby Shell (IRB). It is "interactive" because every time you 
 write a line of code and press 'Enter', the code executes and shows you the result. This will allow you to experiment
-get instant feedback.
+and get instant feedback.
 
-[Interactive Ruby (IRB) on Windows](/ruby_from_scratch/interactive_ruby_on_windows)  
-[Interactive Ruby (IRB) on Mac OS X](/ruby_from_scratch/interactive_ruby_on_mac_os_x)  
-[Interactive Ruby (IRB) on Linux](/ruby_from_scratch/interactive_ruby_on_linux)  
+[Interactive Ruby (IRB) on Windows](/ruby_from_scratch/interactive_ruby/windows)  
+[Interactive Ruby (IRB) on Mac OS X](/ruby_from_scratch/interactive_ruby/osx)  
+[Interactive Ruby (IRB) on Linux](/ruby_from_scratch/interactive_ruby/linux)  
 
 
-### 4. Using the Command Prompt
+### 3. Using the Command Prompt
 
 The command prompt is the primary way to run Ruby files. In this section you will learn to navigate your filesystem
 from your command prompt.
 
-[Using the Command Prompt on Windows](/ruby_from_scratch/using_the_command_prompt_on_windows)  
-[Using the Command Prompt on Mac OS X](/ruby_from_scratch/using_the_command_prompt_on_mac_os_x)  
-[Using the Command Prompt on Linux](/ruby_from_scratch/using_the_command_prompt_on_linux)  
+[Using the Command Prompt on Windows](/ruby_from_scratch/command_prompt/windows)  
+[Using the Command Prompt on Mac OS X](/ruby_from_scratch/command_prompt/osx)  
+[Using the Command Prompt on Linux](/ruby_from_scratch/command_prompt/linux)  
 
+
+### 4. Install a Text Editor
+
+You will want a text editor that designed for coding. These instructions will show you how to install a good text 
+editor, and the basics of using it effectively.
+
+If you already are comfortable with an editor of this type, use that one.
+If you are unsure, you can use [Sublime Text 2](http://www.sublimetext.com/2).
+Download and install it from the link above.
+
+1. Set soft 2 space tabs 
+
+```python
+{
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "ensure_newline_at_eof_on_save": true,
+  "new_window_settings":
+  {
+    "show_minimap": false
+  }
+}
+```
 
 ### 5. Run Ruby from a File
 
