@@ -857,3 +857,7 @@ form.well {
   margin-right: 50px;
   max-height: 150px;
 }
+.event-description p {
+  font-size: 16px;
+  line-height: 1.3em;
+}
