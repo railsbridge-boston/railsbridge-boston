@@ -1,12 +1,12 @@
 from: Daniel Choi <dhchoi@gmail.com>
-to: Katherine.stamatakos@gmail.com
+to: martha@cykod.com
 subject: Boston Ruby Women's Workshop
 cc: dhchoi@gmail.com
 
-Dear Kate,
+Dear Martha,
 
 You've been accepted into the Workshop! We look forward to seeing you
-there. Matt Brender is also welcome to attend as your guest! 
+there. 
 
 Some additional event information:
 
