@@ -860,3 +860,6 @@ form.well {
   font-size: 16px;
   line-height: 1.3em;
 }
+#contact {
+  clear: both;
+}
