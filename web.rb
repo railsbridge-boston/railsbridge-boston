@@ -46,16 +46,21 @@ get '/screen.css' do
   scss :"stylesheets/screen"
 end
 
+get '/coderay_github' do
+  content_type 'text/css', :charset => 'utf-8'
+  scss :"stylesheets/_coderay_github"
+end
+
 # This handles default routes for the markdown files in `views/`
 # Mostly added so that people who don't want to fuss with a Sinatra app can
 # get right in and start making markdown files.
 
 get '/*' do
   page = File.join params[:splat]
+
   if File.exist? "views/#{page}.markdown"
     markdown page.intern
   else
     pass
   end
 end
-
