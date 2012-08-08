@@ -70,9 +70,9 @@ You will need a few other things for the projects on Saturday. We'll install the
 Follow this self-directed tutorial to start learning basic Ruby concepts. Topics covered include: how to do math with Ruby, variables,
 data types, and flow control. Things are starting to get exciting.
 
-[Ruby Tutorial on Windows](/ruby_from_scratch/first_ruby_tutorial_on_windows)  
-[Ruby Tutorial on Mac OS X](/ruby_from_scratch/first_ruby_tutorial_on_mac_os_x)  
-[Ruby Tutorial on Linux](/ruby_from_scratch/first_ruby_tutorial_on_linux)  
+[Ruby Tutorial on Windows](/ruby_from_scratch/ruby_tutorial/windows)  
+[Ruby Tutorial on Mac OS X](/ruby_from_scratch/ruby_tutorial/osx)  
+[Ruby Tutorial on Linux](/ruby_from_scratch/ruby_tutorial/linux)  
 
 
 ### Checklist of 'Ruby from Scratch' Completion
