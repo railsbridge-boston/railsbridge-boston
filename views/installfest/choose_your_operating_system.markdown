@@ -1,0 +1,12 @@
+##Click here if you are using a 
+[Macintosh](macintosh)
+
+
+
+##Click here if you are using a 
+[PC running Windows](windows)
+
+
+
+##Click here if you are using a 
+[PC running Linux](linux)

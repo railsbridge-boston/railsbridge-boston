@@ -1,0 +1,79 @@
+[]()#Step 1:Learn your Mac OS X Version
+
+
+>*Click on the Apple icon in the top left of your screen.
+
+
+*Select "About this Mac"
+
+
+*In the window that comes up, under the title "Mac OS X" there will be a version number.
+
+
+*If it starts with 10.7, you have 
+**Lion**
+.
+
+
+*If it starts with 10.6, you have 
+**Snow Leopard**
+.
+
+
+*If it starts with 10.5, you have 
+**Leopard**
+.
+
+
+*If it starts with 10.4, you have 
+**Tiger**
+.
+
+
+*If it starts with 10.3, you have 
+**Panther**
+.
+
+
+*Write down the one you have and close the "About this Mac" window.Below is an example.
+
+
+![OS X Snow Leopard](MacOSXSnowLeopard.png)
+
+[]()#Step 2:Choose your instructions
+
+
+>[]()#Option 1:Lion
+
+
+>Go on to 
+[Osx Lion](osx_lion?back=macintosh%23step2-1)
+
+
+[]()#Option 2:Snow Leopard
+
+
+>Go on to 
+[Osx Lion](osx_lion?back=macintosh%23step2-2)
+
+The instructions for Lion and Snow Leopard are mostly the same.
+
+
+[]()#Option 3:Panther
+
+
+>Go on to 
+[Osx Panther](osx_panther?back=macintosh%23step2-3)
+
+
+[]()#Option 4:Tiger, or Leopard
+
+
+>![](/img/warning.png)Panther and Tiger are 
+**very**
+ old and you should seriously consider upgrading, or buying a new computer!
+
+Go on to 
+[Osx Panther](osx_panther?back=macintosh%23step2-4)
+
+Follow the Panther instructions but be prepared for some things to be difficult.
