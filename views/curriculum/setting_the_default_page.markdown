@@ -1,79 +1,47 @@
-#Goals
+# Setting the Default Page
+## Goals
+Now that the structure is complete, let's make the flow work smoothly.  
 
-
-*Now that the structure is complete, let's make the flow work smoothly.
-
-
-Currently when you go to 
-[http://localhost:3000](http://localhost:3000) you see the "Welcome
-
-
-  aboard" message.
-
-It would be easier to use our app if 
-[http://localhost:3000](http://localhost:3000) went directly to the topics list.
-
+Currently when you go to [http://localhost:3000](http://localhost:3000) you see the "Welcome aboard" message.  
+It would be easier to use our app if [http://localhost:3000](http://localhost:3000) went directly to the topics list.  
 In this step we'll make that happen and learn a bit about routes in Rails.
 
-#Steps
+## Steps
+### Step 1: Add a root route
+Open `config/routes.rb`. Near the end of the file but before the final end add `root :to => 'topics#index'`.  
+When you are done the last few lines should look like this:
 
-
->[]()#Step 1:Add a root route
-
-
->Open 
-config/routes.rb. Near the end of the file but before the final end add 
-root :to => 'topics#index'. When you are done the last few lines should look like this:
-
+```ruby
 # This is a legacy wild controller route that's not recommended for RESTful applications.
-
 # Note: This route will make all actions in every controller accessible via GET requests.
-
 # match ':controller(/:action(/:id(.:format)))'
+root :to => 'topics#index'
+```
 
-root 
-:to => 
-'topics#index'
+### Step 2: Remove the static welcome file
+You also need to remove the welcome aboard page for the new route to work.  
+Type this in the terminal:
 
-[]()#Step 2:Remove the static welcome file
+```text
+git rm public/index.html
+```
 
+### Step 3: Confirm your changes
+Go back to [http://localhost:3000/](http://localhost:3000/). You should be taken to the topics list automatically.
 
->You also need to remove the welcome aboard page for the new route to work.
+## Explanation
+* `root :to => 'topics#index'` is a rails route that says the default address for your site is `topics#index`. 
+* `topics#index` is the topics list page (the topics controller with the index action).
+* Rails routes control how URLs (web addresses) get matched with code on the server. 
+Similar to how addresses match with houses and apartments.
+* The file `config/routes.rb` is like an address directory listing the possible addresses and which code goes with each one
+* `routes.rb` uses some shortcuts so it doesn't always show all the possible URLs. 
+To explore the URLs in more detail we can use the terminal.
 
-Type this in the terminal:git rm public/index.html
+At the terminal type `rake routes` you should get something that looks like this:
 
-[]()#Step 3:Confirm your changes
-
-
->Go back to 
-[http://localhost:3000/](http://localhost:3000/). You should be taken to the topics list automatically.
-
-#Explanation
-
-
->*root :to => 'topics#index' is a rails route that says the default
-address for your site is topics#index. topics#index is the topics
-list page (the topics controller with the index action).
-
-
-*Rails routes control how URLs (web addresses) get matched with
-code on the server. Similar to how addresses match with houses and
-apartments.
-
-
-*The file config/routes.rb is like an address directory listing the
-possible addresses and which code goes with each one
-
-
-*routes.rb uses some shortcuts so it doesn't always show all the
-possible URLs. To explore the URLs in more detail we can use the
-terminal.At the terminal type 
-rake routes you should get something that
-  looks like this:
-
-
+```text
 $ rake routes
-
      votes GET    /votes(.:format)           {:action=>"index", :controller=>"votes"}
            POST   /votes(.:format)           {:action=>"create", :controller=>"votes"}
   new_vote GET    /votes/new(.:format)       {:action=>"new", :controller=>"votes"}
@@ -89,36 +57,28 @@ edit_topic GET    /topics/:id/edit(.:format) {:action=>"edit", :controller=>"top
            PUT    /topics/:id(.:format)      {:action=>"update", :controller=>"topics"}
            DELETE /topics/:id(.:format)      {:action=>"destroy", :controller=>"topics"}
       root        /                          {:action=>"index", :controller=>"topics"}
+```
 
+This shows all the URLs your application responds to. 
+The code that starts with colons are variables so `:id` means the id number of the record. 
+The code in parenthesis is optional.
 
-This shows all the URLs your application responds to. The code that starts with colons are variables so :id means the id number of the record. The code in parenthesis is optional.
-
-
-###Exploring Routes (optional)
-
-
-
+### Exploring Routes (optional)
 Now you can have a look at the paths that are available in your app.
-  Let's try looking at one of the topics routes we just generated.
-  Open up your rails console and play:
+Let's try looking at one of the topics routes we just generated.
+Open up your rails console and play:
 
-
+```ruby
 $ rails console
 >> app.topics_path
 => "/topics"
 >> app.topics_url
-=> "<http://www.example.com/topics">
-
+=> "http://www.example.com/topics"
+```
 
 app is a special object that represents your entire application.
-  You can ask it about its routes (as we just did), play with its
-  database connections, or make pseudo-web requests against it with
-  
-get or 
-post (and lots more).
+You can ask it about its routes (as we just did), play with its
+database connections, or make pseudo-web requests against it with `get` or `post` (and lots more).
 
-#Next Step:
-
-
-Go on to 
-[Redirect To The Topics List After Creating A New Topic](redirect_to_the_topics_list_after_creating_a_new_topic?back=setting_the_default_page%23step3)
+## Next Step
+Go on to [Redirect To The Topics List After Creating A New Topic](redirect_to_the_topics_list_after_creating_a_new_topic)

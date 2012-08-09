@@ -1,24 +1,19 @@
-#Goals
+# Commit and Push to Heroku, Again
+## Goals
+We just made some awesome changes. Let's push them so our friends can play with it.
 
+## Steps
+Type this in the terminal:
 
-*We just made some awesome changes. Let's push them so our friends can play with it.
-
-#Steps
-
-
->Type this in the terminal:git add .
+```text
+git add .
 git commit -m "Added votes"
 git push heroku master
 heroku run rake db:migrate
+```
 
-#Explanation
+## Explanation
+We commit our changes, push them out and run the remote migration... By this time it should be fairly old hat.
 
-
->We commit our changes, push them out and run the
-  remote migration... By this time it should be fairly old hat.
-
-#Next Step:
-
-
-Go on to 
-[Setting The Default Page](setting_the_default_page?back=commit_and_push_to_heroku_again%23step)
+## Next Step
+Go on to [Setting The Default Page](setting_the_default_page)
