@@ -1,3 +1,4 @@
+# Deploy to Heroku
 ## Goals
 * OK. We've got an empty app and it has been added to git. What now?
 

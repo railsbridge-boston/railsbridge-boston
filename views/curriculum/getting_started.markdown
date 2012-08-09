@@ -1,4 +1,4 @@
-# Creating a Rails Application
+# Creating a Rails Application  
 
 <img src="/images/curriculum/Start_page.png" class="thumbnail"></img>
 

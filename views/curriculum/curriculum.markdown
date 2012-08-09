@@ -1,4 +1,5 @@
-###Goal
+# Saturday Curriculum
+## Goal
 
 To teach you Ruby on Rails we are going to use a "Real World"
 example. You've decided to create a voting system for you and your
@@ -13,7 +14,7 @@ You've sketched up an initial screenshot of what you want it to look like:
 
 <img src="/images/curriculum/finished_app.png" alt="screenshot of rails app" class="thumbnail"></img>
 
-###Meta-Goal
+## Meta-Goal
 
 When you have completed today's goal of getting the basic
 application online you should understand:
@@ -24,7 +25,7 @@ application online you should understand:
 * How to get your application online
 * The basic tools a RoR developer uses (source control, editor, console, local server)
 
-###Schedule
+## Schedule
 
 * 1-ish hour of ruby
 * 4-ish hours of rails, broken up in 1-ish hour stepsThis is just a rough guideline, not a mandate. Some steps you'll go
@@ -32,7 +33,7 @@ over and some you'll go under. It'll all work out by the end of the
 day... unless I really screwed something up. :D
 
 
-###Requirements
+## Requirements
 
 We're going to be working with:
 
@@ -60,7 +61,7 @@ $
 If you can do that, you are probably good to go.
 
 
-###Working Effectively and Efficiently
+## Working Effectively and Efficiently
 
 I highly recommend you do the following:
 
@@ -79,7 +80,7 @@ amount of time spent switching between them and the context lost as
 you work through the lessons. Having 50 tabs open in your web browser gets confusing and wastes time.
 
 
-###Format
+## Format
 
 Each lesson will look like this:
 
