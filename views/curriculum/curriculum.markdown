@@ -1,4 +1,4 @@
-# Saturday Curriculum
+# Saturday Curriculum (Work in Progress)
 ## Goal
 
 To teach you Ruby on Rails we are going to use a "Real World"
