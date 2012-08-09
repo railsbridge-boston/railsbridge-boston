@@ -28,24 +28,18 @@
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
          </a>
-         <a class="brand" href="http://bostonrb.org">BostonRB</a>
+         <a class="brand" href="/">BostonRB Workshop</a>
 
          <ul class="nav">
-          <li <%= 'class="active"' if @section == :home %>><a href="/">Home</a></li>
           <li <%= 'class="active"' if @section == :friday_night %>><a href="/ruby_from_scratch">Friday Night</a></li>
           <li <%= 'class="active"' if @section == :curriculum %>><a href="/curriculum/curriculum">Saturday</a></li>
+          <li class="pull-right"><a href="http://bostonrb.org">BostonRB Homepage</a></li>
         </ul>
        </div>
      </div>
    </div>
 
   <div class="container">
-    <header class="jumbotron subhead" id="overview">
-      <img src="/logo.png"/>
-      <h1>The Boston Ruby Workshop</h1>
-      <p class="lead">For Women and their Friends</p>
-    </header>
-
     <%= yield %>
 
     <footer class="footer">

@@ -11,7 +11,7 @@
 -------------------------------------------------- */
 body {
   position: relative;
-  padding-top: 90px;
+  padding-top: 4em;
 /*  background-color: #fff;
   background-image: url(../img/grid-18px-masked.png);*/
   background-repeat: repeat-x;
@@ -60,6 +60,7 @@ hr.soften {
 -------------------------------------------------- */
 .jumbotron {
   position: relative;
+  margin-top: 3em;
 }
 .jumbotron h1 {
   margin-bottom: 9px;
