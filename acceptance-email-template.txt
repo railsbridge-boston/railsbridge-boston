@@ -1,9 +1,9 @@
 from: Daniel Choi <dhchoi@gmail.com>
-to: caroline.foss@gmail.com
+to: dlewis@law.harvard.edu
 subject: Boston Ruby Women's Workshop
 cc: dhchoi@gmail.com
 
-Dear Meaghan,
+Dear Dustin,
 
 You've been accepted into the Workshop! We look forward to seeing you
 there. 
