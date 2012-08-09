@@ -64,12 +64,12 @@ If you can do that, you are probably good to go.
 I highly recommend you do the following:
 
 * Bring up your terminal and open 2 tabs:
-* One is for regular terminal stuffs
-* One will be for irb (aka rails console). We'll explain later
+  * One is for regular terminal stuffs
+  * One will be for irb (aka rails console). We'll explain later.
 * Open your browser fresh or hide any windows you already have open.
 * Bring up one window with two tabs
-* One for this content
-* One for interacting with your app.
+  * One for this content
+  * One for interacting with your app.
 * Open your text editor and do not ever close it. We're not quitters.
 * Hide all extra applications. Turn off twitter, IM, and all other distractions.
 
