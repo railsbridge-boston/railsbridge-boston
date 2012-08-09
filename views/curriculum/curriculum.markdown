@@ -1,4 +1,4 @@
-# Saturday Curriculum (Work in Progress)
+# Saturday Curriculum
 ## Goal
 
 To teach you Ruby on Rails we are going to use a "Real World"
@@ -15,7 +15,6 @@ You've sketched up an initial screenshot of what you want it to look like:
 <img src="/images/curriculum/finished_app.png" alt="screenshot of rails app" class="thumbnail"></img>
 
 ## Meta-Goal
-
 When you have completed today's goal of getting the basic
 application online you should understand:
 
@@ -26,7 +25,6 @@ application online you should understand:
 * The basic tools a RoR developer uses (source control, editor, console, local server)
 
 ## Schedule
-
 * 1-ish hour of ruby
 * 4-ish hours of rails, broken up in 1-ish hour steps
 
@@ -36,7 +34,6 @@ day... unless I really screwed something up. :D
 
 
 ## Requirements
-
 We're going to be working with:
 
 * ruby 1.9.3 installed via rvm (mac or linux) or railsinstaller (windows)
@@ -64,7 +61,6 @@ If you can do that, you are probably good to go.
 
 
 ## Working Effectively and Efficiently
-
 I highly recommend you do the following:
 
 * Bring up your terminal and open 2 tabs:
@@ -83,17 +79,13 @@ you work through the lessons. Having 50 tabs open in your web browser gets confu
 
 
 ## Format
-
 Each lesson will look like this:
 
 #Step Title
-  
 #Goal:
-    
 Description of the current step.
   
 #Steps:
-    
 steps to take.
 
 ```ruby    
@@ -103,10 +95,7 @@ end
 ```    
   
 #Explanation
-    
 Details of what the steps actually did... spell out the cause and effect.
 
-### Next Step:
-
-Go on to 
-[Ruby Language](ruby_language?back=curriculum)
+### Next Step
+Go on to [Ruby Language](ruby_language)

@@ -5,7 +5,7 @@
 **Ship it!**
 
 ## Steps
-### 1 Create a heroku application
+### Step 1: Create a heroku application
 
 Type this in the terminal
 
@@ -16,7 +16,7 @@ heroku create
 `heroku create` registers a new application on heroku's system.
 
 
-### 2 Edit the Gemfile
+### Step 2: Edit the Gemfile
 
 Heroku will run our application slightly differently than our development computer does, which requires us to make a 
 small change to our Gemfile.
@@ -40,7 +40,7 @@ end
 ```
 
 
-### 3 Apply the Gemfile changes
+### Step 3: Apply the Gemfile changes
 
 Type this in the terminal
 
@@ -52,7 +52,7 @@ Every time the Gemfile changes, you need to run `bundle install` for the changes
 of the changes is stored in another file called `Gemfile.lock`.
 
 
-### 4 Commit the Gemfile changes
+### Step 4: Commit the Gemfile changes
 
 There are now changes to Gemfile and Gemfile.lock that need to be committed before we can push to heroku.
 
@@ -66,7 +66,7 @@ git commit -m "Changed Gemfile for Heroku"
 ![](/images/info.png) There is a period after the word add in the third line.
 
 
-### 5 Push changes to heroku
+### Step 5: Push changes to heroku
 
 Type this in the terminal
 
@@ -77,7 +77,7 @@ git push heroku master
 This takes all changes you've committed locally and pushes them to heroku.
 
 
-### 6 Visit your application
+### Step 6: Visit your application
 
 Type this in the terminal
 

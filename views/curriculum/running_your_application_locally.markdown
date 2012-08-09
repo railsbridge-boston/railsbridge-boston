@@ -25,7 +25,7 @@ $ rails server
 [2012-08-08 23:53:15] INFO  ruby 1.9.3 (2012-04-20) [x86_64-darwin11.4.0]
 [2012-08-08 23:53:15] INFO  WEBrick::HTTPServer#start: pid=44455 port=3000
 ```
-
+This means the server is running and waiting for connections.
 
 ### Step 2
 
@@ -49,9 +49,9 @@ Exiting
 
 ## Explanation
 
-`bundle` installs software your application needs and prepares it to run.
+`bundle` installs software your application needs and prepares it to run.  
 `rails server` ran your application locally just like heroku will be running it on their servers.
-This provides a very simple means to see your changes before you commit and push them to heroku.
+This provides a very simple means to see your changes before you commit and push them to heroku.  
 `Ctrl+C` is a way of closing or cancelling terminal programs. Since rails server runs forever, 
 you need to interrupt it with `Ctrl+C`.
 
