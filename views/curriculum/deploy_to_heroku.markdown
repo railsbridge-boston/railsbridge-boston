@@ -1,121 +1,113 @@
-#Goals
-
-
-*OK. We've got an empty app and it has been added to git. What now?
-
+## Goals
+* OK. We've got an empty app and it has been added to git. What now?
 
 **Ship it!**
 
-#Steps
+## Steps
+### 1 Create a heroku application
+
+Type this in the terminal
+
+```text
+heroku create
+```
+
+`heroku create` registers a new application on heroku's system.
 
 
->[]()#Step 1:Create a heroku application
+### 2 Edit the Gemfile
 
+Heroku will run our application slightly differently than our development computer does, which requires us to make a 
+small change to our Gemfile.
 
->Type this in the terminal:heroku create
+Open the file called `Gemfile` in Sublime Text 2, or your preferred editor, and find the line containing:
 
-heroku create registers a new application on heroku's system.
+```ruby
+gem 'sqlite3'
+```
 
-[]()#Step 2:Edit the Gemfile
+**Remove that line** and replace it with:
 
-
->Heroku will run our application slightly differently than our development computer does, which requires us to make a small change to our 
-Gemfile.
-
-Open the file called 
-Gemfile in KomodoEdit, or your preferred editor, and find the line containing:
-
-gem 
-'sqlite3'
-
-**Remove that line**
- and replace it with:
-
-group 
-:development 
-do
-  gem 
-'sqlite3'
-
+```ruby
+group :development do
+  gem 'sqlite3'
 end
 
-group 
-:production 
-do
-  gem 
-'pg'
-
+group :production do
+  gem 'pg'
 end
-
-[]()#Step 3:Apply the Gemfile changes
-
-
->Type this in the terminal:bundle install --without production
-
-Every time the Gemfile changes, you need to run 
-bundle install for the changes to be processed. The processed version of the changes is stored in another file called 
-Gemfile.lock.
-
-[]()#Step 4:Commit the Gemfile changes
+```
 
 
->There are now changes to Gemfile and Gemfile.lock that need to be committed before we can push to heroku.
+### 3 Apply the Gemfile changes
 
-Type this in the terminal:git add .
-git commit -m "Changed Gemfile for heroku"
+Type this in the terminal
 
-![](/img/info.png)there is a period after the word add in the third line
+```text
+bundle install --without production
+```
 
-[]()#Step 5:Push changes to heroku
+Every time the Gemfile changes, you need to run `bundle install` for the changes to be processed. The processed version 
+of the changes is stored in another file called `Gemfile.lock`.
 
 
->Type this in the terminal:git push heroku master
+### 4 Commit the Gemfile changes
+
+There are now changes to Gemfile and Gemfile.lock that need to be committed before we can push to heroku.
+
+Type this in the terminal
+
+```text
+git add .
+git commit -m "Changed Gemfile for Heroku"
+```
+
+![](/images/info.png) There is a period after the word add in the third line.
+
+
+### 5 Push changes to heroku
+
+Type this in the terminal
+
+```text
+git push heroku master
+```
 
 This takes all changes you've committed locally and pushes them to heroku.
 
-[]()#Step 6:Visit your application
 
+### 6 Visit your application
 
->Type this in the terminal:heroku open
+Type this in the terminal
+
+```text
+heroku open
+```
 
 This opens the new application in your browser.
 
-#Explanation
 
+## Explanation
 
->*The Gemfile is a list of all the Ruby libraries your application needs.
-What we've declared here is that we want to use the 
-sqlite3 library
-while we're developing on our computer (the development group) but when
-deploying to heroku (the production group) we want to use the 
-pg library,
-which is made for the type of database that heroku uses.
+The Gemfile is a list of all the Ruby libraries your application needs. What we've declared here is that we want to 
+use the sqlite3 library while we're developing on our computer (the development group) but when deploying to heroku 
+(the production group) we want to use the pg library, which is made for the type of database that heroku uses.
 
+Bundler is how Ruby projects keep track of the gems that they use. We told bundler what we wanted to use in the Gemfile, 
+now we need make sure those gems are installed. Since we don't have the type of database heroku does, we skip the 
+production gems. Don't worry though! Bundler still logs them so Heroku will install them when they get your code.
 
-*Bundler is how Ruby projects keep track of the gems that they use. We told
-bundler what we wanted to use in the 
-Gemfile, now we need make sure those
-gems are installed. Since we don't have the type of database heroku does, we
-skip the production gems. Don't worry though! Bundler still logs them so
-Heroku will install them when they get your code.
+While I realize that at this point this isn't all that exciting, the point is that it doesn't get more difficult than 
+this as we add more functionality to the application. Your typical workflow will look like:
 
-While I realize that at this point this isn't all that exciting, the point is that it doesn't get more difficult than this as we add more functionality to the application. Your typical workflow will look like:
+<img src="/images/curriculum/workflow.png" class="thumbnail"></img>
 
-![workflow](img/workflow.png)*Add or change some code
+1. Add or change some code
+1. Commit your changes (`git commit`)
+1. Deploy your changes (`git push heroku`)
+1. Boom! Your changes are live!
+1. Repeat
 
+## Next Step
 
-*Commit your changes (
-git commit)
-
-
-*Deploy your changes (
-git push heroku)
-
-
-*(repeat)and boom! Your changes are live!
-
-#Next Step:
-
-
-Go on to 
-[Creating A Migration](creating_a_migration?back=deploy_to_heroku%23step6)
+Go on to [Creating A Migration](creating_a_migration)
