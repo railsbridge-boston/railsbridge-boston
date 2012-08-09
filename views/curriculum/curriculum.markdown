@@ -28,7 +28,9 @@ application online you should understand:
 ## Schedule
 
 * 1-ish hour of ruby
-* 4-ish hours of rails, broken up in 1-ish hour stepsThis is just a rough guideline, not a mandate. Some steps you'll go
+* 4-ish hours of rails, broken up in 1-ish hour steps
+
+This is just a rough guideline, not a mandate. Some steps you'll go
 over and some you'll go under. It'll all work out by the end of the
 day... unless I really screwed something up. :D
 
