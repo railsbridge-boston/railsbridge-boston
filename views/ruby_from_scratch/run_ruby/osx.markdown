@@ -49,6 +49,7 @@ computer, so it may be unintuitive at first!
 You created and ran your first Ruby script!  
 
 You learned:  
+
 * When you run the `ruby` command with a file name as an argument, Ruby executes the Ruby code in that file.
 
 [«Back](/ruby_from_scratch)

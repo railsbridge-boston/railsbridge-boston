@@ -1,40 +1,41 @@
-Installing XCode is straightforward with one caveat. When it asks you about the components to install you need to make sure "Unix Tools" is selected. Other than that just click Continue/Okay/Yes/etc.
+# Install GCC (and XCode)
+You have three options for installing the GCC compiler. Option 1, installing the Command Line Tools, 
+is the fastest, and recommended method. Please install from a thumb drive provided by an instructor, to save time and
+conserve bandwidth.
 
-**Special note for folks who upgraded from Leopard to Snow Leopard:**
- The SQLite gem does not compile with an older version of XCode installed. If you upgraded your machine from an older version of OS X, and you have an older XCode, you still need to reinstall it from your 
-**Snow Leopard**
- DVD. The steps below should work fine to upgrade it.
+Installing XCode is straightforward with one caveat. When it asks you about the components to install you need to make 
+sure "Unix Tools" is selected. Other than that just click Continue/Okay/Yes/etc.
 
-[]()#Step 1:Choose installing from a drive or from the App Store
-
-
->>[]()#Option 1:install XCode from a thumb drive or DVD
-
-
->Go on to 
-[Install Xcode From Dvd](install_xcode_from_dvd?back=install_xcode%23step1-0-1)
+**Special note for folks who upgraded from Leopard to Snow Leopard:** The SQLite gem does not compile with an older 
+version of XCode installed. If you upgraded your machine from an older  version of OS X, and you have an older XCode, 
+you still need to reinstall it from your **Snow Leopard** DVD. The steps below should work fine to upgrade it.
 
 
-[]()#Option 2:Install XCode from the Apple App Store
+### Option 1: Install Command Line Tools for XCode
+Visit the [Apple Developer Downloads Page](https://developer.apple.com/downloads)
+
+Download and install the latest **Command Line Tools for Xcode** package
 
 
->Go on to 
-[Install Xcode From App Store](install_xcode_from_app_store?back=install_xcode%23step1-0-2)
+### Option 2: Install XCode from a thumb drive or DVD
+Go on to [Install Xcode From DVD](install_xcode_from_dvd)
 
 
-[]()#Option 3:Install Command Line Tools for XCode
+### Option 3: Install XCode from the Apple App Store
+Go on to [Install Xcode From App Store](install_xcode_from_app_store)
 
 
->Visit the 
-[Apple Developer Downloads Page](https://developer.apple.com/downloads)
+### Verify your compiler was installed
+Type this in the terminal:
 
-Download and install the latest 
-**Command Line Tools for Xcode**
- package
+```text
+gcc --version
+```
 
-#Verify your compiler was installed
+Expected result:
 
+```text
+i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2335.15.00)
+```
 
->Type this in the terminal:gcc --version
-
-Expected result:i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2335.15.00)
+[«Back to Install Ruby](/ruby_from_scratch/install/osx)
