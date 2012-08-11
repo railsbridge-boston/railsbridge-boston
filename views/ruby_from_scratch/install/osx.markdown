@@ -53,9 +53,8 @@ i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Based on Apple Inc. build 5658) (L
 Then you can run the Rails Ready installation script from the Terminal with this command:
 
 ```text
-wget --no-check-certificate \
-https://raw.github.com/joshfng/railsready/master/railsready.sh && \
-bash railsready.sh 
+curl -O https://raw.github.com/joshfng/railsready/master/railsready.sh && \
+bash railsready.sh
 ```
 
 [«Back](/ruby_from_scratch)

@@ -16,13 +16,13 @@ Instructions for installing and running Ruby.
 
 
 ### 2. Starting and Exiting Interactive Ruby
-To start writing Ruby code, you will use the Interactive Ruby Shell (IRB). It is "interactive" because every time you 
+To start writing Ruby code, you will use the Interactive Ruby Shell (irb). It is "interactive" because every time you 
 write a line of code and press 'Enter', the code executes and shows you the result. This will allow you to experiment
 and get instant feedback.
 
-[Interactive Ruby (IRB) on Windows](/ruby_from_scratch/interactive_ruby/windows)  
-[Interactive Ruby (IRB) on Mac OS X](/ruby_from_scratch/interactive_ruby/osx)  
-[Interactive Ruby (IRB) on Linux](/ruby_from_scratch/interactive_ruby/linux)  
+[Interactive Ruby (irb) on Windows](/ruby_from_scratch/interactive_ruby/windows)  
+[Interactive Ruby (irb) on Mac OS X](/ruby_from_scratch/interactive_ruby/osx)  
+[Interactive Ruby (irb) on Linux](/ruby_from_scratch/interactive_ruby/linux)  
 
 
 ### 3. Using the Command Prompt
