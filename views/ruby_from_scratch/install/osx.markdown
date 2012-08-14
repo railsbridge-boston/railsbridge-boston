@@ -42,12 +42,6 @@ ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 brew install git
 ```
 
-* Install [Imagemagick](http://www.imagemagick.org)
-
-```text
-brew install imagemagick
-```
-
 * Install [rbenv](https://github.com/sstephenson/rbenv)
 
 ```text
