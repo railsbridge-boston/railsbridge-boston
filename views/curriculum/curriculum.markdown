@@ -1,4 +1,8 @@
 # Saturday Curriculum
+
+Note to attendees: This is material that we expect you to read during the workshop, not before it.  So please wait until then to study this material.
+
+
 ## Goal
 
 To teach you Ruby on Rails we are going to use a "Real World"
