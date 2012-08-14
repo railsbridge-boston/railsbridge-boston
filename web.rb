@@ -59,6 +59,7 @@ get '/*' do
   page = File.join params[:splat]
 
   if File.exist? "views/#{page}.markdown"
+    @markdown = true
     markdown page.intern
   else
     pass
