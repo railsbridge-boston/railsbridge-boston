@@ -14,10 +14,27 @@ GEM
       fssm (>= 0.2.7)
       sass (~> 3.1)
     daemons (1.1.8)
+    deckrb (0.3.0)
+      coderay
+      erector (>= 0.9.0.pre1)
+      json
+      nokogiri
+      rack
+      rack-codehighlighter
+      redcarpet (~> 2)
+      trollop
+    erector (0.9.0.pre1)
+      treetop (>= 1.2.3)
     eventmachine (0.12.10)
     fssm (0.2.9)
     haml (3.1.6)
+    json (1.7.3)
+    nokogiri (1.5.5)
+    polyglot (0.3.3)
     rack (1.4.1)
+    rack-codehighlighter (0.5.0)
+      nokogiri (>= 1.4.1)
+      rack (>= 1.0.0)
     rack-protection (1.2.0)
       rack
     redcarpet (2.1.1)
@@ -30,6 +47,10 @@ GEM
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
+    treetop (1.4.10)
+      polyglot
+      polyglot (>= 0.3.1)
+    trollop (1.16.2)
 
 PLATFORMS
   ruby
@@ -37,6 +58,7 @@ PLATFORMS
 DEPENDENCIES
   coderay
   compass
+  deckrb (>= 0.3.0)
   haml
   redcarpet
   sinatra (= 1.3.2)

@@ -2,11 +2,13 @@ require 'bundler'
 ENV["RACK_ENV"] ||= "development"
 Bundler.setup(:default, ENV["RACK_ENV"])
 
-require 'sinatra'
+require 'sinatra/base'
 require 'compass'
 require 'redcarpet'
 require 'haml'
 require 'coderay'
+require 'deck'
+require "deck/rack_app"
 
 class HTMLwithCodeRay < Redcarpet::Render::HTML
   INNER_RENDERER = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new)
@@ -20,7 +22,12 @@ class HTMLwithCodeRay < Redcarpet::Render::HTML
   end
 end
 
-configure do
+class RubyWorkshop < Sinatra::Base
+  def initialize
+    super
+    @app = ::Deck::RackApp.public_file_server
+  end
+
   Compass.configuration do |config|
     config.project_path = File.dirname(__FILE__)
     config.sass_dir = 'views/stylesheets'
@@ -35,33 +42,38 @@ configure do
     :no_intra_emphasis => true,
     :fenced_code_blocks => true,
     :renderer => HTMLwithCodeRay.new
-end
 
-get '/' do
-  erb :index
-end
-
-get '/screen.css' do
-  content_type 'text/css', :charset => 'utf-8'
-  scss :"stylesheets/screen"
-end
-
-get '/coderay_github' do
-  content_type 'text/css', :charset => 'utf-8'
-  scss :"stylesheets/_coderay_github"
-end
-
-# This handles default routes for the markdown files in `views/`
-# Mostly added so that people who don't want to fuss with a Sinatra app can
-# get right in and start making markdown files.
-
-get '/*' do
-  page = File.join params[:splat]
-
-  if File.exist? "views/#{page}.markdown"
-    @markdown = true
-    markdown page.intern
-  else
-    pass
+  get '/' do
+    erb :index
   end
+
+  get '/screen.css' do
+    content_type 'text/css', :charset => 'utf-8'
+    scss :"stylesheets/screen"
+  end
+
+  get '/coderay_github' do
+    content_type 'text/css', :charset => 'utf-8'
+    scss :"stylesheets/_coderay_github"
+  end
+
+  # This handles default routes for the markdown files in `views/`
+  # Mostly added so that people who don't want to fuss with a Sinatra app can
+  # get right in and start making markdown files.
+
+  get '/*' do
+    page = File.join params[:splat]
+
+    if File.exist? "views/#{page}.deck.markdown"
+      slides = Deck::Slide.split(File.read("views/#{page}.deck.markdown"))
+      Deck::SlideDeck.new(:slides => slides).to_pretty
+    elsif File.exist? "views/#{page}.markdown"
+      markdown page.intern
+    else
+      forward
+    end
+  end
+
+  run! if app_file == $0
 end
+
