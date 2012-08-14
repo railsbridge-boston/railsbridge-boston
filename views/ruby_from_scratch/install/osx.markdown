@@ -2,7 +2,8 @@
 
 Please check your version of OSX before starting the setup process. You
 can do this by clicking on the Apple in the upper-left and clicking
-'About this Mac'
+'About this Mac'. If at any something goes wrong please call in an
+instructor to help.
 
 ## OSX 10.6
 
@@ -81,3 +82,5 @@ rbenv shell 1.9.3-p194
 ```text
 gem install bundler rails heroku
 ```
+
+You should be good to go from here!
