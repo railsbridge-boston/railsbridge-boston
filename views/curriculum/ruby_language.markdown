@@ -69,7 +69,7 @@ We can change the value that a variable holds. Try the following:
 ```ruby
 my_variable = my_variable + 10
 puts my_variable
-``
+```
 
 Now puts prints 15 because we added 10 to the value of my_variable and stored the new value in the same variable.
 
@@ -118,6 +118,7 @@ if my_variable > 1
   puts "YAY!"
 end
 ```
+
 This prints `YAY!` if the value stored in `my_variable` is greater than 1. Since the code only runs when certain 
 conditions are met if is called a **conditional**.
 
