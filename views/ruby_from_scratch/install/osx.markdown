@@ -77,10 +77,21 @@ rbenv global 1.9.3-p194
 rbenv shell 1.9.3-p194
 ```
 
+* Close an re-open your terminal and confirm Ruby is installed properly
+
+```text
+ruby -v
+```
+
+You should get something similar to `ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin11.4.0]`
+If you do not see `ruby 1.9.3` please call in an instructor to help
+diagnose the installation issue.
+
 * Install Rails and other supporting gems
 
 ```text
 gem install bundler rails heroku
 ```
 
-You should be good to go from here!
+Congratulations, you now have the Ruby development environment up and
+running. Now go forth and do something awesome with it!
