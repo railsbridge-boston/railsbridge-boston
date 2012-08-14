@@ -14,8 +14,7 @@ help.
 ## OSX 10.6
 
 * Install XCode 3.2. You will need a paid Apple Devloper's account to
-download this from the [Apple Developer
-website](https://developer.apple.com/). More likely there
+download this from the [Apple Developer website](https://developer.apple.com/). More likely there
 will be someone with a thumb drive that has that version of Xcode. Skip
 to General Installation.
 
