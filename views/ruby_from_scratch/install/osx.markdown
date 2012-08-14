@@ -21,6 +21,8 @@ and install yourself.
 click on 'XCode/Preferences'. In the preferences pane click on
 'Downloads' and then install the 'Command Line Tools'.
 
+![CommandLineTools](/images/installfest/osx-commandline.png)
+
 ## General Installation
 
 * Now open Terminal, you can do this from your Applications folder or
