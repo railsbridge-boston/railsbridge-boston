@@ -1,6 +1,6 @@
 # Saturday Curriculum
 
-Note to attendees: This is material that we expect you to read during the workshop, not before it.  So please wait until then to study this material.
+__Note to attendees__: This is material that we expect you to read during the workshop, not before it.  So please wait until then to study this material.
 
 
 ## Goal
