@@ -1,4 +1,11 @@
 # Friday Setup: Ruby from Scratch (Work in Progress)
+
+
+__Note to attendees__: This is material that we expect you to read during
+the workshop, not before it.  So please wait until then to study this
+material.
+
+
 Install Ruby, Install a Text Editor, and Start Coding
 
 At the end of this tutorial, you will have all the tools you need to write and run Ruby code. Work thourgh
