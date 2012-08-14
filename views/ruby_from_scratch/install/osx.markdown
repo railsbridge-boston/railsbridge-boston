@@ -5,6 +5,12 @@ can do this by clicking on the Apple in the upper-left and clicking
 'About this Mac'. If at any time something goes wrong please call in an
 instructor to help.
 
+## OSX 10.5 and lower
+
+* Please call an instructor over to help. Unfortunately the odds are
+  very high with an operating system this old we might not be able to
+help.
+
 ## OSX 10.6
 
 * Install XCode 3.2. You will need a paid Apple Devloper's account to
