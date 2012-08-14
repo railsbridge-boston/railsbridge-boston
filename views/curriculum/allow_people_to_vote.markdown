@@ -1,3 +1,4 @@
+# Allow People to Vote
 ## Goals
 Now we're going to add a button people can click to cast a vote.
 

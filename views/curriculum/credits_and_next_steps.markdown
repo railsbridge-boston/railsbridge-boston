@@ -1,4 +1,5 @@
-# Authors
+# Credits
+## Authors
 * Sarah Allen
 * Sarah Mei
 * Alex Chaffee
@@ -6,7 +7,7 @@
 * Steven! Ragnarok
 * ...and many others
 
-#What next?
+## What next?
 * Learn More Ruby
 * Learn More Rails
 * Take a class
