@@ -12,30 +12,30 @@
 <table>
   <tr>
     <td>
-      <img src='img/os_x_logo.jpg'>
+      <img src='/images/slides/os_x_logo.jpg'>
     <td>
-      <img src='img/windows_logo.gif'>
+      <img src='/images/slides/windows_logo.gif'>
     <td>
-      <img src='img/linux_logo.gif'>
+      <img src='/images/slides/linux_logo.gif'>
   </tr>
 </table>
 
 !SLIDE
 # Applications
 
-![](img/acrobat.jpg)
-![](img/finder.png)
-![](img/firefox.png)
-![](img/itunes.png)
-![](img/quicktime.jpg)
-![](img/safari.png)
-![](img/ms_office.png)
-![](img/wordpress.jpg)
+![](/images/slides/acrobat.jpg)
+![](/images/slides/finder.png)
+![](/images/slides/firefox.png)
+![](/images/slides/itunes.png)
+![](/images/slides/quicktime.jpg)
+![](/images/slides/safari.png)
+![](/images/slides/ms_office.png)
+![](/images/slides/wordpress.jpg)
 
 !SLIDE centereverything
 
 # Web Application In Rails
-![](img/web_app_in_rails.jpg)
+![](/images/slides/web_app_in_rails.jpg)
 
 !SLIDE incremental smbullets
 # How do I write one?
@@ -56,9 +56,9 @@
 !SLIDE bullets
 # "The Terminal"
 
-* Windows: git bash ![](img/git_bash.png)
+* Windows: git bash ![](/images/slides/git_bash.png)
 
-* Mac OS X: Terminal ![](img/mac_terminal_sm.png)
+* Mac OS X: Terminal ![](/images/slides/mac_terminal_sm.png)
 
 * aka "The Shell" or "The Command Line" or "The Console" or "Bash" or "Shell"
 
@@ -287,9 +287,9 @@ then open a browser to <http://localhost:4567/>
 
 !SLIDE
 ## Web App Network Architecture
-![](img/web-application.png)
+![](/images/slides/web-application.png)
 
 !SLIDE
 ## Web App MVC Architecture
-![](img/mvc_simple.png)
+![](/images/slides/mvc_simple.png)
 

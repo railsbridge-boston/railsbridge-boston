@@ -166,7 +166,7 @@ As a teacher or TA...
 You should be aware of these, even if you don't tell the students all of them right away.
 
 * Diagrams:
-  * REST  <http://curriculum.railsbridge.org/workshop/rest>
+  * REST  <http://workshop.bostonrb.org/workshop/rest>
   * MVC <https://github.com/alexch/mission/raw/master/mvc.png>
   * git <https://github.com/alexch/mission/raw/master/git.png>
 * Workshop Github repo (slides and diagrams)

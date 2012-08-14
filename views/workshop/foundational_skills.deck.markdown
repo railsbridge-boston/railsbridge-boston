@@ -74,11 +74,11 @@ This presentation covers the basic skills required to be a programmer...
 <table>
   <tr>
     <td>
-      <img src='img/os_x_logo.jpg'>
+      <img src='/images/slides/os_x_logo.jpg'>
     <td>
-      <img src='img/windows_logo.gif'>
+      <img src='/images/slides/windows_logo.gif'>
     <td>
-      <img src='img/linux_logo.gif'>
+      <img src='/images/slides/linux_logo.gif'>
   </tr>
 </table>
 
@@ -114,5 +114,5 @@ This presentation covers the basic skills required to be a programmer...
   * "push"
   * "pull"
 * Diagram
-  * ![git](img/git.png)
+  * ![git](/images/slides/git.png)
 * <http://help.github.com/git-cheat-sheets/>

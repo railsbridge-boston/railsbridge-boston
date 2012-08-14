@@ -1,7 +1,7 @@
 !SLIDE subsection
 # Introduction to Ruby for Programmers
 
-<img src="img/ruby-logo.jpg" width="250">
+<img src="/images/slides/ruby-logo.jpg" width="250">
 
 This section is intended as a brief, lightweight overview of the Ruby language; following sections will cover all these topics in much more detail. Students are encouraged to ask questions, but instructors are encouraged to answer, "We'll cover that later."
 
@@ -12,10 +12,10 @@ This section is intended as a brief, lightweight overview of the Ruby language; 
 # Ruby vs. Rails
 
 ### Ruby is a Language
-<img src="img/ruby-logo.jpg" height="125" width="125">
+<img src="/images/slides/ruby-logo.jpg" height="125" width="125">
 
 ### Rails is a Framework
-<img src="img/rails_logo.jpg" height="125" width="125">
+<img src="/images/slides/rails_logo.jpg" height="125" width="125">
 
 ### Rails is written in Ruby
 
@@ -226,7 +226,7 @@ Solution: always put operators on top line
 
 # Ruby syntax cheatsheet
 
-![cheatsheet](img/cheatsheet.png)
+![cheatsheet](/images/slides/cheatsheet.png)
 
 (_The Well-Grounded Rubyist_, p. 5, section 1.1.2)
 

@@ -1,11 +1,6 @@
 <!SLIDE bullets incremental>
-# You have completed RailsBridge #38!
+# You have completed the Boston Ruby Workshop!
 * Congratulations!
-
-
-<!SLIDE bullets>
-# Please thank our awesome sponsor!
-![EngineYard](img/ey_logo_rgb.png)
 
 <!SLIDE bullets>
 # Celebrate!

@@ -1,5 +1,5 @@
 !SLIDE centereverything bullets
-![Railsbridge](img/railsbridge_logo.png)
+![Railsbridge](/images/slides/railsbridge_logo.png)
 # Ruby on Rails Workshop
 
 <!SLIDE bullets>
@@ -34,14 +34,14 @@ We want the community of software developers to reflect the diversity of our soc
 !SLIDE image
 # Web Application Plumbing
 
-![Web App](img/web-application.png)
+![Web App](/images/slides/web-application.png)
 
 !SLIDE center
 # Ruby vs. Rails
 
 |Ruby is a Language | Rails is a Framework |
 |----|-----|
-| <img src="img/ruby-logo.jpg" alt="Ruby" width="250"> | <img src="img/rails_logo.jpg" alt="Rails" width="250"> |
+| <img src="/images/slides/ruby-logo.jpg" alt="Ruby" width="250"> | <img src="/images/slides/rails_logo.jpg" alt="Rails" width="250"> |
 
 <!SLIDE bullets>
 # Ruby: programming language
@@ -70,12 +70,12 @@ We want the community of software developers to reflect the diversity of our soc
 * Minimal code - maximal effect
 
 <!SLIDE image>
-<img src="img/mvc_simple.png">
+<img src="/images/slides/mvc_simple.png">
 
 <!SLIDE bullets>
 # Agile development
 
-![Agile Manifesto](img/agile.jpg)
+![Agile Manifesto](/images/slides/agile.jpg)
 
 * Pair programming
 * Test-driven or Behavior-driven development
@@ -101,8 +101,8 @@ We want the community of software developers to reflect the diversity of our soc
 
 <!SLIDE bullets>
 # Materials
-* Slides: <http://curriculum.railsbridge.org/workshop>
-* Suggestotron Curriculum: <http://curriculum.railsbridge.org/>
+* Slides: <http://workshop.bostonrb.org/workshop/workshop>
+* Suggestotron Curriculum: <http://workshop.bostonrb.org/curriculum/curriculum_toc>
 
 <!SLIDE bullets>
 # What will you learn today?
@@ -112,4 +112,4 @@ We want the community of software developers to reflect the diversity of our soc
   * learn tools and patterns for building web apps in Ruby on Rails
   
 ---
-Proceed to next slide deck: [Today's Workshop Info and Schedule](current)
+Back to the Table of Contents: [« Back](/workshop/workshop)
