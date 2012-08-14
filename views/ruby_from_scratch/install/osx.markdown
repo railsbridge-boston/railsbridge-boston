@@ -2,7 +2,7 @@
 
 Please check your version of OSX before starting the setup process. You
 can do this by clicking on the Apple in the upper-left and clicking
-'About this Mac'. If at any something goes wrong please call in an
+'About this Mac'. If at any time something goes wrong please call in an
 instructor to help.
 
 ## OSX 10.6
