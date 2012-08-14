@@ -1,5 +1,5 @@
 <div class="alert alert-info">
-<strong>Note to attendees</strong>: This is material that we expect you to read during the workshop, not before it.  It may note be in its final state. So please wait until then to study this material.
+<strong>Note to attendees</strong>: This is material that we expect you to read during the workshop, not before it.  It may not be in its final state. So please wait until then to study this material.
 </div>
 
 # Saturday Curriculum
