@@ -81,5 +81,3 @@ If you have any questions, comments, or feedback on tonight's material, don't he
 also have a feedback form that you can use early and often to provide feedback about the workshop. 
 
 [Back to Workshop Home Page](/)
-
-
