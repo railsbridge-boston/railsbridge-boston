@@ -19,7 +19,6 @@
   <link href="/bootstrap-responsive.css" rel="stylesheet">
   <link href="/docs.css" rel="stylesheet">
   <% if @markdown %><link href="/markdown.css" rel="stylesheet"><% end %>
-  <link href="/coderay_github.css" rel="stylesheet">
 </head>
 
 <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="50">
@@ -33,11 +32,13 @@
          </a>
          <a class="brand" href="/">Boston Ruby Workshop</a>
 
-         <ul class="nav">
-          <li <%= 'class="active"' if @section == :friday_night %>><a href="/ruby_from_scratch">Friday Night</a></li>
-          <li <%= 'class="active"' if @section == :curriculum %>><a href="/workshop/workshop">Saturday</a></li>
-          <li class="pull-right"><a href="http://bostonrb.org">BostonRB Homepage</a></li>
-        </ul>
+         <div class="nav-collapse">
+           <ul class="nav">
+            <li <%= 'class="active"' if @section == :friday_night %>><a href="/ruby_from_scratch">Friday Night</a></li>
+            <li <%= 'class="active"' if @section == :curriculum %>><a href="/workshop/workshop">Saturday</a></li>
+            <li class="pull-right"><a href="http://bostonrb.org">BostonRB Homepage</a></li>
+          </ul>
+        </div>
        </div>
      </div>
    </div>

@@ -47,11 +47,6 @@ class RubyWorkshop < Sinatra::Base
     erb :index
   end
 
-  get '/screen.css' do
-    content_type 'text/css', :charset => 'utf-8'
-    scss :"stylesheets/screen"
-  end
-
   get '/coderay_github' do
     content_type 'text/css', :charset => 'utf-8'
     scss :"stylesheets/_coderay_github"
