@@ -71,13 +71,13 @@ Find a staff member and run through this checklist:
     Open up irb and type:
 
     ```ruby
-    require 'active_support'
+    require 'rails'
     ```
 
     You should see this:
 
     ```ruby
-    irb(main):001:0> require 'active_support'
+    irb(main):001:0> require 'rails'
     => true
     ```
 
