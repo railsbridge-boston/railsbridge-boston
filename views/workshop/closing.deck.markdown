@@ -5,7 +5,6 @@
 <!SLIDE bullets>
 # Celebrate!
 * After-party 
-* Conference Party
 
 <!SLIDE bullets>
 # What did we learn?
@@ -21,8 +20,8 @@
 * Follow-up:
 * [BostonRB](http://bostonrb.org)
 * RailsBridge IRC channel
-* DevChix E-mail list http://www.devchix.com/
-* Systers mailing list
+* [DevChix E-mail list](http://www.devchix.com/) <http://www.devchix.com/>
+* [Systers mailing list](http://anitaborg.org/initiatives/systers/) <http://anitaborg.org/initiatives/systers/>
 * Want to organize a workshop? join railsbridge-workshops@googlegroups.com
 
 <!SLIDE bullets>
