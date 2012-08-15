@@ -84,6 +84,7 @@ fruits = ["kiwi", "strawberry", "plum"]
 Variables can also hold more than one value. Here were using the variable fruits to hold a collection of fruit names. 
 This type of collection is called an **Array**.
 
+
 ### Step 8
 
 Type this in the terminal 
@@ -121,6 +122,11 @@ end
 
 This prints `YAY!` if the value stored in `my_variable` is greater than 1. Since the code only runs when certain 
 conditions are met if is called a **conditional**.
+
+* * *
+
+## Extra Credit
+
 
 ### Step 11
 The individual fruits in the fruits array are each **Strings**. A string is an ordered collection of characters. Try the following:
