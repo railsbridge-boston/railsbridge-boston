@@ -1,3 +1,3 @@
 require './web'
-run Sinatra::Application
+run RubyWorkshop
 

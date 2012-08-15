@@ -68,6 +68,7 @@ class RubyWorkshop < Sinatra::Base
       slides = Deck::Slide.split(File.read("views/#{page}.deck.markdown"))
       Deck::SlideDeck.new(:slides => slides).to_pretty
     elsif File.exist? "views/#{page}.markdown"
+      @markdown = true
       markdown page.intern
     else
       forward
