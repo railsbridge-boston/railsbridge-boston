@@ -1,8 +1,9 @@
-<div class="alert alert-info">
-<strong>Note to attendees</strong>: This is material that we expect you to read during the workshop, not before it.  It may not be in its final state. So please wait until then to study this material.
-</div>
-
 # Friday Setup: Ruby from Scratch (Work in Progress)
+
+
+__Note to attendees__: This is material that we expect you to read during
+the workshop, not before it.  So please wait until then to study this
+material.
 
 
 Install Ruby, Install a Text Editor, and Start Coding
@@ -21,17 +22,7 @@ Instructions for installing and running Ruby.
 [Install Ruby on Linux](/ruby_from_scratch/install/linux)  
 
 
-### 2. Starting and Exiting Interactive Ruby
-To start writing Ruby code, you will use the Interactive Ruby Shell (irb). It is "interactive" because every time you 
-write a line of code and press 'Enter', the code executes and shows you the result. This will allow you to experiment
-and get instant feedback.
-
-[Interactive Ruby (irb) on Windows](/ruby_from_scratch/interactive_ruby/windows)  
-[Interactive Ruby (irb) on Mac OS X](/ruby_from_scratch/interactive_ruby/osx)  
-[Interactive Ruby (irb) on Linux](/ruby_from_scratch/interactive_ruby/linux)  
-
-
-### 3. Using the Command Prompt
+### 2. Using the Command Prompt
 The command prompt is the primary way to run Ruby files. In this section you will learn to navigate your filesystem
 from your command prompt.
 
@@ -39,6 +30,12 @@ from your command prompt.
 [Command Prompt on Mac OS X](/ruby_from_scratch/command_prompt/osx)  
 [Command Prompt on Linux](/ruby_from_scratch/command_prompt/linux)  
 
+### 3. Starting and Exiting Interactive Ruby
+To start writing Ruby code, you will use the Interactive Ruby Shell (irb). It is "interactive" because every time you 
+write a line of code and press 'Enter', the code executes and shows you the result. This will allow you to experiment
+and get instant feedback.
+
+[Interactive Ruby (irb)](/ruby_from_scratch/interactive_ruby/all)  
 
 ### 4. Install a Text Editor
 You will want a text editor that designed for coding. These instructions will show you how to install a good text 
@@ -68,18 +65,17 @@ Find a staff member and run through this checklist:
     Then save the file. From the command prompt, navigate to and execute the Ruby script you just created.
 
 2. Confirm that Ruby and Rails are installed on your machine.
-    Open up irb and type:
+   From the command line type:
 
-    ```ruby
-    require 'rails'
-    ```
+   ```text
+     rails -v
+   ```
 
-    You should see this:
+   And you should see:
 
-    ```ruby
-    irb(main):001:0> require 'rails'
-    => true
-    ```
+   ```text
+   Rails 3.2.8
+   ```
 
 ### You're Done!
 Congratulations, you're done with the Friday tutorial. We'll see you at 9am tomorrow at Harvard Law school. Please bring

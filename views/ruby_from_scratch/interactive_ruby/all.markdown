@@ -1,7 +1,6 @@
-# Interactive Ruby (IRB) on Mac OS X
+# Interactive Ruby (IRB)
 
-1. Start up a Terminal command prompt. You can find the Terminal application through Spotlight, or navigate in Finder to
-`Applications/Utilities/Terminal`
+1. Start up a new command prompt.
 
 2. Type `irb` in the command prompt. You should see something like this:
 
