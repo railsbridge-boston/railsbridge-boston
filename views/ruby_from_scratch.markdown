@@ -41,9 +41,7 @@ and get instant feedback.
 You will want a text editor that designed for coding. These instructions will show you how to install a good text 
 editor, and the basics of using it effectively.
 
-[Text Editor on Windows](/ruby_from_scratch/text_editor/windows)  
-[Text Editor on Mac OS X](/ruby_from_scratch/text_editor/osx)  
-[Text Editor on Linux](/ruby_from_scratch/text_editor/linux)  
+[Text Editor](/ruby_from_scratch/text_editor/all)  
 
 ### 5. Run Ruby from a File
 In this section you will learn to run Ruby code from a file, a prerequisite of writing more complex and powerful
