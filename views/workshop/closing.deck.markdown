@@ -19,7 +19,7 @@
 * http://pinterest.com/pvnrtmol/ruby-and-rails-resources/
 * http://pinterest.com/eanakashima/learn-the-front-end/
 * Follow-up:
-* Ruby Users of Minnesota — a fine group of Ruby enthusiasts from around the Twin Cities metro area, or pretty much wherever they feel like driving from. Our group meets on the last Monday of each month at 7 PM http://ruby.mn/
+* [BostonRB](http://bostonrb.org)
 * RailsBridge IRC channel
 * DevChix E-mail list http://www.devchix.com/
 * Systers mailing list
@@ -27,4 +27,4 @@
 
 <!SLIDE bullets>
 # RIGHT NOW
-* TAKE THIS SURVEY RIGHT NOW: http://bit.ly/workshop_survey 
+* TAKE THIS SURVEY RIGHT NOW: http://bit.ly/workshop_survey  [TODO: update this]
