@@ -27,4 +27,4 @@
 
 <!SLIDE bullets>
 # RIGHT NOW
-* TAKE THIS SURVEY RIGHT NOW: http://bit.ly/workshop_survey  [TODO: update this]
+* TAKE THIS SURVEY RIGHT NOW: (TODO: insert survey link)
