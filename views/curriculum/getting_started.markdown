@@ -87,13 +87,21 @@ ls
 
 `ls` stands for 'list (stuff)'.
 It shows you the contents of the current folder.
-You can see that rails new created a lot directories and files. The ones we want to focus on today are:
 
-`app/` Contains the controllers, models, and views for your application.  You will do most of your work here  
+Type this in the terminal 
+
+```text
+tree -d
+```
+
+This shows you the entire directory tree of your project so you can see all the folders.
+
+You can see that `rails new` created a lot directories and files. The ones we want to focus on today are:
+
+`app/` Contains assets (stylesheets, javascript, images), controllers, models, and views for your application.  You will do most of your work here.  
 `config/` Configure your application's runtime rules, routes, database, and more.  
 `db/` Shows your current database schema, as well as the database migrations.  
-`public/` The only folder seen to the world as-is. This is where your images, JavaScript, stylesheets (CSS), and other 
-static files go
+`public/` The only folder seen to the world as-is. This is where your static files go. You can also put stylesheets, javascript and images in this folder.
 
 There is a lot more that `rails new` created. Probably enough to fill a book, so we're going to ignore them for now.
 
