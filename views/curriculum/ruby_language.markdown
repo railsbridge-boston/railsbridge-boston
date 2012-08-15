@@ -123,6 +123,10 @@ end
 This prints `YAY!` if the value stored in `my_variable` is greater than 1. Since the code only runs when certain 
 conditions are met if is called a **conditional**.
 
+## Next Step
+
+Go on to [Tools](tools)
+
 * * *
 
 ## Extra Credit
@@ -223,3 +227,4 @@ It is unchanged. The Array referenced by names_sorted is indpendent of the one r
 ## Next Step
 
 Go on to [Tools](tools)
+
