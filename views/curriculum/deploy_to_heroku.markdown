@@ -175,3 +175,8 @@ heroku config
 This shows a list of all the environment variables for your application. These environment variables are persistent and will remain in place across deploys and app restarts. You can add new variables with `heroku config:add NAME=value`. 
 
 ![](/images/info.png) Environment variables are useful for keeping track of configuration settings, such as credentials for an external service like Amazon S3.
+
+## Next Step
+
+Go on to [Creating A Migration](creating_a_migration)
+

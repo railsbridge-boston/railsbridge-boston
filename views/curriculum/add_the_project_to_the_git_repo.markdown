@@ -118,5 +118,8 @@ This will combine the changes in your new branch with your master branch, and th
 
 Now you know how to use topic branches to work on features in your project!
 
+## Next Step
+
+Go on to [Running Your Application Locally](running_your_application_locally)
 
 
