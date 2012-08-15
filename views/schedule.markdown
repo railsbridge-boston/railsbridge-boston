@@ -23,4 +23,4 @@
 * 3:30-3:45      Routes Mini-Lecture
 * 3:45-4:30      Workshop Group Segment 5
 * 4:30-5:00      Closing/Next Steps
-* 5:00 on         After party at Cambridge Common
+* 5:00-7:00  After party at Cambridge Common
