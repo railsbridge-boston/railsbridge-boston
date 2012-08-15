@@ -3,9 +3,14 @@
 
 ## Friday Evening
 
+<style>
+td { font-size: 14px }
+td:first-child { width:7em; text-align:right}
+</style>
+
 <table class='table table-bordered table-striped'>
-  <tr><td>7:00-7:30:</td><td>Introduction to teaching staff, sponsors and group</td></tr>
-  <tr><td>7:30-10:00:</td><td>Installfest and optional breakouts on foundational skills and ruby programming</td></tr>
+  <tr><td>7:00-7:30</td><td>Introduction to teaching staff, sponsors and group</td></tr>
+  <tr><td>7:30-10:00</td><td>Installfest and optional breakouts on foundational skills and ruby programming</td></tr>
 </table>
 
 ## Saturday
