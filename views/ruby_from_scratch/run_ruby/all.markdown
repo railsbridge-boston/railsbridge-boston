@@ -1,11 +1,11 @@
-# Run Ruby from a File on Mac OS X
+# Run Ruby from a File
 
 
 ### Start Your Text Editor
 
-1. Launch Sublime Text 2. See the [OS X text editor setup instructions](/ruby_from_scratch/text_editor/osx) 
+1. Launch Sublime Text 2. See the [text editor setup instructions](/ruby_from_scratch/text_editor/all) 
 for how to do this.
-2. Open a New File (`File > New File` or `⌘+N`)
+2. Open a New File (`File > New File`)
 
 
 ### Write a Ruby Script
@@ -21,14 +21,14 @@ for how to do this.
 
 ### Run the Script
 
-1. Start the Command Prompt. See the [terminal navigation for OS X]() instructions for how to do this.
+1. Start the Command Prompt. See the terminal navigation for [Windows](/ruby_from_scratch/command_prompt/windows),
+[OSX](/ruby_from_scratch/command_prompt/osx), or [Linux](/ruby_from_scratch/command_prompt/osx) instructions for how to do this.
 
-2. Navigate to your home directory from a command prompt, using the ls, pwd, and cd commands. 
-See the terminal navigation on OS X instructions for a refresher on using these commands. 
+2. Navigate to your home directory from a command prompt.
 Don't hesitate to get help from a staff member on this step if you need it -- it's a new way of navigating your 
 computer, so it may be unintuitive at first!
 
-3. Once you are in your home directory, enter `ls` and you should see `hello.rb` listed amongst the directory's contents.
+3. Once you are in your home directory, enter `ls` (or `dir` on Windows) and you should see `hello.rb` listed amongst the directory's contents.
 
 4. Type
 
@@ -41,7 +41,7 @@ computer, so it may be unintuitive at first!
     like this:
 
     ```text
-    [~] ruby hello.rb
+    ruby hello.rb
     Hello World!
     ```
 

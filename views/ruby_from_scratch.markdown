@@ -47,9 +47,7 @@ editor, and the basics of using it effectively.
 In this section you will learn to run Ruby code from a file, a prerequisite of writing more complex and powerful
 programs.
 
-[Run Ruby from a File on Windows](/ruby_from_scratch/run_ruby/windows)  
-[Run Ruby from a File on Mac OS X](/ruby_from_scratch/run_ruby/osx)  
-[Run Ruby from a File on Linux](/ruby_from_scratch/run_ruby/linux)  
+[Run Ruby from a File](/ruby_from_scratch/run_ruby/all)
 
 
 ### Checklist of 'Ruby from Scratch' Completion
