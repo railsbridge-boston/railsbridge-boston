@@ -12,5 +12,3 @@
 * [REST](/workshop/rest)
 
 
-# Workshop Prep:
-* [Teacher Training](/workshop/teacher_training)
