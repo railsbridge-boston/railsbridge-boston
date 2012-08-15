@@ -309,5 +309,5 @@ You should be aware of these, even if you don't tell the students all of them ri
 * Make note of problems or questions so we can discuss them at the end
 
 <!SLIDE subsection>
-# See you next weekend!
+# See you at the workshop!
 And thanks for volunteering!
