@@ -11,3 +11,6 @@
 * [Ruby for Programmers](/workshop/ruby_for_programmers)
 * [REST](/workshop/rest)
 
+
+# Workshop Prep:
+* [Teacher Training](/workshop/teacher_training)
