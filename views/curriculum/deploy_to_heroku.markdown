@@ -113,7 +113,7 @@ this as we add more functionality to the application. Your typical workflow will
 
 <img src="/images/curriculum/workflow.png" class="thumbnail"></img>
 
-o. Add or change some code
+1. Add or change some code
 1. Commit your changes (`git commit`)
 1. Deploy your changes (`git push heroku`)
 1. Boom! Your changes are live!
