@@ -88,19 +88,19 @@ you work through the lessons. Having 50 tabs open in your web browser gets confu
 ## Format
 Each lesson will look like this:
 
-#Step Title
-#Goal:
-Description of the current step.
-  
-#Steps:
-steps to take.
+<div id="lesson-format">
+  <h2>Step Title</h2>
+  <h2>Goal:</h2>
+  <p>Description of the current step.</p>
+  <h2>Steps:</h2>
+  <p>Steps to take.</p>
 
-```ruby    
-def code_to_write
-  1 + 1
-end
-```    
-  
+  <pre>
+  def code_to_write
+    1 + 1
+  end </pre>
+</div>
+
 #Explanation
 Details of what the steps actually did... spell out the cause and effect.
 
