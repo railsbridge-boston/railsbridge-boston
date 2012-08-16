@@ -96,7 +96,7 @@ Open up User Settings (`Sublime Text 2 > Preferences > Settings - User``) and pa
 }
 ```
 
-Save the User Settings file (`File > Save``). Your new preferences are now in effect.
+Save the User Settings file (`File > Save`). Your new preferences are now in effect.
 
 #### If you are using gEdit with the Ruby plugin
 
