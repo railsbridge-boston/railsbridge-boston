@@ -45,6 +45,12 @@ programs.
 [Run Ruby from a File](/ruby_from_scratch/run_ruby/all)
 
 
+### 6. Create a Heroku Account
+Heroku is the host that you will deploy your application to.
+
+[Create a Heroku Account](/installfest/create_a_heroku_account)
+
+
 ### Checklist of 'Ruby from Scratch' Completion
 Find a staff member and run through this checklist:
 
