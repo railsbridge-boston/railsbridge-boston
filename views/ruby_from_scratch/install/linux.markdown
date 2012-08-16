@@ -14,14 +14,14 @@ instructor to help diagnose the installation issue.
 
     ```text
     sudo apt-get update  
-    sudo apt-get install -y git wget zlib1g-dev libssl-dev libreadline-dev
+    sudo apt-get install -y git wget zlib1g-dev libssl-dev libreadline-dev sqlite3 libsqlite3-dev
     ```
 
     For Fedora:
 
     ```text
     sudo yum update   
-    sudo yum install -y git wget zlib1g-dev libssl-dev libreadline-dev
+    sudo yum install -y git wget zlib1g-dev libssl-dev libreadline-dev sqlite3 libsqlite3-dev
     ```
 
 2. Check out rbenv into `~/.rbenv`.
