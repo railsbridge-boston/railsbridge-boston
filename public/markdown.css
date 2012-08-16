@@ -5,9 +5,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
-h1 {
-  font-size: 25px;
-}
+h1 { font-size: 25px; }
+h2 { font-size: 22px; }
 
 #lesson-format {
   padding: 0em 2em 1em 2em;
