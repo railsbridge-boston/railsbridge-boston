@@ -2,6 +2,12 @@
 ## Goals
 * OK. We've got an empty app and it has been added to git. What now?
 
+Before you do anything, ensure that you have the `heroku` gem installed
+
+```text
+gem install heroku
+```
+
 **Ship it!**
 
 ## Steps
@@ -103,7 +109,7 @@ this as we add more functionality to the application. Your typical workflow will
 
 <img src="/images/curriculum/workflow.png" class="thumbnail"></img>
 
-1. Add or change some code
+o. Add or change some code
 1. Commit your changes (`git commit`)
 1. Deploy your changes (`git push heroku`)
 1. Boom! Your changes are live!
@@ -126,7 +132,7 @@ Then, to rename an app from "oldname" to "newname", type this in the terminal:
 heroku apps:rename newname
 ```
 
-This will change the subdomain of your app from http://oldname.heroku.com to http://newname.heroku.com/. This will also update your remote heroku git branch to git@heroku.com:newname.git.
+This will change the subdomain of your app from http://oldname.herokuapp.com to http://newname.herokuapp.com/. This will also update your remote heroku git branch to git@herokuapp.com:newname.git.
 
 
 To see a list of all the git remotes for your application, type
