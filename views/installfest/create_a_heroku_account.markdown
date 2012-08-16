@@ -39,7 +39,7 @@ Expected result:
 ```
 
 ## Step 5: Add your SSH key to your Heroku account
-Go on to [Create An Ssh Key](/installfest/create_an_ssh_key)
+Go on to [Create An SSH Key](/installfest/create_an_ssh_key)
 
 Type this in the terminal:heroku keys:add
 
