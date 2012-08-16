@@ -7,7 +7,7 @@ how to open a Terminal, please ask an instructor to show you.
 If you run into errors at any step please call in an
 instructor to help diagnose the installation issue.
 
-1. Install Git, wget, and some other dependencies. These steps may take
+1. Install git, wget, and some other dependencies. These steps may take
    a while.
 
     For Ubuntu or Linux Mint:
