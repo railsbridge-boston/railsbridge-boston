@@ -1,8 +1,5 @@
 # Install Ruby on Linux
 
-TODO ensure that git is set up as part of this
-
-
 1. Install Git and wget
 
     For Ubuntu:
