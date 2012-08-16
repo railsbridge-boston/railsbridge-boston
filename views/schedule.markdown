@@ -46,7 +46,7 @@ td:first-child { width:7em; text-align:right}
 ## Event Notes
 
 * Please feel free to live-tweet the event to #railsbridge and @bostonrb, with pictures too if you want.
-* We will be taking some event photos. We will respect your privacy and
+* We will be taking some photos to document the event. We will respect your privacy and
   won't identify  any attendees (in captions, etc.) without consent. If
   you would not like to appear in any event pictures at all, please let one
   of the staff members know.
