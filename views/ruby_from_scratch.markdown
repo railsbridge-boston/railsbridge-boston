@@ -50,14 +50,8 @@ Heroku is the host that you will deploy your application to.
 
 [Create a Heroku Account](/installfest/create_a_heroku_account)
 
-### 7. Install Git
 
-TODO
-
-
-
-
-### 8. Setup Checklist 
+### 7. Setup Checklist 
 
 Find a staff member and run through this checklist:
 
