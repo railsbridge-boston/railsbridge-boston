@@ -3,9 +3,9 @@
 
 ### Start Your Text Editor
 
-1. Launch Sublime Text 2. See the [text editor setup instructions](/ruby_from_scratch/text_editor/all) 
+1. Launch your text editor. See the [text editor setup instructions](/ruby_from_scratch/text_editor/all) 
 for how to do this.
-2. Open a New File (`File > New File`)
+2. Open a New File (`File > New File` in Sublime Text 2)
 
 
 ### Write a Ruby Script
