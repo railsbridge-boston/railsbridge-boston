@@ -50,6 +50,12 @@ Heroku is the host that you will deploy your application to.
 
 [Create a Heroku Account](/installfest/create_a_heroku_account)
 
+### 7. Install Git
+
+TODO
+
+
+
 
 ### 7. Setup Checklist 
 
@@ -87,7 +93,10 @@ Find a staff member and run through this checklist:
     ssh-dss AAAAAAAA..12312asfdsdf== user@system.local
     ```
 
-4. Get a setup confirmation sticker from a staff member and stick it on
+4. Confirm that `git` is set up properly. TODO
+
+
+5. Get a setup confirmation sticker from a staff member and stick it on
    your laptop where it will be visible when you come back tomorrow morning.
 
 
