@@ -70,8 +70,7 @@ instructor to help diagnose the installation issue.
     ```
 
 8. Rebuild the shim binaries. You should do this any time you install
-   a new Ruby binary (for example, when installing a new Ruby version,
-   or when installing a gem that provides a binary).
+   a Ruby gem that provides a command-line command. 
 
     ```text
     rbenv rehash
