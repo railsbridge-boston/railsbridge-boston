@@ -36,7 +36,15 @@ td:first-child { width:7em; text-align:right}
 
 </table>
 
+
 ## Wasserstein Hall and Cambridge Common
 
 
 <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=214230502895826628026.0004c75b242b2232f4f72&amp;gl=us&amp;ie=UTF8&amp;t=m&amp;ll=42.380897,-71.119394&amp;spn=0.015216,0.027466&amp;z=15&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=214230502895826628026.0004c75b242b2232f4f72&amp;gl=us&amp;ie=UTF8&amp;t=m&amp;ll=42.380897,-71.119394&amp;spn=0.015216,0.027466&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left">Boston Ruby Workshop</a> in a larger map</small>
+
+
+## Event Notes
+
+* Please feel free to live-tweet the event to #railsbridge and @bostonrb, with pictures too if you want.
+
+
