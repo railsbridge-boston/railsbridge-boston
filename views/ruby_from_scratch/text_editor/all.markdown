@@ -5,11 +5,13 @@ sure it will work.
 
 If you are unsure, we suggest [Sublime Text 2](http://www.sublimetext.com/2), unless you are using Linux.
 
-Download [Sublime Text 2](http://www.sublimetext.com/2) for your operating system and follow the installation instructions below for your computer
+If you use Linux, we suggest you set up gEdit as a Ruby editor.  
+
 
 ### 1. Install 
 
 #### Windows
+1. Download [Sublime Text 2](http://www.sublimetext.com/2).
 1. Once the installer has finished downloading, open the Setup.exe
 1. You will be prompted with a Security Warning. This is expected,
    confirm you want to install by clicking 'Run'
@@ -22,6 +24,7 @@ Download [Sublime Text 2](http://www.sublimetext.com/2) for your operating syste
 
 #### OSX
 
+1. Download [Sublime Text 2](http://www.sublimetext.com/2). 
 1. Once the installer has finished downloading, open Finder from your dock.  
 1. On the left side of the Finder, under "Favorites" you should see `Downloads`. Open it.  
 1. Inside the `Downloads` folder you should find the `Sublime Text 2.x.x.dmg` — double click it to open it.  
@@ -30,7 +33,6 @@ Download [Sublime Text 2](http://www.sublimetext.com/2) for your operating syste
 
 #### Linux
 
-If you use Linux, we'll set up gEdit as a Ruby editor.  
 
 If you use Ubuntu, type these commands in the Terminal:
 
