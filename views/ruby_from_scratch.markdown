@@ -80,4 +80,4 @@ the same laptop you used tonight.
 If you have any questions, comments, or feedback on tonight's material, don't hesitate to let a staff member know. We 
 also have a feedback form that you can use early and often to provide feedback about the workshop. 
 
-[Back to Workshop Home Page](/)
+[Back to Friday Night Overview](/friday)
