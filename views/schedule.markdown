@@ -31,7 +31,7 @@ td:first-child { width:7em; text-align:right}
   <tr><td>3:30-3:45</td><td>Routes Mini-Lecture</td></tr>
   <tr><td>3:45-4:30</td><td>Workshop Group Segment 5</td></tr>
   <tr><td>4:30-5:00</td><td>Closing/Next Steps</td></tr>
-  <tr><td>5:00-7:00</td><td>After party at 
+  <tr><td>5:00-7:00</td><td>Afterparty at 
     <a href="http://www.cambridgecommonrestaurant.com/main.html">Cambridge Common</a> </td></tr>
 
 </table>
