@@ -7,6 +7,7 @@ If you run into errors at any step this step please call in an instructor to hel
     For Ubuntu:
 
     ```text
+    sudo apt-get update  # may take a minte
     sudo apt-get install -y git wget zlib1g-dev libssl-dev libreadline-dev
 
     ```
@@ -14,6 +15,7 @@ If you run into errors at any step this step please call in an instructor to hel
     For Fedora:
 
     ```text
+    sudo yum update
     sudo yum install -y git wget zlib1g-dev libssl-dev libreadline-dev
 
     ```
