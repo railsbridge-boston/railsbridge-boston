@@ -57,6 +57,13 @@ Finder.
 
 #### Linux
 
+Type this in the Terminal to start Sublime Text 2:
+
+```text
+sublime-text
+```
+
+
 ### 3. Set some basic preferences
 
 One cool thing about Sublime Text is that it reads its preferences from text files. This means you can easily
