@@ -188,5 +188,5 @@ This shows a list of all the environment variables for your application. These e
 
 ## Next Step
 
-Go on to [Creating A Migration](creating_a_migration)
+Go on to [Creating a Migration](creating_a_migration)
 

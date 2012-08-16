@@ -71,4 +71,4 @@ In MVC, models, views, and controllers have very specific jobs.  Separating resp
 
 ## Next Step
 
-Go on to [Crud With Scaffolding](CRUD_with_scaffolding)
+Go on to [Crud with Scaffolding](CRUD_with_scaffolding)

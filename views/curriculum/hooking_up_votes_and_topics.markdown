@@ -38,4 +38,4 @@ end
 * When you ask a vote for its topic, you get the topic for that vote.
 
 ## Next Step
-Go on to [Allow People To Vote](allow_people_to_vote)
+Go on to [Allow People to Vote](allow_people_to_vote)

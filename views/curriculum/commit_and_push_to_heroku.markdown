@@ -28,4 +28,4 @@ You should see a page that looks shockingly similar to the one you had locally. 
 * `heroku run rake` executes a rake task on your server, in this case, `db:migrate`, just like you did locally.
 
 ## Next Step:
-Go on to [Voting On Topics](voting_on_topics)
+Go on to [Voting on Topics](voting_on_topics)

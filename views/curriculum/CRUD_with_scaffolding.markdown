@@ -88,4 +88,4 @@ always have filenames starting with an underscore character.
 * If you look you'll see a method (a line beginning with `def`) for each of the views listed above (except `_form.html.erb`)
 
 ## Next Step
-Go on to [Commit And Push To Heroku](commit_and_push_to_heroku)
+Go on to [Commit and Push to Heroku](commit_and_push_to_heroku)

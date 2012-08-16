@@ -22,4 +22,4 @@ going to do the full CRUD for votes; they're just going to be
 considered part of topics as-is.
 
 ## Next Step:
-Go on to [Hooking Up Votes And Topics](hooking_up_votes_and_topics)
+Go on to [Hooking Up Votes and Topics](hooking_up_votes_and_topics)

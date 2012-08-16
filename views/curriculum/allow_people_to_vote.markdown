@@ -62,4 +62,4 @@ The changes we made to votes controller are a bit more complicated so let's work
 * `redirect_to(topics_path)` tells the browser to go back to topics_path (the topics list).
 
 ## Next Step
-Go on to [Commit And Push To Heroku Again](commit_and_push_to_heroku_again)
+Go on to [Commit and Push to Heroku Again](commit_and_push_to_heroku_again)

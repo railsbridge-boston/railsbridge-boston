@@ -81,4 +81,4 @@ You can ask it about its routes (as we just did), play with its
 database connections, or make pseudo-web requests against it with `get` or `post` (and lots more).
 
 ## Next Step
-Go on to [Redirect To The Topics List After Creating A New Topic](redirect_to_the_topics_list_after_creating_a_new_topic)
+Go on to [Redirect to the Topics List after Creating a New Topic](redirect_to_the_topics_list_after_creating_a_new_topic)
