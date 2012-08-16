@@ -1,5 +1,7 @@
 # Install Ruby on Linux
 
+If you run into errors at any step this step please call in an instructor to help diagnose the installation issue.
+
 1. Install Git and wget
 
     For Ubuntu:
@@ -83,9 +85,9 @@
     ruby -v
     ```
 
-    You should get something similar to `ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin11.4.0]`
-    If you do not see `ruby 1.9.3` please call in an instructor to help
-    diagnose the installation issue.
+    You should get something similar to `ruby 1.9.3p194 (2012-04-20
+    revision 35410) [i616-linux]` If you see something different please
+    call in an instructor to help diagnose the installation issue.
 
 11. Install Rails and other supporting gems
 
