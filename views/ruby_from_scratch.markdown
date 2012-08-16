@@ -57,7 +57,7 @@ TODO
 
 
 
-### 7. Setup Checklist 
+### 8. Setup Checklist 
 
 Find a staff member and run through this checklist:
 
