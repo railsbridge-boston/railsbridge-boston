@@ -73,6 +73,21 @@ Find a staff member and run through this checklist:
     Rails 3.2.8
     ```
     
+3. Confirm that your Heroku account is set with your key. From the
+   command line, type:
+
+    ```text
+    heroku keys
+    ```
+    And you should see something like:
+
+    ```text
+    === youremail@example.com Keys
+    ssh-dss AAAAAAAA..12312asfdsdf== user@system.local
+    ```
+
+
+
 ### You're Done!
 Congratulations, you're done with the Friday tutorial. We'll see you at 9am tomorrow at Harvard Law school. Please bring
 the same laptop you used tonight.
