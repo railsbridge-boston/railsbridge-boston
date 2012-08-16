@@ -6,5 +6,89 @@ Installing Ruby on Linux is easy!
 
 TODO ensure that git is set up as part of this
 
+
+1. Install Git and wget
+
+For Ubuntu:
+
+```
+$ sudo apt-get install -y git wget zlib1g-dev libssl-dev libreadline-dev
+
+```
+
+For Fedora:
+
+```
+sudo yum install -y git wget zlib1g-dev libssl-dev libreadline-dev
+
+```
+
+2. Check out rbenv into `~/.rbenv`.
+
+        $ cd
+        $ git clone git://github.com/sstephenson/rbenv.git .rbenv
+
+3. Add `~/.rbenv/bin` to your `$PATH` for access to the `rbenv`
+   command-line utility.
+
+        $ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+
+    **Zsh note**: Modify your `~/.zshenv` file instead of `~/.bash_profile`.
+
+4. Add rbenv init to your shell to enable shims and autocompletion.
+
+        $ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+
+    **Zsh note**: Modify your `~/.zshenv` file instead of `~/.bash_profile`.
+
+5. Restart your shell so the path changes take effect. You can now
+   begin using rbenv.
+
+        $ exec $SHELL
+
+6. Install ruby-build.
+
+        $ mkdir -p ~/.rbenv/plugins
+        $ cd ~/.rbenv/plugins
+        $ git clone git://github.com/sstephenson/ruby-build.git
+        $ source ~/.bash_profile
+
+7. Install the latest Ruby. This may take a while.
+
+        $ rbenv install 1.9.3-p194
+
+8. Rebuild the shim binaries. You should do this any time you install
+   a new Ruby binary (for example, when installing a new Ruby version,
+   or when installing a gem that provides a binary).
+
+        $ rbenv rehash
+
+9. Set the global version of Ruby to be used in all shells.
+
+    $ rbenv global 1.9.3-p194
+    $ rbenv shell 1.9.3-p194
+
+
+10. Close an re-open your terminal and confirm Ruby is installed properly
+
+```text
+ruby -v
+```
+
+You should get something similar to `ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin11.4.0]`
+If you do not see `ruby 1.9.3` please call in an instructor to help
+diagnose the installation issue.
+
+* Install Rails and other supporting gems
+
+```text
+gem install bundler rails heroku
+```
+
+Congratulations, you now have the Ruby development environment up and
+running. Now go forth and do something awesome with it!
+
+
+
 [« Back to Installfest](/ruby_from_scratch)
 
