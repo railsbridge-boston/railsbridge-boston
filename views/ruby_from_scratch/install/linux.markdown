@@ -7,19 +7,20 @@ how to open a Terminal, please ask an instructor to show you.
 If you run into errors at any step please call in an
 instructor to help diagnose the installation issue.
 
-1. Install Git, wget, and some other dependencies.
+1. Install Git, wget, and some other dependencies. These steps may take
+   a while.
 
-    For Ubuntu of Linux Mint:
+    For Ubuntu or Linux Mint:
 
     ```text
-    sudo apt-get update  # may take a while
+    sudo apt-get update  
     sudo apt-get install -y git wget zlib1g-dev libssl-dev libreadline-dev
     ```
 
     For Fedora:
 
     ```text
-    sudo yum update   # may take a while
+    sudo yum update   
     sudo yum install -y git wget zlib1g-dev libssl-dev libreadline-dev
     ```
 
