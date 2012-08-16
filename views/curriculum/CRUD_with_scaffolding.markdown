@@ -40,14 +40,17 @@ You should see a page listing topics that looks something like this:
 * You've created a basic database driven web site, congrats!
 
 ## Explanation
-How did all those pages get created and hooked together? The rails scaffold did it for you.  
-Let's take a closer look at some of the files rails created:
+
+How did all those pages get created and hooked together? The rails
+scaffold did it for you.  Let's take a closer look at some of the files
+Rails created:
 
 `app/models/topic.rb`
 
 * This file contains code for our topic model. If you look at it its nearly blank. Creating, reading, updating, and deleting
 records is built into rails.
-* If you've written HTML before many lines in the views should look familiar. Rails views are HTML with some extra code added
+
+If you've written HTML before many lines in the views should look familiar. Rails views are HTML with some extra code added
 to display data from the database.
 
 `app/views/topics`
@@ -63,7 +66,7 @@ created all of these pages as part of the scaffold.
 
 `app/views/topics/show.html.erb`
 
-* This the page you get when you click the "show" link on the "Listing topics" page.
+* This is the page you get when you click the "show" link on the "Listing topics" page.
 
 `app/views/topics/new.html.erb`
 
