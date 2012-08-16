@@ -1,13 +1,14 @@
+# Create an SSH Key
+
 An SSH key uniquely identifies you (and your computer) when your computer is communicating with other computers. 
 Think of an SSH key as a fancy password.
 
 You'll need one of these to create your Heroku and Github accounts.
 
-### Option 1: Did you use RailsInstaller on Windows?
+## Did you use RailsInstaller on Windows?
 Congratulations, you already have an ssh key!
 
-
-### Option 2: otherwise
+## Otherwise
 
 ![](/images/warning.png) Use the same email address for heroku, git, github, and ssh.
 
@@ -21,8 +22,8 @@ ssh-keygen -C student@example.com -t rsa
 
 ### Step 1: Choose keyphrase
 
-### Option 1: Hit enter to accept blank passphrase, then hit enter again
-### Option 2: If your computer is shared with other people, as in a work laptop, you should choose and enter a real passphrase. Twice.
+* Option 1: Hit enter to accept blank passphrase, then hit enter again
+* Option 2: If your computer is shared with other people, as in a work laptop, you should choose and enter a real passphrase. Twice.
 
 Expected result:
 
@@ -38,7 +39,7 @@ The key fingerprint is:
 88:54:ab:77:fe:5c:c3:7s:14:37:28:8c:1d:ef:2a:8d student@example.com
 ```
 
-## Verify
+### Step 2: Verify
 Your brand-new public key is now stored at 
 
 ```text
