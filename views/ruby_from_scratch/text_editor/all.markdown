@@ -29,6 +29,16 @@ Download [Sublime Text 2](http://www.sublimetext.com/2) for your operating syste
 
 #### Linux
 
+For Ubuntu, type these commands in the Terminal:
+
+```text
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+sudo apt-get install sublime-text
+```
+
+
+
 ### 2. Open Sublime Text 2
 
 #### Windows
