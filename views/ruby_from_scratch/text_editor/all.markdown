@@ -2,7 +2,8 @@
 
 If you already are comfortable with a programming editor, use that one. Just double-check with an instructor to make 
 sure it will work.  
-If you are unsure, we suggest [Sublime Text 2](http://www.sublimetext.com/2).
+
+If you are unsure, we suggest [Sublime Text 2](http://www.sublimetext.com/2), unless you are using Linux.
 
 Download [Sublime Text 2](http://www.sublimetext.com/2) for your operating system and follow the installation instructions below for your computer
 
@@ -29,23 +30,23 @@ Download [Sublime Text 2](http://www.sublimetext.com/2) for your operating syste
 
 #### Linux
 
-For Ubuntu, type these commands in the Terminal:
+If you use Linux, we'll set up gEdit as a Ruby editor.  
+
+If you use Ubuntu, type these commands in the Terminal:
 
 ```text
-sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo add-apt-repository ppa:ubuntu-on-rails
 sudo apt-get update
-sudo apt-get install sublime-text
+sudo apt-get install gedit-plugins gedit-gmate
 ```
 
-For Fedora, type these commands in the Terminal:
+For Fedora, we'll type these commands in the Terminal:
 
 ```text
-sudo yum install -y wget
-sudo wget -O /etc/yum.repos.d/sublime2.repo http://repo.cloudhike.com/sublime2/fedora/sublime2.repo
-sudo yum install -y sublime-text
+TODO
 ```
 
-### 2. Open Sublime Text 2
+### 2. Open your Editor
 
 #### Windows
 
@@ -63,16 +64,18 @@ Finder.
 
 #### Linux
 
-Type this in the Terminal to start Sublime Text 2:
+Type this in the Terminal to start gEdit:
 
 ```text
-sublime-text
+gedit
 ```
 
 
 ### 3. Set some basic preferences
 
-One cool thing about Sublime Text is that it reads its preferences from text files. This means you can easily
+If you are using Sublime Text 2:
+
+One cool thing about Sublime Text 2 is that it reads its preferences from text files. This means you can easily
 edit settings, check your settings into version control, or share settings with copy & paste. That's what we're going to 
 do with some common preferences for Rubyists.
 
@@ -92,6 +95,12 @@ Open up User Settings (`Sublime Text 2 > Preferences > Settings - User``) and pa
 ```
 
 Save the User Settings file (`File > Save``). Your new preferences are now in effect.
+
+
+If you are using gEdit with the Ruby plugin, you'll want to set the Tab
+Width to be 2.
+
+TODO: ADD SCREENSHOT
 
 
 ### Success!
