@@ -4,7 +4,7 @@ If you run into errors at any step this step please call in an instructor to hel
 
 1. Install Git and wget
 
-    For Ubuntu:
+    For Ubuntu of Linux Mint:
 
     ```text
     sudo apt-get update  # may take a minte
