@@ -2,7 +2,7 @@
 <strong>Note to attendees</strong>: This is material that we expect you to read during the workshop, not before it.  It may not be in its final state. So please wait until then to study this material.
 </div>
 
-# Suggesto-tron Table of Contents
+# Saturday Curriculum
 
 [Intro](curriculum)  
 [The Ruby Language](ruby_language)  
