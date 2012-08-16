@@ -1,6 +1,11 @@
 # Install Ruby on Linux
 
-If you run into errors at any step this step please call in an instructor to help diagnose the installation issue.
+
+You need to do all the following steps in a Terminal. If you don't know
+how to open a Terminal, please ask an instructor to show you.
+
+If you run into errors at any step this step please call in an
+instructor to help diagnose the installation issue.
 
 1. Install Git and wget
 
