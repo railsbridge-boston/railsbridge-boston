@@ -99,10 +99,11 @@ Each lesson will look like this:
   def code_to_write
     1 + 1
   end </pre>
-</div>
 
-#Explanation
-Details of what the steps actually did... spell out the cause and effect.
+  <h2>Explanation</h2>
+  <p>Details of what the steps actually did... spell out the cause and effect.</p>
+
+</div>
 
 ### Next Step
 Go on to [Ruby Language](ruby_language)
