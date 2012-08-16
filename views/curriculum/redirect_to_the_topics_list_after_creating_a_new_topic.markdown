@@ -60,4 +60,4 @@ Look at [http://localhost:3000](http://localhost:3000).
 * `:notice => 'Topic was successfully created.'` puts the message into the flash so it will be displayed on the topics list
 
 ## Next Step
-Go on to [Make The Topic Title A Link](make_the_topic_title_a_link)
+Go on to [Make the Topic Title a Link](make_the_topic_title_a_link)
