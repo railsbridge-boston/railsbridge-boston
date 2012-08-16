@@ -57,4 +57,6 @@ If someone else gets your private key and your passphrase, then they can pretend
 Github accounts and cause mischief!
 
 
-(« Back to Installfest)(/ruby_from_scratch)
+## Continue
+
+[« Back to Create a Heroku Account](/installfest/create_a_heroku_account)
