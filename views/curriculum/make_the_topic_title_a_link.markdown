@@ -57,4 +57,4 @@ Here's another use of `link_to` to create a link on the page. This `link_to` cre
 topic title and goes to the `topic#show` page.
 
 ## Next Step
-Go on to [Clean Up Links On The Topics List](clean_up_links_on_the_topics_list)
+Go on to [Clean Up Links on the Topics List](clean_up_links_on_the_topics_list)
