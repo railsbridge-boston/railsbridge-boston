@@ -47,11 +47,7 @@ Rails created:
 
 `app/models/topic.rb`
 
-* This file contains code for our topic model. If you look at it its nearly blank. Creating, reading, updating, and deleting
-records is built into rails.
-
-If you've written HTML before many lines in the views should look familiar. Rails views are HTML with some extra code added
-to display data from the database.
+* This file contains code for our topic model. If you look at it its nearly blank. 
 
 `app/views/topics`
 
@@ -63,6 +59,7 @@ created all of these pages as part of the scaffold.
 * This is the code for the page that lists all the topics.
 * Index is the name given to the "default" page for a website or a section of a website. When you navigate to
 [http://localhost:3000/topics](http://localhost:3000/topics) the topics index page is what is sent to your computer.
+* If you've written HTML before many lines in the views should look familiar. Rails views are HTML with some extra code added to display data from the database.
 
 `app/views/topics/show.html.erb`
 
