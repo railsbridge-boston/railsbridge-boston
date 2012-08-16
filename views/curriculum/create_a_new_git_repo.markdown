@@ -1,4 +1,4 @@
-# Create A Git Repo
+# Create a Git Repo
 ## Goals
 * Create a local git repository
 

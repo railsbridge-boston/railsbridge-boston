@@ -108,4 +108,4 @@ There is a lot more that `rails new` created. Probably enough to fill a book, so
 
 ## Next Step
 
-Go on to [Create A New Git Repo](create_a_new_git_repo)
+Go on to [Create a New Git Repo](create_a_new_git_repo)
