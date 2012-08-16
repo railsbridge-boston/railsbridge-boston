@@ -61,19 +61,18 @@ Find a staff member and run through this checklist:
     ```
     Then save the file. From the command prompt, navigate to and execute the Ruby script you just created.
 
-2. Confirm that Ruby and Rails are installed on your machine.
-   From the command line type:
+2. Confirm that Ruby and Rails are installed on your machine.  From the command line type:
 
-   ```text
-     rails -v
-   ```
-
-   And you should see:
-
-   ```text
-   Rails 3.2.8
-   ```
-
+    ```text
+    rails -v
+    ```
+    
+    And you should see:
+    
+    ```text
+    Rails 3.2.8
+    ```
+    
 ### You're Done!
 Congratulations, you're done with the Friday tutorial. We'll see you at 9am tomorrow at Harvard Law school. Please bring
 the same laptop you used tonight.
