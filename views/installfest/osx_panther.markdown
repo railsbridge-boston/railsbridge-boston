@@ -123,7 +123,7 @@ sudo gem install rails --version 2.3.9 --no-rdoc --no-ri
 
 
 >Go on to 
-[Create An Ssh Key](create_an_ssh_key?back=osx_panther%23step6)
+[Create an SSH Key](create_an_ssh_key?back=osx_panther%23step6)
 
 #Next Step:
 

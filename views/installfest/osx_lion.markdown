@@ -104,7 +104,7 @@ Expected result:/Users/alex/.rvm/gems/ruby-1.9.2-p290/bin/heroku
 
 
 >Go on to 
-[Create An Ssh Key](create_an_ssh_key?back=osx_lion%23step9)
+[Create an SSH Key](create_an_ssh_key?back=osx_lion%23step9)
 
 []()#Step 10:Congratulations!
 
