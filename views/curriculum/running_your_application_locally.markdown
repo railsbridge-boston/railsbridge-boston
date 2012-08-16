@@ -57,4 +57,4 @@ you need to interrupt it with `Ctrl+c`.
 
 ## Next Step
 
-Go on to [Deploy To Heroku](deploy_to_heroku)
+Go on to [Deploy to Heroku](deploy_to_heroku)
