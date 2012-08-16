@@ -75,7 +75,7 @@ gedit
 
 ### 3. Set some basic preferences
 
-If you are using Sublime Text 2:
+#### If you are using Sublime Text 2
 
 One cool thing about Sublime Text 2 is that it reads its preferences from text files. This means you can easily
 edit settings, check your settings into version control, or share settings with copy & paste. That's what we're going to 
@@ -98,12 +98,13 @@ Open up User Settings (`Sublime Text 2 > Preferences > Settings - User``) and pa
 
 Save the User Settings file (`File > Save``). Your new preferences are now in effect.
 
+#### If you are using gEdit with the Ruby plugin
 
-If you are using gEdit with the Ruby plugin, you'll want to set the Tab
-Width to be 2.
+Go to Edit > Preferences and click the Editor tab. Set the `Tab width`
+option to 2 and make sure `Insert spaces instead of tabs` and `Enable
+automatic indentation` are checked.
 
-TODO: ADD SCREENSHOT
-
+![](/images/gedit-pref.png)
 
 ### Success!
 
