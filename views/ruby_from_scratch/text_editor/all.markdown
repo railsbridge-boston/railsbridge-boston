@@ -37,7 +37,13 @@ sudo apt-get update
 sudo apt-get install sublime-text
 ```
 
+For Fedora, type these commands in the Terminal:
 
+```text
+sudo yum install -y wget
+sudo wget -O /etc/yum.repos.d/sublime2.repo http://repo.cloudhike.com/sublime2/fedora/sublime2.repo
+sudo yum install -y sublime-text
+```
 
 ### 2. Open Sublime Text 2
 
