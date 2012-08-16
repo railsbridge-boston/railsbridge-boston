@@ -101,7 +101,7 @@ Find a staff member and run through this checklist:
 
 
 ### You're Done!
-Congratulations, you're done with the Friday tutorial. We'll see you at 9:30am tomorrow at Harvard Law school. Please bring
+Congratulations, you're done with the Friday tutorial. We'll see you at 9:30am tomorrow at Harvard Law School. Please bring
 the same laptop you used tonight.
 
 If you have any questions, comments, or feedback on tonight's material, don't hesitate to let a staff member know. We 
