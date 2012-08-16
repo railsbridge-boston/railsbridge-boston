@@ -85,8 +85,8 @@ Type this in the terminal
 
 ```text
 mv README.rdoc README.md
-vi README.md
 ``` 
+
 Open the file called README.md in Sublime Text 2, or your preferred editor. Replace the content that is there with the following text:
 
 ```text
