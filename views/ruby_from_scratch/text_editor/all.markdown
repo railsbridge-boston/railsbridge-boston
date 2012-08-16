@@ -7,7 +7,7 @@ If you are unsure, we suggest [Sublime Text 2](http://www.sublimetext.com/2), un
 
 Download [Sublime Text 2](http://www.sublimetext.com/2) for your operating system and follow the installation instructions below for your computer
 
-### 1. Install Sublime Text 2
+### Install 
 
 #### Windows
 1. Once the installer has finished downloading, open the Setup.exe
