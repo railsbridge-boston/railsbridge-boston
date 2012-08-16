@@ -19,6 +19,13 @@ Type this in the terminal:
 gem install heroku
 ```
 
+If you installed Ruby with rbenv, type this to activate the `heroku` command: 
+
+```text
+rbenv rehash
+```
+
+
 ### Verify
 Type this in the terminal:
 
