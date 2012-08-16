@@ -15,7 +15,8 @@ Divides str into substrings based on a delimiter, returning an array of
 these substrings.
 ```
 
-![](/images/warning.png) If running ri doesn't work and you've installed ruby using rvm, try running this command first:
+![](/images/warning.png) If running ri doesn't work, let an instructor
+know.
 
 ```ruby
 $ rvm docs generate
