@@ -45,7 +45,7 @@ Expected result:2.26.7
 
 
 >Go on to 
-[Create An Ssh Key](create_an_ssh_key?back=create_a_heroku_account%23step5)
+[Create an Ssh Key](create_an_ssh_key?back=create_a_heroku_account%23step5)
 
 Type this in the terminal:heroku keys:add
 
@@ -59,4 +59,4 @@ heroku client.
 
 
 Go on to 
-[Create And Deploy A Rails App](create_and_deploy_a_rails_app?back=create_a_heroku_account%23step5)
+[Create and Deploy a Rails App](create_and_deploy_a_rails_app?back=create_a_heroku_account%23step5)
