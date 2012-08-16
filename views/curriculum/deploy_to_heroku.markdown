@@ -73,7 +73,7 @@ git add .
 git commit -m "Changed Gemfile for Heroku"
 ```
 
-![](/images/info.png) There is a period after the word add in the third line.
+![](/images/info.png) There is a period after the word add in the first line.
 
 
 ### Step 5: Push changes to heroku
