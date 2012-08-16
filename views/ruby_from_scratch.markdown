@@ -51,7 +51,8 @@ Heroku is the host that you will deploy your application to.
 [Create a Heroku Account](/installfest/create_a_heroku_account)
 
 
-### Checklist of 'Ruby from Scratch' Completion
+### 7. Setup Checklist 
+
 Find a staff member and run through this checklist:
 
 1. Create a new ruby file (with an .rb extension). In that file, type:
@@ -86,6 +87,8 @@ Find a staff member and run through this checklist:
     ssh-dss AAAAAAAA..12312asfdsdf== user@system.local
     ```
 
+4. Get a setup confirmation sticker from a staff member and stick it on
+   your laptop where it will be visible when you come back tomorrow morning.
 
 
 ### You're Done!
