@@ -17,5 +17,5 @@ git init
 It doesn't look like anything really happened, but `git init` initialized its repository (repo) in a hidden directory 
 called `.git`. You can see this by typing `ls -a` (list all files).
 
-## Next Step:
+## Next Step
 Go on to [Add The Project To The Git Repo](add_the_project_to_the_git_repo)

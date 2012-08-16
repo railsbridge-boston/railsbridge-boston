@@ -55,7 +55,7 @@ try following
 [these directions](http://support.heroku.com/forums/43117/entries/32505) to install (or re-install) the 
 heroku client.
 
-#Next Step:
+#Next Step
 
 
 Go on to 
