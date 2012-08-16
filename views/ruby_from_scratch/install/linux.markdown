@@ -69,8 +69,8 @@ instructor to help diagnose the installation issue.
     rbenv install 1.9.3-p194
     ```
 
-8. Rebuild the shim binaries. You should do this any time you install
-   a Ruby gem that provides a command-line command. 
+8. You should do this any time you install
+   different version of Ruby or a Ruby gem that provides a command-line command. 
 
     ```text
     rbenv rehash
