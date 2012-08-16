@@ -1,6 +1,13 @@
 # Deploy to Heroku
+
 ## Goals
 * OK. We've got an empty app and it has been added to git. What now?
+
+**Ship it!**
+
+## Steps
+
+### Step 0: Confirm you have installed the heroku gem
 
 Before you do anything, ensure that you have the `heroku` gem installed
 
@@ -8,9 +15,6 @@ Before you do anything, ensure that you have the `heroku` gem installed
 gem install heroku
 ```
 
-**Ship it!**
-
-## Steps
 ### Step 1: Create a heroku application
 
 Type this in the terminal
