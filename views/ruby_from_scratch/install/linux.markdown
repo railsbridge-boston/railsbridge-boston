@@ -86,9 +86,9 @@ TODO ensure that git is set up as part of this
     ruby -v
     ```
 
-You should get something similar to `ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin11.4.0]`
-If you do not see `ruby 1.9.3` please call in an instructor to help
-diagnose the installation issue.
+    You should get something similar to `ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin11.4.0]`
+    If you do not see `ruby 1.9.3` please call in an instructor to help
+    diagnose the installation issue.
 
 11. Install Rails and other supporting gems
 
