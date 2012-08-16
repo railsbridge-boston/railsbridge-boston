@@ -31,6 +31,12 @@ td:first-child { width:7em; text-align:right}
   <tr><td>3:30-3:45</td><td>Routes Mini-Lecture</td></tr>
   <tr><td>3:45-4:30</td><td>Workshop Group Segment 5</td></tr>
   <tr><td>4:30-5:00</td><td>Closing/Next Steps</td></tr>
-  <tr><td>5:00-7:00</td><td>After party at Cambridge Common</td></tr>
+  <tr><td>5:00-7:00</td><td>After party at 
+    <a href="http://www.cambridgecommonrestaurant.com/main.html">Cambridge Common</a> </td></tr>
 
 </table>
+
+## Wasserstein Hall and Cambridge Common
+
+
+<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=214230502895826628026.0004c75b242b2232f4f72&amp;gl=us&amp;ie=UTF8&amp;t=m&amp;ll=42.380897,-71.119394&amp;spn=0.015216,0.027466&amp;z=15&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=214230502895826628026.0004c75b242b2232f4f72&amp;gl=us&amp;ie=UTF8&amp;t=m&amp;ll=42.380897,-71.119394&amp;spn=0.015216,0.027466&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left">Boston Ruby Workshop</a> in a larger map</small>
