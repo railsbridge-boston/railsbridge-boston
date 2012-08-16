@@ -38,7 +38,7 @@ It should look like this:
 
 ### Step 3
 
-When at the terminal with your running rails server, Type `Ctrl+C` to stop rails server, you can do this now.
+When at the terminal with your running rails server, Type `Ctrl+c` to stop rails server, you can do this now.
 Expected result:
 
 ```text
@@ -52,8 +52,8 @@ Exiting
 `bundle` installs software your application needs and prepares it to run.  
 `rails server` ran your application locally just like heroku will be running it on their servers.
 This provides a very simple means to see your changes before you commit and push them to heroku.  
-`Ctrl+C` is a way of closing or cancelling terminal programs. Since rails server runs forever, 
-you need to interrupt it with `Ctrl+C`.
+`Ctrl+c` is a way of closing or cancelling terminal programs. Since rails server runs forever, 
+you need to interrupt it with `Ctrl+c`.
 
 ## Next Step
 
