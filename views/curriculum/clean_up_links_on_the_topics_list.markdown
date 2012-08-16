@@ -33,4 +33,4 @@ We did this because the title now links to the show page and from the show page 
 * The second change we made was to make the link text 'Delete' instead of destroy.
 
 ## Next Step
-Go on to [Commit And Push To Heroku, Yet Again](commit_and_push_to_heroku_yet_again)
+Go on to [Commit and Push to Heroku, Yet Again](commit_and_push_to_heroku_yet_again)
