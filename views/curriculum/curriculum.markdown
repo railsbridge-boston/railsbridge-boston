@@ -5,7 +5,6 @@
 # Saturday Curriculum
 
 
-
 ## Goal
 
 To teach you Ruby on Rails we are going to use a "Real World"
@@ -43,7 +42,7 @@ day... unless I really screwed something up. :D
 ## Requirements
 We're going to be working with:
 
-* ruby 1.9.3 installed via rvm (mac or linux) or railsinstaller (windows)
+* ruby 1.9.3 installed 
 * rails 3.2.x
 * bundler
 * sqlite
