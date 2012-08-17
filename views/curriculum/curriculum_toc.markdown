@@ -10,7 +10,7 @@
 
 ## Learning Ruby ##
 * [The Ruby Language](ruby_language)
-** [Extra Credit: More Ruby](extra_credit/01_more_ruby)
+    * [Extra Credit: More Ruby](extra_credit/01_more_ruby)
 * [Tools to Help You Learn Ruby](tools)
 
 ## Starting a New Rails Application ##
@@ -18,23 +18,23 @@
 * [Creating a Rails Application](getting_started)
 * [Create a Git Repo](create_a_new_git_repo)
 * [Add the Project Files to the Git Repo](add_the_project_to_the_git_repo)
-** [Extra Credit: Git Branches](extra_credit/02_git_branches)
+    * [Extra Credit: Git Branches](extra_credit/02_git_branches)
 * [Run Your Application on Your Machine](running_your_application_locally)
 * [Deploy to Heroku](deploy_to_heroku)
-** [Extra Credit: More Heroku](extra_credit/03_more_heroku)
+    * [Extra Credit: More Heroku](extra_credit/03_more_heroku)
 
 ## Models, Scaffolding, and Migrations ##
 * [Creating and Running a Database Migration](creating_a_migration)
 * [CRUD with Scaffolding](CRUD_with_scaffolding)
 * [Commit and Push to Heroku](commit_and_push_to_heroku)
-** [Extra Credit: The Rails Console](extra_credit/04_console)
+    * [Extra Credit: The Rails Console](extra_credit/04_console)
 
 ## Model Associations and 'MVC' ##
 * [Voting on Topics](voting_on_topics)
 * [Hooking Up Votes and Topics](hooking_up_votes_and_topics)
 * [Allow People to Vote](allow_people_to_vote)
 * [Commit and Push to Heroku, Again](commit_and_push_to_heroku_again)
-** [Extra Credit: Pagination](extra_credit/05_pagination)
+    * [Extra Credit: Pagination](extra_credit/05_pagination)
 
 ## Rails Navigation, Links, and Routes ##
 * [Setting the Default Page](setting_the_default_page)
