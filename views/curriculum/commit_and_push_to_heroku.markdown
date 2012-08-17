@@ -28,7 +28,7 @@ You should see a page that looks shockingly similar to the one you had locally. 
 * `heroku run rake` executes a rake task on your server, in this case, `db:migrate`, just like you did locally.
 
 ## Extra Credit
-Finish a little early? Try [working with the console](extra_credit/02_console).
+Finish a little early? Try [working with the console](extra_credit/04_console).
 
 
 ## Next Step
