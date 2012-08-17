@@ -1,5 +1,5 @@
 # Credits
-## Authors
+## Original Authors
 * Sarah Allen
 * Sarah Mei
 * Alex Chaffee
@@ -10,6 +10,6 @@
 ## What next?
 * Learn More Ruby
 * Learn More Rails
+* Come to a Project Night
 * Take a class
 * Be a TA at an upcoming workshop
-* ...?
