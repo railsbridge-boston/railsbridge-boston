@@ -1,15 +1,30 @@
 # Credits
-## Authors
-* Sarah Allen
-* Sarah Mei
-* Alex Chaffee
-* Ryan Davis
-* Steven! Ragnarok
-* ...and many others
+## Organizers
+* Dan Choi
+* Brendan Kemp
+* Braulio Carreno
+* Carli Spina
+* BostonRB Outreach group
+* BostonRB
+
+## Teaching Staff
+
+## Our Sponsors
+
+## Curriculum Authors
+* Railsbridge
+* All our teaching staff
+* Brian Cardarella
+* Travis Briggs
+* Chris Rhoden
+* Brendan Kemp
+* Dan Choi
+* and more 
 
 ## What next?
 * Learn More Ruby
 * Learn More Rails
+* Join us at a BostonRB Project Night
 * Take a class
 * Be a TA at an upcoming workshop
 * ...?
