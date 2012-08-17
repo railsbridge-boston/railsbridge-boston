@@ -13,7 +13,7 @@
 * [Ruby for Beginners](ruby_for_beginners)
 * [Ruby for Programmers](ruby_for_programmers)
 * [REST](rest)
-* [Suggestotron Curriculum](/curriculum/curriculum_toc)
+* [Suggestotron Curriculum](/curriculum/curriculum)
 
 ## Workshop Prep:
 * [Teacher Training](teacher_training)
