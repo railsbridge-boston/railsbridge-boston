@@ -1,5 +1,11 @@
 # Using the Command Prompt on Windows
 
+<div class="alert alert-info">
+<strong>Note</strong>: If you are using the Git Bash shell in Windows,
+you can follow the command prompt tutorial for
+<a href="/ruby_from_scratch/command_prompt/linux">Linux</a>.
+</div>
+
 There are three commands that we'll be using at a command prompt to navigate the filesystem on your computer:  
 
 ```text
