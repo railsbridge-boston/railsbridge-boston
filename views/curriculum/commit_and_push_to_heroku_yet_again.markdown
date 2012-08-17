@@ -12,7 +12,7 @@ git push heroku master
 ```
 
 ## Explanation
-Nothing new here... Except... **you're done!!!**  
+Nothing new here... Except... **you're done!!!**
 Congratulations, you just "finished" your first rails app!
 
 (They're never really ever finished... have fun tweaking it!)
