@@ -58,10 +58,6 @@ change during today's workshop, we'll add it to git before moving on. This way, 
 change you don't like. You can use git as an all-powerful "undo" technique. But that only works when you remember to
 commit early and often!
 
-## Extra Credit
-
-Looking for some Extra Credit? Why not try learning about [git branches](extra_credit/02_git_branches)?
-
 ## Next Step
 
 Go on to [Running Your Application Locally](running_your_application_locally)

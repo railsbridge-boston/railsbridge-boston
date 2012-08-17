@@ -124,8 +124,7 @@ this as we add more functionality to the application. Your typical workflow will
 Go on to [Creating A Migration](creating_a_migration)
 
 ## Extra Credit
-
-If you're looking for something to do, you can try doing some [more with Heroku](extra_credit/03_more_heroku).
+Looking for some Extra Credit? Why not try learning about [git branches](extra_credit/02_git_branches)? You can also try doing some [more with Heroku](extra_credit/03_more_heroku).
 
 ## Next Step
 

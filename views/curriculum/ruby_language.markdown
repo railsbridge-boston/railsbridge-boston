@@ -123,10 +123,6 @@ end
 This prints `YAY!` if the value stored in `my_variable` is greater than 1. Since the code only runs when certain
 conditions are met if is called a **conditional**.
 
-## Extra Credit
-
-If you like, there is always [more Ruby](extra_credit/01_more_ruby) to learn.
-
 ## Next Step
 
 Go on to [Tools](tools)
