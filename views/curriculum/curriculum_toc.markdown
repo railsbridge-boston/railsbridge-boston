@@ -5,13 +5,14 @@
 # Saturday Curriculum
 
 ## Introduction ##
-<<<<<<< HEAD
 * [_Lecture Slides: Opening_](/workshop/opening) 
 
 ## Learning Ruby ##
+* [_Lecture Slides: Intro to Ruby_](/workshop/ruby)
 * [Intro](curriculum) 
 * [The Ruby Language](ruby_language)  
 * [Tools to Help You Learn Ruby](tools)  
+    * [Extra Credit: More Ruby](extra_credit/01_more_ruby)
 
 ## Starting a New Rails Application ##
 * [_Lecture Slides: Starting a Rails Application_](/workshop/starting_a_rails_application)
@@ -20,26 +21,8 @@
 * [Add the Project Files to the Git Repo](add_the_project_to_the_git_repo)  
 * [Run Your Application on Your Machine](running_your_application_locally)  
 * [Deploy to Heroku](deploy_to_heroku)  
-=======
-* [_Opening Slides_](/workshop/opening)
-* [Intro](curriculum)
-
-## Learning Ruby ##
-* [The Ruby Language](ruby_language)
-* [Tools to Help You Learn Ruby](tools)
-    * [Extra Credit: More Ruby](extra_credit/01_more_ruby)
-
-## Starting a New Rails Application ##
-* [_Starting a Rails Application Slides_](/workshop/starting_a_rails_application)
-* [Creating a Rails Application](getting_started)
-* [Create a Git Repo](create_a_new_git_repo)
-* [Add the Project Files to the Git Repo](add_the_project_to_the_git_repo)
-* [Run Your Application on Your Machine](running_your_application_locally)
-* [Deploy to Heroku](deploy_to_heroku)
     * [Extra Credit: Git Branches](extra_credit/02_git_branches)
     * [Extra Credit: More Heroku](extra_credit/03_more_heroku)
-
->>>>>>> 9d44868bd149b8c8c9d3ff08365d5e006d890cc6
 
 ## Models, Scaffolding, and Migrations ##
 * [Creating and Running a Database Migration](creating_a_migration)
@@ -55,20 +38,12 @@
     * [Extra Credit: Pagination](extra_credit/05_pagination)
 
 ## Rails Navigation, Links, and Routes ##
-<<<<<<< HEAD
 * [_Lecture Slides: Rails Navigation, Links, and Routes_](https://docs.google.com/presentation/d/1e-M7zJN-x8V5GBM-hGq3zIk2UMjLb8t5YlNvZFVv51Q/present#slide=id.p)
 * [Setting the Default Page](setting_the_default_page)  
 * [Redirect to the Topics List After Creating a New Topic](redirect_to_the_topics_list_after_creating_a_new_topic)  
 * [Make the Topic Title a Link](make_the_topic_title_a_link)  
 * [Clean Up Links on the Topics List](clean_up_links_on_the_topics_list)  
 * [Commit and Push to Heroku, Yet Again](commit_and_push_to_heroku_yet_again)  
-=======
-* [Setting the Default Page](setting_the_default_page)
-* [Redirect to the Topics List After Creating a New Topic](redirect_to_the_topics_list_after_creating_a_new_topic)
-* [Make the Topic Title a Link](make_the_topic_title_a_link)
-* [Clean Up Links on the Topics List](clean_up_links_on_the_topics_list)
-* [Commit and Push to Heroku, Yet Again](commit_and_push_to_heroku_yet_again)
->>>>>>> 9d44868bd149b8c8c9d3ff08365d5e006d890cc6
 
 ## Wrapping Up ##
 * [Credits](credits_and_next_steps)
