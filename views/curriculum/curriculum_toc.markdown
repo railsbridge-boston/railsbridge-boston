@@ -5,15 +5,15 @@
 # Saturday Curriculum
 
 ## Introduction ##
-* [_Opening Slides_](/workshop/opening)
-* [Intro](curriculum)  
+* [_Lecture Slides: Opening_](/workshop/opening) 
 
 ## Learning Ruby ##
+* [Intro](curriculum) 
 * [The Ruby Language](ruby_language)  
 * [Tools to Help You Learn Ruby](tools)  
 
 ## Starting a New Rails Application ##
-* [_Starting a Rails Application Slides_](/workshop/starting_a_rails_application)
+* [_Lecture Slides: Starting a Rails Application_](/workshop/starting_a_rails_application)
 * [Creating a Rails Application](getting_started)  
 * [Create a Git Repo](create_a_new_git_repo)  
 * [Add the Project Files to the Git Repo](add_the_project_to_the_git_repo)  
@@ -32,6 +32,7 @@
 * [Commit and Push to Heroku, Again](commit_and_push_to_heroku_again)  
 
 ## Rails Navigation, Links, and Routes ##
+* [_Lecture Slides: Rails Navigation, Links, and Routes_](https://docs.google.com/presentation/d/1e-M7zJN-x8V5GBM-hGq3zIk2UMjLb8t5YlNvZFVv51Q/present#slide=id.p)
 * [Setting the Default Page](setting_the_default_page)  
 * [Redirect to the Topics List After Creating a New Topic](redirect_to_the_topics_list_after_creating_a_new_topic)  
 * [Make the Topic Title a Link](make_the_topic_title_a_link)  
