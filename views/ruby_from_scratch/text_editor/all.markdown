@@ -48,6 +48,13 @@ For Fedora, we'll type these commands in the Terminal:
 TODO
 ```
 
+For Mint and other non-Ubuntu distros, type these commands in the Terminal:
+
+```text
+sudo apt-get update
+sudo apt-get install gedit-plugins
+```
+
 ### 2. Open your Editor
 
 #### Windows
