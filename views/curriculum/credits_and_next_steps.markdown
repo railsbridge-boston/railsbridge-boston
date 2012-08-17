@@ -24,7 +24,6 @@
 ## What next?
 * Learn More Ruby
 * Learn More Rails
-* Join us at a BostonRB Project Night
+* Come to a Project Night
 * Take a class
 * Be a TA at an upcoming workshop
-* ...?
