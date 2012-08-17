@@ -54,6 +54,28 @@ type:
     log out and log back in again, do so from the Apple menu.
 
 
+Now install [Xcode version 3.1.4](http://adcdownload.apple.com/Developer_Tools/xcode_3.1.4_developer_tools/xcode314_2809_developerdvd.dmg).
+If that direct link does not work, the download can be found by searching the
+[developer downloads](https://developer.apple.com/downloads).  Log in with
+your Apple ID.  You should get to the page [Downloads for Apple Developers](https://developer.apple.com/downloads/index.action).
+Then enter "Xcode 3" on the left, directly below the title "Downloads for Apple
+Developers".  Click on "Xcode 3.1.4 Developer Tools" in the search results, and
+then download the "Xcode 3.1.4 Developer DVD" on the right.
+
+It is a large file and will take time to download, so hopefully an instructor
+will have it on a thumb drive.
+
+When you have the file, click on it to open the contents.  Then double-click on
+the icon that looks like a partly-opened yellow box to start the installation.
+
+Make sure, when you get to check off which components to install, that you check
+"Command Line Tools" and/or "Unix Command Line Tools".
+
+When installation has completed, you should be in good shape!  Skip below to the
+next section, 'General Installation.'  (Note you've already installed Homebrew,
+so you can skip that.)
+
+
 ## OSX 10.6
 
 * Install XCode 3.2. You will need a paid Apple Devloper's account to
