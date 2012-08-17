@@ -83,8 +83,8 @@ def index
 end
 ```
 
-Now when you visit [http://localhost:3000/topics], you shouldn't see all of
-the topics unless you have less than 25.
+Now when you visit [http://localhost:3000/topics](http://localhost:3000/topics),
+you shouldn't see all of the topics unless you have less than 25.
 
 If you want to see the second page, try adding `?page=2` to the end of the URL.
 
@@ -103,6 +103,13 @@ above the line that says `<br />`:
 
 Now, when you refresh the page, you should see a list of pages at the bottom,
 along with *Prev* and *Next* links.
+
+## Further Exploration
+* Look at the settings file we generated earlier
+  (`config/initializers/kaminari_config.rb`) and try making changes to it. See
+  if you can change the number of entries that show on a page. (Remember, in
+  Ruby lines that start with a `#` are Comments and are ignored by the computer)
+
 
 ## Finished
 
