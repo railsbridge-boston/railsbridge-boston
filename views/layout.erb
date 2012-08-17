@@ -38,7 +38,36 @@
             <li <%= 'class="active"' if @section == :friday_night %>><a href="/friday">Friday</a></li>
             <li <%= 'class="active"' if @section == :curriculum %>><a href="/curriculum/curriculum_toc">Saturday</a></li>
             <li><a href="/parking">Parking</a></li>
-            <li class="pull-right"><a href="http://bostonrb.org">BostonRB</a></li>
+            <li><a href="http://bostonrb.org">BostonRB</a></li>
+          <% if @curriculum %>
+            <li class="curriculum-content dropdown pull-right">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curriculum Contents<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="curriculum">Intro</a></li>
+                <li><a href="ruby_language">The Ruby Language</a></li>
+                <li><a href="tools">Tools to Help You Learn Ruby</a></li>
+                <li><a href="getting_started">Creating a Rails Application</a></li>
+                <li><a href="create_a_new_git_repo">Create a Git Repo</a></li>
+                <li><a href="add_the_project_to_the_git_repo">Add the Project Files to the Git Repo</a></li>
+                <li><a href="running_your_application_locally">Run Your Application on Your Machine</a></li>
+                <li><a href="deploy_to_heroku">Deploy to Heroku</a></li>
+                <li><a href="creating_a_migration">Creating and Running a Database Migration</a></li>
+                <li><a href="CRUD_with_scaffolding">CRUD with Scaffolding</a></li>
+                <li><a href="commit_and_push_to_heroku">Commit and Push to Heroku</a></li>
+                <li><a href="voting_on_topics">Voting on Topics</a></li>
+                <li><a href="hooking_up_votes_and_topics">Hooking Up Votes and Topics</a></li>
+                <li><a href="allow_people_to_vote">Allow People to Vote</a></li>
+                <li><a href="commit_and_push_to_heroku_again">Commit and Push to Heroku, Again</a></li>
+                <li><a href="setting_the_default_page">Setting the Default Page</a></li>
+                <li><a href="redirect_to_the_topics_list_after_creating_a_new_topic">Redirect to the Topics List After Creating a New Topic</a></li>
+                <li><a href="make_the_topic_title_a_link">Make the Topic Title a Link</a></li>
+                <li><a href="clean_up_links_on_the_topics_list">Clean Up Links on the Topics List</a></li>
+                <li><a href="commit_and_push_to_heroku_yet_again">Commit and Push to Heroku, Yet Again</a></li>
+                <li><a href="credits_and_next_steps">Credits</a></li>
+              </ul>
+            </li>
+          <% end %>
+
           </ul>
         </div>
        </div>
@@ -46,39 +75,6 @@
    </div>
 
   <div class="container">
-    <% if @curriculum %>
-      <div class="subnav">
-        <ul class="nav nav-pills">
-          <li class="curriculum-content dropdown pull-right">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curriculum Contents<b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="curriculum">Intro</a></li>
-              <li><a href="ruby_language">The Ruby Language</a></li>
-              <li><a href="tools">Tools to Help You Learn Ruby</a></li>
-              <li><a href="getting_started">Creating a Rails Application</a></li>
-              <li><a href="create_a_new_git_repo">Create a Git Repo</a></li>
-              <li><a href="add_the_project_to_the_git_repo">Add the Project Files to the Git Repo</a></li>
-              <li><a href="running_your_application_locally">Run Your Application on Your Machine</a></li>
-              <li><a href="deploy_to_heroku">Deploy to Heroku</a></li>
-              <li><a href="creating_a_migration">Creating and Running a Database Migration</a></li>
-              <li><a href="CRUD_with_scaffolding">CRUD with Scaffolding</a></li>
-              <li><a href="commit_and_push_to_heroku">Commit and Push to Heroku</a></li>
-              <li><a href="voting_on_topics">Voting on Topics</a></li>
-              <li><a href="hooking_up_votes_and_topics">Hooking Up Votes and Topics</a></li>
-              <li><a href="allow_people_to_vote">Allow People to Vote</a></li>
-              <li><a href="commit_and_push_to_heroku_again">Commit and Push to Heroku, Again</a></li>
-              <li><a href="setting_the_default_page">Setting the Default Page</a></li>
-              <li><a href="redirect_to_the_topics_list_after_creating_a_new_topic">Redirect to the Topics List After Creating a New Topic</a></li>
-              <li><a href="make_the_topic_title_a_link">Make the Topic Title a Link</a></li>
-              <li><a href="clean_up_links_on_the_topics_list">Clean Up Links on the Topics List</a></li>
-              <li><a href="commit_and_push_to_heroku_yet_again">Commit and Push to Heroku, Yet Again</a></li>
-              <li><a href="credits_and_next_steps">Credits</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    <% end %>
-
     <%= yield %>
 
     <footer class="footer">
