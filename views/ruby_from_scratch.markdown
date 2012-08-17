@@ -1,6 +1,5 @@
 # Friday Setup: Installfest
 
-
 Install Ruby, Install a Text Editor, and Start Coding
 
 At the end of this tutorial, you will have all the tools you need to write and run Ruby code. Work thourgh

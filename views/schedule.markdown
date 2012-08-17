@@ -1,3 +1,9 @@
+<div class="alert alert-info">
+  Please remember to bring your laptop and
+power cable. Also try to charge your laptop 
+battery before you arrive in case you want to move around with your laptop.
+</div>
+
 
 # Schedule
 
