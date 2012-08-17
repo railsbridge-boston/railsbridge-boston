@@ -38,7 +38,8 @@ instructor to help diagnose the installation issue.
     echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
     ```
 
-    **Zsh note**: Modify your `~/.zshenv` file instead of `~/.bash_profile`.
+    **Linux Mint and Ubuntu 10.10**: Modify your `~/.bashrc` file instead of `~/.bash_profile`.  
+    **Zsh**: Modify your `~/.zshenv` file instead of `~/.bash_profile`.
 
 4. Add rbenv init to your shell to enable shims and autocompletion.
 
@@ -46,7 +47,8 @@ instructor to help diagnose the installation issue.
     echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
     ```
 
-    **Zsh note**: Modify your `~/.zshenv` file instead of `~/.bash_profile`.
+    **Linux Mint and Ubuntu 10.10**: Modify your `~/.bashrc` file instead of `~/.bash_profile`.  
+    **Zsh**: Modify your `~/.zshenv` file instead of `~/.bash_profile`.
 
 5. Restart your shell so the path changes take effect. You can now begin using rbenv.
 
