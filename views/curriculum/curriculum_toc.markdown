@@ -10,18 +10,19 @@
 
 ## Learning Ruby ##
 * [The Ruby Language](ruby_language)
-    * [Extra Credit: More Ruby](extra_credit/01_more_ruby)
 * [Tools to Help You Learn Ruby](tools)
+    * [Extra Credit: More Ruby](extra_credit/01_more_ruby)
 
 ## Starting a New Rails Application ##
 * [_Starting a Rails Application Slides_](/workshop/starting_a_rails_application)
 * [Creating a Rails Application](getting_started)
 * [Create a Git Repo](create_a_new_git_repo)
 * [Add the Project Files to the Git Repo](add_the_project_to_the_git_repo)
-    * [Extra Credit: Git Branches](extra_credit/02_git_branches)
 * [Run Your Application on Your Machine](running_your_application_locally)
 * [Deploy to Heroku](deploy_to_heroku)
+    * [Extra Credit: Git Branches](extra_credit/02_git_branches)
     * [Extra Credit: More Heroku](extra_credit/03_more_heroku)
+
 
 ## Models, Scaffolding, and Migrations ##
 * [Creating and Running a Database Migration](creating_a_migration)
