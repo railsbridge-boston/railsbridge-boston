@@ -1,7 +1,7 @@
 
 # Parking Near Harvard Law School
 
-Most parking around Harvard Law School is residential permit parking and metered parking. If coming by car, 
+Most parking around Harvard Law School is residential permit parking and metered parking (free after 6pm and all-day Sunday around the Harvard Law School). If coming by car, 
 the most convenient parking options are 
 
 * [Church Street Parking Lot](http://www.harvardsquare.com/Home/Services/The-Church-Street-Parking-Lot.aspx)
