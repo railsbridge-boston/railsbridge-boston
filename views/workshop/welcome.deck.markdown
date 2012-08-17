@@ -102,7 +102,7 @@ We want the community of software developers to reflect the diversity of our soc
 <!SLIDE bullets>
 # Materials
 * Slides: <http://workshop.bostonrb.org/workshop/workshop>
-* Suggestotron Curriculum: <http://workshop.bostonrb.org/curriculum/curriculum_toc>
+* Suggestotron Curriculum: <http://workshop.bostonrb.org/curriculum/curriculum>
 
 <!SLIDE bullets>
 # What will you learn today?
