@@ -8,9 +8,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { font-size: 30px; }
 h2 { font-size: 22px; }
 
-#lesson-format {
+#lesson-format, .aside {
   padding: 0em 2em 1em 2em;
-  border: 1px solid #CCC; 
+  border: 1px solid #CCC;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
