@@ -5,6 +5,29 @@ can do this by clicking on the Apple in the upper-left and clicking
 'About this Mac'. If at any time something goes wrong please call in an
 instructor to help.
 
+## Getting XCode
+
+XCode is the large suite of Apple developer tools that you need in order to
+install ruby and the other tools we will be using.  It is a very large download,
+and Apple's Developer Resources website isn't easy to navigate, so the
+easiest solution will be to borrow a thumb drive from an instructor with the
+proper version of XCode for you.
+
+If you want to download XCode from Apple directly, be aware that Apple will
+ask you to register as an Apple Developer and create an Apple ID.  They'll
+ask for some personal information, including your email address.
+
+They'll also ask about what kind of development you'll be doing.  If you don't
+know what kind of development you'll be doing, don't worry; the page seems to
+accept any answers without complaint.
+
+Be aware that you *do not* need to pay to register as an Apple Developer.
+To register as an Apple Developer for free, scroll to the bottom of
+[Which Developer Program is for you?](https://developer.apple.com/programs/which-program/).
+The last choice, "Register as an Apple Developer", allows you to register and
+create an Apple ID without paying to enroll.
+
+
 ## OSX 10.5 and lower
 
 * Please call an instructor over to help. Unfortunately the odds are
@@ -13,10 +36,11 @@ help.
 
 ## OSX 10.6
 
-* Install XCode 3.2. You will need a paid Apple Devloper's account to
-download this from the [Apple Developer website](https://developer.apple.com/). More likely there
-will be someone with a thumb drive that has that version of Xcode. Skip
-to General Installation.
+* Install XCode 3.2.  Hopefully there will be an instructor available
+with a thumb drive that has that version of Xcode.
+
+Make sure XCode and the Command Line Tools are fully installed
+(an instructor can help), and then proceed to General Installation.
 
 ## OSX 10.7+
 
