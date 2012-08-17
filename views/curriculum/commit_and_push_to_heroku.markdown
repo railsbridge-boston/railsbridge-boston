@@ -16,8 +16,8 @@ heroku run rake db:migrate
 ![](/images/info.png) There is a period after the word add in the first line
 
 ### Step 2: Check that it worked
-Open your heroku app in the browser again by typing `heroku open`, then add "topics" to the end of the url. 
-So if your app is called at <http://fierce-meadow-4845.heroku.com/> it should look lile 
+Open your heroku app in the browser again by typing `heroku open`, then add "topics" to the end of the url.
+So if your app is called at <http://fierce-meadow-4845.heroku.com/> it should look lile
 <http://fierce-meadow-4845.heroku.com/topics>
 
 
@@ -26,6 +26,10 @@ You should see a page that looks shockingly similar to the one you had locally. 
 ## Explanation
 * We've done the 'git' steps before, so we won't go over that again...
 * `heroku run rake` executes a rake task on your server, in this case, `db:migrate`, just like you did locally.
+
+## Extra Credit
+Finish a little early? Try [working with the console](extra_credit/02_console).
+
 
 ## Next Step
 Go on to [Voting on Topics](voting_on_topics)
