@@ -31,7 +31,7 @@ topic.save
 We just created a new topic in our database, using Rails!
 
 If you would like to see it, you can start the server and visit
-http://localhost:3000/
+[http://localhost:3000/topics](http://localhost:3000/topics)
 
 ### Step 3: Create 100 New Topics!
 
@@ -60,7 +60,13 @@ at least 101.
 ### Step 4: Quit the Console
 
 All you need to do is type `quit` to leave the console. If that doesn't work,
-try pressing ^C (Control+C).
+try pressing `^C` (Control+C).
+
+## Further Exploration
+* Try creating some records on Heroku, instead of on your local machine (Hint: try `heroku run console` instead of `rails console`)
+* Try making some changes to the Topics you create, or to the number of Topics.
+  Be careful, though! If you make too many topics, you can always start over with
+  `Topic.delete_all`.
 
 
 ## All Done!
