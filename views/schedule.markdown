@@ -50,5 +50,7 @@ td:first-child { width:7em; text-align:right}
   won't identify  any attendees (in captions, etc.) without consent. If
   you would not like to appear in any event pictures at all, please let one
   of the staff members know.
+* Attendees get a drink on us at the afterparty! We'll hand out drink
+  tickets.
 
 
