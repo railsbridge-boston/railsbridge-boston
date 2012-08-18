@@ -107,8 +107,15 @@ fruits.each do |f|
 end
 ```
 
-This code goes through the fruits array item by item and runs the code between do and end for each item.
-These lines should print a list of the fruits.
+This code goes through the fruits array item by item and runs the code between `do` and `end` for each item.
+In programming lingo, this is called __iteration__. With each iteration,
+
+1. the variable `f` is reassigned to an element in `fruits`, going in
+   order
+2. whatever value the variable `f` contains is passed to `puts` to print
+   out to the Terminal
+
+So the code snippet above should print a list of the fruits in `fruits`.
 
 ### Step 10
 
