@@ -52,6 +52,12 @@ This will create a file called `kaminari_config.rb` inside the
 `config/initializers` folder. You can open it to see what is in the file, but
 let's just move on for now.
 
+Restart your server to let the config changes take effect.
+
+```ruby
+rails server
+```
+
 ### Step 3: Enable Pagination for Topics
 
 Next, we are going to change the `index` method in our TopicsController. Open up
