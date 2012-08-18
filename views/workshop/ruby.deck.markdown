@@ -34,7 +34,6 @@
 # Control Structures
 * Control structures include: if, unless, while, until, and for statements, among others.
 * Ruby uses the keyword 'end' instead of braces to signify the end of a control structure.
-* The values false and nil are false, and everything else are true.
 * if: Executes code if the conditional is true.
 * unless: Executes code if conditional is false.
 * while: Executes code while conditional is true.
