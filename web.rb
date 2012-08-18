@@ -52,6 +52,12 @@ class RubyWorkshop < Sinatra::Base
     scss :"stylesheets/_coderay_github"
   end
 
+  get '/schedule' do
+    @markdown = true  # even if not technically true, we want the styling
+    erb :schedule
+  end
+
+
   # This handles default routes for the markdown files in `views/`
   # Mostly added so that people who don't want to fuss with a Sinatra app can
   # get right in and start making markdown files.
