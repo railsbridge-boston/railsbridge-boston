@@ -5,7 +5,20 @@ this short [survey](https://docs.google.com/spreadsheet/viewform?formkey=dFNmcmF
 all answers will be anonymous.
 
 By completing the survey you are entitled to receive
-2 free ebooks courtesy of O'Reilly and Pragmatic Programmers.
+2 free ebooks courtesy of [O'Reilly](http://oreilly.com/)
+and [Pragmatic Programmers](http://pragprog.com/), and 25% off at
+[learn.thoughtbot.com](http://learn.thoughtbot.com)
+
+
+## 25% Discount from Thoughtbot
+
+[Thoughtbot](http://thoughtbot.com/)
+is giving every attendee 25% off anything at [learn.thoughtbot.com](http://learn.thoughtbot.com).
+This is good for books, screencasts, and even
+the 2 day intensive in-person workshops to help people take
+their learning to the next level.
+
+You must use code **WOMENWHOCODE**
 
 
 ## Free Pragmatic Programmers Ebook
@@ -13,6 +26,7 @@ By completing the survey you are entitled to receive
 [Pragmatic Programmers](http://pragprog.com/)
 is supporting the Boston Ruby Workshop by giving a free ebook
 to every attendee. You can choose any one (1) of these titles:
+(if you're not sure, we recommend the second one)
 
 * Ruby 1.9
 * Agile Web Development with Rails, 4th edition
