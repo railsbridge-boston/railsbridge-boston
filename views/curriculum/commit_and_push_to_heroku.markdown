@@ -32,4 +32,4 @@ Finish a little early? Try [working with the console](extra_credit/04_console).
 
 
 ## Next Step
-Go on to [Voting on Topics](voting_on_topics)
+Wait for the next lecture!

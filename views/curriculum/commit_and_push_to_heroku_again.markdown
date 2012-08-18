@@ -20,4 +20,4 @@ If you already tried working with the [Rails console](extra_credit/04_console),
 why not [add some pagination](extra_credit/05_pagination)?
 
 ## Next Step
-Go on to [Setting the Default Page](setting_the_default_page)
+Wait for the next lecture!
