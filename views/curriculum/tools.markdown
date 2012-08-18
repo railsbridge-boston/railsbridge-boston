@@ -3,8 +3,8 @@
 ri is a tool to look up ruby documentation:
 
 ```ruby
-$ ri String.split
-= String.split
+$ ri String#split
+= String#split
 
 (from ruby core)
 ------------------------------------------------------------------------------
