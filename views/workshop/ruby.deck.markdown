@@ -1,8 +1,8 @@
 !SLIDE bullets
 # What is Ruby?
-* Ruby is a general purpose object oriented programming language that was first designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
-* Ruby is an interpreted language which means it gets indirectly executed by an interpreter (1.8 -> Ruby MRI, 1.9 -> YARV).
-* Interactive Ruby Shell (IRB) is a command line program that allows the execution of Ruby commands with immediate response, experimenting in real-time.
+* Ruby is a object oriented programming language, developed in the mid-1990s by Yukihiro "Matz" Matsumoto.
+* Ruby is an interpreted language, it gets executed through an interpreter program rather than a compiler. (1.8 -> Ruby MRI, 1.9 -> YARV).
+* Interactive Ruby Shell (IRB) is a command line program that allows the execution of Ruby commands directly into the interpreter.
 * Matz once stated "I hope to see Ruby help every programmer in the world to be productive, and to enjoy programming, and to be happy. That is the primary purpose of Ruby language."
 
 !SLIDE bullets
@@ -15,9 +15,8 @@
 !SLIDE bullets
 # Variables
 * Variables are used to keep track of objects, each variable holds a reference to an object.
-* No need to declare a variable.
-* Identifiers are names of variables, constants, and methods.
-* Ruby identifiers are case sensitive, therefore var myapple and var myApple are two different variables.
+* No need to declare a variable
+* Ruby identifiers are case sensitive, therefore var myapple and var myApple are two different variables
 * $ - global variable
 * @ - instance variable
 * [a-z] or _ - local variable
@@ -34,7 +33,6 @@
 # Control Structures
 * Control structures include: if, unless, while, until, and for statements, among others.
 * Ruby uses the keyword 'end' instead of braces to signify the end of a control structure.
-* The values false and nil are false, and everything else are true.
 * if: Executes code if the conditional is true.
 * unless: Executes code if conditional is false.
 * while: Executes code while conditional is true.
@@ -44,6 +42,6 @@
 !SLIDE bullets
 # Methods
 * Ruby methods are very similar to functions in any other programming language.
-* Ruby methods are used to bundle one or more repeatable statements into a single unit.
+* Ruby methods are a set of expressions that returns a value. 
 * Method names should begin with a lowercase letter.
 * Every method in Ruby returns a value by default, the returned value will be the value of the last statement.
