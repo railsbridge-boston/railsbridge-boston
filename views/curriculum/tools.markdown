@@ -33,4 +33,4 @@ If you like, there is always [more Ruby](extra_credit/01_more_ruby) to learn.
 
 ## Next Step
 
-Go on to [Getting Started](getting_started)
+What for the next lecture!
