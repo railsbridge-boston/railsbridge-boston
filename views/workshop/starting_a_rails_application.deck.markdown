@@ -74,7 +74,7 @@
 * Use Bundler to install dependencies
   * Uses Gemfile
 
-* Rails program to start developmet server
+* Rails program to start development server
   * Runs a basic Ruby web/HTTP server
 
 * Lets you see changes as you code
