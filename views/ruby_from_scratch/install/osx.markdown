@@ -30,9 +30,74 @@ create an Apple ID without paying to enroll.
 
 ## OSX 10.5 and lower
 
-* Please call an instructor over to help. Unfortunately the odds are
-  very high with an operating system this old we might not be able to
-help.
+Please call an instructor over to help. Unfortunately, we might not be
+successful since this version of OS X is older.  However, these guidelines
+worked for a MacBook running OS X 10.5.8:
+
+#### Homebrew
+
+* Make sure your computer is up to date, and 'About This Mac' (above)
+shows 10.5.8.  If it shows '10.5.7' or lower, then from the Apple Menu, click on
+"Software Update..." and allow the system software to update itself.  This might
+take a while to complete.
+
+* Fortunately your computer should have an old version of ruby installed.
+Therefore, you can install a program called 'Homebrew', which will help us past
+a couple of hurdles.  The [Homebrew installation](http://mxcl.github.com/homebrew/)
+is simple:
+
+    - Open Terminal (for instructions, see below on this page under General installation)
+    - Cut and paste this text into the terminal window:
+
+    ```text
+    ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
+    ```
+
+    The Homebrew installation script will output details about the installation
+    in Terminal.  It will pause to explain what it is doing.  Agree to
+    the defaults if it asks.  (One explanation is that it will set a default
+    setting to be `/usr/local/bin`.)
+
+    Make note of any instructions it outputs at the end of installation.
+
+* Use Homebrew to install `wget` and to upgrade `bash`.  Inside the Terminal,
+type:
+
+    ```text
+    brew install wget
+    brew install bash
+    ```
+
+    These will take a bit of time.  Homebrew will mention inside Terminal that
+    it is installing dependencies, which is fine.  Again, note any instructions
+    it mentions when it finishes each command you entered.
+
+    Then quit Terminal entirely (pressing the Command key and the 'q' key at the
+    same time will quit almost any program).  If you received instructions to
+    log out and log back in again, do so from the Apple menu.
+
+
+Now install [Xcode version 3.1.4](http://adcdownload.apple.com/Developer_Tools/xcode_3.1.4_developer_tools/xcode314_2809_developerdvd.dmg).
+If that direct link does not work, the download can be found by searching the
+[developer downloads](https://developer.apple.com/downloads).  Log in with
+your Apple ID.  You should get to the page [Downloads for Apple Developers](https://developer.apple.com/downloads/index.action).
+Then enter "Xcode 3" on the left, directly below the title "Downloads for Apple
+Developers".  Click on "Xcode 3.1.4 Developer Tools" in the search results, and
+then download the "Xcode 3.1.4 Developer DVD" on the right.
+
+It is a large file and will take time to download, so hopefully an instructor
+will have it on a thumb drive.
+
+When you have the file, click on it to open the contents.  Then double-click on
+the icon that looks like a partly-opened yellow box to start the installation.
+
+Make sure, when you get to check off which components to install, that you check
+"Command Line Tools" and/or "Unix Command Line Tools".
+
+When installation has completed, you should be in good shape!  Skip below to the
+next section, 'General Installation.'  (Note you've already installed Homebrew,
+so you can skip that.)
+
 
 ## OSX 10.6
 
