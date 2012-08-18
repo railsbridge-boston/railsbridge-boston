@@ -94,7 +94,7 @@ Each lesson will look like this:
   end </pre>
 
   <h2>Explanation</h2>
-  <p>Details of what the steps actually did... spell out the cause and effect.</p>
+  <p>An explanation of what the steps actually did.</p>
 
 </div>
 
