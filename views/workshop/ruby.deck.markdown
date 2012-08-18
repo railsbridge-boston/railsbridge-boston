@@ -27,7 +27,7 @@
 * Ruby’s arrays and hashes are indexed collections.
 * Both store collections of varying objects, accessible using a key.
 * An Array's key is an integer: a = ["one", "two", "three", "four"] 
-* A Hash's key can be any object: h = {"a" => "one", "b" = "two", "c" => "three", "d" => "four"}
+* A Hash's key can be any object: h = {"a" => "one", "b" => "two", "c" => "three", "d" => "four"}
 
 !SLIDE bullets
 # Control Structures
@@ -42,6 +42,6 @@
 !SLIDE bullets
 # Methods
 * Ruby methods are very similar to functions in any other programming language.
-* Ruby methods are a set of expressions that returns a value. 
+* Ruby methods are a grouping of expressions that do a task.
 * Method names should begin with a lowercase letter.
 * Every method in Ruby returns a value by default, the returned value will be the value of the last statement.
