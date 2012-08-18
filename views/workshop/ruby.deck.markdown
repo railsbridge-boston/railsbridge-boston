@@ -16,7 +16,6 @@
 # Variables
 * Variables are used to keep track of objects, each variable holds a reference to an object.
 * No need to declare a variable
-* Identifiers are names of variables, constants, and methods
 * Ruby identifiers are case sensitive, therefore var myapple and var myApple are two different variables
 * $ - global variable
 * @ - instance variable
