@@ -1,4 +1,14 @@
 # Other Tools to Help You Learn Ruby
+
+
+
+<div class="alert alert-info">
+Some of the commands on this page may not work depending on your setup.
+If you run into problems, don't worry about it, just move onto the next
+section!
+</div>
+
+
 ### ri
 ri is a tool to look up ruby documentation:
 
