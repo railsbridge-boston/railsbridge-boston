@@ -1,7 +1,7 @@
 !SLIDE bullets
 # What is Ruby?
 * Ruby is a object oriented programming language, developed in the mid-1990s by Yukihiro "Matz" Matsumoto.
-* Ruby is an interpreted language, it gets executed by an interpreter (1.8 -> Ruby MRI, 1.9 -> YARV).
+* Ruby is an interpreted language, it gets executed through an interpreter program rather than a compiler. (1.8 -> Ruby MRI, 1.9 -> YARV).
 * Interactive Ruby Shell (IRB) is a command line program that allows the execution of Ruby commands, experimenting in real-time.
 * Matz once stated "I hope to see Ruby help every programmer in the world to be productive, and to enjoy programming, and to be happy. That is the primary purpose of Ruby language."
 
