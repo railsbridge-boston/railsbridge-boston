@@ -88,13 +88,30 @@ ls
 `ls` stands for 'list (stuff)'.
 It shows you the contents of the current folder.
 
-Type this in the terminal 
+The `tree` command can show you how files are laid out in your project
+folder.
+
+If you are using OS X, you may first need to install the `tree` command
+by typing this command:
+
+```text
+brew install tree
+```
+
+Assuming that you have the `tree` command installed, if you are using OS
+X or Linux, type this in the terminal: 
 
 ```text
 tree -d
 ```
 
-This shows you the entire directory tree of your project so you can see all the folders.
+If you on Windows, just type
+
+```text
+tree 
+```
+
+You should see the entire directory tree of your project so you can see all the folders. 
 
 You can see that `rails new` created a lot directories and files. The ones we want to focus on today are:
 
