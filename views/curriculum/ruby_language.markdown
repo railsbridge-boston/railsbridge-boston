@@ -36,42 +36,42 @@ Ruby can do simple math automatically.
 Type this in the terminal
 
 ```ruby
-my_variable = 5
+foo = 5
 ```
 Variables are words that hold information. Here we're holding a 5 with the word
-`my_variable`.
+`foo`.
 
 ### Step 4
 
 Type this in the terminal
 
 ```ruby
-my_variable + 2
-my_variable * 3
+foo + 2
+foo * 3
 ```
 
-Ruby remembers that we are holding a 5 with the words my_variable and can use that 5 do to math.
+Ruby remembers that we are holding a 5 with the word `foo` and can use that 5 do to math.
 
 ### Step 5
 
 Type this in the terminal
 
 ```ruby
-puts my_variable
+puts foo
 ```
 
-puts prints the value of what comes after it. In this case it should print 5 since my_variable is holding a 5.
+puts prints the value of what comes after it. In this case it should print 5 since `foo` is holding a 5.
 
 ### Step 6
 
 We can change the value that a variable holds. Try the following:
 
 ```ruby
-my_variable = my_variable + 10
-puts my_variable
+foo = foo + 10
+puts foo
 ```
 
-Now puts prints 15 because we added 10 to the value of my_variable and stored the new value in the same variable.
+Now puts prints 15 because we added 10 to the value of `foo` and stored the new value in the same variable.
 
 ### Step 7
 
@@ -115,12 +115,12 @@ These lines should print a list of the fruits.
 Type this in the terminal
 
 ```ruby
-if my_variable > 1
+if foo > 1
   puts "YAY!"
 end
 ```
 
-This prints `YAY!` if the value stored in `my_variable` is greater than 1. Since the code only runs when certain
+This prints `YAY!` if the value stored in `foo` is greater than 1. Since the code only runs when certain
 conditions are met if is called a **conditional**.
 
 ## Next Step
