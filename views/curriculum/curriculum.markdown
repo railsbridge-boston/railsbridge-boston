@@ -83,9 +83,9 @@ Each lesson will look like this:
 
 <div id="lesson-format">
   <h2>Step Title</h2>
-  <h2>Goal:</h2>
+  <h2>Goal</h2>
   <p>Description of the current step.</p>
-  <h2>Steps:</h2>
+  <h2>Steps</h2>
   <p>Steps to take.</p>
 
   <pre>
