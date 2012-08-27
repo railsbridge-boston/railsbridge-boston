@@ -1,4 +1,4 @@
-# boston-railsbridge
+# railsbridge-boston
 
-This is the website for the Boston Railsbridge Workshop for women and their
+This is the website for the Railsbridge Boston Workshop for women and their
 friends.
