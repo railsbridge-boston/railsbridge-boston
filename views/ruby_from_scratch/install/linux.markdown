@@ -14,13 +14,14 @@ instructor to help diagnose the installation issue.
 
     ```text
     sudo apt-get update  
-    sudo apt-get install -y git-core wget zlib1g-dev libssl-dev libreadline-dev sqlite3 libsqlite3-dev
+    sudo apt-get install -y build-essential git-core wget zlib1g-dev libssl-dev libreadline-dev sqlite3 libsqlite3-dev
     ```
 
     For Fedora:
 
     ```text
     sudo yum update   
+    sudo yum groupinstall "Development Tools"
     sudo yum install -y git wget zlib1g-dev libssl-dev libreadline-dev sqlite3 libsqlite3-dev
     ```
 
