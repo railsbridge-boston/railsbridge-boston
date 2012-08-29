@@ -103,6 +103,13 @@ instructor to help diagnose the installation issue.
     gem install bundler rails heroku
     ```
 
+12. Run `rbenv rehash` again so you can access the gems you just installed:
+
+    ```text
+    rbenv rehash
+    ```
+
+
 Congratulations, you now have the Ruby development environment up and
 running. Now go forth and do something awesome with it!
 
