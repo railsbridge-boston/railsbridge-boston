@@ -1,8 +1,8 @@
 # Install Ruby on Linux
 
 
-You need to do all the following steps in a Terminal. If you don't know
-how to open a Terminal, please ask an instructor to show you.
+You need to do all the following steps in a terminal. If you don't know
+how to open a terminal, please ask an instructor to show you.
 
 If you run into errors at any step please call in an
 instructor to help diagnose the installation issue.
@@ -14,7 +14,8 @@ instructor to help diagnose the installation issue.
 
     ```text
     sudo apt-get update  
-    sudo apt-get install -y build-essential git-core wget zlib1g-dev libssl-dev libreadline-dev sqlite3 libsqlite3-dev
+    sudo apt-get install -y build-essential git-core wget zlib1g-dev libssl-dev libreadline-dev \
+    sqlite3 libsqlite3-dev python-software-properties
     ```
 
     For Fedora:
@@ -22,7 +23,21 @@ instructor to help diagnose the installation issue.
     ```text
     sudo yum update   
     sudo yum groupinstall "Development Tools"
-    sudo yum install -y git wget zlib1g-dev libssl-dev libreadline-dev sqlite3 libsqlite3-dev
+    sudo yum install -y git wget python zlib1g-dev libssl-dev libreadline-dev sqlite3 libsqlite3-dev
+    ```
+
+2. Download an build node.js. Copy/paste this script into the terminal:
+
+    ```text
+    cd /usr/local/src
+    sudo git clone git://github.com/joyent/node.git
+
+    cd node
+    sudo git checkout v0.8.8
+
+    sudo ./configure
+    sudo make
+    sudo make install
     ```
 
 2. Check out rbenv into `~/.rbenv`.
