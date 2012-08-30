@@ -93,11 +93,7 @@ Open up User Settings (`Sublime Text 2 > Preferences > Settings - User``) and pa
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "ensure_newline_at_eof_on_save": true,
-  "new_window_settings":
-  {
-    "show_minimap": false
-  }
+  "ensure_newline_at_eof_on_save": true
 }
 ```
 
