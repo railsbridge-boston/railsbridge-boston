@@ -63,8 +63,6 @@ Rails.
 Three things stand about in retrospect as key elements that made this
 workshop successful.
 
-Three things stand about in retrospect as key elements that made this workshop successful.
-
 1. Vibe. The atmosphere of friendliness, camaraderie, and the “human
    touch” in general turned out just as important to have gotten right
    as the lesson plan. Our beginners felt comfortable, welcomed, and
@@ -82,8 +80,8 @@ Three things stand about in retrospect as key elements that made this workshop s
    where teaching assistants and students had plenty of opportunities to
    interact and chat.
 
-We also provided everyone three catered meals, free PragProg and
-O’Reilly e-books, and free drinks and appetizers at the afterparty.
+    We also provided everyone three catered meals, free PragProg and
+   O’Reilly e-books, and free drinks and appetizers at the afterparty.
 
 2. Pacing. By adding extra credit sections to the curriculum design and
    by having our teaching assistants scurry around constantly to help
@@ -97,64 +95,64 @@ O’Reilly e-books, and free drinks and appetizers at the afterparty.
 
 [ NEED lead into survey quotes here . ]
 
-Diversity of the group - I have mostly worked in programmers-only
-groups. I was delighted to see the background of not only the learners
-but also the teachers. Not intimidating or over-whelming, very inspiring
-and makes me fall in love with CS and programming all over again.
+> Diversity of the group - I have mostly worked in programmers-only
+    groups. I was delighted to see the background of not only the learners
+    but also the teachers. Not intimidating or over-whelming, very inspiring
+    and makes me fall in love with CS and programming all over again.
 
-All the leaders & TAs were so nice and approachable.  I'm always
-intimidated by these events and I felt very welcome.
+>   All the leaders & TAs were so nice and approachable.  I'm always
+    intimidated by these events and I felt very welcome.
 
-The instructions and teaching assistants absolutely MADE this workshop.
-I have done similar tasks using online tutorials.  But the volunteer
-folks were so knowledgeable and so helpful; it really made all the
-difference.
+>   The instructions and teaching assistants absolutely MADE this workshop.
+    I have done similar tasks using online tutorials.  But the volunteer
+    folks were so knowledgeable and so helpful; it really made all the
+    difference.
 
-The friendly and welcoming vibe of the group members and their clear
-love for Ruby.  I knew nothing coming in and loved that by the end I had
-a working app and a basic clear grasp of how to get there. Love that the
-sponsors are providing ebooks for us!  Assistants were very helpful.  
+>   The friendly and welcoming vibe of the group members and their clear
+    love for Ruby.  I knew nothing coming in and loved that by the end I had
+    a working app and a basic clear grasp of how to get there. Love that the
+    sponsors are providing ebooks for us!  Assistants were very helpful.  
 
-I liked the encouragement, enthusiasm and caring that was evident
-throughout by the presenters and volunteers.  It's nice to know there is
-a support system available to new Rubyists.
+    I liked the encouragement, enthusiasm and caring that was evident
+    throughout by the presenters and volunteers.  It's nice to know there is
+    a support system available to new Rubyists.
 
-I loved the set-up of the class. The amount of material in each
-mini-lecture was just enough, and I loved that we were actually allowed
-to code a bit and learn from mistakes. The TAs I spoke with were all
-excellent and seemed very eager to help. Great job guys :-)
+    I loved the set-up of the class. The amount of material in each
+    mini-lecture was just enough, and I loved that we were actually allowed
+    to code a bit and learn from mistakes. The TAs I spoke with were all
+    excellent and seemed very eager to help. Great job guys :-)
 
-The people were AWESOME. The instructors were incredibly nice and I met
-some really, really cool people.
+    The people were AWESOME. The instructors were incredibly nice and I met
+    some really, really cool people.
 
-The workshop was run very efficiently. It provided an excellent mixture
-of hands-on learning with lectures on the underlying concepts.
+    The workshop was run very efficiently. It provided an excellent mixture
+    of hands-on learning with lectures on the underlying concepts.
 
-I think everything was presented in very digestible bites, and this
-greatly facilitated learning.
+    I think everything was presented in very digestible bites, and this
+    greatly facilitated learning.
 
-Welcoming atmosphere, majority women in attendance. Meeting real
-developers in the field.
+    Welcoming atmosphere, majority women in attendance. Meeting real
+    developers in the field.
 
-I loved that there were so many teaching assistants and also that so
-much care was taken to make sure nobody fell behind in the exercises.
-The food was great as well!
+    I loved that there were so many teaching assistants and also that so
+    much care was taken to make sure nobody fell behind in the exercises.
+    The food was great as well!
 
-I have to say also that the general atmosphere of friendly cooperation
-was incredibly impressive.  It made me feel much more comfortable with
-joining the community.  I think it will make a big difference in my
-attending meetings, as well.  It's hard to just walk into a meeting of
-people you don't know.
+    I have to say also that the general atmosphere of friendly cooperation
+    was incredibly impressive.  It made me feel much more comfortable with
+    joining the community.  I think it will make a big difference in my
+    attending meetings, as well.  It's hard to just walk into a meeting of
+    people you don't know.
 
-Kudos to the organizers and volunteers for a job well-done.
+    Kudos to the organizers and volunteers for a job well-done.
 
-I really enjoyed it!  Thanks so much... I can tell a ton of hard work
-went into it.
+    I really enjoyed it!  Thanks so much... I can tell a ton of hard work
+    went into it.
 
-I really liked that we broke into smaller groups on Saturday and had a
-TA working with us the whole time. As I was among a group of more
-experienced users, I learned quite a few new things and shortcuts that I
-can start using right away in my daily work.
+    I really liked that we broke into smaller groups on Saturday and had a
+    TA working with us the whole time. As I was among a group of more
+    experienced users, I learned quite a few new things and shortcuts that I
+    can start using right away in my daily work.
 
 
 [Can we insert a graphic of the overall satisfaction rating
