@@ -867,7 +867,7 @@ form.well {
 }
 
 
-.recap {
+.recap, .recap li p {
   font-size: 14px;
   line-height: 1.5em;
 }
