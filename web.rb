@@ -72,6 +72,8 @@ class RubyWorkshop < Sinatra::Base
     elsif File.exist? "views/#{page}.markdown"
       @markdown = true
       markdown page.intern
+    elsif File.exist? "views/#{page}.erb"
+      erb page.intern
     else
       forward
     end
