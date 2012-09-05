@@ -865,3 +865,12 @@ form.well {
 #contact {
   clear: both;
 }
+
+
+.recap {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.recap-images img {
+  margin: 10px 0;
+}
