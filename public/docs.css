@@ -891,6 +891,6 @@ form.well {
 blockquote {
   border-left: 3px solid #CCC;
 }
-.survey {
-  
+.survey img {
+  margin-bottom: 1.5em;
 }
