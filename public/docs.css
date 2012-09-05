@@ -867,10 +867,20 @@ form.well {
 }
 
 
+.recap {
+  font-family: Verdana;
+}
 .recap, .recap li p {
   font-size: 14px;
   line-height: 1.5em;
 }
 .recap-images img {
   margin: 10px 0;
+}
+.recap blockquote,
+  .recap blockquote p {
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.5em;
+  margin-bottom: 1em;
 }
