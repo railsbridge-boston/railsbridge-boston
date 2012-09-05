@@ -882,10 +882,13 @@ form.well {
 }
 .recap blockquote,
   .recap blockquote p {
-  font-size: 13px;
+  font-size: 14px;
   font-style: italic;
   line-height: 1.5em;
   margin-bottom: 1.5em;
+}
+blockquote {
+  border-left: 3px solid #CCC;
 }
 .survey {
   
