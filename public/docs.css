@@ -870,6 +870,9 @@ form.well {
 .recap {
   font-family: Verdana;
 }
+.recap p {
+  margin-bottom: 1.5em;
+}
 .recap, .recap li p {
   font-size: 14px;
   line-height: 1.5em;
