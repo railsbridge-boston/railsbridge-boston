@@ -51,12 +51,6 @@ We will add commands to the `.bashrc` file to configure our bash environment.
     ```
     This asks Notepad to open a file named `.bashrc` in your home directory, here represented by a tilda (`~`).
 
-<div class="pull-right well span4">
-  <p>
-    This is a sidebar.
-  </p>
-</div>
-
 <!---
 TODO: "What is a home directory?"
 -->
