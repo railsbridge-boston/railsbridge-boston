@@ -894,3 +894,8 @@ blockquote {
 .survey img {
   margin-bottom: 1.5em;
 }
+.recap p.mini-lecturers img {
+  margin-right: 10px;
+  margin-bottom: 13px;
+
+}
