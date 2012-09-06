@@ -883,6 +883,6 @@ blockquote {
 }
 .recap p.mini-lecturers img {
   margin-right: 10px;
-  margin-bottom: 13px;
-
+  margin-bottom: 0px;
+  width: 100%;
 }
