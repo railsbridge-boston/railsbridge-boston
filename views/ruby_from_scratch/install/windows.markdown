@@ -61,7 +61,7 @@ TODO: "What is a home directory?"
 
     ```text
     # More helpful file list
-    alias ls=ls -Alh --color=always
+    alias ls='ls -Alh --color=always'
 
     # Fix quirks in the way ruby scripts are run (https://groups.google.com/forum/#!msg/railsinstaller/lBB_4szHcxI/slbv7nL1eR4J)
     alias irb='ruby -S irb'
