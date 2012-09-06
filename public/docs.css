@@ -176,7 +176,7 @@ hr.soften {
 }
 
 /* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
-@media (min-width: 980px) {
+/*@media (min-width: 980px) {
   .subnav-fixed {
     position: fixed;
     top: 0;
@@ -205,7 +205,7 @@ hr.soften {
             border-radius: 0;
   }
 }
-
+*/
 
 /* Quick links
 -------------------------------------------------- */
