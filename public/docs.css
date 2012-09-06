@@ -11,37 +11,24 @@
 -------------------------------------------------- */
 body {
   position: relative;
-  padding-top: 4em;
-/*  background-color: #fff;
-  background-image: url(../img/grid-18px-masked.png);*/
   background-repeat: repeat-x;
   background-position: 0 40px;
 }
 
-
-/* Tweak navbar brand link to be super sleek
--------------------------------------------------- */
-/*.navbar-fixed-top .brand {
-  padding-right: 0;
-  padding-left: 0;
-  margin-left: 20px;
-  float: right;
-  font-weight: bold;
-  color: #000;
-  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
-  -webkit-transition: all .2s linear;
-     -moz-transition: all .2s linear;
-          transition: all .2s linear;
+body > .container {
+  margin-bottom: 3em;
 }
-.navbar-fixed-top .brand:hover {
-  text-decoration: none;
-}*/
 
+.navbar-inner {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 6px;
+          border-radius: 0 0 4px 4px;
+}
 
 /* Space out sub-sections more
 -------------------------------------------------- */
 section {
-  padding-top: 60px;
+  padding-top: 2em;
 }
 
 /* Faded out hr */
@@ -60,10 +47,10 @@ hr.soften {
 -------------------------------------------------- */
 .jumbotron {
   position: relative;
-  margin-top: 3em;
+  margin-top: 1em;
 }
 .jumbotron h1 {
-  margin-bottom: 9px;
+  margin-bottom: 12px;
   font-size: 41px;
   font-weight: bold;
   letter-spacing: -1px;
@@ -192,7 +179,7 @@ hr.soften {
 @media (min-width: 980px) {
   .subnav-fixed {
     position: fixed;
-    top: 40px;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */

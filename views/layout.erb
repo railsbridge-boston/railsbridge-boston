@@ -14,7 +14,6 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <!-- Le styles -->
   <link href="/bootstrap.min.css" rel="stylesheet">
   <link href="/bootstrap-responsive.css" rel="stylesheet">
   <link href="/docs.css" rel="stylesheet">
@@ -22,113 +21,10 @@
 </head>
 
 <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="50">
-   <div class="navbar navbar-fixed-top">
-     <div class="navbar-inner">
-       <div class="container">
-         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </a>
-         <a class="brand" href="/">RailsBridge Boston</a>
-
-         <div class="nav-collapse">
-           <ul class="nav">
-            <li><a href="/schedule">Schedule</a></li>
-            <li <%= 'class="active"' if @section == :friday_night %>><a href="/friday">Friday</a></li>
-            <li <%= 'class="active"' if @section == :curriculum %>><a href="/curriculum/curriculum_toc">Saturday</a></li>
-          <% if @curriculum %>
-            <li class="curriculum-content dropdown pull-right">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curriculum Contents<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li class='nav-header'>Introduction</li>
-                  <li><i><a href="/workshop/opening">Opening Slides</a></i></li>
-                  <li><a href="/curriculum/curriculum">Intro</a></li>
-                <li class='divider'></li>
-                <li>
-                  <a href="/curriculum/ruby_language">Learning Ruby</a>
-                  <ul class='dropdown-menu'>
-                    <li class='nav-header'>Learning Ruby</li>
-                    <li><a href="/curriculum/ruby_language">The Ruby Language</a></li>
-                    <li><a href="/curriculum/tools">Tools to Help You Learn Ruby</a></li>
-                    <li class='divider'></li>
-                    <li><a href="/curriculum/extra_credit/01_more_ruby">Extra Credit: More Ruby</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="/curriculum/getting_started">Starting a New Rails Application</a>
-                  <ul class='dropdown-menu'>
-                    <li class='nav-header'>Starting a New Rails Application</li>
-                    <li><i><a href="/workshop/starting_a_rails_application">Starting a Rails Application Slides</a></i></li>
-                    <li><a href="/curriculum/getting_started">Creating a Rails Application</a></li>
-                    <li><a href="/curriculum/create_a_new_git_repo">Create a Git Repo</a></li>
-                    <li><a href="/curriculum/add_the_project_to_the_git_repo">Add the Project Files</a></li>
-                    <li><a href="/curriculum/running_your_application_locally">Run Your Application on Your Machine</a></li>
-                    <li><a href="/curriculum/deploy_to_heroku">Deploy to Heroku</a></li>
-                  <li class='divider'></li>
-                    <li><a href="/curriculum/extra_credit/02_git_branches">Extra Credit: Git Branches</a></li>
-                    <li><a href="/curriculum/extra_credit/03_more_heroku">Extra Credit: More Heroku</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="/curriculum/creating_a_migration">Models, Scaffolding, and Migrations</a>
-                  <ul class='dropdown-menu'>
-                    <li class='nav-header'>Models, Scaffolding, and Migrations</li>
-                    <li><a href="/curriculum/creating_a_migration">Creating and Running a Database Migration</a></li>
-                    <li><a href="/curriculum/CRUD_with_scaffolding">CRUD with Scaffolding</a></li>
-                    <li><a href="/curriculum/commit_and_push_to_heroku">Commit and Push to Heroku</a></li>
-                  <li class='divider'></li>
-                    <li><a href="/curriculum/extra_credit/04_console">Extra Credit: The Rails Console</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="/curriculum/voting_on_topics">Model Associations and 'MVC'</a>
-                  <ul class='dropdown-menu'>
-                    <li class='nav-header'>Model Associations and 'MVC'</li>
-                    <li><a href="/curriculum/voting_on_topics">Voting on Topics</a></li>
-                    <li><a href="/curriculum/hooking_up_votes_and_topics">Hooking Up Votes and Topics</a></li>
-                    <li><a href="/curriculum/allow_people_to_vote">Allow People to Vote</a></li>
-                    <li><a href="/curriculum/commit_and_push_to_heroku_again">Commit and Push to Heroku, Again</a></li>
-                  <li class='divider'></li>
-                    <li><a href="/curriculum/extra_credit/05_pagination">Extra Credit: Pagination</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="/curriculum/setting_the_default_page">Rails Navigation, Links, and Routes</a>
-                  <ul class='dropdown-menu'>
-                    <li class='nav-header'>Rails Navigation, Links, and Routes</li>
-                    <li><i><a href="https://docs.google.com/presentation/d/1e-M7zJN-x8V5GBM-hGq3zIk2UMjLb8t5YlNvZFVv51Q/present#slide=id.p">Rails Navigation, Links, and Routes Slides</a></i></li>
-                    <li><a href="/curriculum/setting_the_default_page">Setting the Default Page</a></li>
-                    <li><a href="/curriculum/redirect_to_the_topics_list_after_creating_a_new_topic">Redirect to the Topics List</a></li>
-                    <li><a href="/curriculum/make_the_topic_title_a_link">Make the Topic Title a Link</a></li>
-                    <li><a href="/curriculum/clean_up_links_on_the_topics_list">Clean Up Links on the Topics List</a></li>
-                    <li><a href="/curriculum/commit_and_push_to_heroku_yet_again">Commit and Push to Heroku, Yet Again</a></li>
-                  </ul>
-                </li>
-                <li class='divider'></li>
-                <li class='nav-header'>Wrapping Up</li>
-                  <li><a href="/curriculum/credits_and_next_steps">Credits</a></li>
-              </ul>
-            </li>
-          <% else %>
-            <li><a href="/closing">Closing</a></li>
-            <li><a href="/parking">Parking</a></li>
-            <li><a href="http://workshops.railsbridge.org/">RailsBridge</a></li>
-            <li><a href="https://openhatch.org">OpenHatch</a></li>
-            <li><a href="http://bostonrb.org">BostonRB</a></li>
-          <% end %>
-
-          </ul>
-        </div>
-       </div>
-     </div>
-   </div>
-
   <div class="container">
-    <%= yield %>
+    <%= erb :navbar %>
 
-    <footer class="footer">
-    </footer>
+    <%= yield %>
   </div>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>

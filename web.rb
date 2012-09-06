@@ -57,6 +57,9 @@ class RubyWorkshop < Sinatra::Base
     erb :schedule
   end
 
+  get '/blog' do
+    erb :"blog/blog"
+  end
 
   # This handles default routes for the markdown files in `views/`
   # Mostly added so that people who don't want to fuss with a Sinatra app can
