@@ -854,6 +854,8 @@ form.well {
 }
 
 
+.recap h1 { margin-bottom: 0.3em; }
+.recap h3 { margin-bottom: 0.5em; }
 .recap {
   margin-top: 40px;
   font-family: Verdana;
