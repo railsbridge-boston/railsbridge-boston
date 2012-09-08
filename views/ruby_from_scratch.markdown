@@ -20,9 +20,7 @@ Instructions for installing and running Ruby.
 The command prompt is the primary way to run Ruby files. In this section you will learn to navigate your filesystem
 from your command prompt.
 
-[Command Prompt on Windows](/ruby_from_scratch/command_prompt/windows)  
-[Command Prompt on Mac OS X](/ruby_from_scratch/command_prompt/osx)  
-[Command Prompt on Linux](/ruby_from_scratch/command_prompt/linux)  
+[Using the Command Prompt](/ruby_from_scratch/command_prompt/all)
 
 ### 3. Starting and Exiting Interactive Ruby
 To start writing Ruby code, you will use the Interactive Ruby Shell (irb). It is "interactive" because every time you 

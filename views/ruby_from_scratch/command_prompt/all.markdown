@@ -1,4 +1,4 @@
-# Using the Command Prompt on Linux
+# Using the Command Prompt
 
 There are three commands that we'll be using at a command prompt to navigate the filesystem on your computer:  
 
@@ -14,9 +14,21 @@ cd
 
 Let's practice using these commands.  
 
-### Open a command prompt
-The Terminal application's location depends upon the flavor of Linux you
-are running. If you cannot find it please consult with an instructor.
+## Open a command prompt
+**OS X**
+
+You can find the Terminal application through Spotlight, or navigate to `Applications/Utilities/Terminal`.
+
+**Windows**
+
+If you have installed Console2, open that from the shortcut you created.  
+If you skipped that step, open Git Bash by going to "All Programs > RailsInstaller > Git Bash".
+
+**Linux**
+
+Ubuntu: Click the Ubuntu logo and start typing "Terminal".  
+Fedora: From the Main Menu bar select "Applications > Sytem Tools > Terminal".
+
 
 ### Practice using `ls`, `pwd`, and `cd`
 
@@ -43,24 +55,24 @@ ls
 This lists the contents of the `/` root directory.
 
 ```text
-cd home
+cd Users
 ```
-This will change you into the `home` subdirectory of the `/` root directory.
+This will change you into the `Users` subdirectory of the `/` root directory.
 
 ```text
 ls
 ```
-You should see a list of all the files in `/home`, including the directory for your username—your home directory.
+You should see a list of all the files in `/Users`, including the directory for your username—your home directory.
 
 ```text
 pwd
 ```
-This displays the full directory path to your current directory, `/home`.
+This displays the full directory path to your current directory, `/Users`.
 
 ```text
 cd ..
 ```
-`..` means "parent directory", so this command moved you up to the parent directory. You were in `/home`, so now you are in `/`, the root directory.
+`..` means "parent directory", so this command moved you up to the parent directory. You were in `/Users`, so now you are in `/`, the root directory.
 
 ```text
 ls
