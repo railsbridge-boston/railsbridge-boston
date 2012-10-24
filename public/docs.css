@@ -28,7 +28,7 @@ body > .container {
 /* Space out sub-sections more
 -------------------------------------------------- */
 section {
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 /* Faded out hr */
@@ -886,10 +886,15 @@ blockquote {
 }
 
 p, li, address { 
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.5em;
 }
-#workshop p {
+section p {
+  font-size: 17px;
+  line-height: 1.5em;
+}
+section ul li { 
+  line-height: 1.5em
   font-size: 17px;
 }
 p {
@@ -899,5 +904,7 @@ body {
   padding-bottom: 5em;
 }
 
+.page-header {
+  margin-bottom: 6px;
 }
 
