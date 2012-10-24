@@ -845,10 +845,6 @@ form.well {
   border: none;
 }
 
-.event-description p {
-  font-size: 18px;
-  line-height: 1.3em;
-}
 #contact {
   clear: both;
 }
@@ -888,3 +884,20 @@ blockquote {
   margin-bottom: 0px;
   width: 100%;
 }
+
+p, li, address { 
+  font-size: 15px;
+  line-height: 1.5em;
+}
+#workshop p {
+  font-size: 17px;
+}
+p {
+  margin-top: .8em;
+}
+body {
+  padding-bottom: 5em;
+}
+
+}
+
