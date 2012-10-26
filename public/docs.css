@@ -845,6 +845,11 @@ form.well {
   border: none;
 }
 
+#sponsors a img {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
 #contact {
   clear: both;
 }
