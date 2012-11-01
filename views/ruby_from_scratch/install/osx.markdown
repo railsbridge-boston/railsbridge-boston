@@ -1,7 +1,6 @@
 # Installing on Mac OS X
 
 ### Check your version of OS X.
-
 Go to the Apple Menu (in the top left of your screen) > About this Mac…
 
 If you want to the "Big Cat" name for your version, they are as follows:  
@@ -48,82 +47,78 @@ and search for "Xcode 3.1.4"
 ## Install Everything Else
 ### 1. Open Terminal
 Now open Terminal, you can do this from your Applications/Utilities folder or
-you can click on Spotlight (the magnifying glass in the upper-right)
-and type 'Terminal'.
+you can click on Spotlight (the magnifying glass in the upper-right) and type 'Terminal'.
 
 ### 2. Install Homebrew
-Once in terminal you need to install Homebrew. You can do that by
-running the following command:
+Once in terminal you need to install Homebrew. You can do that by running the following command:
 
-    ```text
-    ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
-    ```
+```text
+ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
+```
 
 ### 3. Install [Git](http://git-scm.org)
 
-    ```text
-    brew install git
-    ```
+```text
+brew install git
+```
 
 ### 4. Install [rbenv](https://github.com/sstephenson/rbenv)
 
-    ```text
-    brew install rbenv
-    ```
+```text
+brew install rbenv
+```
 
 ### 5. Add rbenv to your .bash_profile
-At this point you need to add rb_env to your environment. Run the
-following to do so:
+At this point you need to add rb_env to your environment. Run the following to do so:
 
-    ```text
-    echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-    echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-    ```
+```text
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+```
 
 ### 6. Install [ruby-build](https://github.com/sstephenson/ruby-build)
 
-    ```text
-    brew install ruby-build
-    ```
+```text
+brew install ruby-build
+```
 
 ### 7. Refresh your terminal
 
-    ```text
-    exec $SHELL
-    ```
+```text
+exec $SHELL
+```
 
 ### 8. Install Ruby 1.9.3 and set it to global
 
-    ```text
-    rbenv install 1.9.3-p194
-    rbenv global 1.9.3-p194
-    rbenv shell 1.9.3-p194
-    ```
+```text
+rbenv install 1.9.3-p194
+rbenv global 1.9.3-p194
+rbenv shell 1.9.3-p194
+```
 
 ### 9. Close an re-open your terminal and confirm Ruby is installed properly
 
-    ```text
-    ruby -v
-    ```
+```text
+ruby -v
+```
 
-    You should get something similar to `ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin11.4.0]`
-    If you do not see `ruby 1.9.3` please call in an instructor to help
-    diagnose the installation issue.
+You should get something similar to `ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin11.4.0]`
+If you do not see `ruby 1.9.3` please call in an instructor to help
+diagnose the installation issue.
 
 ### 10. Install Rails and other supporting gems
 
-    ```text
-    gem install bundler rails heroku
-    ```
+```text
+gem install bundler rails heroku
+```
 
 ### 11. Run `rbenv rehash` again so you can access the gems you just installed:
 
-    ```text
-    rbenv rehash
-    ```
+```text
+rbenv rehash
+```
 
-Congratulations, you now have the Ruby development environment up and
-running. Now go forth and do something awesome with it!
+Congratulations, you now have the Ruby development environment up and running. Now go forth and do something awesome with it!
 
 [« Back to Installfest](/ruby_from_scratch)
 
