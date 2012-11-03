@@ -101,7 +101,7 @@ rbenv global 1.9.3-p286
 ruby -v
 ```
 
-You should get something similar to `ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-darwin11.4.0]`
+You should get something similar to `ruby 1.9.3p286 (2012-10-12 revision 37165) [x86_64-darwin12.2.0]`
 If you do not see `ruby 1.9.3` please call in an instructor to help
 diagnose the installation issue.
 
