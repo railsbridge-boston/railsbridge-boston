@@ -91,9 +91,8 @@ exec $SHELL
 ### 8. Install Ruby 1.9.3 and set it to global
 
 ```text
-rbenv install 1.9.3-p194
-rbenv global 1.9.3-p194
-rbenv shell 1.9.3-p194
+rbenv install 1.9.3-p286
+rbenv global 1.9.3-p286
 ```
 
 ### 9. Close an re-open your terminal and confirm Ruby is installed properly
