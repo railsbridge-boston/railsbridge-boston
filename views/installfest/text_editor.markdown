@@ -112,4 +112,4 @@ automatic indentation` are checked.
 Now you have an editor that you can use to open any text file, including Ruby programs.
 
 
-[«Back](/ruby_from_scratch)
+[«Back](/installfest)

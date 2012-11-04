@@ -119,5 +119,5 @@ rbenv rehash
 
 Congratulations, you now have the Ruby development environment up and running. Now go forth and do something awesome with it!
 
-[« Back to Installfest](/ruby_from_scratch)
+[« Back to Installfest](/installfest)
 

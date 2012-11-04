@@ -36,4 +36,4 @@
 You can now run Ruby code in the IRB prompt. Practice these steps until you feel comfortable starting a command prompt, 
 then starting and exiting IRB.
 
-[«Back](/ruby_from_scratch)
+[«Back](/installfest)

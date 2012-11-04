@@ -3,7 +3,7 @@
 
 ### Start Your Text Editor
 
-1. Launch your text editor. See the [text editor setup instructions](/ruby_from_scratch/text_editor/all) 
+1. Launch your text editor. See the [text editor setup instructions](/installfest/text_editor) 
 for how to do this.
 2. Open a New File (`File > New File` in Sublime Text 2)
 
@@ -21,8 +21,7 @@ for how to do this.
 
 ### Run the Script
 
-1. Start the Command Prompt. See the terminal navigation for [Windows](/ruby_from_scratch/command_prompt/windows),
-[OSX](/ruby_from_scratch/command_prompt/osx), or [Linux](/ruby_from_scratch/command_prompt/osx) instructions for how to do this.
+1. Start the Command Prompt. See the [terminal navigation instructions](/installfest/command_prompt) for how to do this.
 
 2. Navigate to your home directory from a command prompt.
 Don't hesitate to get help from a staff member on this step if you need it -- it's a new way of navigating your 
@@ -52,4 +51,4 @@ You learned:
 
 * When you run the `ruby` command with a file name as an argument, Ruby executes the Ruby code in that file.
 
-[«Back](/ruby_from_scratch)
+[«Back](/installfest)

@@ -104,5 +104,5 @@ instructor.
 If you do see these things, congratulations! You've just installed and configured an awesome console. You are ready
 for the next section, "Using the Command Prompt".
 
-[« Back to Installfest](/ruby_from_scratch)
+[« Back to Installfest](/installfest)
 

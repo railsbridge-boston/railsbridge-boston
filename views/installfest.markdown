@@ -11,35 +11,35 @@ When you are done with all the sections, find a staff member to go through the c
 ### 1. Set Up Ruby
 Instructions for installing and running Ruby.
 
-[Install Ruby on Windows](/ruby_from_scratch/install/windows)  
-[Install Ruby on Mac OS X](/ruby_from_scratch/install/osx)  
-[Install Ruby on Linux](/ruby_from_scratch/install/linux)  
+[Install Ruby on Windows](/installfest/install/windows)  
+[Install Ruby on Mac OS X](/installfest/install/osx)  
+[Install Ruby on Linux](/installfest/install/linux)  
 
 
 ### 2. Using the Command Prompt
 The command prompt is the primary way to run Ruby files. In this section you will learn to navigate your filesystem
 from your command prompt.
 
-[Using the Command Prompt](/ruby_from_scratch/command_prompt/all)
+[Using the Command Prompt](/installfest/command_prompt)
 
 ### 3. Starting and Exiting Interactive Ruby
 To start writing Ruby code, you will use the Interactive Ruby Shell (irb). It is "interactive" because every time you 
 write a line of code and press 'Enter', the code executes and shows you the result. This will allow you to experiment
 and get instant feedback.
 
-[Interactive Ruby (irb)](/ruby_from_scratch/interactive_ruby/all)  
+[Interactive Ruby (irb)](/installfest/interactive_ruby)  
 
 ### 4. Install a Text Editor
 You will want a text editor that designed for coding. These instructions will show you how to install a good text 
 editor, and the basics of using it effectively.
 
-[Text Editor](/ruby_from_scratch/text_editor/all)  
+[Text Editor](/installfest/text_editor)  
 
 ### 5. Run Ruby from a File
 In this section you will learn to run Ruby code from a file, a prerequisite of writing more complex and powerful
 programs.
 
-[Run Ruby from a File](/ruby_from_scratch/run_ruby/all)
+[Run Ruby from a File](/installfest/run_ruby)
 
 
 ### 6. Create a Heroku Account
@@ -87,42 +87,13 @@ Find a staff member and run through this checklist:
 4. Confirm that `git` is set up properly. From the command line, type:
 
     ```text
-    git
+    git --version
     ```
 
-    And should should see output like this:
+    And should should see output like this (it's OK if it's not this exact version number):
 
     ```text
-    usage: git [--version] [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-               [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
-               [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-               [-c name=value] [--help]
-               <command> [<args>]
-
-    The most commonly used git commands are:
-       add        Add file contents to the index
-       bisect     Find by binary search the change that introduced a bug
-       branch     List, create, or delete branches
-       checkout   Checkout a branch or paths to the working tree
-       clone      Clone a repository into a new directory
-       commit     Record changes to the repository
-       diff       Show changes between commits, commit and working tree, etc
-       fetch      Download objects and refs from another repository
-       grep       Print lines matching a pattern
-       init       Create an empty git repository or reinitialize an existing one
-       log        Show commit logs
-       merge      Join two or more development histories together
-       mv         Move or rename a file, a directory, or a symlink
-       pull       Fetch from and merge with another repository or a local branch
-       push       Update remote refs along with associated objects
-       rebase     Forward-port local commits to the updated upstream head
-       reset      Reset current HEAD to the specified state
-       rm         Remove files from the working tree and from the index
-       show       Show various types of objects
-       status     Show the working tree status
-       tag        Create, list, delete or verify a tag object signed with GPG
-
-    See 'git help <command>' for more information on a specific command.
+    git version 1.7.10.2 (Apple Git-33)
     ```
 
 5. Get a setup confirmation sticker from a staff member and stick it on

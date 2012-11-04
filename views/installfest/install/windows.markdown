@@ -89,8 +89,8 @@ That means it's a nicer way to view the Bash shell you just configured. It has f
 text selection, and easier copy/paste, among others. You will be spending plenty of time in the command prompt, so
 this will make life easier.
 
-[Install and Configure Console2](/ruby_from_scratch/install/windows_console2)
+[Install and Configure Console2](/installfest/install/windows_console2)
 
 
 ### Go Back
-[« Back to Installfest](/ruby_from_scratch)
+[« Back to Installfest](/installfest)

@@ -90,4 +90,4 @@ The command prompt also maintains a command history. You can use the up arrow to
 ### Success!
 You've practiced using `ls`, `pwd`, and `cd` to navigate your computer's filesystem from the command prompt.
 
-[«Back](/ruby_from_scratch)
+[«Back](/installfest)
