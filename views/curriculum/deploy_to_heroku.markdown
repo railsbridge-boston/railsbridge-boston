@@ -7,13 +7,16 @@
 
 ## Steps
 
-### Step 0: Confirm you have installed the heroku gem
+### Step 0: Confirm you have installed the heroku toobelt
 
-Before you do anything, ensure that you have the `heroku` gem installed
+Before you do anything, ensure that you have the `heroku` toolbelt installed
 
 ```text
-gem install heroku
+heroku -v
 ```
+
+If heroku doesn't respond with it's version, then you need to go to [Create a Heroku Account](/installfest/create_a_heroku_account),
+follow the instructions, then come back here.
 
 ### Step 1: Create a heroku application
 
