@@ -113,7 +113,7 @@ diagnose the installation issue.
 gem install bundler rails
 ```
 
-### 11. Run `rbenv rehash` again so you can access the gems you just installed:
+### 11. Run `rbenv rehash` again so you can access the gems you just installed
 
 ```text
 rbenv rehash
