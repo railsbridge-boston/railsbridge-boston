@@ -90,7 +90,7 @@ Find a staff member and run through this checklist:
     git --version
     ```
 
-    And should should see output like this (it's OK if it's not this exact version number):
+    And you should see output like this (the version number doesn't need to be exact):
 
     ```text
     git version 1.7.10.2 (Apple Git-33)

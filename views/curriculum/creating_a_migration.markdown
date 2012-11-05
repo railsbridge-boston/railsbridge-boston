@@ -28,7 +28,7 @@ rails generate scaffold topic title:string description:text
 * `generate scaffold` tells rails to create everything necessary to get up and running with topics
 * `topic` tells rails the name of the new model
 * `title:string` says that topics have a title, which is a string.
-* `description:text` says that topics have a description which is a "text". (We're befuddled by the difference too).
+* `description:text` says that topics have a description which is a "text", which is like a string, but longer.
 
 ### Step 2
 

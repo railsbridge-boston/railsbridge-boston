@@ -61,7 +61,7 @@ If you can do that, you are probably good to go.
 
 
 ## Working Effectively and Efficiently
-I highly recommend you do the following:
+We recommend you do the following:
 
 * Bring up your terminal program and open 2 tabs or windows:
   * One is for regular terminal stuff
