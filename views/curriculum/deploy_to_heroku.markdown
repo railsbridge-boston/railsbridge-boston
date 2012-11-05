@@ -119,6 +119,26 @@ this as we add more functionality to the application. Your typical workflow will
 1. Boom! Your changes are live!
 1. Repeat
 
+## Checkpoint: Deploying a Change to Heroku
+
+To pass this checkpoint, show your TA these steps:
+
+Make a change to the "Welcome aboard" page, commit the change to Git, and deploy it to Heroku.
+
+1. Edit the "Welcome aboard" default Rails welcome page. 
+  You can find the file in `public/index.html`. 
+  Open it up, and change the title to say "Ahoy, Matey! Welcome to RailsBridge!" or something you like.
+  Remember to save your changes.
+2. Run the rails server.
+3. View your change in the browser at `localhost:3000`.
+4. Now that you are satisfied with your change, `add` and `commit` the change to Git.
+5. Push the change to Heroku.
+6. View the change in the browser, live on Heroku.
+
+Hints:
+If you need a reminder on how to run the rails server, go back to [Running Your Application Locally](/curriculum/running_your_application_locally)  
+The instructions for Git and Heroku are up above on this page.
+
 ## Extra Credit
 Looking for some Extra Credit? Why not try learning about [git branches](extra_credit/02_git_branches)? You can also try doing some [more with Heroku](extra_credit/03_more_heroku).
 
