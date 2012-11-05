@@ -15,9 +15,9 @@ automatically be downloaded for you. Don't worry about watching the video; we ha
 
 Once the installer is downloaded, find the file and double-click it. This will open an installation wizard. 
 
-* Click 'next' a number of times, and accept all the defaults, until the package installs. 
 * Make sure you check the box for "Add executables for Ruby, Git and DevKit to the PATH". 
 * Leave the box for "Configure your git and ssh environment" checked.
+* Click 'next' a number of times, and accept all the defaults, until the package installs. 
 
 Next you should see a Command Prompt window.
 
@@ -85,7 +85,8 @@ is the command prompt you will be using.
 
 Console2 is not a shell, it is a "console window enhancement".  
 
-That means it's a nicer way to view the Bash shell you just configured. It has features like better font rendering, transparency, window resizing(!), tabs,
+That means it's a nicer way to view the Bash shell you just configured. 
+It has features like better font rendering, transparency, window resizing(!), tabs,
 text selection, and easier copy/paste, among others. You will be spending plenty of time in the command prompt, so
 this will make life easier.
 
