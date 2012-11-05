@@ -26,7 +26,7 @@ instructor to help diagnose the installation issue.
     sudo yum install -y git wget python zlib1g-dev libssl-dev libreadline-dev sqlite3 libsqlite3-dev
     ```
 
-2. Download an build node.js. Copy/paste this script into the terminal:
+2. Download and build node.js. Copy/paste this script into the terminal:
 
     ```text
     cd /usr/local/src
@@ -40,26 +40,22 @@ instructor to help diagnose the installation issue.
     sudo make install
     ```
 
-2. Check out rbenv into `~/.rbenv`.
+3. Check out rbenv into `~/.rbenv`.
 
     ```text
     cd
     git clone git://github.com/sstephenson/rbenv.git .rbenv
     ```
 
-3. Add `~/.rbenv/bin` to your `$PATH` for access to the `rbenv`
-   command-line utility.
+4. Add rbenv to your environment.
+
+    This adds `~/.rbenv/bin` to your `$PATH` for access to the `rbenv`
+    command-line utility, and injects the rbenv shim in your ~/.bash_profile so that calls to ruby will be run through rbenv.
+
+    Copy/paste this into the terminal:
 
     ```text
     echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-    ```
-
-    **Linux Mint and Ubuntu 10.10**: Modify your `~/.bashrc` file instead of `~/.bash_profile`.  
-    **Zsh**: Modify your `~/.zshenv` file instead of `~/.bash_profile`.
-
-4. Add rbenv init to your shell to enable shims and autocompletion.
-
-    ```text
     echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
     ```
 
@@ -84,51 +80,33 @@ instructor to help diagnose the installation issue.
 7. Install the latest Ruby. This may take a while.
 
     ```text
-    rbenv install 1.9.3-p194
+    rbenv install 1.9.3-p286
+    rbenv global 1.9.3-p286
     ```
 
-8. You should do this any time you install
-   different version of Ruby or a Ruby gem that provides a command-line command. 
-
-    ```text
-    rbenv rehash
-    ```
-
-9. Set the global version of Ruby to be used in all shells.
-
-    ```text
-    rbenv global 1.9.3-p194
-    rbenv shell 1.9.3-p194
-    ```
-
-
-10. Close an re-open your terminal and confirm Ruby is installed properly
+8. Close an re-open your terminal and confirm Ruby is installed properly
 
     ```text
     ruby -v
     ```
 
-    You should get something similar to `ruby 1.9.3p194 (2012-04-20
-    revision 35410) [i616-linux]` If you see something different please
-    call in an instructor to help diagnose the installation issue.
+    You should get something similar to `ruby 1.9.3p286 (2012-10-12 revision 37165) [i616-linux]` 
+    If you do not see `ruby 1.9.3` please call in an instructor to help diagnose the installation issue.
 
-11. Install Rails and other supporting gems
+9. Install Rails and other supporting gems
 
     ```text
-    gem install bundler rails heroku
+    gem install bundler rails
     ```
 
-12. Run `rbenv rehash` again so you can access the gems you just installed:
+10. Run `rbenv rehash` again so you can access the gems you just installed:
 
     ```text
     rbenv rehash
     ```
 
-
 Congratulations, you now have the Ruby development environment up and
 running. Now go forth and do something awesome with it!
-
-
 
 [« Back to Installfest](/installfest)
 
