@@ -149,3 +149,4 @@ Looking for some Extra Credit? Why not try learning about [git branches](extra_c
 
 Wait for the next lecture!
 
+[Back to Contents](/curriculum/curriculum_toc)

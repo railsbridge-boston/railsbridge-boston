@@ -63,4 +63,4 @@ This shows a list of all the environment variables for your application. These e
 
 ## Finished
 
-You can [return to the main curriculum](javascript:window.history.back(\)).
+You can [return to the main curriculum](/curriculum/curriculum_toc).

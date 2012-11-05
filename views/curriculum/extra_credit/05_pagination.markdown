@@ -119,4 +119,4 @@ along with *Prev* and *Next* links.
 
 ## Finished
 
-You're all done! You can return to [the main curriculum](javascript:window.history.back(\)).
+You're all done! You can return to [the main curriculum](/curriculum/curriculum_toc).

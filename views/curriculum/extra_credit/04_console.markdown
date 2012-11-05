@@ -71,4 +71,4 @@ try pressing `^C` (Control+C).
 
 ## All Done!
 
-Go ahead and go [back](javascript:window.history.back(\)) to the main curriculum.
+Go ahead and go [back](/curriculum/curriculum_toc) to the main curriculum.

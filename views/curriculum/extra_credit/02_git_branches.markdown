@@ -58,4 +58,5 @@ Now you know how to use topic branches to work on features in your project!
 
 ## All Done
 
-Head on [back to the main curriculum](javascript:window.history.back(\)).
+You can move on to the "[More Heroku](/curriculum/extra_credit/03_more_heroku)" extra credit section, or  
+head on [back to the main curriculum](/curriculum/curriculum_toc).

@@ -44,4 +44,5 @@ If you like, there is always [more Ruby](extra_credit/01_more_ruby) to learn.
 
 ## Next Step
 
-What for the next lecture!
+What for the next lecture!  
+[Back to Contents](/curriculum/curriculum_toc)
