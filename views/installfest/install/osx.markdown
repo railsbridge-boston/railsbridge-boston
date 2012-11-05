@@ -6,6 +6,8 @@ Go to the Apple Menu (in the top left of your screen) > About this Mac…
 If you want to the "Big Cat" name for your version, they are as follows:  
 10.8: Mountain Lion, 10.7: Lion, 10.6: Snow Leopard, 10.5: Leopard, 10.4: Tiger
 
+If you have version 10.5 or earlier, you will need help from an instructor.
+
 ### Install Command Line Tools from XCode
 
 **Option 1: USB Drive**  
@@ -108,7 +110,7 @@ diagnose the installation issue.
 ### 10. Install Rails and other supporting gems
 
 ```text
-gem install bundler rails heroku
+gem install bundler rails
 ```
 
 ### 11. Run `rbenv rehash` again so you can access the gems you just installed:
