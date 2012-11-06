@@ -47,7 +47,7 @@ hr.soften {
 -------------------------------------------------- */
 .jumbotron {
   position: relative;
-  margin-top: 1em;
+  margin: 3em 0;
 }
 .jumbotron h1 {
   margin-bottom: 12px;
@@ -71,6 +71,15 @@ hr.soften {
 }
 .jumbotron .btn-large small {
   font-size: 14px;
+}
+.jumbotron .railsbridge-logo {
+  width: 480px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.jumbotron p {
+  text-align: center;
 }
 
 /* Masthead (docs home) */
@@ -891,7 +900,7 @@ blockquote {
   width: 100%;
 }
 
-p, li, address { 
+p, li, address {
   font-size: 17px;
   line-height: 1.5em;
 }
@@ -899,7 +908,7 @@ section p {
   font-size: 17px;
   line-height: 1.5em;
 }
-section ul li { 
+section ul li {
   line-height: 1.5em
   font-size: 17px;
 }
