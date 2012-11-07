@@ -924,6 +924,9 @@ section ul li {
   line-height: 1.5em
   font-size: 17px;
 }
+ul {
+  margin-bottom: 1.5em;
+}
 p {
   margin-top: .8em;
 }
