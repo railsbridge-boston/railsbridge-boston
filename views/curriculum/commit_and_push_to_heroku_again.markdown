@@ -15,7 +15,7 @@ heroku run rake db:migrate
 ## Explanation
 We commit our changes, push them out and run the remote migration... By this time it should be fairly old hat.
 
-## Checkpoint
+## Checkpoint: Vote belongs_to User
 
 Set an association so Vote belongs_to a User, and User has_many Votes, just like you associated votes with a topic.
 
@@ -23,7 +23,7 @@ You've never generated a migration by itself, so we'll give you some extra hints
 
 1. Create a migration to add an integer "user_id" to the votes table.
 
-    Run 'rails generate migration add_votes_user_id'
+    Run `rails generate migration add_votes_user_id`
     You should see something like this:
 
     ```text
@@ -31,7 +31,7 @@ You've never generated a migration by itself, so we'll give you some extra hints
     create    db/migrate/20121105020720_add_votes_user_id.rb
     ```
 
-2. Open the migration that was just created and edit it so it looks like this:
+2. Open the migration file that was just created and edit it so it looks like this:
 
     ```ruby
     class AddVotesUserId < ActiveRecord::Migration
@@ -83,7 +83,7 @@ You've never generated a migration by itself, so we'll give you some extra hints
     => #<User id: 1, name: "Amelia Earhart">
     ```
 
-    It works! vote1 now "belongs_to" user1!  
+    It works! `vote1` now "belongs_to" `user1`!  
 
     Now check that `user1` can access its votes:
 
@@ -97,7 +97,7 @@ You've never generated a migration by itself, so we'll give you some extra hints
     => [#<Vote id: 1, topic_id: nil, user_id: 1>]
     ```
 
-    Yay! That works too! `user1` "has_many" votes!  
+    That works too! `user1` "has_many" votes!  
     You can exit rails console by typing `exit`
 
 ## Extra Credit
@@ -106,3 +106,5 @@ why not [add some pagination](extra_credit/05_pagination)?
 
 ## Next Step
 Wait for the next lecture!
+
+[Back to Contents](/curriculum/curriculum_toc)

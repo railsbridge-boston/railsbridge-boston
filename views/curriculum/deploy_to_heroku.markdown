@@ -124,8 +124,6 @@ this as we add more functionality to the application. Your typical workflow will
 
 ## Checkpoint: Deploying a Change to Heroku
 
-To pass this checkpoint, show your TA these steps:
-
 Make a change to the "Welcome aboard" page, commit the change to Git, and deploy it to Heroku.
 
 1. Edit the "Welcome aboard" default Rails welcome page. 

@@ -27,15 +27,20 @@ Google - searching "ruby" and whatever you're looking for usually leads to good 
 [The Pickaxe](http://pragprog.com/book/ruby3/programming-ruby-1-9) - The definitive ruby reference (and has a great tutorial too).  
 [Why's (poignant) Guide to Ruby](http://www.scribd.com/doc/8545174/whys-Poignant-Guide-to-Ruby) - the (crazy) guide to ruby... Try it, you might like it.  
 
-## Checkpoint: Basic Ruby Skills
+## Checkpoint: Iterate through an array
 
-To pass this checkpoint, show your TA:
+(A checkpoint is an optional practice question that allows you to apply the concepts introduced in this section.
+Talk to your TA if you get stuck, or discuss your solution once you have completed the checkpoint.)
 
-A short script that prints out the names of the people in your group.
+Write a short script that prints out the names of the people in your group.
 
-Hints: Start by opening up irb. Create the names as strings in an array. Store that array to a variable.
-Then use the `.each` method on the stored array to loop through each of the names.
-Use the `puts` method to print out the names.
+Hints: 
+
+1. Start by opening up irb. 
+2. Create the names as strings in an array. 
+3. Store that array to a variable.
+4. Then use the `.each` method on the stored array to loop through each of the names.
+5. Use the `puts` method to print out the names.
 
 If this script was easy for you, discuss with your TA other ways you could have achieved the same result.
 

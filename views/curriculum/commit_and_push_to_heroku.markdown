@@ -29,8 +29,6 @@ You should see a page that looks shockingly similar to the one you had locally. 
 
 ## Checkpoint: Scaffolding another model
 
-To pass this checkpoint, show your TA the following steps:
-
 Scaffold a `user` model, run the generated migration, add and edit some users locally, then deploy the changes to Heroku.
 
 Hints:
