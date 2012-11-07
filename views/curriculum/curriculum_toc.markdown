@@ -1,3 +1,8 @@
+<div class="alert alert-info">
+<strong>Note to attendees</strong>: This is material that we expect you to read during the workshop, not before it.  
+</div>
+
+
 # Saturday Curriculum
 
 ## Introduction ##

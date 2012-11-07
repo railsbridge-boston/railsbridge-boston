@@ -39,6 +39,10 @@ section {
   padding-top: 1em;
 }
 
+.alert-info {
+  color: #333;
+}
+
 /* Faded out hr */
 hr.soften {
   height: 1px;
