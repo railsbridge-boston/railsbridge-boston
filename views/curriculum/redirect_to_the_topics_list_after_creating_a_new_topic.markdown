@@ -45,7 +45,7 @@ Find the `<body>` HTML tag and immediately after add the following code:
 
 ```erb
 <% flash.each do |name, msg| %>
-  <div><%=msg %></div>
+  <div><%= msg %></div>
 <% end %>
 ```
 
@@ -53,7 +53,10 @@ Find the `<body>` HTML tag and immediately after add the following code:
 Look at [http://localhost:3000](http://localhost:3000).
 
 ## Explanation
-`format.html { redirect_to topics_path, :notice => 'Topic was successfully created.' }`:
+
+```ruby
+format.html { redirect_to topics_path, :notice => 'Topic was successfully created.' }
+```
 
 * `format.html` means that the server should send html back to the browser
 * `redirect_to topics_path` means show the **topics list page** when we're done creating a topic
