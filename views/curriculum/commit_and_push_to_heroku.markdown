@@ -4,16 +4,26 @@ We just added a whole new feature. Let's push it to heroku so our friends can pl
 
 ## Steps
 ### Step 1: Redeploy
-Type this in the terminal:
 
-```text
+See if you can do the following without reading the hints:
+
+1. Add all your changes to Git,
+2. commit them,
+3. push them to Heroku,
+4. and run 'migrate' rake task on Heroku with `heroku run rake db:migrate`.
+
+<div class="hints">
+  <p><a class="show-hints" href="#hints">Show me the hints▼</a></p>
+  <div class="CodeRay commands">
+    <div class="code">
+      <pre>
 git add .
 git commit -m "Added topics"
 git push heroku master
-heroku run rake db:migrate
-```
-
-![](/images/info.png) There is a period after the word add in the first line
+heroku run rake db:migrate</pre>
+    </div>
+  </div>
+</div>
 
 ### Step 2: Check that it worked
 Open your heroku app in the browser again by typing `heroku open`, then add "topics" to the end of the url.
