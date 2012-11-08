@@ -568,6 +568,10 @@ form.well {
   margin-bottom: 9px;
 }
 
+.hints .commands {
+  display: none;
+}
+
 /* Icons
 ------------------------- */
 .the-icons {

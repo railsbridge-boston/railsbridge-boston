@@ -3,14 +3,22 @@
 We just made some awesome changes. Let's push them so our friends can play with it.
 
 ## Steps
-Type this in the terminal:
+See if you can remember how to do the following without reading the hints:
 
-```text
+Add all your changes to Git, commit them, push them to Heroku, and run 'migrate' rake task on Heroku.
+
+<div class="hints">
+  <p><a class="show-hints" href="#hints">Show me the hints▼</a></p>
+  <div class="CodeRay commands">
+    <div class="code">
+      <pre>
 git add .
 git commit -m "Added votes"
 git push heroku master
-heroku run rake db:migrate
-```
+heroku run rake db:migrate</pre>
+    </div>
+  </div>
+</div>
 
 ## Explanation
 We commit our changes, push them out and run the remote migration... By this time it should be fairly old hat.

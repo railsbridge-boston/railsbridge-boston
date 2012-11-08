@@ -3,13 +3,20 @@
 * Push to heroku, again
 
 ## Steps
-Type this in the terminal:
+Do this without looking at the hints:  
+Add your changes to git, commit the changes, then push them to Heroku.
 
-```text
+<div class="hints">
+  <p><a class="show-hints" href="#hints">Show me the hints▼</a></p>
+  <div class="CodeRay commands">
+    <div class="code">
+      <pre>
 git add .
 git commit -m "Made stuff look prettier"
-git push heroku master
-```
+git push heroku master</pre>
+    </div>
+  </div>
+</div>
 
 ## Explanation
 Nothing new here... Except... **you're done!!!**
