@@ -7,6 +7,7 @@
 * Daniel Choi
 * Lauren McLean
 * Andrew Farrell
+* Valentine Rogers
 
 ## Teaching Staff
 * TODO
