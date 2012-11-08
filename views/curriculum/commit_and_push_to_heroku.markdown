@@ -13,7 +13,7 @@ See if you can do the following without reading the hints:
 4. and run 'migrate' rake task on Heroku with `heroku run rake db:migrate`.
 
 <div class="hints">
-  <p><a class="show-hints" href="#hints">Show me the hints▼</a></p>
+  <p><a class="show-hints dropdown" href="#hints">Show me the hints<b class="caret"></b></a></p>
   <div class="CodeRay commands">
     <div class="code">
       <pre>

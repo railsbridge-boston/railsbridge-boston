@@ -7,7 +7,7 @@ Do this without looking at the hints:
 Add your changes to git, commit the changes, then push them to Heroku.
 
 <div class="hints">
-  <p><a class="show-hints" href="#hints">Show me the hints▼</a></p>
+  <p><a class="show-hints dropdown" href="#hints">Show me the hints<b class="caret"></b></a></p>
   <div class="CodeRay commands">
     <div class="code">
       <pre>
