@@ -8,7 +8,7 @@ See if you can remember how to do the following without reading the hints:
 Add all your changes to Git, commit them, push them to Heroku, and run 'migrate' rake task on Heroku.
 
 <div class="hints">
-  <p><a class="show-hints" href="#hints">Show me the hints▼</a></p>
+  <p><a class="show-hints dropdown" href="#hints">Show me the hints<b class="caret"></b></a></p>
   <div class="CodeRay commands">
     <div class="code">
       <pre>
