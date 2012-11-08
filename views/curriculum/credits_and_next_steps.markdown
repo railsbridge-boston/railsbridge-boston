@@ -1,59 +1,31 @@
 # Credits
+
 ## Organizers
-* Dan Choi
 * Brendan Kemp
 * Braulio Carreno
-* Carli Spina
-* BostonRB Outreach group
-* BostonRB
+* Andrew Kuklewicz
+* Daniel Choi
+* Lauren McLean
+* Andrew Farrell
 
 ## Teaching Staff
-* Rebecca Nesson 
-* Anita Patel 
-* Liana Leahy 
-* Amy Newell 
-* Elizabeth Kallman 
-* Andrew Kuklewicz 
-* Kathryn Bennett 
-* Shana Golden 
-* Lindsay Ucci 
-* Brendan Kemp 
-* Dan Pickett
-* Rebecca Frankel 
-* Justin Clark 
-* Aimee Barciauskas
-* Valentine Rogers
-* Michael Durrant
+* TODO
 
 ## Our Sponsors
-* O'Reilly
-* Pragmatic Bookshelf
-* Berkman Center for Internet & Society
-* PRX
-* Thoughtbot
-* Vermonster
-* Wegowise
-* Annkissam
-* Launch Academy
-* OfficeDrop
-* RBM Technologies
-* Heroku
-* Solano Labs
-* Michael Breen
+* TODO
 
-## Curriculum Authors
-* Railsbridge
-* All our teaching staff
-* Brian Cardarella
-* Travis Briggs
-* Chris Rhoden
-* Brendan Kemp
-* Dan Choi
-* and more 
+## Logo and Stickers
+* Martha Rettig
+
+## MIT Contact
+* Lisa Bella
 
 ## What next?
 * Learn More Ruby
 * Learn More Rails
-* Come to a Project Night
+* Attend a BostonRB Project Night
 * Take a class
+* Learn online
 * Be a TA at an upcoming workshop
+* Organize your own RailsBridge workshop
+
