@@ -8,7 +8,7 @@ require 'redcarpet'
 require 'haml'
 require 'coderay'
 require 'deck'
-require "deck/rack_app"
+require 'deck/rack_app'
 
 class HTMLwithCodeRay < Redcarpet::Render::HTML
   INNER_RENDERER = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new)
