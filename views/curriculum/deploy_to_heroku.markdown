@@ -12,7 +12,7 @@
 Before you do anything, ensure that you have the `heroku` toolbelt installed
 
 ```text
-heroku -v
+heroku --version
 ```
 
 If heroku doesn't respond with it's version, then you need to go to [Create a Heroku Account](/installfest/create_a_heroku_account),
