@@ -158,29 +158,6 @@ name as in:
   end
 ```
 
-Another way of declaring class methods is with the following syntax:
-
-```ruby
-class Movie
-
-  class << self
-
-    def older( one_movie, other_movie )
-      if one_movie.year > other_movie.year
-        other_movie
-      else
-        one_movie
-      end
-    end
-
-  end
-
-end
-```
-
-All methods declared inside of a `class << self` block will also become class
-methods and can be called using `Movie.older` as the previous example.
-
 ## Step 5 - simplified properties
 
 Since we just spoke about class methods, let's talk about one of the most class 
