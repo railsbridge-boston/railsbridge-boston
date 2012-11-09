@@ -13,10 +13,11 @@ Enter your email address.
 ## 3. Activate your account
 Heroku will send you an activation email. Open it and click on the activation link. It will take you to the Heroku site. Enter and confirm your password. Hit Save.
 
-## 4. Install the Heroku toolbelt
-[https://toolbelt.heroku.com](https://toolbelt.heroku.com)
+## 4. Install the Heroku gem
 
-Download the version for your OS, and run the installer.
+```text
+gem install heroku
+```
 
 ## 6. Log into your Heroku account from the command line
 Type this in the terminal:
