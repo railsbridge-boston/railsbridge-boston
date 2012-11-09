@@ -58,6 +58,6 @@ You will be using all the same steps you used to create "Topics":
 Finish a little early? Try [working with the console](extra_credit/04_console).
 
 ## Next Step
-Wait for the next lecture!
+Wait for the next lecture!  
 
-[Back to Contents](/curriculum/curriculum_toc)
+[(…is the lecture over? Go to the next section)](/curriculum/voting_on_topics)

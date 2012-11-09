@@ -53,5 +53,5 @@ If you like, there is always more Ruby to learn.
 
 ## Next Step
 
-What for the next lecture!  
-[Back to Contents](/curriculum/curriculum_toc)
+Wait for the next lecture!  
+[(…is the lecture over? Go to the next section)](/curriculum/getting_started)
