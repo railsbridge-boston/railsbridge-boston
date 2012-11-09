@@ -945,8 +945,3 @@ body {
 .link-color {
   color: #e74222;
 }
-
-.curriculum-content .dropdown-menu {
-  min-width: 380px;
-  width: 380px;
-}
