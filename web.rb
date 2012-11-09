@@ -10,8 +10,11 @@ require 'coderay'
 require 'deck'
 require 'deck/rack_app'
 require 'sequel'
+require 'json'
 
 DB = Sequel.connect(ENV['DATABASE_URL'] || 'postgres:///students')
+class Student < Sequel::Model
+end
 
 class HTMLwithCodeRay < Redcarpet::Render::HTML
   INNER_RENDERER = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new)
@@ -45,9 +48,34 @@ class RubyWorkshop < Sinatra::Base
     :no_intra_emphasis => true,
     :fenced_code_blocks => true,
     :renderer => HTMLwithCodeRay.new
+  enable :sessions
 
   get '/dbcheck' do
     DB.tables.inspect
+  end
+
+  post '/student' do
+    @student = Student.create(:name => params[:name].strip)
+    session[:student_id] = @student.student_id.to_s
+    puts "Created student: #{@student.values.inspect}"
+    @student.values.to_json
+  end
+
+  get '/student' do
+    puts "Session id #{session[:student_id]}"
+    res = if session[:student_id] && (@student = Student[session[:student_id].to_i])
+      @student.values
+    elsif session[:student_id]
+      session.clear 
+      {name: 'Jane Doe'}
+    else
+      {name: 'Jane Doe'}
+    end
+    puts "Sending student data: #{res.inspect}"
+    res.to_json
+  end
+
+  post '/progress' do
   end
 
 
