@@ -19,30 +19,25 @@ Heroku will send you an activation email. Open it and click on the activation li
 gem install heroku
 ```
 
-## 6. Log into your Heroku account from the command line
+## 6. Create an ssh key
+
+**Windows**  
+You're all set, a key was created when you installed RailsInstaller.
+
+**OS X/Linux**  
 Type this in the terminal:
 
 ```text
-heroku login
+ssh-keygen -t rsa
 ```
 
-You will be asked to enter your Heroku email and password. 
-Once you do, you will be either be asked to generate a public key (if you don't yet have one), 
-or to upload your existing public key. Either way, say yes.
+You will be asked for a passphrase. Leave it blank and press enter for no passphrase.
 
-Expected output:
+## 7. Then add your public key to your Heroku account
 
 ```text
-Enter your Heroku credentials.
-Email: adam@example.com
-Password:
-Could not find an existing public key.
-Would you like to generate one? [Yn]
-Generating new SSH public key.
-Uploading ssh public key /Users/adam/.ssh/id_rsa.pub
+heroku keys:add
 ```
-
-![](/images/info.png) If `heroku login` doesn't work, please ask for help from an instructor.
 
 ## Success!
 You are now ready to deploy web applications with Heroku!
