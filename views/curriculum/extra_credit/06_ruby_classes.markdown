@@ -180,3 +180,35 @@ end
 
 All methods declared inside of a `class << self` block will also become class
 methods and can be called using `Movie.older` as the previous example.
+
+## Step 5 - simplified properties
+
+Since we just spoke about class methods, let's talk about one of the most class 
+methods in the language, `attr_accessor`:
+
+```ruby
+class Movie
+  attr_accessor :title, :year
+
+  def self.older( one_movie, other_movie )
+    if one_movie.year > other_movie.year
+      other_movie
+    else
+      one_movie
+    end
+  end
+
+end
+```
+
+The `attr_accessor` class method does the same we did manually declaring the 
+`title` and `year` methods, it will generate methods to read and write the 
+`@year` and `@title` instance variables in our `Movie` objects just as we did
+manually.
+
+You might ask yourself, if this is a class method, why am I not calling it 
+as `Movie.attr_accessor` but calling it inside the class body itself?
+
+Because when you are inside of a class body and you call a method without a 
+target (without saying where it should be called, like this `attr_accessor`) it
+gets called on the current class, that in our case is the `Movie` class.
