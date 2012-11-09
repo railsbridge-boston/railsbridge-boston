@@ -13,7 +13,8 @@ If you have version 10.5 or earlier, you will need help from an instructor.
 **Option 1: USB Drive**  
 The best way to install the Command Line Tools is to get a USB drive from a TA.
 When you plug the USB drive into your computer, you will see the Command Line Tools 
-for your version of OS X.
+for your version of OS X. **Copy** the installer to your machine, then eject the USB drive
+and pass it along so someone else can use it.
 
 **Option 2: OS X Installation Disk**  
 The second best way to install is from an OS X Installation Disk. 
