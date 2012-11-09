@@ -46,7 +46,10 @@ If this script was easy for you, discuss with your TA other ways you could have 
 
 ## Extra Credit
 
-If you like, there is always [more Ruby](extra_credit/01_more_ruby) to learn.
+If you like, there is always more Ruby to learn. 
+
+* Learn more about [Ruby arrays](extra_credit/01_more_ruby)!
+* Learn more about [Ruby classes](extra_credit/06_ruby_classes)!
 
 ## Next Step
 

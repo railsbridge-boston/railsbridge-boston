@@ -13,7 +13,8 @@
 * [Intro](curriculum) 
 * [The Ruby Language](ruby_language)  
 * [Tools to Help You Learn Ruby](tools)  
-    * [Extra Credit: More Ruby](extra_credit/01_more_ruby)
+    * [Extra Credit: More Ruby arrays](extra_credit/01_more_ruby)
+    * [Extra Credit: Ruby classes](extra_credit/06_ruby_classes)
 
 ## Starting a New Rails Application ##
 * [_Lecture Slides: Starting a Rails Application_](/workshop/starting_a_rails_application)

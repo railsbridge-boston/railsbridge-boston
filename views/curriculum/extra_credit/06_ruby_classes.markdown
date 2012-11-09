@@ -228,3 +228,7 @@ teacher.title = 'PHD'
 
 So now we can say a `Teacher` is a `Person` because it has all properties
 and methods that a `Person` has plus it's own new `Teacher` methods and properties.
+
+## Finished!
+
+You can go back to the [main curriculum](/curriculum/curriculum_toc). 

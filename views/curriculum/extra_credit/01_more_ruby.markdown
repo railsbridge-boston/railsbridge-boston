@@ -1,4 +1,4 @@
-# Extra Credit: More Ruby
+# Extra Credit: More Ruby Arrays
 
 ## Steps
 
@@ -114,4 +114,5 @@ referenced by names.
 
 ## Finished!
 
-You can go [back](/curriculum/curriculum_toc) to the main curriculum.
+You can go on to learn about [Ruby classes](06_ruby_classes), or you can go back 
+to the [main curriculum](/curriculum/curriculum_toc). 
