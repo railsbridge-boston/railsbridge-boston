@@ -212,3 +212,42 @@ as `Movie.attr_accessor` but calling it inside the class body itself?
 Because when you are inside of a class body and you call a method without a 
 target (without saying where it should be called, like this `attr_accessor`) it
 gets called on the current class, that in our case is the `Movie` class.
+
+## Step 6 - inheritance
+
+One of the advantages of having objects and classes is that you can use inheritance
+to reuse your code. A class can inherit properites and behaviors of other classes
+instead of having to re-define it all, thus, making you write less code.
+
+Let's get to an example declaring a `Person` class:
+
+```ruby
+class Person
+  attr_accessor :name, :social_security_number
+end
+```
+
+Then, I'd like to declare a `Teacher` class, but it should also be a `Person`. 
+
+How do I do that? 
+
+Inheritance to the rescue!
+
+```ruby
+class Teacher < Person
+  attr_accessor :title
+end
+```
+
+By writing `Teacher < Person` we say that `Teacher` inherits the methods and 
+properties of `Person` so we could write code as:
+
+```ruby
+teacher = Teacher.new
+teacher.name = 'Albert Einstein'
+teacher.social_security_number =  '987-65-4320'
+teacher.title = 'PHD'
+```
+
+So now we can say a `Teacher` is a `Person` because it has all properties
+and methods that a `Person` has plus it's own new `Teacher` methods and properties.
