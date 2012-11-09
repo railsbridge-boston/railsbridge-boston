@@ -108,7 +108,7 @@ tree -d
 If you on Windows, just type
 
 ```text
-tree 
+find .
 ```
 
 You should see the entire directory tree of your project so you can see all the folders. 
