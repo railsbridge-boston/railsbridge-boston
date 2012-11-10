@@ -98,8 +98,9 @@
                     var last = pieces[pieces.length -1];
                     var aTag = $(".content a[href$='" + last + "']");
                     var li = aTag.parent();
-                    aTag.after( "<span class='completionCount'>" + summary[i].count + "</span>");
+                    aTag.after( "<span class='completionCount'>" + summary[i].count + "," + 58 + "</span>");
                 }
+                $(".completionCount").sparkline('html', {type: 'pie', sliceColors: ['#F00', '#CCC' ] });
 
             });
 

@@ -972,5 +972,8 @@ span[contenteditable=true]:focus {
 
 .completionCount {
   margin-left: 10px;
-  color: #ccc;
+  color: #CCCCCC;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
 }
