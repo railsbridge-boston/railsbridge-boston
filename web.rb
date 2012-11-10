@@ -13,7 +13,12 @@ require 'sequel'
 require 'json'
 
 DB = Sequel.connect(ENV['DATABASE_URL'] || 'postgres:///students')
+
 class Student < Sequel::Model
+  one_to_many :completions
+end
+class Completion  < Sequel::Model
+  many_to_one :student
 end
 
 class HTMLwithCodeRay < Redcarpet::Render::HTML
@@ -79,7 +84,7 @@ class RubyWorkshop < Sinatra::Base
     puts "Session id #{session[:student_id]}"
     load_student
     res = if @student
-      @student.values
+      @student.values.merge(:completions => @student.completions.map(&:values))
     else
       @student = Student.create(:name => nil)
       session[:student_id] = @student.student_id
@@ -91,7 +96,16 @@ class RubyWorkshop < Sinatra::Base
   end
 
   post '/completions' do
-    
+    puts params.inspect
+    load_student
+    if (@completion = Completion[:page => params[:page], :student => @student])
+      @completion.update(:created => Time.now)
+      puts "Updated completion #{@completion.values}"
+    else
+      @completion = Completion.create(:student => @student, :page => params[:page])
+      puts "Created completion #{@completion.values}"
+    end
+    "OK"
   end
 
 
