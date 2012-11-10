@@ -73,7 +73,7 @@
                 // ☐ ☑
 
                 var link = $("li:not(:has(em))");
-                link.prepend("☐ ");
+                link.prepend("<span class='check'>☐</span> ");
 
                 var completions = data["completions"];
 
