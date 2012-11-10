@@ -88,7 +88,7 @@
                       var element = $(".content a[href$='" + last + "']").parent();
                       element.html( element.html().replace("☐", "☑") )
                   }
-                drawPieCharts;
+                drawPieCharts();
                 setInterval(drawPieCharts, 2000);
 
             });
