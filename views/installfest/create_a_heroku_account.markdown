@@ -22,6 +22,7 @@ Heroku will send you an activation email. Open it and click on the activation li
 
 ```text
 gem install heroku
+rbenv rehash
 ```
 
 If you see a deprecation warning, don't worry about it.
