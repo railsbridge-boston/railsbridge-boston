@@ -91,6 +91,17 @@
 
             });
 
+            $.get("/completions", function(rawdata) {
+                var summary = JSON.parse(rawdata); 
+                for (var i = 0, g = summary.length; i < g; i++) {
+                    var pieces = summary[i].page.split("/");
+                    var last = pieces[pieces.length -1];
+                    var aTag = $(".content a[href$='" + last + "']");
+                    var li = aTag.parent();
+                    aTag.after( "<span class='completionCount'>" + summary[i].count + "</span>");
+                }
+
+            });
 
         }
     }
