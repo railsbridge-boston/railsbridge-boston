@@ -64,6 +64,35 @@
 
       });
 
+    } else {
+        if ( location.href.search("/curriculum_toc" ) != -1 ) {
+
+            $.get("/student", function(rawdata){
+              var data = JSON.parse(rawdata);
+
+                // ☐ ☑
+
+                var link = $("li:not(:has(em))");
+                link.prepend("☐ ");
+
+                var completions = data["completions"];
+
+                for (var i = 0, g = completions.length; i < g; i++) {
+                    var pieces = completions[i].page.split("/");
+                    var last = pieces[pieces.length -1];
+
+                  var element = $("a[href$='" + last + "']").parent();
+
+
+                    element.html( element.html().replace("☐", "☑") )
+
+                }
+
+
+            });
+
+
+        }
     }
 
   });
