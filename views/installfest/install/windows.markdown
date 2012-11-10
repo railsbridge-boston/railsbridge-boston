@@ -62,6 +62,8 @@ TODO: "What is a home directory?"
     ```text
     # More helpful file list
     alias ls='ls -Alh --color=always'
+
+    alias irb='ruby -S irb'
     ```
 
 * Save `.bashrc` ("File > Save").
