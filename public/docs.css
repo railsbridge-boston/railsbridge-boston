@@ -965,3 +965,6 @@ span[contenteditable=true]:focus {
   background-color: #ffa;
   border: 1px shaded #000;
 }
+.check {
+  font-size: 24px;
+}
