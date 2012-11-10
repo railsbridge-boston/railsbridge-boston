@@ -108,6 +108,9 @@ class RubyWorkshop < Sinatra::Base
     "OK"
   end
 
+  get '/completions' do
+    DB["select page, count(student_id)  from completions group by page"].to_a.to_json
+  end
 
   get '/' do
     erb :index
