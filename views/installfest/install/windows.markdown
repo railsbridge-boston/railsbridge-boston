@@ -3,7 +3,6 @@
 Installing Ruby and Rails on Windows is easy thanks to <a href="http://railsinstaller.org" target="_blank">RailsInstaller</a>. 
 This one installer will give you Ruby, Rails, Git and the Bash shell. Let's get started.
 
-
 ## Install RailsInstaller
 
 ### 1. Download RailsInstaller
@@ -33,8 +32,6 @@ address for GitHub, Heroku and SSH, so they can all work together.
 
 You just installed Ruby, Rails, and Git. That wasn't so bad, right?
 
-
-
 ## Configure your Shell
 
 RailsInstaller comes with a nice shell called Bash. We will configure it for our purposes.
@@ -63,6 +60,7 @@ TODO: "What is a home directory?"
     # More helpful file list
     alias ls='ls -Alh --color=always'
 
+    alias subl='/c/Windows/"Programs Files"/"Sublime Text 2"/sublime_text'
     alias irb='ruby -S irb'
     ```
 
