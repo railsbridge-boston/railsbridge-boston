@@ -3,6 +3,11 @@
 
 [http://heroku.com](http://heroku.com)
 
+**Warning: Don't install the Heroku Toolbelt**
+
+They will ask you to install Toolbelt on the Heroku website, but don't do it. It will mess up
+your ruby install.
+
 ## 2. Create an account
 click the big **Sign Up** button (it's about halfway down the page)
 
@@ -18,6 +23,8 @@ Heroku will send you an activation email. Open it and click on the activation li
 ```text
 gem install heroku
 ```
+
+If you see a deprecation warning, don't worry about it.
 
 ## 6. Create an ssh key
 
