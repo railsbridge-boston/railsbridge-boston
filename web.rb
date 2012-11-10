@@ -9,6 +9,9 @@ require 'haml'
 require 'coderay'
 require 'deck'
 require 'deck/rack_app'
+require 'sequel'
+
+DB = Sequel.connect(ENV['DATABASE_URL'] || 'postgres:///students')
 
 class HTMLwithCodeRay < Redcarpet::Render::HTML
   INNER_RENDERER = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new)
@@ -42,6 +45,11 @@ class RubyWorkshop < Sinatra::Base
     :no_intra_emphasis => true,
     :fenced_code_blocks => true,
     :renderer => HTMLwithCodeRay.new
+
+  get '/dbcheck' do
+    DB.tables.inspect
+  end
+
 
   get '/' do
     erb :index
