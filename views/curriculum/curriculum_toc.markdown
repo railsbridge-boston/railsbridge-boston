@@ -49,3 +49,18 @@
 
 ## Wrapping Up ##
 * [Credits](credits_and_next_steps)
+
+## Beer Choices
+
+* [Cerise Cassée](http://cambridgebrewing.com/beer/description/Cerise-Cassee-/)
+* [Great Pumpkin Ale!](http://cambridgebrewing.com/beer/description/Great-Pumpkin-Ale/)
+* [Grey Ghost](http://cambridgebrewing.com/beer/description/grey-ghost/)
+* [LARRY BIRD HAIRCUT](http://cambridgebrewing.com/beer/description/larry-bird-haircut/)
+* [Nom de Plum](http://cambridgebrewing.com/beer/description/nom-de-plum1/)
+* [WHITE WIDOW](http://cambridgebrewing.com/beer/description/white-widow/)
+* [Cambridge Amber](http://cambridgebrewing.com/beer/description/cambridge_amber/)
+* [Charles River Porter](http://cambridgebrewing.com/beer/description/charles_river_porter/)
+* [Regatta Golden](http://cambridgebrewing.com/beer/description/regatta_golden/)
+* [Tall Tale Pale Ale](http://cambridgebrewing.com/beer/description/tall_tale_pale_ale/)
+
+
