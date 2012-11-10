@@ -1,4 +1,7 @@
+
 (function($) {
+
+
 
   $(function() {
     $('.show-hints').click(function() {
@@ -68,47 +71,50 @@
         if ( location.href.search("/curriculum_toc" ) != -1 ) {
 
             $.get("/student", function(rawdata){
-              var data = JSON.parse(rawdata);
+                var data = JSON.parse(rawdata);
 
-                // ☐ ☑
+                  // ☐ ☑
 
-                var link = $(".content li:not(:has(em))");
-                link.prepend("<span class='check'>☐</span> ");
+                  var link = $(".content li:not(:has(em))");
+                  link.prepend("<span class='check'>☐</span> ").
+                    find("a").
+                    after( "<span class='completionCount'></span>");
 
-                var completions = data["completions"];
+                  var completions = data["completions"];
 
-                for (var i = 0, g = completions.length; i < g; i++) {
-                    var pieces = completions[i].page.split("/");
-                    var last = pieces[pieces.length -1];
-
-                  var element = $(".content a[href$='" + last + "']").parent();
-
-
-                    element.html( element.html().replace("☐", "☑") )
-
-                }
-
-
-            });
-
-            $.get("/completions", function(rawdata) {
-                var summary = JSON.parse(rawdata); 
-                var completions = summary.completions;
-                var total = summary.total;
-                for (var i = 0, g = completions.length; i < g; i++) {
-                    var pieces = completions[i].page.split("/");
-                    var last = pieces[pieces.length -1];
-                    var aTag = $(".content a[href$='" + last + "']");
-                    var li = aTag.parent();
-                    aTag.after( "<span class='completionCount'>" + completions[i].count + "," + total + "</span>");
-                }
-                $(".completionCount").sparkline('html', {type: 'pie', sliceColors: ['#F00', '#CCC' ] });
+                  for (var i = 0, g = completions.length; i < g; i++) {
+                      var pieces = completions[i].page.split("/");
+                      var last = pieces[pieces.length -1];
+                      var element = $(".content a[href$='" + last + "']").parent();
+                      element.html( element.html().replace("☐", "☑") )
+                  }
+                drawPieCharts;
+                setInterval(drawPieCharts, 2000);
 
             });
-
         }
     }
 
+
+
   });
+
+  function drawPieCharts()  {
+    $.get("/completions", function(rawdata) {
+              var summary = JSON.parse(rawdata); 
+              var completions = summary.completions;
+              var total_students = summary.total_students;
+              for (var i = 0, g = completions.length; i < g; i++) {
+                  var pieces = completions[i].page.split("/");
+                  var last = pieces[pieces.length -1];
+                  var aTag = $(".content a[href$='" + last + "']");
+                  var li = aTag.parent();
+                  var spanTag = li.find("span.completionCount");
+                  spanTag.sparkline([ completions[i].count, total_students ] , {type: 'pie', sliceColors: ['#F00', '#CCC' ] });
+              }
+
+      });
+  }
+  
 
 }(jQuery));
