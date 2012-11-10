@@ -23,10 +23,13 @@
     <form id="progress-tick">
       Check this box if you're done this unit:
       <input type="checkbox" value="<%= request.path_info %>" id="done"/>
-      |&nbsp; 
-      &nbsp; 
+      |&nbsp; &nbsp; 
       Your name:
       <span id="name" contenteditable="true">{{ name }}</span>
+      &nbsp; |&nbsp; &nbsp; 
+      {{#student_id}}
+        Student ID: <span id="studentId">{{student_id}}</span>
+      {{/student_id}}
     </div>
   </script>
 </head>

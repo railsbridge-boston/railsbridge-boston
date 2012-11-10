@@ -34,6 +34,9 @@ class RubyWorkshop < Sinatra::Base
     @app = ::Deck::RackApp.public_file_server
   end
 
+  enable :sessions
+  set :session_secret, 'railsbridgebosmit'
+
   Compass.configuration do |config|
     config.project_path = File.dirname(__FILE__)
     config.sass_dir = 'views/stylesheets'
@@ -48,34 +51,47 @@ class RubyWorkshop < Sinatra::Base
     :no_intra_emphasis => true,
     :fenced_code_blocks => true,
     :renderer => HTMLwithCodeRay.new
-  enable :sessions
+
 
   get '/dbcheck' do
     DB.tables.inspect
   end
 
+  def load_student
+    if session[:student_id] && (@student = Student[session[:student_id]])
+      @student
+    elsif session[:student_id]
+      session.clear 
+      nil
+    end
+  end
+
   post '/student' do
-    @student = Student.create(:name => params[:name].strip)
-    session[:student_id] = @student.student_id.to_s
-    puts "Created student: #{@student.values.inspect}"
-    @student.values.to_json
+    if load_student
+      @student.update(:name => params[:name])
+      @student.values.to_json
+    else
+      {:error => "No student found"}
+    end
   end
 
   get '/student' do
     puts "Session id #{session[:student_id]}"
-    res = if session[:student_id] && (@student = Student[session[:student_id].to_i])
+    load_student
+    res = if @student
       @student.values
-    elsif session[:student_id]
-      session.clear 
-      {name: 'Jane Doe'}
     else
-      {name: 'Jane Doe'}
+      @student = Student.create(:name => nil)
+      session[:student_id] = @student.student_id
+      puts "Created student #{@student.student_id}"
+      @student.values
     end
     puts "Sending student data: #{res.inspect}"
     res.to_json
   end
 
-  post '/progress' do
+  post '/completions' do
+    
   end
 
 

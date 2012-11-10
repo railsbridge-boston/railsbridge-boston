@@ -8,17 +8,19 @@
 
 
   $(document).ready(function(){
+
     if (location.href.search("/curriculum") !== -1 &&
         location.href.search("/curriculum_toc") === -1 
     ) {  /* show the progress checkbox and email field */
 
-      $.get("/student", function(data){
-
-        var html = ich.studentProgress(JSON.parse(data));
+      $.get("/student", function(rawdata){
+        var data = JSON.parse(rawdata);  
+        var html = ich.studentProgress(data);
         $("h2:contains('Next Step'),h2:contains('Finished')").after(html);
-
-        if (JSON.parse(data).name !== 'Jane Doe') {
+        if (data.name) {
           $("span#name").attr('contenteditable', false);
+        } else {
+          $("span#name").html("CHANGME");
         }
 
         $("span[contenteditable=true]").blur(function(){
@@ -36,7 +38,7 @@
 
 
     }
-    $("#student-identity")
+
   });
 
 }(jQuery));
