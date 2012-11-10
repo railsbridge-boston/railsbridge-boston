@@ -109,7 +109,9 @@ class RubyWorkshop < Sinatra::Base
   end
 
   get '/completions' do
-    DB["select page, count(student_id)  from completions group by page"].to_a.to_json
+    completions = DB["select page, count(student_id)  from completions group by page"].to_a
+    total = DB["select count(*) as total from completions group by student_id"].first[:total]
+    {completions: completions, total: total}.to_json
   end
 
   get '/' do

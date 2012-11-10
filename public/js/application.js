@@ -93,12 +93,14 @@
 
             $.get("/completions", function(rawdata) {
                 var summary = JSON.parse(rawdata); 
-                for (var i = 0, g = summary.length; i < g; i++) {
-                    var pieces = summary[i].page.split("/");
+                var completions = summary.completions;
+                var total = summary.total;
+                for (var i = 0, g = completions.length; i < g; i++) {
+                    var pieces = completions[i].page.split("/");
                     var last = pieces[pieces.length -1];
                     var aTag = $(".content a[href$='" + last + "']");
                     var li = aTag.parent();
-                    aTag.after( "<span class='completionCount'>" + summary[i].count + "," + 58 + "</span>");
+                    aTag.after( "<span class='completionCount'>" + completions[i].count + "," + total + "</span>");
                 }
                 $(".completionCount").sparkline('html', {type: 'pie', sliceColors: ['#F00', '#CCC' ] });
 
