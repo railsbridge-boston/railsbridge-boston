@@ -20,7 +20,7 @@
 
 
 
-        $("h2:contains('Next Step'),h2:contains('Finished')").after(html);
+        $("h2:contains('Next Step'),h2:contains('Finished')").before(html);
 
         // set checked attribute of the completion checkbox
         for (var i = 0, g = completions.length; i < g; i++) {

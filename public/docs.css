@@ -947,8 +947,12 @@ body {
 }
 
 
-#progress-tick {
-
+#progress-tick{
+  display:inline-block;
+  margin-top:30px;
+  font-size: 18px;  
+  border-bottom: 1px solid #E74222;
+  padding: 5px;
 }
 #progress-tick input[type=checkbox] {
   margin-right: 10px;
