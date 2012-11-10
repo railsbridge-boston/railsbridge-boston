@@ -98,12 +98,12 @@ Each lesson will look like this:
 
 </div>
 
-### Checkpoints
+## Checkpoints
 
 At the end of every section, you will get a "checkpoint". These are like practice questions after a chapter—they 
 give you the chance to deepen your understanding of the section. You will be asked to apply the concepts
 introduced in that section, but you won't be given every command. Talk to your TA once you have completed the
 checkpoint, or if you get stuck.
 
-### Next Step
+## Next Step
 Go on to [Ruby Language](ruby_language)

@@ -945,3 +945,19 @@ body {
 .link-color {
   color: #e74222;
 }
+
+
+#progress-tick {
+
+}
+#progress-tick input[type=checkbox] {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+span[contenteditable=true]:hover {
+  background-color: #ffc;
+}
+span[contenteditable=true]:focus {
+  background-color: #ffa;
+  border: 1px shaded #000;
+}

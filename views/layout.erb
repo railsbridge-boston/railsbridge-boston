@@ -18,6 +18,17 @@
   <link href="/bootstrap-responsive.css" rel="stylesheet">
   <link href="/docs.css" rel="stylesheet">
   <% if @markdown %><link href="/markdown.css" rel="stylesheet"><% end %>
+
+  <script id="studentProgress" type="text/html">
+    <form id="progress-tick">
+      Check this box if you're done this unit:
+      <input type="checkbox" value="<%= request.path_info %>" id="done"/>
+      |&nbsp; 
+      &nbsp; 
+      Your name:
+      <span id="name" contenteditable="true">{{ name }}</span>
+    </div>
+  </script>
 </head>
 
 <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="50">
@@ -25,10 +36,13 @@
     <%= erb :navbar %>
 
     <%= yield %>
+
   </div>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/ICanHaz.min.js"></script>
   <script src="/js/application.js"></script>
+
 </body>
 </html>
