@@ -72,7 +72,7 @@
 
                 // ☐ ☑
 
-                var link = $("li:not(:has(em))");
+                var link = $(".content li:not(:has(em))");
                 link.prepend("<span class='check'>☐</span> ");
 
                 var completions = data["completions"];
@@ -81,7 +81,7 @@
                     var pieces = completions[i].page.split("/");
                     var last = pieces[pieces.length -1];
 
-                  var element = $("a[href$='" + last + "']").parent();
+                  var element = $(".content a[href$='" + last + "']").parent();
 
 
                     element.html( element.html().replace("☐", "☑") )
