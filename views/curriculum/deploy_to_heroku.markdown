@@ -128,7 +128,8 @@ Make a change to the "Welcome aboard" page, commit the change to Git, and deploy
 
 1. Edit the "Welcome aboard" default Rails welcome page. 
   You can find the file in `public/index.html`. 
-  Open it up, and change the title to say "Ahoy, Matey! Welcome to RailsBridge!" or something you like.
+  Open the file and find the line: `<h1>Welcome aboard</h1>`
+  Change that to say `<h1>Ahoy, Matey! Welcome to RailsBridge!</h1>` or something you like.
   Remember to save your changes.
 2. Run the rails server.
 3. View your change in the browser at `localhost:3000`.

@@ -22,9 +22,15 @@ Heroku will send you an activation email. Open it and click on the activation li
 
 ```text
 gem install heroku
+rbenv rehash
 ```
 
-If you see a deprecation warning, don't worry about it.
+If you see: 
+
+```text
+!    The `heroku` gem has been deprecated and replaced with the Heroku Toolbelt"
+```
+Don't worry about it, that's expected.
 
 ## 6. Create an ssh key
 

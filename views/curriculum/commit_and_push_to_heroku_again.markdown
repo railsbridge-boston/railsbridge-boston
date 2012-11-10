@@ -5,7 +5,7 @@ We just made some awesome changes. Let's push them so our friends can play with 
 ## Steps
 See if you can remember how to do the following without reading the hints:
 
-Add all your changes to Git, commit them, push them to Heroku, and run 'migrate' rake task on Heroku.
+Add all your changes to Git, commit them, push them to Heroku, and run the 'migrate' rake task on Heroku.
 
 <div class="hints">
   <p><a class="show-hints dropdown" href="#hints">Show me the hints<b class="caret"></b></a></p>
@@ -25,9 +25,12 @@ We commit our changes, push them out and run the remote migration... By this tim
 
 ## Checkpoint: Vote belongs_to User
 
+Let's try another association exercise. This won't change anything in the view, so you won't see
+any changes if you push to Heroku.
+
 Set an association so Vote belongs_to a User, and User has_many Votes, just like you associated votes with a topic.
 
-You've never generated a migration by itself, so we'll give you some extra hints:
+You've never generated a migration by itself, use these steps:
 
 1. Create a migration to add an integer "user_id" to the votes table.
 
