@@ -35,7 +35,8 @@ end
 ```
 
 ### Step 3: Confirm your changes in the browser
-Go back to [http://localhost:3000/topics](http://localhost:3000/topics) and play.  
+Make sure the rails server is running (`rails server`), and go back to 
+[http://localhost:3000/topics](http://localhost:3000/topics) and play.  
 Revel in the fact that you didn't have to restart the server to see these changes. Hawt, no?
 
 ## Explanation
