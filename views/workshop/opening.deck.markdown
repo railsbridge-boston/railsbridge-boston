@@ -28,6 +28,7 @@
 * Rails helps you get an application up and running very fast and makes it easy to modify
 * Ruby also makes it easy to modify by letting you change code on the fly
 * There is more to say than this...
+* "Many of the companies you all know and love use Ruby in some capacity: Amazon, BBC, Cisco, CNET, IBM, JP Morgan, NASA, and Yahoo!. Many of the fastest-growing web-based companies have been built using Ruby on Rails: Scribd (over 70 million readers each month), Groupon (over 38.5 million subscribers in North America), Basecamp (millions of users). All in all, more than 200,000 web sites are using Ruby on Rails." -- [Business Insider](http://articles.businessinsider.com/2011-05-11/tech/30035869_1_ruby-rails-custom-software)
 
 !SLIDE bullets
 # What We Are Doing Today
@@ -38,7 +39,7 @@
 
 !SLIDE bullets
 # What You Should Do Tomorrow
-* Start building your own app (or go to the beach)
+* Start building your own app (or play outside)
 * But wait, will I be ready? Yes, and here's why...
 
 ![Do Tomorrow](/images/slides/do_tomorrow.png)
@@ -73,9 +74,5 @@
 * The ethos extends farther, to community events and sharing like this event. 
 
 !SLIDE bullets
-# Let's Get Started
-* Please seat yourselves in groups of 3-4.  There should be about 2 groups per table.  
-* Roughly divide up so that people who feel they have less experience are at the window side of the room and those who feel they have more experience are near the door side of the room.  
-* A teaching assistant will come and join each group and move you around as needed.  
-* This will be your group and your seat for the day, so bring your stuff to your new location.  
+# Let's Get Started!
 
