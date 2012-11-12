@@ -63,4 +63,5 @@
 * [Regatta Golden](http://cambridgebrewing.com/beer/description/regatta_golden/)
 * [Tall Tale Pale Ale](http://cambridgebrewing.com/beer/description/tall_tale_pale_ale/)
 
+[Vote Here!](http://coolbeans-liu.herokuapp.com)
 
