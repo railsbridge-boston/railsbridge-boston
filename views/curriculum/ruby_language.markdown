@@ -102,8 +102,8 @@ fruits - ["kiwi"]
 Type this in the terminal
 
 ```ruby
-fruits.each do |f|
-  puts f
+fruits.each do |fruit|
+  puts fruit
 end
 ```
 
