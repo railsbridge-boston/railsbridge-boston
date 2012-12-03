@@ -136,8 +136,17 @@ implemented on three new workshop "features":
 
 ### Logo and stickers
 
-Martha Rettig made us a fabulous logo, which we turned into stickers
-that we handed out to everyone at the workshop. MORE TODO
+We didn't have a logo for our August workshop. But we got one for this
+one.  Martha Rettig made us a fabulous logo and designed two stickers to
+match.  We ordered 500 of these babies from
+[PrintRunner](http://www.printrunner.com/) and handed them out to
+everyone at the workshop. Thanks also to Anita Patel for coming up with
+the whole brilliantly cost-effective idea, which didn't bust our budget.
+We were basically following the logo and schwag trail blazed by our
+sister organization [RailsGirls](http://blog.railsgirls.com/), 
+who totally rock at style and branding. 
+
+Next time we may go for t-shirts or bags!
 
 ### Curriculum progress tracker
 
