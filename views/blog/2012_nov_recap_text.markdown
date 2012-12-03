@@ -160,12 +160,12 @@ tracker.
 As students finished each Suggestotron lesson, they were asked to check
 off a "lesson completed" checkbox at the bottom of the lesson.  As
 students ticked these off, little pie graphs would automatically update
-on our curriculum outline to reflect the percentage of the workshop that
+on our curriculum outline to reflect the percentage of the class that
 had completed each lesson.  We kept this information up on the projector
-screen in between lectures. (See picture on right, courtesy
-of TA [Peter Jaros](http://twitter.com/peeja).)
+screen in between lectures. (See picture on right, courtesy of TA [Peter
+Jaros](http://twitter.com/peeja).)
 
-### Use the Suggestron for beer voting
+### Use the Suggestron for beer voting!
 
 Toward the end of the Saturday session, we decided that we were going to 
 order a bunch of beer towers at our afterparty at [Cambridge Brewing
