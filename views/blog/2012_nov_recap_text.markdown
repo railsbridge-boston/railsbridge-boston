@@ -5,10 +5,11 @@ Cambridge, Massachusetts.  Sixty beginners, ?? of them women, attended
 the workshop. Twenty-five experienced Ruby programmers assisted them
 through software installation, lectures and exercises.
 
-This was our second workshop in three months. Read our [recap of the
-first workshop](/blog/2012_aug_recap) this past August at Harvard Law
-School to find out about what inspired us to organize RailsBridge Boston
-workshops.
+This was our second workshop in three months. So we don't have to repeat
+what we've written before, please read our [recap of the first
+workshop](/blog/2012_aug_recap) this past August at Harvard Law School
+to find out about what inspired us to organize RailsBridge Boston
+workshops and about our basic workshop format.
 
 The students who attended the workshop generally appreciated the
 experience. Forty-two out of 60 students completed the exit survey. Over
@@ -16,8 +17,14 @@ experience. Forty-two out of 60 students completed the exit survey. Over
 
 ![survey2](/images/2012-nov/survey2.png)
 
+### TAs, TAs, TAs!
+
 In response to the question, "What did you like most about the
-workshop?" people said:
+workshop?" people pointed to one thing above all others: the awesome
+teaching assistants, and the fact that we had enough of them on hand --
+approximately 2.4 students per TA this time around -- to answer
+questions and help people get past obstacles. (The allusion is to
+[Steve Ballmer](http://www.youtube.com/watch?v=8To-6VIJZRE).)
 
 > The people there were amazing -- all of the organizers and TA's were
 > great.  So nice and friendly and helpful.  The attendees were also
