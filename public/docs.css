@@ -894,8 +894,10 @@ form.well {
   font-size: 14px;
   line-height: 1.5em;
 }
-.recap-images img {
+/* left column images in flow of text content */
+.recap img {
   margin: 10px 0;
+  border: 1px solid #ccc;
 }
 .recap blockquote,
   .recap blockquote p {

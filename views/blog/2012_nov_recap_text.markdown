@@ -13,7 +13,7 @@ workshops and about our basic workshop format.
 
 The students who attended the workshop generally appreciated the
 experience. Forty-two out of 60 students completed the exit survey. Over
-90 percent gave the workshop a rating of 4 or 5 out of 5.
+90 percent of attendees gave the workshop a rating of 4 or 5 out of 5.
 
 ![survey2](/images/2012-nov/survey2.png)
 
