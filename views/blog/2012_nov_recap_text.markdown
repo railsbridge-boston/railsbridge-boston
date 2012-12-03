@@ -17,6 +17,33 @@ experience. Forty-two out of 60 students completed the exit survey. Over
 
 ![survey2](/images/2012-nov/survey2.png)
 
+We got a lot of positive general comments. A small sample: 
+
+>  You guys rock!  I've tried learning RoR 3 times before, using
+>  different methods (husband-as-teacher, self-study, small class)
+>  without success.  I left this course with a project in my head and
+>  passion in my heart.  Keep up the good work!
+
+--
+
+>  Great work: the timing for tutorials, presentations, and meals
+>  provided the perfect mix. I was never bored or felt abandoned. And
+>  just as my brain was beginning to check out, we were already consuming
+>  celebratory beers.
+>
+>  Thank you so much! 
+
+--
+
+>  I like the mix of lectures, "assignments", socials, and food. Well
+>  done guys
+
+--
+
+>  Thank you very much for such a good workshop. I appreciated your
+>  energy and enthusiasm. After drinks were also very nice and a good
+>  opportunity to network with very interesting people.
+
 ### TAs, TAs, TAs!
 
 In response to the question, "What did you like most about the
@@ -104,12 +131,15 @@ Here is some of the feedback we got on this question:
 ### What to improve in the future
 
 We also asked students if there was anything we could improve in the
-future.
+future. Here are the most common suggestions.
+
+### Reduce information overload
 
 Some students suffered from brain-fry and information overload.  They
-suggested more breaks, a better priming on foundational concepts and
-skills, or alternatively some pre-workshop homework that might reduce
-the amount of new information they would have to digest during the workshop.
+suggested more breaks, a longer and more leisurely workshop, better
+priming on foundational concepts and skills, or alternatively some
+pre-workshop homework that might reduce the amount of new information
+they would have to digest during the workshop.
 
 >  More breaks. My brain was so full by the end of the day, I've had
 >  to go back and re-visit a few things.
@@ -132,11 +162,62 @@ the amount of new information they would have to digest during the workshop.
 >  research beforehand and likely would have gotten more out of the
 >  1.5 days if I had this baseline level of understanding.
 
-Other students suggested more post-workshop support.
+-- 
+
+>  The curriculum is very well written, it explains very well and
+>  clear! I like the presentation in between very much. The only
+>  difficulty with that is that if you are behind schedule then they
+>  make less sense. I would also be happy to do a weekend course,
+>  divide the content over 2 days to feel less rushed to get everything
+>  done and have a better preparation to go further with Ruby on rails
+>  by yourself. I'd like to give MANY compliments about the whole
+>  organization. It was beyond my expectations, really great!
+
+### Assume less knowledge in the lectures 
+
+Some beginners were a bit overwhelmed because some of the lectures
+or exercises assumed a little too much knowledge on their part. 
+
+> [S]everal of the lectures were in Japanese for those of us who have
+> never programmed anything before....  I have no idea why the things
+> they were saying are important because I have never used any other
+> programming language and am not at the "super user" stage yet.  That
+> time would have been better spent introducing us to the basics of the
+> tools you need to code, what typical workflows are for making a web
+> app, etc.
+
+--
+
+>  The lectures after lunch on saturday started getting a little over
+>  my head. It's probably because of my lack of prior programming
+>  experience, but I just thought I'd mention it.
+
+--
+
+>  I'm ... not sure how effective all the lectures were--some of them,
+>  including the ones introducing databases, were pretty high-level
+>  for a course where most of the women in the room had zero programming
+>  experience.  I have some previous programming experience, but never
+>  made it to databases, so hearing the way Ruby handles databases
+>  compared to other languages was not helpful, since I had no frame
+>  of reference.
+
+### Offer post-workshop support and guidance
+
+Many students urged us to offer more structured post-workshop support
+as they continued their Ruby and Rails self-education.
+
+>  I feel like I managed to get through everything but now I'm never
+>  going to touch Ruby again- it would be nice if there were exercises
+>  and tips walking us through them, to guide us beyond the class.
+>  Maybe an interactive component for us to follow up on using Ruby a
+>  week later.
+
+-- 
 
 >  I think you already have an excellent recipe for success. You had
 >  a great number of TAs who were all genuinely warm and patient and
->  able to communicate effectively=97I think that's key.
+>  able to communicate effectively. I think that's key.
 >
 >  I'd also love to stay in contact with certain people from the
 >  workshop both TAs and other students. Perhaps a google groups?
@@ -168,30 +249,47 @@ Other students suggested more post-workshop support.
 >  course, especially if it followed soon after the first one, would
 >  help people make the time to keep up with their skills.
 
-Others urged us to hold more RailsBridge workshops. This time around we
-had over 120 applicants for 60 spots, so we waitlisted and turned away a
-lot of people.
+### Make sure students internalize concepts
 
->  I think there is a clear demand, so having more frequent workshops
->  would help address the waiting list issue.
+One or two students pointed out that it's perhaps easy to just go
+through the exercises just copying and pasting material from the
+curriculum without developing a deeper understanding.
 
+>  Overall, I think the workshop was a great introduction to Ruby on
+>  Rails that was well-paced and well-structured. At some points, I
+>  felt that I was copying and pasting without internalizing what I
+>  should be learning from the activities -- I wonder if there is a
+>  way to foster more interactive learning on the assignments between
+>  the lectures?
 
-A few people wished that the workshop was a little bit longer and a
-little less rushed:
+We've actually started working on this problem since our last workshop. 
+[Brendan Kemp](https://github.com/brendankemp) started hiding steps in
+[hint sections](https://github.com/railsbridge-boston/railsbridge-boston/commit/b383cb23634554731ad3d2980c3a58e96a033d43)
+that students have to click to reveal. We plan to cover more of
+the curriculum with these.
 
-> one more day would be great!
+### Address late walk-ins, uncivil people, and overdomineering males
 
---
+Some people did not attend the Friday installfest and showed up on
+Saturday expecting a TA to help them through the installation while the
+rest of the workshop proceeded. Several students and TAs we surveyed
+noted that this presented a serious imposition and drag on the workshop.
 
->  The curriculum is very well written, it explains very well and
->  clear! I like the presentation in between very much. The only
->  difficulty with that is that if you are behind schedule then they
->  make less sense. I would also be happy to do a weekend course,
->  divide the content over 2 days to feel less rushed to get everything
->  done and have a better preparation to go further with Ruby on rails
->  by yourself. I'd like to give MANY compliments about the whole
->  organization. It was beyond my expectations, really great!
+We also had one unfortunate incident where a student started saying
+disparaging things about transgendered people, at the same a table where
+one happened to be sitting. We had no civility policy for workshop
+attendees to prevent this sort of thing. But next time [we will have
+one](https://github.com/railsbridge-boston/railsbridge-boston/issues/2).
 
+One student also pointed out that the men at her table monopolized
+the TAs attention a bit too much:
+
+>  In addition, I noted that 2 of the 3 men at my table consumed more
+>  TA time and resources than all the rest of us put together, and
+>  their female hosts seemed vastly uninterested in the proceedings.
+>  That just seemed like flat-out theft of freely offered resources.
+
+### Add brie
 
 One person could only suggest that we add brie to our food offerings:
 
