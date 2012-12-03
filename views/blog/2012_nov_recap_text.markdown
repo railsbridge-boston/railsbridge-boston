@@ -11,7 +11,7 @@ workshop](/blog/2012_aug_recap) this past August at Harvard Law School
 to find out about what inspired us to organize RailsBridge Boston
 workshops and about our basic workshop format.
 
-The students who attended the workshop generally appreciated the
+The students who attended the workshop overwhelmingly appreciated the
 experience. Forty-two out of 60 students completed the exit survey. Over
 90 percent of attendees gave the workshop a rating of 4 or 5 out of 5.
 
