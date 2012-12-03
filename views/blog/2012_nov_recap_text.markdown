@@ -50,7 +50,7 @@ In response to the question, "What did you like most about the
 workshop?" people pointed to one thing above all others: the friendly,
 knowledgeable, laid-back, nonjudgmental, encouraging teaching
 assistants, and the fact that we had enough of them on hand --
-approximately 2.4 students per TA this time around -- to answer
+approximately one for every 2.4 students this time -- to answer
 questions and help people get past obstacles. (The allusion is to [Steve
 Ballmer](http://www.youtube.com/watch?v=8To-6VIJZRE).)
 
