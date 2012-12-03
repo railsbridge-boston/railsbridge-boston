@@ -364,3 +364,5 @@ in touch with us if you want to attend or help.
 
 
 
+
+TODO MAYBE: put sponsor logos on right at bottom
