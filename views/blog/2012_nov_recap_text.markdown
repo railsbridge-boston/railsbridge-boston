@@ -303,7 +303,6 @@ One person could only suggest that we add brie to our food offerings:
 
 ## Thank you
 
-
 We also thank our incredible sponsors for supporting our mission and
 making this workshop possible:
 
@@ -321,10 +320,8 @@ workshop.
 
 
 
-Please follow us on Twitter: 
-[@RailsBridgeBos](https://twitter.com/RailsBridgeBos)
-To email us directly, please contact 
-[railsbridgeboston@gmail.com](mailto:railsbridgeboston@gmail.com)
+* Please follow us on Twitter: [@RailsBridgeBos](https://twitter.com/RailsBridgeBos)
+* To email us directly, please contact [railsbridgeboston@gmail.com](mailto:railsbridgeboston@gmail.com)
 
 We're looking forward to growing and running more workshops. Please get
 in touch with us if you want to attend or help. 
