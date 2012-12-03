@@ -138,39 +138,44 @@ implemented three new workshop "features":
 
 We didn't have a logo for our August workshop. But we got one for this
 one.  Martha Rettig made us a fabulous logo and designed two stickers to
-match.  We ordered 500 of these babies from
+match (see picture on right). We ordered 500 of these babies from
 [PrintRunner](http://www.printrunner.com/) and handed them out to
-everyone at the workshop. Thanks also to Anita Patel for coming up with
-the whole brilliantly cost-effective idea, which didn't bust our budget.
-We were basically following the logo and schwag trail blazed by our
-sister organization [RailsGirls](http://blog.railsgirls.com/), 
-who totally rock at style and branding. 
+everyone at the workshop. We're grateful to team member Anita Patel for
+coming up with the whole brilliantly cost-effective idea, which was
+very budget and schedule friendly.
+
+We are basically following the logo and schwag trail blazed by our
+sister organization [RailsGirls](http://blog.railsgirls.com/), who
+totally rock at style and branding. 
 
 Next time we may go for t-shirts or bags!
 
 ### Curriculum progress tracker
 
-Mauricio Linhares, Daniel Choi, Pascal Rettig, and Michael Breen
-practically live-coded a new progress tracking feature for the
-RailsBridge curriculum.
+During our Saturday session, Mauricio Linhares, Daniel Choi, Pascal
+Rettig, and Michael Breen paired in various combinations to finish
+implementing a rad new real-time RailsBridge curriculum progress
+tracker.
 
-
-TODO WRITE MORE
+As students finished each Suggestotron lesson, they were asked to check
+off a "lesson completed" checkbox at the bottom of the lesson.  As
+students ticked these off, little pie graphs would automatically update
+on our curriculum outline to reflect the percentage of the workshop that
+had completed each lesson.  We kept this information up on the projector
+screen in between lectures. (See picture on right, courtesy
+of TA [Peter Jaros](http://twitter.com/peeja).)
 
 ### Use the Suggestron for beer voting
 
-Beer cat
+Toward the end of the Saturday session, we decided that we were going to 
+order a bunch of beer towers at our afterparty at [Cambridge Brewing
+Company](http://www.cambridgebrewing.com/). But which brews should we
+order for everyone?
 
-
-
-TODO
-
-
-
-
-
-
-
+Someone came up with the brilliant idea of using a student's
+Suggestotron app to conduct our beer tower brew selection poll.
+Workshop student Christine Liu not only offered up her Suggestotron; she
+also pimped it up with some funny cat (see picture on right). 
 
 ## What to improve in the future
 
