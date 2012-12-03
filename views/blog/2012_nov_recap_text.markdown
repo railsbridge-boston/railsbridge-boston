@@ -138,6 +138,8 @@ workshop.
 Martha Rettig made us a fabulous logo, which we turned into stickers
 that we handed out to everyone at the workshop. MORE TODO
 
+![stickers](/images/stickers.jpg)
+
 
 ### Curriculum progress tracker
 
