@@ -157,7 +157,8 @@ Rettig, and Michael Breen paired in various combinations to finish
 implementing a rad new real-time RailsBridge curriculum progress
 tracker.
 
-As students finished each Suggestotron lesson, they were asked to check
+As students finished each
+[Suggestotron](/curriculum/curriculum)  lesson, they were asked to check
 off a "lesson completed" checkbox at the bottom of the lesson.  As
 students ticked these off, little pie graphs would automatically update
 on our curriculum outline to reflect the percentage of the class that
@@ -175,8 +176,8 @@ order for everyone?
 Someone came up with the brilliant idea of using a student's
 Suggestotron app to conduct our beer tower brew selection poll.
 Workshop student Christine Liu not only offered up her Suggestotron; she
-also pimped it up with some funny cat (see picture on right). We 
-ordered the most beers towers of Great Pumpkin Ale.
+also sassed it up with some cat humor (see picture on right). We 
+ordered the 4 beers towers of Great Pumpkin Ale.
 
 ## What to improve in the future
 
@@ -339,7 +340,7 @@ the TAs attention a bit too much:
 >  their female hosts seemed vastly uninterested in the proceedings.
 >  That just seemed like flat-out theft of freely offered resources.
 
-### Add brie
+### Serve some brie
 
 One person could only suggest that we add brie to our food offerings:
 
