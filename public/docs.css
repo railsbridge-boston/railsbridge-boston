@@ -899,6 +899,18 @@ form.well {
   margin: 10px 0;
   border: 1px solid #ccc;
 }
+.recap img.with-caption {
+  margin-bottom: 0px;
+}
+.img-caption {
+  margin-top: 3px;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  color: #E74222;
+  text-align: center;
+}
 .recap blockquote,
   .recap blockquote p {
   font-size: 14px;
