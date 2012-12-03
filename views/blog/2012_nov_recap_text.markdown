@@ -26,6 +26,8 @@ approximately 2.4 students per TA this time around -- to answer
 questions and help people get past obstacles. (The allusion is to
 [Steve Ballmer](http://www.youtube.com/watch?v=8To-6VIJZRE).)
 
+Here is some of the feedback we got on this question:
+
 > The people there were amazing -- all of the organizers and TA's were
 > great.  So nice and friendly and helpful.  The attendees were also
 > very nice.  Had a good overall vibe/feel to it.
@@ -97,6 +99,15 @@ questions and help people get past obstacles. (The allusion is to
 >  I asked a million and one questions.  That was nice, it made it
 >  easier to ask questions I thought were stupid but needed to know
 >  the answer to anyway.
+
+### What to improve in the future
+
+We also asked students if there was anything to improve in the future.
+
+Some students suffered from brain-fry and information overload.  "My
+brain was so full by the end of the day, I've had to go back and
+re-visit a few things."
+
 
 We also thank our incredible sponsors for supporting our mission and
 making this workshop possible:
