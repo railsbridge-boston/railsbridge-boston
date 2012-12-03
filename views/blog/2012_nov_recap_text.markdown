@@ -5,28 +5,33 @@ Cambridge, Massachusetts.  Sixty beginners, ?? of them women, attended
 the workshop. Twenty-five experienced Ruby programmers assisted them
 through software installation, lectures and exercises.
 
-We provided everyone three catered meals, free
-[PragProg](http://pragprog.com) and [O'Reilly](http://oreilly.com)
-e-books, and free drinks and appetizers at the afterparty at Cambridge
-Common in Kendal Square.
+This was our second workshop in three months. Read our [recap of the
+first workshop](/blog/2012_aug_recap) this past August at Harvard Law
+School to find out about what inspired us to organize RailsBridge Boston
+workshops.
 
-This was our second workshop in three months. Please read our 
-[recap of the first workshop](/blog/2012_aug_recap)
-this past August at Harvard Law School to find out about what inspired us to organize
-RailsBridge Boston workshops.
+The students who attended the workshop were generally appreciated the
+experience. Forty-two out of 60 students completed the exit survey. Over
+90 percent gave the workshop a rating of 4 or 5 out of 5.
 
-Based on our exit survey and direct
-feedback, the students found the workshop a well-organized, well-paced, effective, accessible,
-fun, friendly, and inspiring introduction to web application development
-with Ruby and Rails.  
+![survey2](/images/2012-nov/survey2.png)
 
-And here is a sampling of the general feedback:
+Here are some of the things that the students who filled out our
+survey said:
+
+
+
 
 We also thank our incredible sponsors for supporting our mission and
 making this workshop possible:
 
-MUST UPDATE
+TODO
 
+
+We provided everyone three catered meals, free
+[PragProg](http://pragprog.com) and [O'Reilly](http://oreilly.com)
+e-books, and free drinks and appetizers at the afterparty at Cambridge
+Common in Kendal Square.
 
 We would also like to thank Andrew Farrell Lauren McLean for helping us
 get such a great venue and arrange excellent food service for the
