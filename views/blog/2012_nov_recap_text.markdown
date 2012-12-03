@@ -44,7 +44,7 @@ We got a lot of positive general comments. A small sample:
 >  energy and enthusiasm. After drinks were also very nice and a good
 >  opportunity to network with very interesting people.
 
-### TAs, TAs, TAs!
+## TAs, TAs, TAs!
 
 In response to the question, "What did you like most about the
 workshop?" people pointed to one thing above all others: the friendly,
@@ -128,7 +128,7 @@ Here is some of the feedback we got on this question:
 >  easier to ask questions I thought were stupid but needed to know
 >  the answer to anyway.
 
-### What to improve in the future
+## What to improve in the future
 
 We also asked students if there was anything we could improve in the
 future. Here are the most common suggestions.
@@ -301,6 +301,7 @@ One person could only suggest that we add brie to our food offerings:
 >  But seriously, next time, brie.
 
 
+## Thank you
 
 
 We also thank our incredible sponsors for supporting our mission and
