@@ -151,7 +151,11 @@ RailsBridge curriculum.
 
 TODO WRITE MORE
 
-### Suggestron for beer
+### Use the Suggestron for beer voting
+
+Beer cat
+
+![beercat](/images/2012-nov/beer.png)
 
 
 TODO
