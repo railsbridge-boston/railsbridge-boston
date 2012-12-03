@@ -138,7 +138,6 @@ workshop.
 Martha Rettig made us a fabulous logo, which we turned into stickers
 that we handed out to everyone at the workshop. MORE TODO
 
-![stickers](/images/stickers.jpg)
 
 
 ### Curriculum progress tracker
@@ -147,7 +146,6 @@ Mauricio Linhares, Daniel Choi, Pascal Rettig, and Michael Breen
 practically live-coded a new progress tracking feature for the
 RailsBridge curriculum.
 
-![progress](/images/2012-nov/progress-tracker.jpg)
 
 TODO WRITE MORE
 
@@ -155,7 +153,6 @@ TODO WRITE MORE
 
 Beer cat
 
-![beercat](/images/2012-nov/beer.png)
 
 
 TODO
