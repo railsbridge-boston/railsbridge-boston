@@ -103,11 +103,106 @@ Here is some of the feedback we got on this question:
 
 ### What to improve in the future
 
-We also asked students if there was anything to improve in the future.
+We also asked students if there was anything we could improve in the
+future.
 
-Some students suffered from brain-fry and information overload.  "My
-brain was so full by the end of the day, I've had to go back and
-re-visit a few things."
+Some students suffered from brain-fry and information overload.  They
+suggested more breaks, a better priming on foundational concepts and
+skills, or alternatively some pre-workshop homework that might reduce
+the amount of new information they would have to digest during the workshop.
+
+>  More breaks. My brain was so full by the end of the day, I've had
+>  to go back and re-visit a few things.
+
+--
+
+>  While I was able to understand most of the terminology and concepts,
+>  I know there were others that didn't have much dev experience going
+>  in that struggled with understanding a lot of the concepts   I'm
+>  wondering if it's possible to do a big picture overview in the
+>  beginning -- this is a terminal, this is an editor, this is what
+>  you're going to build today, and maybe spend a little bit more time
+>  on some of the important concepts like objects, models, etc.
+
+--
+
+>  May be worthwhile to prepare a "pre-read" document to introduce the
+>  absolute basics beforehand and set expectations around what they
+>  should know coming in.  I would have been more inclined to do some
+>  research beforehand and likely would have gotten more out of the
+>  1.5 days if I had this baseline level of understanding.
+
+Other students suggested more post-workshop support.
+
+>  I think you already have an excellent recipe for success. You had
+>  a great number of TAs who were all genuinely warm and patient and
+>  able to communicate effectively=97I think that's key.
+>
+>  I'd also love to stay in contact with certain people from the
+>  workshop both TAs and other students. Perhaps a google groups?
+>
+>  In the future, it would be excellent to offer more workshops geared
+>  towards those that have completed this first workshop.
+
+--
+
+>  I think it would be great if there was a way to set up more formal
+>  continued learning after the workshop. TA's could offer some form
+>  of office hours or there could be a way for organizing a study
+>  group?
+
+--
+
+>  It was great. I just wish I had a better ability to pick up my own
+>  projects afterward. It'd be great if we got more of a framework for
+>  starting and setting up projects that we could take with us afterward
+>  - like on paper or in a short form online.
+
+--
+
+>  I'd love to see a Beginner's II Workshop, and eventually
+>  Intermediate level programming.
+>
+>  One of the things I struggle with is finding the structured time
+>  to sit down and continue with programming. Having another follow-up
+>  course, especially if it followed soon after the first one, would
+>  help people make the time to keep up with their skills.
+
+Others urged us to hold more RailsBridge workshops. This time around we
+had over 120 applicants for 60 spots, so we waitlisted and turned away a
+lot of people.
+
+>  I think there is a clear demand, so having more frequent workshops
+>  would help address the waiting list issue.
+
+
+A few people wished that the workshop was a little bit longer and a
+little less rushed:
+
+> one more day would be great!
+
+--
+
+>  The curriculum is very well written, it explains very well and
+>  clear! I like the presentation in between very much. The only
+>  difficulty with that is that if you are behind schedule then they
+>  make less sense. I would also be happy to do a weekend course,
+>  divide the content over 2 days to feel less rushed to get everything
+>  done and have a better preparation to go further with Ruby on rails
+>  by yourself. I'd like to give MANY compliments about the whole
+>  organization. It was beyond my expectations, really great!
+
+
+One person could only suggest that we add brie to our food offerings:
+
+>  We covered a lot of stuff, I wasn't bored, the cookies in the lunch
+>  bags were awesome.  I kinda feel like there should have been brie.
+>
+>  Just kidding! All correct with me.  Thanks for doing this guys!
+>
+>  But seriously, next time, brie.
+
+
 
 
 We also thank our incredible sponsors for supporting our mission and
