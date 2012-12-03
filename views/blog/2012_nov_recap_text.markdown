@@ -5,9 +5,10 @@ Cambridge, Massachusetts.  Sixty beginners, ?? of them women, attended
 the workshop. Twenty-five experienced Ruby programmers assisted them
 through software installation, lectures and exercises.
 
-We provided everyone three catered meals, free [PragProg](http://pragprog.com) and 
-[O'Reilly](http://oreilly.com) e-books, and free drinks and
-appetizers at the afterparty at Cambridge Common in Kendal Square.
+We provided everyone three catered meals, free
+[PragProg](http://pragprog.com) and [O'Reilly](http://oreilly.com)
+e-books, and free drinks and appetizers at the afterparty at Cambridge
+Common in Kendal Square.
 
 This was our second workshop in three months. Please read our 
 [recap of the first workshop](/blog/2012_aug_recap)
