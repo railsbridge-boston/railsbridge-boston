@@ -130,15 +130,14 @@ Here is some of the feedback we got on this question:
 
 ## New things we tried
 
-Besides recruiting more great TAs, we did three new things for this
-workshop.
+Besides [all the things we did in the last
+workshop](/blog/2012_aug_recap) and recruiting even more superb TAs, we
+implemented on three new workshop "features":
 
 ### Logo and stickers
 
 Martha Rettig made us a fabulous logo, which we turned into stickers
 that we handed out to everyone at the workshop. MORE TODO
-
-
 
 ### Curriculum progress tracker
 
