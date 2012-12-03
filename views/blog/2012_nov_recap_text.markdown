@@ -130,9 +130,9 @@ Here is some of the feedback we got on this question:
 
 ## New things we tried
 
-Besides [all the things we did in the last
+Besides doing [all the things we did in the last
 workshop](/blog/2012_aug_recap) and recruiting even more superb TAs, we
-implemented on three new workshop "features":
+implemented three new workshop "features":
 
 ### Logo and stickers
 
