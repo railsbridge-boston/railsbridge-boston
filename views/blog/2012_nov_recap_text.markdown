@@ -128,6 +128,39 @@ Here is some of the feedback we got on this question:
 >  easier to ask questions I thought were stupid but needed to know
 >  the answer to anyway.
 
+## New things we tried
+
+Besides recruiting more great TAs, we did three new things for this
+workshop.
+
+### Logo and stickers
+
+Martha Rettig made us a fabulous logo, which we turned into stickers
+that we handed out to everyone at the workshop. MORE TODO
+
+
+### Curriculum progress tracker
+
+Mauricio Linhares, Daniel Choi, Pascal Rettig, and Michael Breen
+practically live-coded a new progress tracking feature for the
+RailsBridge curriculum.
+
+![progress](/images/2012-nov/progress-tracker.jpg)
+
+TODO WRITE MORE
+
+### Suggestron for beer
+
+
+TODO
+
+
+
+
+
+
+
+
 ## What to improve in the future
 
 We also asked students if there was anything we could improve in the
