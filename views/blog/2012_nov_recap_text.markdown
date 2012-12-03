@@ -165,7 +165,7 @@ had completed each lesson.  We kept this information up on the projector
 screen in between lectures. (See picture on right, courtesy of TA [Peter
 Jaros](http://twitter.com/peeja).)
 
-### Use the Suggestron for beer voting!
+### Use the Suggestron to vote on afterparty beer
 
 Toward the end of the Saturday session, we decided that we were going to 
 order a bunch of beer towers at our afterparty at [Cambridge Brewing
@@ -175,7 +175,8 @@ order for everyone?
 Someone came up with the brilliant idea of using a student's
 Suggestotron app to conduct our beer tower brew selection poll.
 Workshop student Christine Liu not only offered up her Suggestotron; she
-also pimped it up with some funny cat (see picture on right). 
+also pimped it up with some funny cat (see picture on right). We 
+ordered the most beers towers of Great Pumpkin Ale.
 
 ## What to improve in the future
 
