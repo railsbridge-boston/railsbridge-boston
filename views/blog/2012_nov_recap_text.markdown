@@ -391,14 +391,23 @@ We would also like to thank Andrew Farrell and Lauren McLean for helping us
 get such a great venue at MIT and for arranging such excellent food
 service for the workshop. 
 
-## Stay in touch
+## The next workshop
+
+We plan on holding our next RailsBridge Boston workshop in February
+2013. We don't have a final venue and date yet, but hopefully we'll sort that out soon.
+
+If you're interested in attending the next workshop as a student or as a
+volunteer teaching assistant, [please fill out this form][interest-form]! We'll be sure to 
+let you know when we have more details.
+ 
+[interest-form]:https://docs.google.com/spreadsheet/viewform?formkey=dER6ZjhkT29PaklUcU11bXltaF9qMFE6MQ
+
+## Stay in touch!
 
 * Please follow us on Twitter: [@RailsBridgeBos](https://twitter.com/RailsBridgeBos)
 * Email us directly: [railsbridgeboston@gmail.com](mailto:railsbridgeboston@gmail.com)
 * If you graduated from or volunteered at one of our workshops, join our [RailsBridge Boston Alumni Google Group](https://groups.google.com/forum/?fromgroups#!forum/railsbridge-boston-alumni)
 
-We're looking forward to growing and running more workshops. Please get
-in touch with us if you want to attend or help. 
 
 _Posted on December 3, 2012_
 
