@@ -5,6 +5,12 @@ Cambridge, Massachusetts.  Sixty beginners, ?? of them women, attended
 the workshop. Twenty-five experienced Ruby programmers assisted them
 through software installation, lectures and exercises.
 
+We also provided everyone three meals, free
+[PragProg](http://pragprog.com) and [O'Reilly](http://oreilly.com)
+e-books, and free drinks and appetizers at the afterparty at 
+[Cambridge Brewing Company](http://www.cambridgebrewing.com/)
+in Kendall Square.
+
 This was our second workshop in three months. So we don't have to repeat
 what we've written before, please read our [recap of the first
 workshop](/blog/2012_aug_recap) this past August at Harvard Law School
@@ -354,30 +360,43 @@ One person could only suggest that we add brie to our food offerings:
 
 ## Thank you
 
+First and foremost, we thank our incredible teaching assistants, who are
+the #1 reason RailsBridge Boston works:  Rebecca Nesson, Liana Leahy,
+Amy Newell, Joseph Rodriguez, Andrew Kuklewicz, Brendan Kemp, Braulio
+Carreno, Michael Durrant, Rebecca Frankel, Valentine Rogers, Patrick
+Robertson, Dan Pickett, Manu Raghavan, Jiyeon Woo, Tracy Moscato, Lauren
+Pespisa, Mary Johnson, Allen Madsen, Pascal Rettig, Martha Rettig,
+Brandon Casci, Chris Adams, Brian Del Vecchio, Clara Raubertas, Mike
+Breen, Peter Jaros, Mauricio Linhares, Chris Houhoulis, Dylan Cashman,
+Jason Draper, Matt Griffin, Daniel Choi, and Jon Cheng.
+
 We also thank our incredible sponsors for supporting our mission and
-making this workshop possible:
+making this workshop possible by paying for our expenses and giving our
+students and volunteers great programming e-books:
 
-TODO
-
-
-We provided everyone three catered meals, free
-[PragProg](http://pragprog.com) and [O'Reilly](http://oreilly.com)
-e-books, and free drinks and appetizers at the afterparty at Cambridge
-Common in Kendal Square.
+* [ActBlue](http://actblue.com)
+* [PragProg](http://pragprog.com)
+* [O'Reilly](http://oreilly.com)
+* [Annkissam](http://annkissam.com)
+* [RBM Technologies](http://www.rbmtechnologies.com)
+* [Thoughtbot](http://thoughtbot.com)
+* [PatientsLikeMe](http://patientslikeme.com)
+* [Vermonster](http://vermonster.com)
+* [Tayjoy](http://tapjoy.com)
+* [Brightcove](http://brightcove.com)
+* [Redhat](http://www.redhat.com)
+* [SIPB @ MIT](http://sipb.mit.edu/)
 
 We would also like to thank Andrew Farrell Lauren McLean for helping us
-get such a great venue and arrange excellent food service for the
-workshop. 
+get such a great venue at MIT and for arranging such excellent food
+service for the workshop. 
 
-
+## Stay in touch
 
 * Please follow us on Twitter: [@RailsBridgeBos](https://twitter.com/RailsBridgeBos)
-* To email us directly, please contact [railsbridgeboston@gmail.com](mailto:railsbridgeboston@gmail.com)
+* Email us directly: [railsbridgeboston@gmail.com](mailto:railsbridgeboston@gmail.com)
+* If you graduated from or volunteered at one of our workshops, join our [RailsBridge Boston Alumni Google Group](https://groups.google.com/forum/?fromgroups#!forum/railsbridge-boston-alumni)
 
 We're looking forward to growing and running more workshops. Please get
 in touch with us if you want to attend or help. 
 
-
-
-
-TODO MAYBE: put sponsor logos on right at bottom
