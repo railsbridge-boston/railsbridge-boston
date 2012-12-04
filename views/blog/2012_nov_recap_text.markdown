@@ -185,7 +185,7 @@ Someone came up with the brilliant idea of using a student's
 Suggestotron app to conduct our beer tower brew selection poll.
 Workshop student Christine Liu not only offered up her Suggestotron; she
 also sassed it up with some cat humor (see picture on right). We 
-ordered 4 beers towers of the Great Pumpkin Ale.
+ordered 4 beer towers of the Great Pumpkin Ale.
 
 ## What to improve in the future
 
