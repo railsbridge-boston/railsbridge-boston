@@ -404,10 +404,10 @@ let you know when we have more details.
 
 ## Stay in touch!
 
-* Please follow us on Twitter: [@RailsBridgeBos](https://twitter.com/RailsBridgeBos)
-* Email us directly: [railsbridgeboston@gmail.com](mailto:railsbridgeboston@gmail.com)
-* If you graduated from or volunteered at one of our workshops, join our [RailsBridge Boston Alumni Google Group](https://groups.google.com/forum/?fromgroups#!forum/railsbridge-boston-alumni)
-
+* Follow us on Twitter: [@RailsBridgeBos](https://twitter.com/RailsBridgeBos).
+* Email us directly: [railsbridgeboston@gmail.com](mailto:railsbridgeboston@gmail.com).
+* If you graduated from or volunteered at one of our workshops, join our [RailsBridge Boston Alumni Google Group](https://groups.google.com/forum/?fromgroups#!forum/railsbridge-boston-alumni).
+* Fork and improve our curriculum on [GitHub](https://github.com/railsbridge-boston/railsbridge-boston).
 
 _Posted on December 3, 2012_
 
