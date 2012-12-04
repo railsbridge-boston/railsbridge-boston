@@ -32,6 +32,19 @@ We got a lot of positive general comments. A small sample:
 
 --
 
+> The workshop in general was really well run and the
+> presenters/presentations were engaging and clear... 
+
+> I loved the empowerment and encouragement that flowed through all the
+> coursework, marketing materials, and interactions throughout the day.
+> Learning to code isn't easy, and it can be particularly intimidating
+> as a female, but I felt extremely comfortable at the workshop and am
+> excited to delve into the resources in the Boston Community...
+
+> Awesome job!
+
+-- 
+
 >  Great work: the timing for tutorials, presentations, and meals
 >  provided the perfect mix. I was never bored or felt abandoned. And
 >  just as my brain was beginning to check out, we were already consuming
@@ -72,17 +85,6 @@ Here is some of the feedback we got on this question:
 > range of experience levels, with me somewhere in the middle, so I saw
 > how well all of the TAs supported those having trouble while also
 > challenging those who were breezing through the tutorials...
-
-> The workshop in general was really well run and the
-> presenters/presentations were engaging and clear... 
-
-> I loved the empowerment and encouragement that flowed through all the
-> coursework, marketing materials, and interactions throughout the day.
-> Learning to code isn't easy, and it can be particularly intimidating
-> as a female, but I felt extremely comfortable at the workshop and am
-> excited to delve into the resources in the Boston Community...
-
-> Awesome job!
 
 --
 
