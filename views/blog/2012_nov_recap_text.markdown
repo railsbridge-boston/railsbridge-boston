@@ -71,7 +71,7 @@ workshop?" people pointed to one thing above all others: the friendly,
 knowledgeable, laid-back, nonjudgmental, encouraging teaching
 assistants, and the fact that we had enough of them on hand --
 approximately one for every 2.4 students this time -- to answer
-questions and help people get past obstacles. 
+questions and help people get past obstacles without delay. 
 
 Here is some of the feedback we got on this question:
 
