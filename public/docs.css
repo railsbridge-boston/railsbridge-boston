@@ -900,7 +900,7 @@ form.well {
 .recapContent img {
   border: 1px solid #ccc;
 }
-.recap img {
+#workshop img, .recap img {
   margin: 10px 0;
 }
 .recap img.with-caption {
