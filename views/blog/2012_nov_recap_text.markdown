@@ -335,7 +335,7 @@ rest of the workshop proceeded. Several students and TAs we surveyed
 noted that this presented a serious imposition and drag on the workshop.
 
 We also had one unfortunate incident where a student started saying
-disparaging things about transgendered people at the same table where
+disparaging things about transgender people at the same table where
 one happened to be sitting. We had no civility policy for workshop
 attendees to prevent this sort of thing. But next time [we will have
 one](https://github.com/railsbridge-boston/railsbridge-boston/issues/2).
