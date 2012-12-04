@@ -871,10 +871,11 @@ form.well {
 }
 
 #sponsors a img {
-  width: 23%;
+  width: 21%;
   border: none;
   margin-bottom: 10px;
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 #contact {
@@ -938,10 +939,9 @@ blockquote {
   border: 1px solid #ccc;
 }
 .recap #sponsors a img {
-  width: 28%;
+  width: 35%;
   border: none;
-  margin-bottom: 10px;
-  margin-right: 20px;
+  margin: 5px 20px 10px 35px;
 }
 p, li, address {
   font-size: 17px;
