@@ -174,7 +174,7 @@ had completed each lesson.  We kept this information up on the projector
 screen in between lectures. (See picture on right, courtesy of TA [Peter
 Jaros](http://twitter.com/peeja).)
 
-### Use the Suggestron to vote on afterparty beer
+### Use the Suggestotron to vote on afterparty beer
 
 Toward the end of the Saturday session, we decided that we were going to 
 order a bunch of beer towers at our afterparty at [Cambridge Brewing
