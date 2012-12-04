@@ -8,9 +8,12 @@ The new site URL is <http://www.railsbridgeboston.org/>
 
 ## Setup
 
-For development create a local PostgreSQL database called 'students'.
+For development, if you want to test the curriculum progress features,
+create a local PostgreSQL database called 'students'.
 
 Load the schema with
 
     psql students < schema.sql
 
+This is not necessary if you're just editing the curriculum or other
+static content.
