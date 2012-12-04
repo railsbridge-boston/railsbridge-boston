@@ -64,15 +64,14 @@ We got a lot of positive general comments. A small sample:
 >  energy and enthusiasm. After drinks were also very nice and a good
 >  opportunity to network with very interesting people.
 
-## TAs, TAs, TAs!
+## Our secret sauce
 
 In response to the question, "What did you like most about the
 workshop?" people pointed to one thing above all others: the friendly,
 knowledgeable, laid-back, nonjudgmental, encouraging teaching
 assistants, and the fact that we had enough of them on hand --
 approximately one for every 2.4 students this time -- to answer
-questions and help people get past obstacles. (The allusion is to [Steve
-Ballmer](http://www.youtube.com/watch?v=8To-6VIJZRE).)
+questions and help people get past obstacles. 
 
 Here is some of the feedback we got on this question:
 
