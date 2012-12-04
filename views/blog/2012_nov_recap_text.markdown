@@ -387,7 +387,7 @@ students and volunteers great programming e-books:
 * [Redhat](http://www.redhat.com)
 * [SIPB @ MIT](http://sipb.mit.edu/)
 
-We would also like to thank Andrew Farrell Lauren McLean for helping us
+We would also like to thank Andrew Farrell and Lauren McLean for helping us
 get such a great venue at MIT and for arranging such excellent food
 service for the workshop. 
 
