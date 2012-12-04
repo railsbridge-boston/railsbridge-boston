@@ -400,3 +400,5 @@ service for the workshop.
 We're looking forward to growing and running more workshops. Please get
 in touch with us if you want to attend or help. 
 
+_Posted on December 3, 2012_
+
