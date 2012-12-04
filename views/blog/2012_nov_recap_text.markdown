@@ -1,7 +1,7 @@
 
 On Friday and Saturday, November 9-10, RailsBridge Boston held its
 second Ruby on Rails introductory workshop at MIT's Stata Center in
-Cambridge, Massachusetts.  Sixty beginners, ?? of them women, attended
+Cambridge, Massachusetts.  Sixty beginners, 47 of them women, attended
 the workshop. Twenty-five experienced Ruby programmers assisted them
 through software installation, lectures and exercises.
 
