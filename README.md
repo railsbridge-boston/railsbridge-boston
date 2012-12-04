@@ -20,6 +20,6 @@ static content.
 
 To start the app:
 
-    bundle install
+    bundle 
     rackup
 
