@@ -341,7 +341,7 @@ attendees to prevent this sort of thing. But next time [we will have
 one](https://github.com/railsbridge-boston/railsbridge-boston/issues/2).
 
 One student also pointed out that the men at her table monopolized
-the TAs attention a bit too much:
+the TAs' attention a bit too much:
 
 >  In addition, I noted that 2 of the 3 men at my table consumed more
 >  TA time and resources than all the rest of us put together, and
