@@ -310,7 +310,7 @@ as they continued their Ruby and Rails self-education.
 
 ### Make sure students internalize concepts
 
-One or two students pointed out that it's perhaps easy to just go
+One or two students noted that it may be too easy to just go
 through the exercises just copying and pasting material from the
 curriculum without developing a deeper understanding.
 
