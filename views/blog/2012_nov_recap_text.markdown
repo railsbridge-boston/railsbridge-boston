@@ -389,9 +389,22 @@ students and volunteers great programming e-books:
 * [Redhat](http://www.redhat.com)
 * [SIPB @ MIT](http://sipb.mit.edu/)
 
-We would also like to thank Andrew Farrell and Lauren McLean for helping us
+We would like to thank Andrew Farrell and Lauren McLean for helping us
 get such a great venue at MIT and for arranging such excellent food
 service for the workshop. 
+
+We thank [BostonRB](http://bostonrb.org/) for serving as the backbone
+and hub of the amazing Boston Ruby community.
+
+Finally we are forever grateful to outreach organizers from both Boston Python
+and RailsBridge San Francisco for showing us the way and inspiring us to
+action.  Special thanks goes out to [Jessica
+McKellar](http://web.mit.edu/jesstess/) and [Asheesh
+Laroia](http://www.asheesh.org), directors of [OpenHatch](OpenHatch) and
+veterans of diversity outreach from the [Boston
+Python](http://meetup.bostonpython.com).  And to [Mary
+Jenn](http://www.maryfjenn.com/index.html) of [RailsBridge San
+Francisco](http://workshops.railsbridge.org/) who transmitted much RailsBridge wisdom. 
 
 ## The next workshop
 
