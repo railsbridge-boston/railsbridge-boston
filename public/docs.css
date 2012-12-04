@@ -931,6 +931,7 @@ blockquote {
   width: 100%;
 }
 .recap #sponsors {
+  margin-top: 20px;
   padding-left: 23px;
   border: 1px solid #ccc;
 }
