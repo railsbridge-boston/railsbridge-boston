@@ -384,7 +384,7 @@ students and volunteers great programming e-books:
 * [Thoughtbot](http://thoughtbot.com)
 * [PatientsLikeMe](http://patientslikeme.com)
 * [Vermonster](http://vermonster.com)
-* [Tayjoy](http://tapjoy.com)
+* [Tapjoy](http://tapjoy.com)
 * [Brightcove](http://brightcove.com)
 * [Redhat](http://www.redhat.com)
 * [SIPB @ MIT](http://sipb.mit.edu/)
