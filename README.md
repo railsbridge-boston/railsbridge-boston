@@ -17,3 +17,9 @@ Load the schema with
 
 This is not necessary if you're just editing the curriculum or other
 static content.
+
+To start the app:
+
+    bundle install
+    rackup
+
