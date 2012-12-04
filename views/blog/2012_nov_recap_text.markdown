@@ -308,7 +308,7 @@ as they continued their Ruby and Rails self-education.
 >  course, especially if it followed soon after the first one, would
 >  help people make the time to keep up with their skills.
 
-### Make sure students internalize concepts
+### Make sure students don't just copy and paste
 
 One or two students noted that it may be too easy to just go
 through the exercises just copying and pasting material from the
