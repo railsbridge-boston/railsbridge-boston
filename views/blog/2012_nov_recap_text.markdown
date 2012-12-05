@@ -425,7 +425,7 @@ let you know when we have more details.
 
 ## Start a RailsBridge chapter in your area
 
-If you would like to get your own Ruby community to start its doing its own
+If you would like to get your own Ruby community to start doing its own
 RailsBridge outreach, we are here to help. Please email
 [railsbridgeboston@gmail.com](mailto:railsbridgeboston@gmail.com) and we
 will give you plenty of advice from our own experience and introduce you
