@@ -893,7 +893,7 @@ form.well {
   margin-bottom: 1.5em;
 }
 .recap, .recap li p {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.5em;
 }
 /* left column images in flow of text content */
@@ -917,7 +917,7 @@ form.well {
 }
 .recap blockquote,
   .recap blockquote p {
-  font-size: 14px;
+  font-size: 15px;
   font-style: italic;
   line-height: 1.5em;
   margin-bottom: 1.5em;
