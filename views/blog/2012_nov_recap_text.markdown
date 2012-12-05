@@ -418,7 +418,7 @@ let you know when we have more details.
  
 [interest-form]:https://docs.google.com/spreadsheet/viewform?formkey=dER6ZjhkT29PaklUcU11bXltaF9qMFE6MQ
 
-## Start a RailsBridge chapter if your area
+## Start a RailsBridge chapter in your area
 
 If you would like to get your own Ruby community to start its doing its own
 RailsBridge outreach, we are here to help. Please email
