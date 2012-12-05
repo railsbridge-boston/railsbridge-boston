@@ -418,6 +418,14 @@ let you know when we have more details.
  
 [interest-form]:https://docs.google.com/spreadsheet/viewform?formkey=dER6ZjhkT29PaklUcU11bXltaF9qMFE6MQ
 
+## Start a RailsBridge chapter if your area
+
+If you would like to get your own Ruby community to start its doing its own
+RailsBridge outreach, we are here to help. Please email
+[railsbridgeboston@gmail.com](mailto:railsbridgeboston@gmail.com) and we
+will give you plenty of advice from our own experience and introduce you
+to our great outreach mentors from RailsBridge SF and OpenHatch.  
+
 ## Stay in touch!
 
 * Follow us on Twitter: [@RailsBridgeBos](https://twitter.com/RailsBridgeBos).
