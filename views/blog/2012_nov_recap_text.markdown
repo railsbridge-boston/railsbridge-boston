@@ -372,6 +372,11 @@ Brandon Casci, Chris Adams, Brian Del Vecchio, Clara Raubertas, Mike
 Breen, Peter Jaros, Mauricio Linhares, Chris Houhoulis, Dylan Cashman,
 Jason Draper, Matt Griffin, Daniel Choi, and Jon Cheng.
 
+Thank you to the 7 TAs who took the time and care to prepare and deliver
+lectures to the workshop: Michael Durrant, Rebecca Nesson, Clara
+Raubertas, Andrew Kuklewicz, Liana Leahy, Dan Pickett, and Joseph
+Rodriguez.
+
 We also thank our incredible sponsors for supporting our mission and
 making this workshop possible by paying for our expenses and giving our
 students and volunteers great programming e-books:
