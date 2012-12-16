@@ -57,7 +57,6 @@ class RubyWorkshop < Sinatra::Base
     :fenced_code_blocks => true,
     :renderer => HTMLwithCodeRay.new
 
-
   get '/dbcheck' do
     DB.tables.inspect
   end
