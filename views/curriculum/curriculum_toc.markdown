@@ -9,7 +9,7 @@
 * [_Lecture Slides: Opening_](/workshop/opening) 
 
 ## Learning Ruby ##
-* [_Lecture Slides: Intro to Ruby_](/workshop/ruby)
+* [_Lecture Slides: Intro to Ruby_](/presentations/IntroToRuby.ppt)
 * [Intro](curriculum) 
 * [The Ruby Language](ruby_language)  
 * [Tools to Help You Learn Ruby](tools)  
@@ -27,6 +27,7 @@
     * [Extra Credit: More Heroku](extra_credit/03_more_heroku)
 
 ## Models, Scaffolding, and Migrations ##
+* [_Lecture Slides: Models Scaffolding Migrations_](/presentations/ModelsMigrations.ppt)
 * [Creating and Running a Database Migration](creating_a_migration)
 * [CRUD with Scaffolding](CRUD_with_scaffolding)
 * [Commit and Push to Heroku](commit_and_push_to_heroku)
