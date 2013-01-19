@@ -34,6 +34,7 @@
     * [Extra Credit: The Rails Console](extra_credit/04_console)
 
 ## Model Associations and 'MVC' ##
+* [_Lecture Slides: Associations_](/presentations/Associations.ppt)
 * [Voting on Topics](voting_on_topics)
 * [Hooking Up Votes and Topics](hooking_up_votes_and_topics)
 * [Allow People to Vote](allow_people_to_vote)
@@ -41,7 +42,7 @@
     * [Extra Credit: Pagination](extra_credit/05_pagination)
 
 ## Rails Navigation, Links, and Routes ##
-* [_Lecture Slides: Rails Navigation, Links, and Routes_](https://docs.google.com/presentation/d/1e-M7zJN-x8V5GBM-hGq3zIk2UMjLb8t5YlNvZFVv51Q/present#slide=id.p)
+* [_Lecture Slides: Rails Navigation, Links, and Routes_](/presentations/router.html)
 * [Setting the Default Page](setting_the_default_page)  
 * [Redirect to the Topics List After Creating a New Topic](redirect_to_the_topics_list_after_creating_a_new_topic)  
 * [Make the Topic Title a Link](make_the_topic_title_a_link)  
@@ -50,19 +51,3 @@
 
 ## Wrapping Up ##
 * [Credits](credits_and_next_steps)
-
-## Beer Choices
-
-* [Cerise Cassée](http://cambridgebrewing.com/beer/description/Cerise-Cassee-/)
-* [Great Pumpkin Ale!](http://cambridgebrewing.com/beer/description/Great-Pumpkin-Ale/)
-* [Grey Ghost](http://cambridgebrewing.com/beer/description/grey-ghost/)
-* [LARRY BIRD HAIRCUT](http://cambridgebrewing.com/beer/description/larry-bird-haircut/)
-* [Nom de Plum](http://cambridgebrewing.com/beer/description/nom-de-plum1/)
-* [WHITE WIDOW](http://cambridgebrewing.com/beer/description/white-widow/)
-* [Cambridge Amber](http://cambridgebrewing.com/beer/description/cambridge_amber/)
-* [Charles River Porter](http://cambridgebrewing.com/beer/description/charles_river_porter/)
-* [Regatta Golden](http://cambridgebrewing.com/beer/description/regatta_golden/)
-* [Tall Tale Pale Ale](http://cambridgebrewing.com/beer/description/tall_tale_pale_ale/)
-
-[Vote Here!](http://coolbeans-liu.herokuapp.com)
-
