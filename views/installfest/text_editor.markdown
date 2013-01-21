@@ -82,9 +82,10 @@ gedit
 
 #### If you are using Sublime Text 2
 
-One cool thing about Sublime Text 2 is that it reads its preferences from text files. This means you can easily
-edit settings, check your settings into version control, or share settings with copy & paste. That's what we're going to 
-do with some common preferences for Rubyists.
+Sublime Text 2 reads its preferences from text files. This means you can easily
+edit settings, check your settings into version control, or share settings with
+copy & paste. That's what we're going to do with some common preferences for
+Rubyists.
 
 Open up User Settings (`Sublime Text 2 > Preferences > Settings - User``) and paste in these preferences:
 
@@ -93,7 +94,8 @@ Open up User Settings (`Sublime Text 2 > Preferences > Settings - User``) and pa
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "ensure_newline_at_eof_on_save": true
+  "ensure_newline_at_eof_on_save": true,
+  "save_on_focus_lost": true
 }
 ```
 
