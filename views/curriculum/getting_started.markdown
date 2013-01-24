@@ -79,27 +79,26 @@ cd suggestotron
 
 ## Step 5
 
-Type this in the terminal
+In step 3, `rails new` created a lot of files and directories. Let's look at what it made.
+
+To see the contents of the current folder, type this in the terminal
 
 ```text
 ls
 ```
 
 `ls` stands for 'list (stuff)'.
-It shows you the contents of the current folder.
 
-The `tree` command can show you how files are laid out in your project
-folder.
 
-If you are using OS X, you may first need to install the `tree` command
-by typing this command:
+Let's look at the structure of the whole project.
+
+In OS X, make Finder open the current directory by typing:
 
 ```text
-brew install tree
+open .
 ```
 
-Assuming that you have the `tree` command installed, if you are using OS
-X or Linux, type this in the terminal: 
+If you are using Linux, assuming that you have the `tree` command installed, type this in the terminal: 
 
 ```text
 tree -d
@@ -111,7 +110,9 @@ If you on Windows, just type
 find .
 ```
 
-You should see the entire directory tree of your project so you can see all the folders. 
+You will see the entire directory tree of your project.
+
+You can see the project directory in Sublime Text too. This is convenient when you're going to edit several files and want to navigate quickly.  Start Sublime Text and go to the File menu. Windows users should select "Open Folder"; OS X and Linux users should select the "Open..." command. Choose the suggestotron folder. A new pane showing the suggestotron folder will appear.
 
 You can see that `rails new` created a lot directories and files. The ones we want to focus on today are:
 
