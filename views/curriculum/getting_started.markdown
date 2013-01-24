@@ -79,46 +79,47 @@ cd suggestotron
 
 ## Step 5
 
-Type this in the terminal
+In step 3, `rails new` created a lot of files and directories. Let's look at what it made.
+
+To see the contents of the current folder, type this in the terminal
 
 ```text
 ls
 ```
 
 `ls` stands for 'list (stuff)'.
-It shows you the contents of the current folder.
 
-The `tree` command can show you how files are laid out in your project
-folder.
 
-If you are using OS X, you may first need to install the `tree` command
-by typing this command:
+Let's look at the structure of the whole project. 
+
+In OS X, type this command to make Finder open the current directory:
 
 ```text
-brew install tree
+open .
 ```
 
-Assuming that you have the `tree` command installed, if you are using OS
-X or Linux, type this in the terminal: 
-
-```text
-tree -d
-```
-
-If you on Windows, just type
+If you use Windows, type
 
 ```text
 find .
 ```
 
-You should see the entire directory tree of your project so you can see all the folders. 
+If you are using Linux, assuming that you have the `tree` command installed, type this in the terminal: 
 
-You can see that `rails new` created a lot directories and files. The ones we want to focus on today are:
+```text
+tree -d
+```
+
+You will see the entire directory tree of your project. We suggest leaving this open during the workshop, since the Rails lectures will mention many folders and files. 
+
+You can see the project directory when you're using Sublime Text. This is convenient when you're going to edit several files and want to navigate quickly.  Start Sublime Text and go to the File menu. Windows users should select "Open Folder"; OS X and Linux users should select the "Open..." command. Choose the suggestotron folder. A new pane showing the suggestotron folder will appear.
+
+You can see that `rails new` created a lot directories and files. The ones we will focus on today are:
 
 `app/` Contains assets (stylesheets, javascript, images), controllers, models, and views for your application.  You will do most of your work here.  
 `config/` Configure your application's runtime rules, routes, database, and more.  
 `db/` Shows your current database schema, as well as the database migrations.  
-`public/` The only folder seen to the world as-is. This is where your static files go. You can also put stylesheets, javascript and images in this folder.
+`public/` The only folder seen by the world as-is. This is where your static files go. You can also put stylesheets, javascript and images in this folder.
 
 There is a lot more that `rails new` created. Probably enough to fill a book, so we're going to ignore them for now.
 
