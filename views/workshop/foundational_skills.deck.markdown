@@ -6,23 +6,78 @@ This presentation covers the basic skills required to be a programmer...
  ...that **don't** involve actually writing code.
 
 <!SLIDE bullets>
+# The Terminal
+
+* your best friend
+* *command* the computer to do things
+
+## Terminal Prompt
+
+```
+yoda:~ mary$ 
+```
+
+same as:
+
+```
+I'm ready Mary, what do you want me to do?
+```
+
+<!SLIDE bullets>
+## Ruby Prompt
+
+```
+irb(main):001:0> 
+```
+
+<!SLIDE bullets>
+# Parts of a Command
+
+command and 0, 1, 2 or more arguments separated by spaces
+
+```
+date
+```
+
+```
+ruby hello.rb
+```
+
+
+```
+cp hello.rb backup.rb
+```
+
+<!SLIDE bullets>
+# List files
+
+```
+yoda:~ mary$ ls
+Desktop    Library    Pictures   blog_post  ssh_config
+Documents  Movies     Public     hello.rb   test_todo
+Downloads  Music      bin        prj        tmp
+yoda:~ mary$ 
+```
+
+# Other Commands
+
+```
+cat hello.rb
+cp hello.rb another_hello.rb
+rm another_hello.rb
+mv hello.rb bye.rb
+cd Pictures
+pwd
+```
+
+<!SLIDE bullets>
 # Files and Directories
 
+* Over time I keep creating more and more files
+* What happens when I have 1,000 files?
 * The House/Rooms/Drawers Metaphor
   * directories store files and keep everything in your ‘house’ organized
 
-<!SLIDE bullets>
-# The Command Line
-
-    ls
-    cd
-    pwd
-    echo
-    touch
-    cat
-    mv
-    cp
-    rm
 
 <!SLIDE bullets>
 # Special Directories
@@ -85,34 +140,3 @@ This presentation covers the basic skills required to be a programmer...
 * The OS is a program that runs other programs
   * the term "multitasking" actually started with computers and migrated to common usage
 * It also helps programs communicate with hardware (video, memory, disk, network...)
-
-<!SLIDE bullets>
-# Package Managers
-* For installing and updating low-level programs
-* Like Apple's "Software Update" for the command line
-  * or iTunes App Store
-* Examples
-  * *Mac OS*: MacPorts, Homebrew
-  * *Linux*: apt-get, rpm
-  * *Ruby*: gem, bundler
-  * *Perl*: CPAN
-  * *JavaScript*: npm
-
-<!SLIDE bullets>
-# Version Control
-* Definition
-* Terminology
-  * "check out"
-  * "check in"/"commit"
-  * "diff"
-  * "merge"
-
-<!SLIDE bullets>
-# Version Control with git
-* More Terminology
-  * "add"
-  * "push"
-  * "pull"
-* Diagram
-  * ![git](/images/slides/git.png)
-* <http://help.github.com/git-cheat-sheets/>
