@@ -30,6 +30,14 @@ If you use Linux, we suggest you set up gEdit as a Ruby editor.
 1. Inside the `Downloads` folder you should find the `Sublime Text 2.x.x.dmg` — double click it to open it.  
 1. That will open the Sublime Text installer disk image in the Finder window in front of you. Drag `Sublime Text 2` into 
 `Applications`.
+1. (optional) To edit files in Sublime Text from the command line,
+you need to add a `symlink`. This will allow you to
+type `subl Gemfile` (for instance) on the command line
+to edit your Gemfile.
+Type this command in the Terminal:
+```text
+sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
+```
 
 #### Linux
 
@@ -82,9 +90,10 @@ gedit
 
 #### If you are using Sublime Text 2
 
-One cool thing about Sublime Text 2 is that it reads its preferences from text files. This means you can easily
-edit settings, check your settings into version control, or share settings with copy & paste. That's what we're going to 
-do with some common preferences for Rubyists.
+Sublime Text 2 reads its preferences from text files. This means you can easily
+edit settings, check your settings into version control, or share settings with
+copy & paste. That's what we're going to do with some common preferences for
+Rubyists.
 
 Open up User Settings (`Sublime Text 2 > Preferences > Settings - User``) and paste in these preferences:
 
@@ -93,7 +102,8 @@ Open up User Settings (`Sublime Text 2 > Preferences > Settings - User``) and pa
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "ensure_newline_at_eof_on_save": true
+  "ensure_newline_at_eof_on_save": true,
+  "save_on_focus_lost": true
 }
 ```
 
