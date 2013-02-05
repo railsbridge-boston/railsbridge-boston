@@ -183,7 +183,7 @@ us that we need to have a more formal contingency in case of emergency.
 First and foremost, we thank our incredible teaching assistants, who are
 the #1 reason RailsBridge Boston works:  
 
-LIST OF TAs GOES HERE
+Tracy Moscato, Tanner Burson, Sarah Saltrick Meyer, Paul Morganthall, Michael Denomy, Liana Leahy, Kate Daly, Jiyeon Woo, Jeremy Weiskotten, Jeffrey Chupp, Janet Riley, Dylan Cashman, Dan Luchi, Brendan Kemp and Braulio Carreno.
 
 Thank you to the six TAs who took the time and care to prepare and deliver
 lectures to the workshop: Braulio Carreno, Dylan Cashman, Jiyeon Woo,
@@ -232,5 +232,4 @@ to our great outreach mentors from RailsBridge SF and OpenHatch.
 * If you graduated from or volunteered at one of our workshops, join our [RailsBridge Boston Alumni Google Group](https://groups.google.com/forum/?fromgroups#!forum/railsbridge-boston-alumni).
 * Fork and improve our curriculum on [GitHub](https://github.com/railsbridge-boston/railsbridge-boston).
 
-_Posted on February 4, 2013_
-
+_Posted on February 5, 2013_
