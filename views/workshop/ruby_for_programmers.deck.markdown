@@ -232,7 +232,7 @@ Solution: always put operators on top line
 
 # Ruby identifiers
 
-* `local_variable` - start with letter or underscore, contain letters, numbers, underscored
+* `local_variable` - start with letter or underscore; contain letters, numbers, underscores
 * `@instance_variable` - start with `@`
 * `@@class_variable` - start with `@@`
 * `$global_variable` - start with `$`
