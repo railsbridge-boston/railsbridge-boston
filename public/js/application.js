@@ -39,7 +39,7 @@
         if (data.name) {
           $("span#name").attr('contenteditable', false);
         } else {
-          $("span#name").html("CHANGME");
+          $("span#name").html("CHANGE ME");
         }
 
         $("span[contenteditable=true]").blur(function(){

@@ -58,7 +58,7 @@ You've never generated a migration by itself, use these steps:
 3. Run the migration
 
 4. Edit the Vote and User models so that Vote belongs_to User. 
-    (if you need help remembering how to do this, take another look at [Hooking Up Votes and Topics](/curriculum/hooking_up_votes_and_topics))
+    (If you need help remembering how to do this, take another look at [Hooking Up Votes and Topics](/curriculum/hooking_up_votes_and_topics))
 
 5. Verify that everything is hooked up correctly.
 

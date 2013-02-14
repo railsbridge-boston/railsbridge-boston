@@ -60,7 +60,7 @@ Type this in the terminal
 puts foo
 ```
 
-puts prints the value of what comes after it. In this case it should print 5 since `foo` is holding a 5.
+`puts` prints the value of what comes after it. In this case it should print 5 since `foo` is holding a 5.
 
 ### Step 6
 
