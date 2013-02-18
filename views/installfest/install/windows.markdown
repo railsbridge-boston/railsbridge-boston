@@ -46,7 +46,7 @@ We will add commands to the `.bashrc` file to configure our bash environment.
     ```text
     notepad ~/.bashrc &
     ```
-    This asks Notepad to open a file named `.bashrc` in your home directory, here represented by a tilda (`~`).
+    This asks Notepad to open a file named `.bashrc` in your home directory, here represented by a tilde (`~`).
 
 <!---
 TODO: "What is a home directory?"
