@@ -45,10 +45,10 @@ function getTweets(query) {
   var q = escape(query);
   console.log(q);
   $.getJSON("http://search.twitter.com/search.json?q="+q+"&rpp=12&callback=?", function(data) {     
-    console.log(data);
     $(data.results).each(function(i,v) { 
+      var time = tweetTimeStamp(v.created_at);
+      v.time = time;
       var tweetHtml = ich.tweetTemplate(v);
-      console.log(v); 
       $("#tweetStream").before(tweetHtml);
     });
   });
