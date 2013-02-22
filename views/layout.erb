@@ -32,6 +32,16 @@
       {{/student_id}}
     </div>
   </script>
+  <script id="tweetTemplate" type="text/html">
+    <div class="tweet">
+      <img src="{{ profile_image_url }}"/>
+      <a class="tweet-user" target="_blank" href="http://twitter.com/{{from_user}}">@{{from_user}}</a> 
+      {{ text }}
+      <span class="tweet-time">{{since}}</span>
+      <a class="tweet-view" target="_blank" href="http://twitter.com/{{from_user}}/status/{{id_str}}">View Tweet</a>
+
+    </div>
+  </script>
 </head>
 
 <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="50">
