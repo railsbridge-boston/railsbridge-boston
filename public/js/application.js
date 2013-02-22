@@ -70,7 +70,7 @@ function getTweets(query) {
       n$.text( ts );
     });
     // limit number of visible tweets
-    $(".tweet").slice(limit - 1,-1).remove();
+    $(".tweet").slice(limit - 1,-1).hide();
   });
 };
 
