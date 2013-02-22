@@ -55,10 +55,10 @@ function getTweets(query) {
         replace(/[@]+[A-Za-z0-9-_]+/g, function(s){
           return s.link("http://twitter.com/"+s.replace("@",""));
         }).
-        replace(/[#]+[A-Za-z0-9-_]+/, function(s){
+        replace(/[#]+[A-Za-z0-9-_]+/g, function(s){
           return s.link("http://twitter.com/search?q="+escape(s));
-        }).
-        replace(/[]+[A-Za-z0-9-_]+/, function(s){return s.link(s)}); // not sure if this does anything
+        });
+
       v.tweet_with_links = tweetWithLinks;
       var tweetHtml = ich.tweetTemplate(v);
       $("#tweetStream").prepend(tweetHtml);
