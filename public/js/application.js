@@ -42,7 +42,7 @@ function tweetTimeStamp(createdAtStr) {
 }
 
 function getTweets(query) {
-  var limit = 12;
+  var limit = 22;
   if (!getTweets.seenIds) getTweets.seenIds = []; // memoize ids
   var q = escape(query);
   $.getJSON("http://search.twitter.com/search.json?q="+q+"&rpp="+limit+"&callback=?", function(data) {     
