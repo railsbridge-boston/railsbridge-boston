@@ -62,6 +62,12 @@ function getTweets(query) {
       var tweetHtml = ich.tweetTemplate(v);
       $("#tweetStream").prepend(tweetHtml);
     });
+    // update all time strings
+    $(".tweet a[data-created]").each(function(i,n) {
+      var n$ = $(n);
+      var ts = tweetTimeStamp( n$.data("created") );
+      n$.text( ts );
+    });
   });
 };
 

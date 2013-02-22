@@ -37,8 +37,7 @@
       <img src="{{ profile_image_url }}"/>
       <a class="tweet-user" target="_blank" href="http://twitter.com/{{from_user}}">@{{from_user}}</a> 
       {{{ tweet_with_links }}}
-      <a class="tweet-view" target="_blank" href="http://twitter.com/{{from_user}}/status/{{id_str}}">{{time}}</a>
-
+      <a data-created="{{created_at}}" class="tweet-view" target="_blank" href="http://twitter.com/{{from_user}}/status/{{id_str}}"></a>
     </div>
   </script>
 </head>
