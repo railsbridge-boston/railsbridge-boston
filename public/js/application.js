@@ -49,7 +49,6 @@ function getTweets(query) {
       if ( $("#tweetStream #tweet_"+v.id_str)[0] ) return;
       var time = tweetTimeStamp(v.created_at);
       v.time = time;
-
       var tweetWithLinks = v.text.
         replace(/[A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&;\?\/.=]+/g, function(s){return s.link(s)}).
         replace(/[@]+[A-Za-z0-9-_]+/g, function(s){
