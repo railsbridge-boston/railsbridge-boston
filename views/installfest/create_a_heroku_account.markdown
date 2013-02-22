@@ -43,6 +43,13 @@ Type this in the terminal:
 ssh-keygen -t rsa
 ```
 
+You will be prompted to enter a location for the ssh key. Press 'enter' to accept the default.
+
+```shell
+Generating public/private rsa key pair.
+# Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
+```
+
 You will be asked for a passphrase. Leave it blank and press enter for no passphrase.
 
 ## 7. Then add your public key to your Heroku account
