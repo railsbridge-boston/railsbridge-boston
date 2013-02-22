@@ -7,7 +7,8 @@ This one installer will give you Ruby, Rails, Git and the Bash shell. Let's get 
 
 ### 1. Download RailsInstaller
 
-<a href="http://rubyforge.org/frs/download.php/75894/railsinstaller-2.1.0.exe">Download RailsInstaller</a>.
+Go to the <a href="http://railsinstaller.org" target="_blank">RailsInstaller</a> page and click "Download the Kit"—the Windows version will 
+automatically be downloaded for you. Don't worry about watching the video; we have all the directions you need here.
 
 ### 2. Start the Installation
 
