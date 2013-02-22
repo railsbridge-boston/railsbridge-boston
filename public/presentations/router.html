@@ -5070,28 +5070,15 @@ DELETE /topics/42
 </ul>
             </div>
           </div>
-        
+
           <div class="">
             <div id="slide-18" class="content">
-              <h1>Lying with Routes</h1><p>http://www.urbandictionary.com/define.php?term=ruby+on+rails</p>
-            </div>
-          </div>
-        
-          <div class="">
-            <div id="slide-19" class="content">
-              <h1>Lying with Routes</h1><p>http://www.urbandictionary.com/define.php?term=ruby+on+rails</p><div class="highlight ruby code highlight"><pre><span class="n">get</span> <span class="s1">'/define.php'</span> <span class="o">=&gt;</span> <span class="s1">'definitions#show'</span>
-</pre></div>
-            </div>
-          </div>
-        
-          <div class="">
-            <div id="slide-20" class="content">
               <h1>Code -&gt; URLs</h1><p>Routes also help Rails generate URLs to link your users to other parts of your apps</p><p>you've already used <code>votes_path(topic_id: topic.id)</code></p>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-21" class="content">
+            <div id="slide-19" class="content">
               <h1>The Router - URL helpers</h1><p><code>resources :topics</code> lets your app know how to generate URLs and paths for common topic actions</p><pre><code>topics_path             /topics
 topic_path(topic)       /topics/42
 new_topic_path          /topics/new
@@ -5101,7 +5088,7 @@ edit_topic_path(topic)  /topics/42/edit
           </div>
         
           <div class="">
-            <div id="slide-22" class="content">
+            <div id="slide-20" class="content">
               <h1>URL helpers</h1><p>URL helpers can do different things depending on their method (GET is default)</p><ul>
 <li><p><code>topic_path(topic)</code> goes to the #show action</p></li>
 <li><p><code>topic_path(topic, :method =&gt; :delete)</code> goes to the #destroy action</p></li>
@@ -5110,7 +5097,7 @@ edit_topic_path(topic)  /topics/42/edit
           </div>
         
           <div class="">
-            <div id="slide-23" class="content">
+            <div id="slide-21" class="content">
               <h1>config/routes.rb</h1><ul>
 <li><p>holds the instructions for how routes are generated and understood</p></li>
 <li><p>lets you set a "root" path for handling requests to http://localhost:3000/</p></li>
@@ -5120,7 +5107,7 @@ edit_topic_path(topic)  /topics/42/edit
           </div>
         
           <div class="">
-            <div id="slide-24" class="content">
+            <div id="slide-22" class="content">
               <h1>Route order matters!</h1><ul>
 <li><p>earlier defined routes take priority</p></li>
 <li><p>the router tries to match the routes from top to bottom and serves up the first one that matches</p></li>
@@ -5131,7 +5118,7 @@ edit_topic_path(topic)  /topics/42/edit
           </div>
         
           <div class="">
-            <div id="slide-25" class="content">
+            <div id="slide-23" class="content">
               <h1>rake routes</h1><p>run this command to get an inventory of what routes your app knows about</p><pre><code>    votes  GET    /votes(.:format)           votes#index
            POST   /votes(.:format)           votes#create
   new_vote GET    /votes/new(.:format)       votes#new
@@ -5151,19 +5138,19 @@ edit_topic GET    /topics/:id/edit(.:format) topics#edit
           </div>
         
           <div class="">
-            <div id="slide-26" class="content">
+            <div id="slide-24" class="content">
               <h1>summary</h1><p>routes are configured at <code>config/routes.rb</code></p><h3>Main functions:</h3><p>1) determine which code to run when a request is received</p><p>2) enable generating paths and URLs from code</p>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-27" class="content">
+            <div id="slide-25" class="content">
               <h1>more info</h1><p>http://guides.rubyonrails.org/routing.html</p>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-28" class="content">
+            <div id="slide-26" class="content">
               <h1>http://localhost:3000/</h1><p>Visiting this page right now just shows the default "Welcome Aboard" message</p><p>Now we'll fix that and put some more of our routing knowledge into action</p>
             </div>
           </div>
