@@ -42,14 +42,15 @@ function tweetTimeStamp(createdAtStr) {
 }
 
 function getTweets(query) {
+  if (!getTweets.seenIds) getTweets.seenIds = []; // memoize ids
   var q = escape(query);
-  console.log(q);
   $.getJSON("http://search.twitter.com/search.json?q="+q+"&rpp=12&callback=?", function(data) {     
-    $(data.results).each(function(i,v) { 
+    $( $(data.results).get().reverse() ).each(function(i,v) { 
+      if ( $("#tweetStream #tweet_"+v.id_str)[0] ) return;
       var time = tweetTimeStamp(v.created_at);
       v.time = time;
       var tweetHtml = ich.tweetTemplate(v);
-      $("#tweetStream").before(tweetHtml);
+      $("#tweetStream").prepend(tweetHtml);
     });
   });
 };
@@ -67,9 +68,10 @@ function getTweets(query) {
 
   $(document).ready(function(){
 
-    if ( $("#tweetStream")[0] ) getTweets("#railsbridge");
-
-
+    if ( $("#tweetStream")[0] ) {
+      getTweets("#railsbridge");
+      setInterval(function () { getTweets("#railsbridge") }, 10000);
+    }
 
 
     if (location.href.search("/curriculum") !== -1 &&
