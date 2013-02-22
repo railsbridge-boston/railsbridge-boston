@@ -65,7 +65,7 @@ Find a staff member and run through this checklist:
     rails -v
     ```
     
-    If you are on Mac or Linux you should see:
+    If you are on Mac you should see:
     
     ```text
     Rails 3.2.8
@@ -75,6 +75,12 @@ Find a staff member and run through this checklist:
     
     ```text
     Rails 3.2.1
+    ```
+
+    If you are on Linux you should see:
+    
+    ```text
+    Rails 3.2.12
     ```
     
 3. Confirm that your Heroku account is set with your key. From the
