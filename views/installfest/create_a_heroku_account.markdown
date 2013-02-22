@@ -45,14 +45,14 @@ ssh-keygen -t rsa
 
 You will be prompted to enter a location for the ssh key. Press 'enter' to accept the default.
 
-```shell
+```text
 Generating public/private rsa key pair.
 # Enter file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 ```
 
 You will be asked for a passphrase. Leave it blank and press enter for no passphrase.
 
-```shell
+```text
 Enter passphrase (empty for no passphrase): [Type a passphrase]
 # Enter same passphrase again: [Type passphrase again]
 ```
