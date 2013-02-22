@@ -53,7 +53,6 @@ sudo apt-get install gedit-plugins gedit-gmate
 
 Sorry we don't have instructions ready yet for Fedora, so please ask a
 TA tonight for help.
-``
 
 For Mint and other non-Ubuntu distros, type these commands in the Terminal:
 
