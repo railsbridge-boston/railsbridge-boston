@@ -13,13 +13,13 @@ Open `app/controllers/topics_controller.rb` and look at the create method.
 Find the line:
 
 ```ruby
-format.html { redirect_to @topic, :notice => 'Topic was successfully created.' }
+format.html { redirect_to @topic, notice: 'Topic was successfully created.' }
 ```
 
 and change `@topic` to `topics_path` like this:
 
 ```ruby
-format.html { redirect_to topics_path, :notice => 'Topic was successfully created.' }
+format.html { redirect_to topics_path, notice: 'Topic was successfully created.' }
 ```
 
 so that the file looks like this:
@@ -29,11 +29,11 @@ def create
   @topic = Topic.new(params[:topic])
   respond_to do |format|
     if @topic.save
-      format.html { redirect_to topics_path, :notice => 'Topic was successfully created.' }
-      format.json { render :json => @topic, :status => :created, :location => @topic }
+      format.html { redirect_to topics_path, notice: 'Topic was successfully created.' }
+      format.json { render json: @topic, status: :created, location: @topic }
     else
-      format.html { render :action => "new" }
-      format.json { render :json => @topic.errors, :status => :unprocessable_entity }
+      format.html { render action: "new" }
+      format.json { render json: @topic.errors, status: :unprocessable_entity }
     end
   end
 end
@@ -55,12 +55,12 @@ Look at [http://localhost:3000](http://localhost:3000).
 ## Explanation
 
 ```ruby
-format.html { redirect_to topics_path, :notice => 'Topic was successfully created.' }
+format.html { redirect_to topics_path, notice: 'Topic was successfully created.' }
 ```
 
 * `format.html` means that the server should send html back to the browser
 * `redirect_to topics_path` means show the **topics list page** when we're done creating a topic
-* `:notice => 'Topic was successfully created.'` puts the message into the flash so it will be displayed on the topics list
+* `notice: 'Topic was successfully created.'` puts the message into the flash so it will be displayed on the topics list
 
 ## Next Step
 Go on to [Make the Topic Title a Link](make_the_topic_title_a_link)

@@ -185,7 +185,7 @@ Solution: always put operators on top line
 * Arrays
   * `["apple", "banana"]`
 * Hashes
-  * `{:apple => 'red', :banana => 'yellow'}`
+  * `{apple: 'red', banana: 'yellow'}`
 * Ranges
   * `(1..10)`
 
@@ -239,7 +239,7 @@ Solution: always put operators on top line
 * `Constant` - start with uppercase letter
 * `method_name?` - same as local, but can end with `?` or `!` or `=`
 * keywords - about 40 reserved words (`def`) and weirdos (`__FILE__`)
-* literals - `"hi"` for strings, `[1,2]` for arrays, `{:a=>1, :b=2}` for hashes
+* literals - `"hi"` for strings, `[1,2]` for arrays, `{a:1, :b=2}` for hashes
 
 # Ruby Naming Conventions
 

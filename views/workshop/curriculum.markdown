@@ -349,7 +349,7 @@ NOTE:
 *if you get this error: "no such file to load -- cucumber/rails/active_record (LoadError)", please update your Gemfile, by replacing a line that mentions "cucumber-rails" with:
 
 
-gem 'cucumber-rails', :git => 'git://github.com/cucumber/cucumber-rails.git'Then re-run "bundle install" and "rails generate cucumber:install --rspec --capybara" (select "a" for overwrite all").
+gem 'cucumber-rails', git: 'git://github.com/cucumber/cucumber-rails.git'Then re-run "bundle install" and "rails generate cucumber:install --rspec --capybara" (select "a" for overwrite all").
 
 
 ###=Once you've run it=
@@ -654,13 +654,13 @@ rake routes to list the relationships between routes and controllers.
 
 
 $ rake routes
-    topics GET    /topics(.:format)          {:action=>"index", :controller=>"topics"}
-    topics POST   /topics(.:format)          {:action=>"create", :controller=>"topics"}
- new_topic GET    /topics/new(.:format)      {:action=>"new", :controller=>"topics"}
-edit_topic GET    /topics/:id/edit(.:format) {:action=>"edit", :controller=>"topics"}
-     topic GET    /topics/:id(.:format)      {:action=>"show", :controller=>"topics"}
-     topic PUT    /topics/:id(.:format)      {:action=>"update", :controller=>"topics"}
-     topic DELETE /topics/:id(.:format)      {:action=>"destroy", :controller=>"topics"}
+    topics GET    /topics(.:format)          {action:"index", controller:"topics"}
+    topics POST   /topics(.:format)          {action:"create", controller:"topics"}
+ new_topic GET    /topics/new(.:format)      {action:"new", controller:"topics"}
+edit_topic GET    /topics/:id/edit(.:format) {action:"edit", controller:"topics"}
+     topic GET    /topics/:id(.:format)      {action:"show", controller:"topics"}
+     topic PUT    /topics/:id(.:format)      {action:"update", controller:"topics"}
+     topic DELETE /topics/:id(.:format)      {action:"destroy", controller:"topics"}
 
 
 
@@ -700,7 +700,7 @@ You can specify what Rails should route "/" to with the
  method in routes.rb. You should put the root route near the end of the file, but before the final "end".
 
 
-root :to => 'topics#index'
+root to: 'topics#index'
 
 
 After adding the root route, your routes.rb file should look like this:
@@ -710,7 +710,7 @@ Suggestotron::Application.routes.draw do
 
 
 resources :topics
-root :to => 'topics#index'
+root to: 'topics#index'
 
 
 end
@@ -957,7 +957,7 @@ Check it out in
 rails console:
 
 
->> t = Topic.new(:title => "My Topic")
+>> t = Topic.new(title: "My Topic")
 => #<Topic id: nil, title: "My Topic"), description: nil, created_at: nil, updated_at: nil>
 >> t.votes
 => []
@@ -997,7 +997,7 @@ TODO: diagram or screenshot of where this info is on the rake output, and edit y
 /app/views/topics/index.html.erb):
 
 
-<%= link_to '+1', votes_path(:topic_id => topic.id), :method => :post %>
+<%= link_to '+1', votes_path(topic_id: topic.id), method: :post %>
 
 
 Now we need to create the controller action.  Open the Votes controller (

@@ -8,14 +8,14 @@ In this step we'll make that happen and learn a bit about routes in Rails.
 
 ## Steps
 ### Step 1: Add a root route
-Open `config/routes.rb`. Near the end of the file but before the final end add `root :to => 'topics#index'`.  
+Open `config/routes.rb`. Near the end of the file but before the final end add `root to: 'topics#index'`.  
 When you are done the last few lines should look like this:
 
 ```ruby
 # This is a legacy wild controller route that's not recommended for RESTful applications.
 # Note: This route will make all actions in every controller accessible via GET requests.
 # match ':controller(/:action(/:id(.:format)))'
-root :to => 'topics#index'
+root to: 'topics#index'
 ```
 
 ### Step 2: Remove the static welcome file
@@ -30,7 +30,7 @@ git rm public/index.html
 Go back to [http://localhost:3000/](http://localhost:3000/). You should be taken to the topics list automatically.
 
 ## Explanation
-* `root :to => 'topics#index'` is a rails route that says the default address for your site is `topics#index`. 
+* `root to: 'topics#index'` is a rails route that says the default address for your site is `topics#index`. 
 * `topics#index` is the topics list page (the topics controller with the index action).
 * Rails routes control how URLs (web addresses) get matched with code on the server. 
 Similar to how addresses match with houses and apartments.

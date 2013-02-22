@@ -69,17 +69,17 @@ exists  db/migrate
 create  db/migrate/20090603045630_create_users.rb
 
 
-*edit migration to add :null => false
+*edit migration to add null: false
 
 class CreateUsers < ActiveRecord::Migration
   def self.up
 
 
 create_table :users do |t|
-  t.string :email,              :null => false
-  t.string :crypted_password,   :null => false
-  t.string :password_salt,      :null => false
-  t.string :persistence_token,  :null => false
+  t.string :email,              null: false
+  t.string :crypted_password,   null: false
+  t.string :password_salt,      null: false
+  t.string :persistence_token,  null: false
   t.timestamps
   end
 
@@ -136,7 +136,7 @@ script/generate controller user_sessions
 *edit config/routes.rb
 
 map.resource :user_session
-map.root :controller => "user_sessions", :action => "new" # optional, this just sets the root route
+map.root controller: "user_sessions", action: "new" # optional, this just sets the root route
 
 
 *edit application controller
@@ -195,7 +195,7 @@ end
  * user controller
 
 # config/routes.rb
-  map.resource :account, :controller => "users"
+  map.resource :account, controller: "users"
   map.resources :users
 
  * Create your UsersController:
@@ -211,7 +211,7 @@ def new
 
 respond_to do |format|
   format.html # new.html.erb
-  format.xml  { render :xml => @user }
+  format.xml  { render xml: @user }
 end
 
 
@@ -229,10 +229,10 @@ respond_to do |format|
   if @user.save
     flash[:notice] = 'You successfully registered.'
     format.html { redirect_to topics_path }
-    format.xml  { render :xml => @user, :status => :created, :location => @user }
+    format.xml  { render xml: @user, status: :created, location: @user }
   else
-    format.html { render :action => "new" }
-    format.xml  { render :xml => @topic.errors, :status => :unprocessable_entity }
+    format.html { render action: "new" }
+    format.xml  { render xml: @topic.errors, status: :unprocessable_entity }
   end
 end
 
@@ -244,8 +244,8 @@ end
  * add to UserSessionsController
 
 class UserSessionsController < ApplicationController
-   before_filter :require_no_user, :only => [:new, :create]
-   before_filter :require_user, :only => :destroy
+   before_filter :require_no_user, only: [:new, :create]
+   before_filter :require_user, only: :destroy
 
 
 def new
@@ -265,7 +265,7 @@ if @user_session.save
   flash[:notice] = "Login successful!"
   redirect_back_or_default account_url
 else
-  render :action => :new
+  render action: :new
 end
 
 
@@ -287,7 +287,7 @@ end
 
  * add to topic controller
 
-before_filter :require_user, :only => [:new, :edit, :create, :update]
+before_filter :require_user, only: [:new, :edit, :create, :update]
 
  * rake db:migrate
  * go to: localhost:3000/account/new
@@ -313,7 +313,7 @@ before_filter :require_user, :only => [:new, :edit, :create, :update]
  <% else %>
 
 
-<%= link_to "Logout", user_session_path, :method => :delete, :confirm => "Are you sure you want to logout?" %>
+<%= link_to "Logout", user_session_path, method: :delete, confirm: "Are you sure you want to logout?" %>
 
 
 <% end %>

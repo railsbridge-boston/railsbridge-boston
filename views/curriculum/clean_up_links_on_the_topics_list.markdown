@@ -21,7 +21,7 @@ Open `app/views/topics/index.html.erb` and remove these two lines:
 Change the line with the word 'Destroy' to this:
 
 ```erb
-<td><%= link_to 'Delete', topic, :confirm => 'Are you sure?', :method => :delete %></td>
+<td><%= link_to 'Delete', topic, confirm: 'Are you sure?', method: :delete %></td>
 ```
 
 ### Step 3: Confirm your changes
