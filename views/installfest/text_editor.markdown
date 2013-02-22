@@ -35,6 +35,7 @@ you need to add a `symlink`. This will allow you to
 type `subl Gemfile` (for instance) on the command line
 to edit your Gemfile.
 Type this command in the Terminal:
+
 ```text
 sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
 ```
