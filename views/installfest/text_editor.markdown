@@ -95,7 +95,7 @@ edit settings, check your settings into version control, or share settings with
 copy & paste. That's what we're going to do with some common preferences for
 Rubyists.
 
-Open up User Settings (`Sublime Text 2 > Preferences > Settings - User``) and paste in these preferences:
+Open up User Settings (`Sublime Text 2 > Preferences > Settings - User`) and paste in these preferences:
 
 ```json
 {
