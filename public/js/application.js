@@ -49,6 +49,18 @@ function getTweets(query) {
       if ( $("#tweetStream #tweet_"+v.id_str)[0] ) return;
       var time = tweetTimeStamp(v.created_at);
       v.time = time;
+
+      var tweetWithLinks = v.text.
+        replace(/[A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&;\?\/.=]+/g, function(s){return s.link(s)}).
+        replace(/[@]+[A-Za-z0-9-_]+/g, function(s){
+          return s.link("http://twitter.com/"+s.replace("@",""));
+        }).
+        replace(/[#]+[A-Za-z0-9-_]+/, function(s){
+          return s.link("http://twitter.com/search?q="+escape(s));
+        }).
+        replace(/[]+[A-Za-z0-9-_]+/, function(s){return s.link(s)}); // not sure if this does anything
+      v.tweet_with_links = tweetWithLinks;
+      console.log(tweetWithLinks);
       var tweetHtml = ich.tweetTemplate(v);
       $("#tweetStream").prepend(tweetHtml);
     });
