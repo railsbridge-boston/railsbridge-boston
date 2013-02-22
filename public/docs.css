@@ -1012,7 +1012,8 @@ span[contenteditable=true]:focus {
 .tweet {
   clear: left;
   font-size: 14px;
-  height: 60px;
+  min-height: 50px;
+  margin-bottom: 10px;
 }
 .tweet img {
   margin-top: 4px;
