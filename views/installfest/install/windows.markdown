@@ -47,7 +47,7 @@ We will add commands to the `.bashrc` file to configure our bash environment.
     ```
     This asks Notepad to open a file named `.bashrc` in your home directory, here represented by a tilde (`~`).
 
-Your home directory has the same name as your user name (the one you sign into your computer with).
+    Your home directory has the same name as your user name (the one you sign into your computer with).
 
 * Notepad will pop up and ask you if you want to create `.bashrc`. Click 'Yes'.
 
