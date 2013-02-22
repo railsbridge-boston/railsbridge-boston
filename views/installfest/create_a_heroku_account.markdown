@@ -52,6 +52,11 @@ Generating public/private rsa key pair.
 
 You will be asked for a passphrase. Leave it blank and press enter for no passphrase.
 
+```shell
+Enter passphrase (empty for no passphrase): [Type a passphrase]
+# Enter same passphrase again: [Type passphrase again]
+```
+
 ## 7. Then add your public key to your Heroku account
 
 ```text
