@@ -4,7 +4,7 @@ Console2 is not a shell, it is a "console window enhancement".
 
 That means it's a nicer way to view the Bash shell you just configured. It has features like better font rendering, 
 transparency, window resizing(!), tabs, text selection, and easier copy and paste, among others. You will be spending plenty
-of time in the command prompt, so this will make life easier.
+of time in the command prompt; these features will make life easier.
 
 
 ## 1. Install Console2
@@ -36,13 +36,19 @@ shortcut.
 Now we have to configure Console2 to use the Bash shell. And to look nice.
 
 
-### Set the Shell
-Right-click inside the new Console2 window you just opened. Select `Edit > Settings…` in the context menu that appears
+### Set the Shell and Startup directory
+Right-click inside the new Console2 window you just opened. Select `Edit > Settings…` in the context menu that appears.
 
 Copy and paste the following into "Shell":
 
 ```text
 C:\Windows\System32\cmd.exe /c ""C:\RailsInstaller\Git\bin\sh.exe" --login -i"
+```
+
+Copy and paste the following into "Startup dir":
+
+```text
+C:\dev
 ```
 
 ### Set Appearance and Hotkeys
@@ -90,11 +96,11 @@ set Console2 to copy on select.
 
 Close the Console2 window and reopen it. You should see Bash open, with your user logged in.
 
-* In the window title should be something like: "Console - MINGW32:/c/Sites"
+* The window title should be something like: `MINGW32:/c/dev`
 
     MINGW32 is the version of Bash that we are using, so that confirms that Console2 is configured with Bash.
 
-* Inside the window should be a status line in the format of `[youruser]@[yourcomputer] /c/Sites`
+* Inside the window should be a status line in the format of `[youruser]@[yourcomputer] /c/dev`
 
     This confirms you are logged into Bash with your user.
 
