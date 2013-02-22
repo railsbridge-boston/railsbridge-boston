@@ -42,9 +42,10 @@ function tweetTimeStamp(createdAtStr) {
 }
 
 function getTweets(query) {
+  var limit = 12;
   if (!getTweets.seenIds) getTweets.seenIds = []; // memoize ids
   var q = escape(query);
-  $.getJSON("http://search.twitter.com/search.json?q="+q+"&rpp=12&callback=?", function(data) {     
+  $.getJSON("http://search.twitter.com/search.json?q="+q+"&rpp="+limit+"&callback=?", function(data) {     
     $( $(data.results).get().reverse() ).each(function(i,v) { 
       if ( $("#tweetStream #tweet_"+v.id_str)[0] ) return;
       var time = tweetTimeStamp(v.created_at);
@@ -68,6 +69,8 @@ function getTweets(query) {
       var ts = tweetTimeStamp( n$.data("created") );
       n$.text( ts );
     });
+    // limit number of visible tweets
+    $(".tweet").slice(limit - 1,-1).remove();
   });
 };
 
