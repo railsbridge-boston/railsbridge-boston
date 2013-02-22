@@ -30,7 +30,7 @@ and get instant feedback.
 [Interactive Ruby (irb)](/installfest/interactive_ruby)  
 
 ### 4. Install a Text Editor
-You will want a text editor that designed for coding. These instructions will show you how to install a good text 
+You will want a text editor that is designed for coding. These instructions will show you how to install a good text 
 editor, and the basics of using it effectively.
 
 [Text Editor](/installfest/text_editor)  
