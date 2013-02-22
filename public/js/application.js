@@ -60,7 +60,6 @@ function getTweets(query) {
         }).
         replace(/[]+[A-Za-z0-9-_]+/, function(s){return s.link(s)}); // not sure if this does anything
       v.tweet_with_links = tweetWithLinks;
-      console.log(tweetWithLinks);
       var tweetHtml = ich.tweetTemplate(v);
       $("#tweetStream").prepend(tweetHtml);
     });
