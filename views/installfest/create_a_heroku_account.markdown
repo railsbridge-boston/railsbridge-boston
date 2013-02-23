@@ -63,6 +63,12 @@ Enter passphrase (empty for no passphrase): [Type a passphrase]
 heroku keys:add
 ```
 
+## 8. Install the gittyup gem
+
+```text
+gem install gittyup
+```
+
 ## Success!
 You are now ready to deploy web applications with Heroku!
 
