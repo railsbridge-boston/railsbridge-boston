@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/reset.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" href="css/favicon.png" />
+    <link rel="apple-touch-icon" href="css/apple-touch-icon.png" />
+    <!-- Code Prettifier: -->
+<link href="css/highlight.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+    <link href="css/style.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,800italic,300,400,800' rel='stylesheet' type='text/css'>    
+
+
+  </head>
+
+  <body>
+  <div class="fallback-message">
+  <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+  </div>
+    <div id="impress">
+    <div class='step' >
+    
+<h1>Models, Scaffolding, &amp; Migrations</h1>
+
+<h2>Jason Draper</h2>
+
+<h3>thoughtbot.com</h3>
+
+<h3>@drapergeek</h3>
+</div>
+      <div class='step' >
+    
+<h1>Dynamic vs Static</h1>
+
+<h2>Static</h2>
+
+<ul>
+<li>Limited user interaction</li>
+<li>Primarily for reading purposes</li>
+<li>All users see the same thing</li>
+</ul>
+
+<h2>Dynamic</h2>
+
+<ul>
+<li>User interaction</li>
+<li>Immediate feedback</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>Storing Dynamic Content</h1>
+
+<ul>
+<li>Databases</li>
+<li>SQL</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>Models</h1>
+
+<ul>
+<li>Databases</li>
+<li>Code</li>
+<li>&#39;Real World Things&#39;</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>Examples of models</h1>
+
+<h2>Twitter</h2>
+
+<ul>
+<li>tweet</li>
+<li>user</li>
+<li>direct message</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>Rails &amp; Models</h1>
+
+<h2>Database tables</h2>
+<pre><code class='prettyprint '> select text, user, created_at from tweets;
+</code></pre>
+<h2>Object Wrappers</h2>
+<pre><code class='prettyprint '>   tweet.text
+   tweet.user
+   tweet.created_at
+</code></pre></div>
+      <div class='step' >
+    
+<h1>Migrations</h1>
+
+<ul>
+<li>Automation the creation of database tables</li>
+<li>Consistency</li>
+<li>One less thing to worry about</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>Scaffolding</h1>
+
+<h2>Crud</h2>
+
+<ol>
+<li>Create</li>
+<li>Read</li>
+<li>Update</li>
+<li>Delete</li>
+</ol>
+
+<ul>
+<li>Single line timesaver</li>
+<li>Forms for entry/updating</li>
+<li>Viewing options</li>
+<li>Delete links</li>
+</ul>
+</div>
+      <div class='step' >
+    
+<h1>Conclusion</h1>
+
+<ul>
+<li>Models are representations of real things</li>
+<li>Migrations keep the database up to date</li>
+<li>Scaffolding gives us a lot of nice features for free</li>
+<li><code class='inline prettyprint'>rake db:migrate</code> is your friend!</li>
+</ul>
+
+      </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
+    
