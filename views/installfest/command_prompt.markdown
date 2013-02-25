@@ -61,11 +61,20 @@ This lists the contents of the `/` root directory:
 ls
 ```
 
+
+This will change you into the `Users` subdirectory of the `/` root directory:
+
+For OS X, Linux:
+
 ```text
-cd Users    # OS X, Linux
-cd /c/Users # Windows
+cd Users    
 ```
-This will change you into the `Users` subdirectory of the `/` root directory.
+
+For Windows:
+
+```text
+cd /c/Users 
+```
 
 ```text
 ls
