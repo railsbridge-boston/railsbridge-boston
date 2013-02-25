@@ -84,10 +84,12 @@ You should see a list of all the files in `/Users`, including the directory for 
 ls
 ```
 
+
+Print the working directory again. This displays the full directory path to your current directory, `/Users`:
+
 ```text
 pwd
 ```
-This displays the full directory path to your current directory, `/Users`.
 
 ```text
 cd ..
