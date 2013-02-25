@@ -48,10 +48,11 @@ This displays the full directory path to your current directory, which is your h
 pwd
 ```
 
+This will change you into the `/` top-level (or 'root') directory ('cd' stands for Change Directory): 
+
 ```text
 cd /
 ```
-This will change you into the `/` root directory.
 
 ```text
 ls
