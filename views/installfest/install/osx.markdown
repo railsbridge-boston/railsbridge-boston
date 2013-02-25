@@ -19,7 +19,9 @@ Once the installer is downloaded, find the file and double-click it. This will u
 Then double click the installer. This will open an installation wizard. 
 
 (If you are told that the installer "can't be opened because it is from an unidentified developer," 
-then you need to go to "System Preferences > Security & Privacy". Under the General tab, click the "Allow applications downloaded from: Anywhere" button. Then double-click the installer again.)
+then you need to go to "System Preferences > Security & Privacy". 
+Under the General tab, click the "Allow applications downloaded from: Anywhere" button (if that is greyed-out, click the lock in the bottom left). 
+Then double-click the installer again.)
 
 * Select your language, then click "Next"
 * Enter your Full Name and Email. Use the same name and email for this, GitHub and Heroku. 
