@@ -100,10 +100,12 @@ You were in `/Users`, so now you are in `/`, the root directory:
 cd ..
 ```
 
+This lists the contents of the '/', root directory, confirming where you are.
+
 ```text
 ls
 ```
-This lists the contents of the root directory, confirming where you are.
+
 
 ### Tab Completion
 You can use Tab to auto-complete directory and file names. 
