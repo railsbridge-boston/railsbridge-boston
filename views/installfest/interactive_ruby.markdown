@@ -3,7 +3,7 @@ The Interactive Ruby Shell (irb) is a console that lets you execute Ruby code. I
 write a line of code and press 'Enter', the code executes and shows you the result. This allows you to experiment
 and get instant feedback.
 
-1. Start up a new command prompt.
+1. Start up a new command prompt (or 'Terminal').
 
 2. To run irb, type
 
