@@ -41,10 +41,12 @@ This lists all the files in your home directory (ls is short for 'list'):
 ls
 ```
 
+
+This displays the full directory path to your current directory, which is your home directory (pwd stands for Print Working Directory):
+
 ```text
 pwd
 ```
-This displays the full directory path to your current directory, which is your home directory.
 
 ```text
 cd /
