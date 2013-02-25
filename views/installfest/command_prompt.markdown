@@ -54,10 +54,12 @@ This will change you into the `/` top-level (or 'root') directory ('cd' stands f
 cd /
 ```
 
+
+This lists the contents of the `/` root directory:
+
 ```text
 ls
 ```
-This lists the contents of the `/` root directory.
 
 ```text
 cd Users    # OS X, Linux
