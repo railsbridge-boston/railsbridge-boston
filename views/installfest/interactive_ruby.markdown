@@ -8,22 +8,22 @@ and get instant feedback.
 2. To run irb, type
 
     ```text
-	irb
-	```
-	You should see something like this:
+    irb
+    ```
+    You should see something like this:
 
     ```text
     irb(main):001:0> 
     ```
-	or
+    or
 
     ```text
     1.9.3-p327 :001 >
-	```
+    ```
 
-	This is the irb prompt. It means that irb is running and ready for you to type something.
+    This is the irb prompt. It means that irb is running and ready for you to type something.
 
-	The numbers at the end are a counter.  Hit enter a few times and watch the number go up.
+    The numbers at the end are a counter.  Hit enter a few times and watch the number go up.
 
 3. Try out a line of ruby. Type:
 
