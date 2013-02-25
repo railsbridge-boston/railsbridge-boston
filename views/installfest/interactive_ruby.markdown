@@ -47,7 +47,7 @@ and get instant feedback.
 
     and hitting enter. You are now back at the command prompt.
 
-	You can also exit by pressing the control and C keys (a.k.a "Ctrl-C" or "^C") at the same time.
+    On Windows, you can also exit by pressing the control and C keys (a.k.a "Ctrl-C" or "^C") at the same time.
 
 ### Success
 You can now run Ruby code in the IRB prompt. Practice these steps until you feel comfortable starting a command prompt, 
