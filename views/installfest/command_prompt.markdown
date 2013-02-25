@@ -76,10 +76,13 @@ For Windows:
 cd /c/Users 
 ```
 
+
+Now that you are in the 'Users' directory, list all the files there.
+You should see a list of all the files in `/Users`, including the directory for your username—your home directory:
+
 ```text
 ls
 ```
-You should see a list of all the files in `/Users`, including the directory for your username—your home directory.
 
 ```text
 pwd
