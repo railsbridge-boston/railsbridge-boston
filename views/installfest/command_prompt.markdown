@@ -91,10 +91,14 @@ Print the working directory again. This displays the full directory path to your
 pwd
 ```
 
+
+Change directories to the parent of the current directory.
+`..` means "parent directory", so this command moved you up to the parent directory. 
+You were in `/Users`, so now you are in `/`, the root directory:
+
 ```text
 cd ..
 ```
-`..` means "parent directory", so this command moved you up to the parent directory. You were in `/Users`, so now you are in `/`, the root directory.
 
 ```text
 ls
