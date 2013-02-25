@@ -35,10 +35,11 @@ Fedora: From the Main Menu bar select "Applications > System Tools > Terminal".
 
 Type each of these commands and hit enter:
 
+This lists all the files in your home directory (ls is short for 'list'):
+
 ```text
 ls
 ```
-This lists all the files in your home directory.
 
 ```text
 pwd
