@@ -27,9 +27,9 @@ Then double-click the installer again.)
 * Click "Next >"
 * Enter your Full Name and Email. Use the same name and email for this, GitHub and Heroku. 
 * Click "Next" and "Next" and let the installer run.
+* Uncheck 'Open readme.pdf'—you don't need it
 * Click "Finish" and you are done!
 
 Congratulations, you now have the Ruby development environment up and running. Now go forth and do something awesome with it!
 
 [« Back to Installfest](/installfest)
-
