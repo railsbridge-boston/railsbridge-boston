@@ -23,7 +23,8 @@ then you need to go to "System Preferences > Security & Privacy".
 Under the General tab, click the "Allow applications downloaded from: Anywhere" button (if that is greyed-out, click the lock in the bottom left). 
 Then double-click the installer again.)
 
-* Select your language, then click "Next"
+* Select your language, then click "OK"
+* Click "Next >"
 * Enter your Full Name and Email. Use the same name and email for this, GitHub and Heroku. 
 * Click "Next" and "Next" and let the installer run.
 * Click "Finish" and you are done!
