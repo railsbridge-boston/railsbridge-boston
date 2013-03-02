@@ -63,7 +63,7 @@ puts count
 # Version Control
 
 ```ruby
-titles = ["Star Wars", "The Godfather", "Shaws"]
+titles = ["Star Wars", "The Godfather", "Jaws"]
 count = titles.size
 puts count
 ```
@@ -180,15 +180,13 @@ puts count
 * Generate a new Rails app
   * `rails new myapp`
 
-* Add it to Git
-  * `git init`
-  * `git add .`  
-  * `git commit -m 'new project!'`
-
 * Run it locally
   * `bundle`
   * `rails server`
 
+* Initialize git repository
+  * `git init`
+
 * Deploy and run on Heroku
   * `heroku create`
-  * `git push heroku master`
+  * `gittyup`
