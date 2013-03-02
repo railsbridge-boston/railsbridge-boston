@@ -6,7 +6,7 @@
 <!SLIDE bullets>
 # Rails - Big Ideas
 
-* Code You Use + Generates Code + Tools
+* Generated Code + Code You Write + Tools
 
 * Convention > Configuration
   * The same structure and naming
@@ -42,7 +42,71 @@
 
 
 <!SLIDE bullets>
-# Source Control with Git
+# Version Control
+
+```ruby
+movies = ["Star Wars", "The Godfather"]
+count = movies.size
+puts count
+```
+
+<!SLIDE bullets>
+# Version Control
+
+```ruby
+titles = ["Star Wars", "The Godfather"]
+count = titles.size
+puts count
+```
+
+<!SLIDE bullets>
+# Version Control
+
+```ruby
+titles = ["Star Wars", "The Godfather", "Shaws"]
+count = titles.size
+puts count
+```
+
+
+<!SLIDE bullets>
+# Version Control - Diff
+
+```ruby
+
+movies = ["Star Wars", "The Godfather"]
+
+count = movies.size
+
+puts count
+```
+
+<!SLIDE bullets>
+# Version Control - Diff
+
+<pre><code class="ruby"><span style="color: red">titles</span>
+<strike>movies</strike> = ["Star Wars", "The Godfather"]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: red">titles</span>
+count = <strike>movies</strike>.size
+
+puts count
+</code></pre>
+
+<!SLIDE bullets>
+# Version Control - Diff
+
+<pre><code class="ruby"><span style="color: red">titles</span>
+<strike>movies</strike> = ["Star Wars", "The Godfather"<span style="color: red">, "Jaws"</span>]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: red">titles</span>
+count = <strike>movies</strike>.size
+
+puts count
+</code></pre>
+
+<!SLIDE bullets>
+# Version Control with Git
+
+* Also called Source Control
 
 * Repository: stores files and tracks changes to them
   * Can use it for anything; text files and code work well
@@ -51,6 +115,8 @@
 * No more fear of losing work, or getting back to something working
 
 * Commit early and often; find your rhythm
+
+* Commit = take snapshot of your files and put it in the repo
 
 
 <!SLIDE bullets>
