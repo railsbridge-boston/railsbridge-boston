@@ -49,6 +49,9 @@
 * [Clean Up Links on the Topics List](clean_up_links_on_the_topics_list)  
 * [Commit and Push to Heroku, Yet Again](commit_and_push_to_heroku_yet_again)  
 
+## Emily's App!
+* [Vote on your favorite food](http://emilygapp.herokuapp.com/)
+
 ## Wrapping Up ##
 * [Credits](credits)
 * [Next Steps](next_steps)
