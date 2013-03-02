@@ -19,14 +19,17 @@ Once the installer is downloaded, find the file and double-click it. This will u
 Then double click the installer. This will open an installation wizard. 
 
 (If you are told that the installer "can't be opened because it is from an unidentified developer," 
-then you need to go to "System Preferences > Security & Privacy". Under the General tab, click the "Allow applications downloaded from: Anywhere" button. Then double-click the installer again.)
+then you need to go to "System Preferences > Security & Privacy". 
+Under the General tab, click the "Allow applications downloaded from: Anywhere" button (if that is greyed-out, click the lock in the bottom left). 
+Then double-click the installer again.)
 
-* Select your language, then click "Next"
+* Select your language, then click "OK"
+* Click "Next >"
 * Enter your Full Name and Email. Use the same name and email for this, GitHub and Heroku. 
 * Click "Next" and "Next" and let the installer run.
+* Uncheck 'Open readme.pdf'—you don't need it
 * Click "Finish" and you are done!
 
 Congratulations, you now have the Ruby development environment up and running. Now go forth and do something awesome with it!
 
 [« Back to Installfest](/installfest)
-

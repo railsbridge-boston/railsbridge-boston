@@ -17,7 +17,8 @@ Let's practice using these commands.
 ## Open a command prompt
 **OS X**
 
-You can find the Terminal application through Spotlight, or navigate to `Applications/Utilities/Terminal` in Finder.
+You can find the Terminal application through Spotlight (click the magnifying glass in the top right of the screen and start typing "Terminal"), 
+or navigate to `Applications/Utilities/Terminal` in Finder.
 
 **Windows**
 
@@ -34,51 +35,77 @@ Fedora: From the Main Menu bar select "Applications > System Tools > Terminal".
 
 Type each of these commands and hit enter:
 
+This lists all the files in your home directory (ls is short for 'list'):
+
 ```text
 ls
 ```
-This lists all the files in your home directory.
+
+
+This displays the full directory path to your current directory, which is your home directory (pwd stands for Print Working Directory):
 
 ```text
 pwd
 ```
-This displays the full directory path to your current directory, which is your home directory.
+
+This will change you into the `/` top-level (or 'root') directory ('cd' stands for Change Directory): 
 
 ```text
 cd /
 ```
-This will change you into the `/` root directory.
+
+
+This lists the contents of the `/` root directory:
 
 ```text
 ls
 ```
-This lists the contents of the `/` root directory.
+
+
+This will change you into the `Users` subdirectory of the `/` root directory:
+
+For OS X, Linux:
 
 ```text
-cd Users    # OS X, Linux
-cd /c/Users # Windows
+cd Users    
 ```
-This will change you into the `Users` subdirectory of the `/` root directory.
+
+For Windows:
+
+```text
+cd /c/Users 
+```
+
+
+Now that you are in the 'Users' directory, list all the files there.
+You should see a list of all the files in `/Users`, including the directory for your username—your home directory:
 
 ```text
 ls
 ```
-You should see a list of all the files in `/Users`, including the directory for your username—your home directory.
+
+
+Print the working directory again. This displays the full directory path to your current directory, `/Users`:
 
 ```text
 pwd
 ```
-This displays the full directory path to your current directory, `/Users`.
+
+
+Change directories to the parent of the current directory.
+`..` means "parent directory", so this command moved you up to the parent directory. 
+You were in `/Users`, so now you are in `/`, the root directory:
 
 ```text
 cd ..
 ```
-`..` means "parent directory", so this command moved you up to the parent directory. You were in `/Users`, so now you are in `/`, the root directory.
+
+This lists the contents of the '/', root directory, confirming where you are.
 
 ```text
 ls
 ```
-This lists the contents of the root directory, confirming where you are.
+
 
 ### Tab Completion
 You can use Tab to auto-complete directory and file names. 

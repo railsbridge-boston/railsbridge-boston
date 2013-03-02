@@ -6,7 +6,7 @@
 <!SLIDE bullets>
 # Rails - Big Ideas
 
-* Code You Use + Generates Code + Tools
+* Set of Tools + Generated Code + Code We Write
 
 * Convention > Configuration
   * The same structure and naming
@@ -33,7 +33,7 @@
   * Essential for deployment
 
 * Code & Configuration
-  * Environment Specific
+  * Environment Specific, ex: DB devel != production
 
 * Gemfile / bundler for dependencies
   * Same gem versions in development & production
@@ -42,7 +42,71 @@
 
 
 <!SLIDE bullets>
-# Source Control with Git
+# Version Control
+
+```ruby
+movies = ["Star Wars", "The Godfather"]
+count = movies.size
+puts count
+```
+
+<!SLIDE bullets>
+# Version Control
+
+```ruby
+titles = ["Star Wars", "The Godfather"]
+count = titles.size
+puts count
+```
+
+<!SLIDE bullets>
+# Version Control
+
+```ruby
+titles = ["Star Wars", "The Godfather", "Jaws"]
+count = titles.size
+puts count
+```
+
+
+<!SLIDE bullets>
+# VC - Showing Differences
+
+```ruby
+
+movies = ["Star Wars", "The Godfather"]
+
+count = movies.size
+
+puts count
+```
+
+<!SLIDE bullets>
+# VC - Showing Differences
+
+<pre><code class="ruby"><span style="color: red">titles</span>
+<strike>movies</strike> = ["Star Wars", "The Godfather"]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: red">titles</span>
+count = <strike>movies</strike>.size
+
+puts count
+</code></pre>
+
+<!SLIDE bullets>
+# VC - Showing Differences
+
+<pre><code class="ruby"><span style="color: red">titles</span>
+<strike>movies</strike> = ["Star Wars", "The Godfather"<span style="color: red">, "Jaws"</span>]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: red">titles</span>
+count = <strike>movies</strike>.size
+
+puts count
+</code></pre>
+
+<!SLIDE bullets>
+# Version Control with Git
+
+* Also called Source Control
 
 * Repository: stores files and tracks changes to them
   * Can use it for anything; text files and code work well
@@ -50,7 +114,10 @@
 
 * No more fear of losing work, or getting back to something working
 
-* Commit early and often; find your rhythm
+* Commit = snapshot of your files that goes in the repo
+
+* Cycle: make changes + commit &rarr; make changes + commit &rarr;
+
 
 
 <!SLIDE bullets>
@@ -63,19 +130,20 @@
 
 * Very complex, but the basics can get you far
   * Many command line tools
+  * We'll use `gittyup`
 
 * Go sign up for <http://www.github.com>
-  * Elysian Fields of Open Source 
+  * *Champs-Élysées* of Open Source 
   * Git additions: Fork, Pull Requests
 
 <!SLIDE bullets>
 # Rails Server - Running Locally
 
-* Use Bundler to install dependencies
-  * Uses Gemfile
-
 * Rails program to start development server
   * Runs a basic Ruby web/HTTP server
+
+* Use Bundler to install dependencies
+  * Uses Gemfile
 
 * Lets you see changes as you code
   * Edit, save, reload browser
@@ -99,6 +167,8 @@
 
 * Uses `git push` to heroku remote repo
 
+* `gittyup` will do this for us
+
 * Has it's own command line 'toolbelt'
   * Also has a web interface
 
@@ -114,15 +184,13 @@
 * Generate a new Rails app
   * `rails new myapp`
 
-* Add it to Git
-  * `git init`
-  * `git add .`  
-  * `git commit -m 'new project!'`
-
 * Run it locally
   * `bundle`
   * `rails server`
 
+* Initialize git repository
+  * `git init`
+
 * Deploy and run on Heroku
   * `heroku create`
-  * `git push heroku master`
+  * `gittyup`

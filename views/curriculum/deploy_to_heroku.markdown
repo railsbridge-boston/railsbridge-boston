@@ -72,25 +72,15 @@ There are now changes to Gemfile and Gemfile.lock that need to be committed befo
 Type this in the terminal
 
 ```text
-git add .
-git commit -m "Changed Gemfile for Heroku"
+gittyup
 ```
 
-![](/images/info.png) There is a period after the word add in the first line.
-
-
-### Step 5: Push changes to heroku
-
-Type this in the terminal
-
-```text
-git push heroku master
-```
+This command will ask `enter commit message (blank to exit)` type `some changes to Gemfile`
 
 This takes all changes you've committed locally and pushes them to heroku.
 
 
-### Step 6: Visit your application
+### Step 5: Visit your application
 
 Type this in the terminal
 

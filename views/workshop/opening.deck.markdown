@@ -56,12 +56,14 @@
   * Try [the documentation](http://api.rubyonrails.org/)
 
 !SLIDE bullets
-#  Mistakes and Errors
+# BUGS!  
 * Mistakes and errors are an integral part of development.  They happen *all the time* to *everyone*.
 * Rails is designed to minimize their effect on your app:
   * Separate development and production environments
   * Automated testing
   * Easy, highly-specified set up and reproduction of a development environment for an app
+
+![Grace Hopper](/images/slides/grace_hopper_first_bug.png)
 
 !SLIDE bullets
 # Open Source: a Practice and an Ethos
