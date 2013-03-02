@@ -50,5 +50,6 @@
 * [Commit and Push to Heroku, Yet Again](commit_and_push_to_heroku_yet_again)  
 
 ## Wrapping Up ##
-* [Credits](credits_and_next_steps)
-* [Exit Survey](https://docs.google.com/spreadsheet/viewform?formkey=dDY2dGU4aEhhdWUtaG5RZVNCdWlvaEE6MA)
+* [Credits](credits)
+* [Next Steps](next_steps)
+* [Survey](https://docs.google.com/spreadsheet/viewform?formkey=dDY2dGU4aEhhdWUtaG5RZVNCdWlvaEE6MA)
