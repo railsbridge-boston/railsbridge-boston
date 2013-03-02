@@ -6,7 +6,7 @@
 <!SLIDE bullets>
 # Rails - Big Ideas
 
-* Generated Code + Code You Write + Tools
+* Set of Tools + Generated Code + Code We Write
 
 * Convention > Configuration
   * The same structure and naming
@@ -33,7 +33,7 @@
   * Essential for deployment
 
 * Code & Configuration
-  * Environment Specific
+  * Environment Specific, ex: DB devel != production
 
 * Gemfile / bundler for dependencies
   * Same gem versions in development & production
@@ -70,7 +70,7 @@ puts count
 
 
 <!SLIDE bullets>
-# Version Control - Diff
+# VC - Showing Differences
 
 ```ruby
 
@@ -82,7 +82,7 @@ puts count
 ```
 
 <!SLIDE bullets>
-# Version Control - Diff
+# VC - Showing Differences
 
 <pre><code class="ruby"><span style="color: red">titles</span>
 <strike>movies</strike> = ["Star Wars", "The Godfather"]
@@ -93,7 +93,7 @@ puts count
 </code></pre>
 
 <!SLIDE bullets>
-# Version Control - Diff
+# VC - Showing Differences
 
 <pre><code class="ruby"><span style="color: red">titles</span>
 <strike>movies</strike> = ["Star Wars", "The Godfather"<span style="color: red">, "Jaws"</span>]
@@ -114,9 +114,10 @@ puts count
 
 * No more fear of losing work, or getting back to something working
 
-* Commit early and often; find your rhythm
+* Commit = snapshot of your files that goes in the repo
 
-* Commit = take snapshot of your files and put it in the repo
+* Cycle: make changes + commit &rarr; make changes + commit &rarr;
+
 
 
 <!SLIDE bullets>
@@ -129,19 +130,20 @@ puts count
 
 * Very complex, but the basics can get you far
   * Many command line tools
+  * We'll use `gittyup`
 
 * Go sign up for <http://www.github.com>
-  * Elysian Fields of Open Source 
+  * *Champs-Élysées* of Open Source 
   * Git additions: Fork, Pull Requests
 
 <!SLIDE bullets>
 # Rails Server - Running Locally
 
-* Use Bundler to install dependencies
-  * Uses Gemfile
-
 * Rails program to start development server
   * Runs a basic Ruby web/HTTP server
+
+* Use Bundler to install dependencies
+  * Uses Gemfile
 
 * Lets you see changes as you code
   * Edit, save, reload browser
@@ -164,6 +166,8 @@ puts count
 # Heroku Logistics
 
 * Uses `git push` to heroku remote repo
+
+* `gittyup` will do this for us
 
 * Has it's own command line 'toolbelt'
   * Also has a web interface
