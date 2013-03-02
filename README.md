@@ -23,3 +23,5 @@ To start the app:
     bundle 
     rackup
 
+
+TEST

@@ -108,9 +108,9 @@ class RubyWorkshop < Sinatra::Base
   end
 
   get '/completions' do
-    completions = DB["select page, count(student_id)  from completions group by page"].to_a
-    total_students = DB["select count(*) as total from completions group by student_id"].first[:total]
-    total_completions = DB["select count(*) as total from completions"].first[:total]
+    completions = DB["select page, count(student_id) from completions where completions.created > now() - interval '8 hour' group by page"].to_a
+    total_students = DB["select count(*) as total from completions where completions.created > now() - interval '8 hour' group by student_id"].first[:total]
+    total_completions = DB["select count(*) as total from completions where completions.created > now() - interval '8 hour'"].first[:total]
     {completions: completions, total_students: total_students, total_completions: total_completions }.to_json
   end
 
