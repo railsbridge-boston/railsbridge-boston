@@ -30,7 +30,7 @@ Hint: it's just a better way for programmers to understand their own code.
 # When you hear MVC, remember this:
 
 * Models take care of business!
-* Controllers direct the trafic
+* Controllers direct the traffic
 * Views handle the presentation
 
 <!SLIDE>
@@ -234,7 +234,7 @@ There are different types of relationships.
 # Remember: when their forces combine...
 
 * Models take care of business!
-* Controllers direct the trafic
+* Controllers direct the traffic
 * Views handle the presentation
 
 <!SLIDE>
