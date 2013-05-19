@@ -17,16 +17,11 @@ bring more women into the Ruby comunity in San Francisco.
 We originally set out to run a large workshop on February 22nd and 23rd with 
 60 students and over 20 teaching assistants. 
 
-------------------------------------------------------------------------
-MAYBE PUT HERE paragraph on the variety backgrounds of attendees 
-https://docs.google.com/spreadsheet/ccc?key=0Ar1UHvrwSrhudEN3ZmZncEFCRmpkTV9oQ3JBWWROeGc#gid=0
-
-The students came from a variety of backgrounds: students, web designers, career-changers, 
-managers seeking to better understand their teams' work, entrepreneurs with an idea,
-and programmers updating their toolkits. Everyone had at least some familiarity with HTML,
-but the range of programming  experience covered the spectrum from beginner to professional.
-
-------------------------------------------------------------------------
+The students came from a variety of backgrounds: students, web designers,
+career-changers, managers seeking to better understand their teams' work,
+entrepreneurs with an idea, and programmers updating their toolkits. Everyone
+had at least some familiarity with HTML, but the range of programming
+experience covered the spectrum from beginner to professional.
 
 We got through the Friday night installfest smoothly on the night of the 22nd.
 We were set to run through the main curriculum the next day. 
@@ -136,37 +131,35 @@ suggested that we could try harder to impart clear, organizing concepts.
 
 ## Thanks
 
-------------------------------------------------------------------------
-PUT HERE thanks to sponsors, TAs, lecturers
-
 Thank you to our lecturers and TAs:
-- Diana Kimball
-- Jessica McKellar
-- Allen Madsen
-- Bence Magyar
-- Brandon Casci
-- Brendan Kemp
-- Brian Diesel
-- Caleb Thompson
-- Clara Raubertas
-- Dan Pickett
-- Daniel Choi
-- Decklin Foster
-- Elizabeth Kallman
-- Janet Riley
-- Jason Draper
-- Jason Woodward
-- Jennifer Morton
-- Jiyeon Woo
-- Jon Cheng
-- Josh Steiner
-- Mary Johnson
-- Michael Booth
-- Patrick Robertson
-- Paul Morganthall
-- Rebecca Nesson
-- Tara Tan
-- Valentine Rogers
+
+* Diana Kimball
+* Jessica McKellar
+* Allen Madsen
+* Bence Magyar
+* Brandon Casci
+* Brendan Kemp
+* Brian Diesel
+* Caleb Thompson
+* Clara Raubertas
+* Dan Pickett
+* Daniel Choi
+* Decklin Foster
+* Elizabeth Kallman
+* Janet Riley
+* Jason Draper
+* Jason Woodward
+* Jennifer Morton
+* Jiyeon Woo
+* Jon Cheng
+* Josh Steiner
+* Mary Johnson
+* Michael Booth
+* Patrick Robertson
+* Paul Morganthall
+* Rebecca Nesson
+* Tara Tan
+* Valentine Rogers
 
 Our generous sponsors included:
 [Act Blue](http://actblue.com/)
@@ -178,7 +171,6 @@ Our generous sponsors included:
 [Pragmatic Bookshelf](http://pragprog.com/)
 [Thoughtbot](http://thoughtbot.com/)
 [Vermonster](http://vermonster.com/)
-
 
 Some info: TA applications for June 2013 workshop
 
@@ -200,12 +192,6 @@ END
 
 
 
-NOTES - delete for final
-
-
-Exit Survey
-
-https://docs.google.com/spreadsheet/ccc?key=0ArqbLasiA0FZdDY2dGU4aEhhdWUtaG5RZVNCdWlvaEE#gid=0
 
 Rebecca's photos
   https://plus.google.com/u/0/photos/100614995427319264587/albums/5849065615400955041?gpinv=AMIXal_jAzyjZ2E53to7NyCoK4P91Tckt4-GB6N7cPUrLWGgQmx8iEoCDHBsvxVKLb-P9SUsOXlYci9mT-VtJ5mjenqAg15ExT1fhCVGT6auT_QN7dwliy4&cfem=1&authkey=CK3uy83H_PDn7QE
