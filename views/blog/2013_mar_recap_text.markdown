@@ -40,7 +40,7 @@ reschedule for the following weekend. Less than an hour after that, MIT
 announced that the police had found no shooter and lifted the emergency. Later it
 was revealed that the original tip was a hoax.
 
-The shooter hoax cost us some money and attendance. We losts a few hundred
+The shooter hoax cost us some money and attendance. We lost a few hundred
 dollars for breakfast which had been laid out but was left unconsumed. About
 half our original student pool also couldn't make the makeup Saturday workshop
 day because of schedule conflicts.  But we forged ahead, with generous
