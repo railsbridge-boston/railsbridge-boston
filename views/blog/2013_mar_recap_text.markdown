@@ -64,11 +64,11 @@ the Rails web software development process:
 * Rails Navigation, Links and Routers: Jason Draper
 
 We were also lucky to to have two bonus inspirational presentations by Diana
-Kimball and Jessica McKellar. To a beautiful slide deck, Diana shared a story of her
-own journey into programming, from a state of complete intimidation to
-confidence and joy. Jessica gave a strong, encouraging speech about the
-steps beginners could take after the workshop and projects they could undertake
-to further their self-development as programmers.
+Kimball and Jessica McKellar. To a beautiful slide deck, Diana shared a story
+of her own journey into programming, from a state of complete intimidation to
+confidence and joy. Jessica gave a strong, encouraging speech about the steps
+beginners could take after the workshop to further their self-development as
+programmers.
 
 
 ## Feedback
