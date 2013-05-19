@@ -33,8 +33,8 @@ Early Saturday morning, on February 23, reports spread of a man with long rifle
 roaming MIT campus. About 15 RailsBridge students and teaching assistants had
 already showed up early for the workshop to start when MIT police advised
 everyone on the main campus to stay indoors and locks their doors. Other
-workshop volunteers got wind of the emergency by email and opted to stay home
-to wait for events to pan out. 
+workshop volunteers got wind of the emergency by email and opted to
+stay home until it lifted.
 
 * show some tweets from this incident; or web page news report screengrab
 
@@ -43,17 +43,18 @@ reschedule for the following weekend. Less than an hour after that MIT
 announced the police had found no shooter and lifted the emergency. Later it
 was revealed that the original tip was a hoax.
 
-The shooter hoax cost us some money and attendance. We paid the cost of a
-breakfast which had been laid out but was left unconsumed. About half our
-original student pool also couldn't make the makeup Saturday workshop day
-because of schedule conflicts.
+The shooter hoax cost us some money and attendance. We losts a few hundred
+dollars for breakfast which had been laid out but was left unconsumed. About
+half our original student pool also couldn't make the makeup Saturday workshop
+day because of schedule conflicts.  But we forged ahead, with understanding and
+support from MIT Catering, our sponsors, our teaching staff, and our students. 
 
-But we forged ahead. On Saturday, March 2, 32 beginners, 27 of them women,
+On Saturday, March 2, we ran the main workshop. 32 beginners, 27 of them women,
 spent a little over 5 hours building and deploying their first Rails web
-application. They were guided by 17 teaching assistants through exercises and
-6 lectures on the whole range of skills involved in web application development,
-from text editors and basic Ruby syntax to git source control, ActiveRecord
-associations, and Heroku deployment.  
+application.  They were guided by 17 teaching assistants through exercises and
+6 lectures on the whole range of skills involved in web application
+development, from text editors and basic Ruby syntax to Git source control,
+ActiveRecord associations, and pushing code to the web through Heroku. 
 
 Our bad luck with shooter hoax was also more than made up for by our good luck
 in having two bonus inspirational presentations by Diana Kimball and Jessica
