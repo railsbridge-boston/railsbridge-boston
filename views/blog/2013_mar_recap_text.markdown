@@ -29,12 +29,12 @@ over 60 students and over 25 teaching assistants. We got through the Friday
 night installfest smoothly on the night of the 22nd. We were set to run through
 the main curriculum the next day. 
 
-Early Saturday morning, on February 23, reports spread of a man with long rifle
-roaming MIT campus. About 15 RailsBridge students and teaching assistants had
-already showed up early for the workshop to start when MIT police advised
-everyone on the main campus to stay indoors and locks their doors. Other
-workshop volunteers got wind of the emergency by email and opted to
-stay home to wait it out.
+Early Saturday morning, on February 23, reports spread of an unidentified man
+armed with a rifle roaming the MIT campus. About 15 RailsBridge students and
+teaching assistants had already showed up early for the workshop to start when
+MIT police advised everyone on the main campus to stay indoors and locks their
+doors. Other workshop volunteers got wind of the emergency by email and opted
+to stay home to wait it out.
 
 * show some tweets from this incident; or web page news report screengrab
 
@@ -132,6 +132,7 @@ suggested that we could try harder to impart clear, organizing concepts.
   understanding it better. I could guess from reading the tutorial's directions
   what the commands would do, but I would've liked a bit more detail as to how
   to construct commands.  
+
 
 
 
