@@ -25,16 +25,26 @@ had been inspired in turn by the original
 bring more women into the Ruby comunity in San Francisco. 
 
 We originally set out to run a large workshop on February 22nd and 23rd with
-over 60 students and over 25 teaching assistants. We got through the Friday
-night installfest smoothly on the night of the 22nd. We were set to run through
-the main curriculum the next day. 
+over 60 students and over 25 teaching assistants. 
 
-Early Saturday morning, on February 23, reports spread of an unidentified man
-armed with a rifle roaming the MIT campus. About 15 RailsBridge students and
-teaching assistants had already showed up early for the workshop to start when
-MIT police advised everyone on the main campus to stay indoors and locks their
-doors. Other workshop volunteers got wind of the emergency by email and opted
-to stay home to wait it out.
+------------------------------------------------------------------------
+MAYBE PUT HERE paragraph on the variety backgrounds of attendees 
+
+https://docs.google.com/spreadsheet/ccc?key=0Ar1UHvrwSrhudEN3ZmZncEFCRmpkTV9oQ3JBWWROeGc#gid=0
+
+The students came from a variety of backgrounds ...
+
+------------------------------------------------------------------------
+
+We got through the Friday night installfest smoothly on the night of the 22nd.
+We were set to run through the main curriculum the next day. 
+
+But early Saturday morning, on February 23, reports spread of an unidentified
+man armed with a rifle roaming the MIT campus. About 15 RailsBridge students
+and teaching assistants had already showed up early for the workshop to start
+when MIT police advised everyone on the main campus to stay indoors and locks
+their doors. Other workshop volunteers got wind of the emergency by email and
+opted to stay home to wait it out.
 
 * show some tweets from this incident; or web page news report screengrab
 
@@ -58,10 +68,6 @@ development, from text editors and basic Ruby syntax to Git source control,
 ActiveRecord associations, and pushing code to the web through Heroku. 
 
 
-describe the backgrounds of attendees (initial group OK)
-
-https://docs.google.com/spreadsheet/ccc?key=0Ar1UHvrwSrhudEN3ZmZncEFCRmpkTV9oQ3JBWWROeGc#gid=0
-
 We were also lucky to to have two bonus inspirational presentations by Diana
 Kimball and Jessica McKellar. To a beautiful slide deck, Diana shared a story of her
 own journey into programming, from a state of complete intimidation to
@@ -70,7 +76,7 @@ steps beginners could take after the workshop and projects they could undertake
 to further their self-development as programmers.
 
 
-## The feedback
+## Feedback
 
 Our exit survey results were encouraging. The survey was completed by 11 of the
 attendees who made it through both days of the workshop. 8 people rated the
@@ -136,16 +142,26 @@ suggested that we could try harder to impart clear, organizing concepts.
 
 
 
+## Thanks
+
+------------------------------------------------------------------------
+PUT HERE thanks to sponsors, TAs, lecturers
 
 
-merged with new TA applications for June 2013 workshop
+Some info: TA applications for June 2013 workshop
 
 https://docs.google.com/spreadsheet/ccc?key=0ArqbLasiA0FZdGdzbFUwb2NfY1pPenhGcGJ1MnBvdlE#gid=0
+------------------------------------------------------------------------
 
+
+## Take action!
 
 Since RailsBridge Boston started running its own workshops in August, we've
-help inspire more women's workshop efforts in other cities through the 
-writeups, photos, and survey results we've posted of our events..
-(examples here)
+help inspire more women's workshop efforts in other cities through the
+writeups, photos, and survey results we've posted of our events. 
+
+[FINISH THIS SECTION]
+
+
 
 
