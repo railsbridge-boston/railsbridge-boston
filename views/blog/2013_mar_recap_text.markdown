@@ -63,9 +63,9 @@ describe the backgrounds of attendees (initial group OK)
 https://docs.google.com/spreadsheet/ccc?key=0Ar1UHvrwSrhudEN3ZmZncEFCRmpkTV9oQ3JBWWROeGc#gid=0
 
 We were also lucky to to have two bonus inspirational presentations by Diana
-Kimball and Jessica McKellar. With colorful slides, Diana shared a story of her
+Kimball and Jessica McKellar. To a beautiful slide deck, Diana shared a story of her
 own journey into programming, from a state of complete intimidation to
-confidence and empowerment. Jessica gave a strong, encouraging speech about the
+confidence and joy. Jessica gave a strong, encouraging speech about the
 steps beginners could take after the workshop and projects they could undertake
 to further their self-development as programmers.
 
