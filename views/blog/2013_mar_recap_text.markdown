@@ -189,8 +189,7 @@ of the Charles River and the Boston skyline, and even includes an outdoor
 dining area!
 
 If you're interested in attending the next workshop as a student or as a
-volunteer teaching assistant, [please fill out this form][interest-form]! We'll be sure to 
-let you know when we have more details.
+volunteer teaching assistant, [please fill out this form][interest-form]! 
  
 [interest-form]:https://docs.google.com/spreadsheet/viewform?formkey=dER6ZjhkT29PaklUcU11bXltaF9qMFE6MQ
 
