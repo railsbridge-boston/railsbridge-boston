@@ -196,7 +196,7 @@ volunteer teaching assistant, [please fill out this form][interest-form]!
 ## Start a RailsBridge chapter in your area
 
 Since RailsBridge Boston started running its own workshops in August, we've
-help inspire more women's workshop efforts in other cities through the
+helped inspire more women's workshop efforts in other cities through the
 writeups, photos, and survey results we've posted of our events. 
 
 If you would like to get your own Ruby community to start doing its own
