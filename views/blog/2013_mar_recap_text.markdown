@@ -28,10 +28,10 @@ We were set to run through the main curriculum the next day.
 
 But early Saturday morning, on February 23, reports spread of an unidentified
 man armed with a rifle roaming the MIT campus. About 15 RailsBridge students
-and teaching assistants had already showed up early for the workshop to start
-when MIT police advised everyone on the main campus to stay indoors and locks
-their doors. Other workshop volunteers got wind of the emergency by email and
-opted to stay home to wait it out.
+and teaching assistants had already showed up early and were waiting for the
+workshop to start when MIT police advised everyone on the main campus to stay
+indoors and locks their doors. Other workshop volunteers got wind of the
+emergency by email and opted to stay home to wait it out.
 
 In the midst of uncertainty, we decided to cancel the Saturday workshop and
 reschedule for the following weekend. Less than an hour after that, MIT
