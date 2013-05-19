@@ -18,23 +18,23 @@ building web applications with the Ruby programming language.
 
 RailsBridge Boston started running introductory Rails workshops in August of
 2012. We were inspired to run these workshops when we saw a presentation about
-the [outreach efforts](http://www.youtube.com/watch?v=QrITN6GZDu4) of the
-Python Community to welcome more beginners and women into their ranks.  The
-Boston Python effort was inspired in turn by the original
+the [outreach efforts by the Boston Python community](http://www.youtube.com/watch?v=QrITN6GZDu4) 
+to welcome more women and beginners into their ranks.  The Boston Python effort
+had been inspired in turn by the original
 [RailsBridge](http://workshops.railsbridge.org/) diversity outreach effort to
 bring more women into the Ruby comunity in San Francisco. 
 
 We originally set out to run a large workshop on February 22nd and 23rd with
 over 60 students and over 25 teaching assistants. We got through the Friday
-night installfest on the 22nd. We were set to run through the main curriculum 
-the next day. 
+night installfest smoothly on the night of the 22nd. We were set to run through
+the main curriculum the next day. 
 
 Early Saturday morning, on February 23, reports spread of a man with long rifle
 roaming MIT campus. About 15 RailsBridge students and teaching assistants had
 already showed up early for the workshop to start when MIT police advised
 everyone on the main campus to stay indoors and locks their doors. Other
 workshop volunteers got wind of the emergency by email and opted to
-stay home until it lifted.
+stay home to wait it out.
 
 * show some tweets from this incident; or web page news report screengrab
 
@@ -46,44 +46,100 @@ was revealed that the original tip was a hoax.
 The shooter hoax cost us some money and attendance. We losts a few hundred
 dollars for breakfast which had been laid out but was left unconsumed. About
 half our original student pool also couldn't make the makeup Saturday workshop
-day because of schedule conflicts.  But we forged ahead, with understanding and
-support from MIT Catering, our sponsors, our teaching staff, and our students. 
+day because of schedule conflicts.  But we forged ahead, with generous
+understanding and support from MIT Catering, our sponsors, our teaching staff,
+and our students. 
 
-On Saturday, March 2, we ran the main workshop. 32 beginners, 27 of them women,
-spent a little over 5 hours building and deploying their first Rails web
+On Saturday, March 2, we ran our make-up workshop. 32 beginners, 27 of them
+women, spent a little over 5 hours building and deploying their first Rails web
 application.  They were guided by 17 teaching assistants through exercises and
 6 lectures on the whole range of skills involved in web application
 development, from text editors and basic Ruby syntax to Git source control,
 ActiveRecord associations, and pushing code to the web through Heroku. 
 
-Our bad luck with shooter hoax was also more than made up for by our good luck
-in having two bonus inspirational presentations by Diana Kimball and Jessica
-McKellar.
-
-
-
-BLANK attendees 
-
-
-## Attendees
 
 describe the backgrounds of attendees (initial group OK)
 
 https://docs.google.com/spreadsheet/ccc?key=0Ar1UHvrwSrhudEN3ZmZncEFCRmpkTV9oQ3JBWWROeGc#gid=0
 
+We were also lucky to to have two bonus inspirational presentations by Diana
+Kimball and Jessica McKellar. With colorful slides, Diana shared a story of her
+own journey into programming, from a state of complete intimidation to
+confidence and empowerment. Jessica gave a strong, encouraging speech about the
+steps beginners could take after the workshop and projects they could undertake
+to further their self-development as programmers.
 
-## TAs
+
+## The feedback
+
+Our exit survey results were encouraging. The survey was completed by 11 of the
+attendees who made it through both days of the workshop. 8 people rated the
+workshop as a 5 out of 5, and the other 3 gave it a 4.
+
+The respondents were grateful for the TAs and the lectures, and in general all
+the volunteer work that went into making the workshop:
+
+> I was incredibly impressed by all the talented individuals who were willing
+  to give their time as lecturers and TAs. I think it was very valuable to have
+  so many knowledgeable people willing to help out whenever I had a question. 
+
+--
+
+> The T.A.s were amazing!! They were so helpful and nice. They really know
+  their stuff.
+
+--
+
+> Everyone was very helpful and I will definitely be playing around with
+  Ruby in my spare time!! :) Thanks everyone!!
+
+--
+
+> Lecture/activities were really good
+
+--
+
+> I thought the mix of activities was effective. Also, I was glad that Friday was
+  devoted to correctly installing the needed components. I think this made the
+  workshop much more approachable, and it was nice to get help with the
+  difficulties of installation. Thank you very much for putting together this
+  excellent opportunity! I appreciate all the time it takes to execute such a
+  workshop.
+
+
+But there was constructive criticism as well. Some people pointed out the
+slowness of the WiFi network and the scarcity of USB install sticks during
+Installfest, One person thought that the Friday installfest was a bit slow and
+under-structured:
+
+> Installfest was slow, and it didn't feel like there was really enough to do
+  while we waited for downloads and installation. Maybe that would be a good
+  time to either cover some of the background/structure or look at some of the
+  vocabulary? (At least in an independent reading setup, perhaps.)
+
+More than one person thought the curriculum covered too much too fast, and
+suggested that we could try harder to impart clear, organizing concepts. 
+
+> About 2/3 of the way through the day I found myself pretty lost. I could
+  follow along the steps pretty well but couldn't conceptually wrap my head
+  around what I was doing, even after talking with my TA. This might just be
+  part of the process though, there's only so much you can learn in one day!
+
+--
+
+> I get the basic logic of programming, but I felt like I was skating over the
+  top of a lot of information without having all the tools I wanted for really
+  understanding it better. I could guess from reading the tutorial's directions
+  what the commands would do, but I would've liked a bit more detail as to how
+  to construct commands.  
+
+
+
 
 
 merged with new TA applications for June 2013 workshop
 
 https://docs.google.com/spreadsheet/ccc?key=0ArqbLasiA0FZdGdzbFUwb2NfY1pPenhGcGJ1MnBvdlE#gid=0
-
-
-
-## Installfest
-
-  The beginning of Friday night was extremely frustrating because the internet was so slow. I had to wait about an hour before I got a USB stick for installing Ruby (my download time was estimating 4 hours)- please bring plenty of these next time :)
 
 
 
@@ -106,9 +162,9 @@ https://docs.google.com/spreadsheet/ccc?key=0ArqbLasiA0FZdGdzbFUwb2NfY1pPenhGcGJ
   were especially helpful.
 
 
-  It would be useful to have a 10,000 feet overview of what exists out there
-  other than rails, and what it is. For example is PHP or Apache a framework as
-  well? I would also love to see examples of apps that run on rails, and a bit
+  it would be useful to have a 10,000 feet overview of what exists out there
+  other than rails, and what it is. for example is php or apache a framework as
+  well? i would also love to see examples of apps that run on rails, and a bit
   of what is necessary to deploy/migrate a site to our own domain.  o
 
 
@@ -155,7 +211,8 @@ https://docs.google.com/spreadsheet/ccc?key=0ArqbLasiA0FZdGdzbFUwb2NfY1pPenhGcGJ
   -- Everyone was very helpful and I will definitely be playing around with
   Ruby in my spare time!! :) Thanks everyone!!
 
-  -- No group work ever really went on, people just worked by themselves and
+  -- 
+  No group work ever really went on, people just worked by themselves and
   asked the occasional questions. I'm not sure if this is what you were going
   for or not with group work.
 
