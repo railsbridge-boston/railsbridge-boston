@@ -183,7 +183,7 @@ Our generous sponsors included:
 ## The next workshop
 
 We plan on holding our next RailsBridge Boston workshop on June 21-22, 2013 at
-Microsoft NERD in Cambridge. We're very thankful our core organizer Brendan
+Microsoft NERD in Cambridge. We're very thankful to organizer Brendan
 Kemp for securing this next venue. The space is fabulous, with a beautiful view
 of the Charles River and the Boston skyline, and even includes an outdoor
 dining area!
