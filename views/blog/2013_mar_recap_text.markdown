@@ -15,26 +15,34 @@ and their friends at MIT. RailsBridge Boston workshops give a mostly female
 audience a guided, friendly, and fun introduction to building web applications
 with the Ruby programming language. 
 
-This was RailsBridge Boston's fourth workshop since we started our efforts last
-May.  We were inspired to organize our workshops by the <a
-href="http://www.youtube.com/watch?v=QrITN6GZDu4">outreach efforts</a> of the
-Python Community to welcome beginners and women.  It turns out that they were
-in turned inspired by the <a
-href="http://workshops.railsbridge.org/">RailsBridge</a> diversity outreach
-effort to bring more women into the Ruby comunity in San Francisco. 
+This was RailsBridge Boston's fourth workshop since we started our efforts in
+May of 2012. We were inspired to run these workshops when we saw a presentation
+about the [outreach efforts](http://www.youtube.com/watch?v=QrITN6GZDu4) of the
+Python Community to welcome more beginners and women into their ranks.  The
+Boston Python effort was inspired in turn by the original
+[RailsBridge](http://workshops.railsbridge.org/) diversity outreach effort to
+bring more women into the Ruby comunity in San Francisco. 
 
-Since RailsBridge Boston started running its own workshops in August, we've
-help inspire more women's workshop efforts in other cities through the 
-writeups, photos, and survey results we've posted of our events..
-(examples here)
+We originally set out to run a large workshop on February 22nd and 23rd with
+over 60 students and over 25 teaching assistants. We got through the Friday
+night installfest on the 22nd. We were set to run through the main curriculum 
+the next day. 
 
 Early Saturday morning, on February 23, reports spread of a man with firearm
-roaming MIT campus. 
+roaming MIT campus. About 15 students and teaching assistants had already
+showed up early for the workshop to start when MIT police advised everyone on
+the main campus to stay indoors and locks their doors. Other workshop
+volunteers got wind of the emergency by email and opted to stay home to wait
+for events to pan out. 
 
-* insert image here
+In the midst of uncertainty, we decided to cancel the Saturday workshop and
+reschedule the workshop for the following weekend. Less than an hour after that
+MIT announced the police had found no shooter and lifted the emergency. Later
+it was discovered that report was a hoax.
 
 
 
+* show some tweets or something
 
 
 
@@ -78,56 +86,95 @@ https://docs.google.com/spreadsheet/ccc?key=0ArqbLasiA0FZdGdzbFUwb2NfY1pPenhGcGJ
 
 
 
-I was incredibly impressed by all the talented individuals who were willing to give their time as lecturers and TAs. I think it was very valuable to have so many knowledgeable people willing to help out whenever I had a question. 
+  I was incredibly impressed by all the talented individuals who were willing
+  to give their time as lecturers and TAs. I think it was very valuable to have
+  so many knowledgeable people willing to help out whenever I had a question. 
 
 
-Not that I can think of! I thought it was excellent to get a broad understanding of the use of Ruby during the lectures and to be able to implement a specific application during the workshop. The many helpful TAs were especially helpful.
+  Not that I can think of! I thought it was excellent to get a broad
+  understanding of the use of Ruby during the lectures and to be able to
+  implement a specific application during the workshop. The many helpful TAs
+  were especially helpful.
 
 
-It would be useful to have a 10,000 feet overview of what exists out there other than rails, and what it is. For example is PHP or Apache a framework as well? I would also love to see examples of apps that run on rails, and a bit of what is necessary to deploy/migrate a site to our own domain.
-o
+  It would be useful to have a 10,000 feet overview of what exists out there
+  other than rails, and what it is. For example is PHP or Apache a framework as
+  well? I would also love to see examples of apps that run on rails, and a bit
+  of what is necessary to deploy/migrate a site to our own domain.  o
 
 
-About 2/3 of the way through the day I found myself pretty lost. I could follow along the steps pretty well but couldn't conceptually wrap my head around what I was doing, even after talking with my TA. This might just be part of the process though, there's only so much you can learn in one day!
+  About 2/3 of the way through the day I found myself pretty lost. I could
+  follow along the steps pretty well but couldn't conceptually wrap my head
+  around what I was doing, even after talking with my TA. This might just be
+  part of the process though, there's only so much you can learn in one day!
 
-The T.A.s were amazing!! They were so helpful and nice. They really know their stuff.
+  The T.A.s were amazing!! They were so helpful and nice. They really know
+  their stuff.
 
 
-I didn't really know what rails and ruby was before I joined the class. I was somehow under the impression we would be doing more html stuff. When we finally got around to changing the codes to link votes to a variable I got really confused because we were calling to methods instead of writing the methods. It just took me some time to figure it out but maybe make it more clear ruby is about calling premade methods to make life easier instead of starting from scratch.
+  I didn't really know what rails and ruby was before I joined the class. I was
+  somehow under the impression we would be doing more html stuff. When we
+  finally got around to changing the codes to link votes to a variable I got
+  really confused because we were calling to methods instead of writing the
+  methods. It just took me some time to figure it out but maybe make it more
+  clear ruby is about calling premade methods to make life easier instead of
+  starting from scratch.
 
 
---
-I think I would've gotten more out of the workshop with at least a pointer (highlighted "look at this and maybe bring a printout" link) to a page of basic vocabulary/syntax/punctuation information.
+  -- I think I would've gotten more out of the workshop with at least a pointer
+  (highlighted "look at this and maybe bring a printout" link) to a page of
+  basic vocabulary/syntax/punctuation information.
 
-I get the basic logic of programming, but I felt like I was skating over the top of a lot of information without having all the tools I wanted for really understanding it better. I could guess from reading the tutorial's directions what the commands would do, but I would've liked a bit more detail as to how to construct commands.
---
+  I get the basic logic of programming, but I felt like I was skating over the
+  top of a lot of information without having all the tools I wanted for really
+  understanding it better. I could guess from reading the tutorial's directions
+  what the commands would do, but I would've liked a bit more detail as to how
+  to construct commands.  --
 
-I think the best part of the whole experience was when I successfully managed troubleshooting on my own. I think the best part of the *workshop* was having TAs to help when I was out of my depth.
+  I think the best part of the whole experience was when I successfully managed
+  troubleshooting on my own. I think the best part of the *workshop* was having
+  TAs to help when I was out of my depth.
 
---
-TAs are really great and friendly
-Steps are really easy to follow
-Food and facilities were great
+  -- TAs are really great and friendly Steps are really easy to follow Food and
+  facilities were great
 
---
+  --
 
-Something more exciting to build
-More understanding behind why we do some of the things we do
+  Something more exciting to build More understanding behind why we do some of
+  the things we do
 
---
-Everyone was very helpful and I will definitely be playing around with Ruby in my spare time!! :) Thanks everyone!!
+  -- Everyone was very helpful and I will definitely be playing around with
+  Ruby in my spare time!! :) Thanks everyone!!
 
---
-No group work ever really went on, people just worked by themselves and asked the occasional questions. I'm not sure if this is what you were going for or not with group work.
+  -- No group work ever really went on, people just worked by themselves and
+  asked the occasional questions. I'm not sure if this is what you were going
+  for or not with group work.
+
+  -
+  It didn't actually feel like small group work, more like individual work
+  while in small groups, but I think that's better than actual group work with
+  such different skillsets.
+
+  Installfest was slow, and it didn't feel like there was really enough to do
+  while we waited for downloads and installation. Maybe that would be a good
+  time to either cover some of the background/structure or look at some of the
+  vocabulary? (At least in an independent reading setup, perhaps.)
+
 
 -
-It didn't actually feel like small group work, more like individual work while in small groups, but I think that's better than actual group work with such different skillsets.
 
-Installfest was slow, and it didn't feel like there was really enough to do while we waited for downloads and installation. Maybe that would be a good time to either cover some of the background/structure or look at some of the vocabulary? (At least in an independent reading setup, perhaps.)
+  I thought the mix of activities was effective. Also, I was glad that Friday was
+  devoted to correctly installing the needed components. I think this made the
+  workshop much more approachable, and it was nice to get help with the
+  difficulties of installation. Thank you very much for putting together this
+  excellent opportunity! I appreciate all the time it takes to execute such a
+  workshop.
 
 
--
 
-I thought the mix of activities was effective. Also, I was glad that Friday was devoted to correctly installing the needed components. I think this made the workshop much more approachable, and it was nice to get help with the difficulties of installation. Thank you very much for putting together this excellent opportunity! I appreciate all the time it takes to execute such a workshop.
+Since RailsBridge Boston started running its own workshops in August, we've
+help inspire more women's workshop efforts in other cities through the 
+writeups, photos, and survey results we've posted of our events..
+(examples here)
 
 
