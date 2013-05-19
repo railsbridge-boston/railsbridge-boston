@@ -36,8 +36,8 @@ opted to stay home to wait it out.
 * show some tweets from this incident; or web page news report screengrab
 
 In the midst of uncertainty, we decided to cancel the Saturday workshop and
-reschedule for the following weekend. Less than an hour after that MIT
-announced the police had found no shooter and lifted the emergency. Later it
+reschedule for the following weekend. Less than an hour after that, MIT
+announced that the police had found no shooter and lifted the emergency. Later it
 was revealed that the original tip was a hoax.
 
 The shooter hoax cost us some money and attendance. We losts a few hundred
@@ -102,7 +102,7 @@ the volunteer work that went into making the workshop:
 
 But there was constructive criticism as well. Some people pointed out the
 slowness of the WiFi network and the scarcity of USB install sticks during
-Installfest> One person thought that the Friday installfest was a bit slow and
+Installfest. One person thought that the Friday installfest was a bit slow and
 under-structured:
 
 > Installfest was slow, and it didn't feel like there was really enough to do
