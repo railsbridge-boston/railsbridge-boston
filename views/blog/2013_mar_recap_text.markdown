@@ -33,8 +33,6 @@ when MIT police advised everyone on the main campus to stay indoors and locks
 their doors. Other workshop volunteers got wind of the emergency by email and
 opted to stay home to wait it out.
 
-* show some tweets from this incident; or web page news report screengrab
-
 In the midst of uncertainty, we decided to cancel the Saturday workshop and
 reschedule for the following weekend. Less than an hour after that, MIT
 announced that the police had found no shooter and lifted the emergency. Later it
@@ -191,14 +189,5 @@ writeups, photos, and survey results we've posted of our events.
 [FINISH THIS SECTION -- sign up to help organize, sponsor etc]
 
 END
-
-
-
-
-
-
-Rebecca's photos
-  https://plus.google.com/u/0/photos/100614995427319264587/albums/5849065615400955041?gpinv=AMIXal_jAzyjZ2E53to7NyCoK4P91Tckt4-GB6N7cPUrLWGgQmx8iEoCDHBsvxVKLb-P9SUsOXlYci9mT-VtJ5mjenqAg15ExT1fhCVGT6auT_QN7dwliy4&cfem=1&authkey=CK3uy83H_PDn7QE
-
 
 
