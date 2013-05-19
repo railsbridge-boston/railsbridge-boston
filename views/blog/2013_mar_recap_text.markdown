@@ -102,7 +102,7 @@ the volunteer work that went into making the workshop:
 
 But there was constructive criticism as well. Some people pointed out the
 slowness of the WiFi network and the scarcity of USB install sticks during
-Installfest, One person thought that the Friday installfest was a bit slow and
+Installfest> One person thought that the Friday installfest was a bit slow and
 under-structured:
 
 > Installfest was slow, and it didn't feel like there was really enough to do
@@ -137,7 +137,6 @@ Thank you to our lecturers and TAs:
 * Jessica McKellar
 * Allen Madsen
 * Bence Magyar
-* Brandon Casci
 * Brendan Kemp
 * Brian Diesel
 * Caleb Thompson
@@ -162,21 +161,16 @@ Thank you to our lecturers and TAs:
 * Valentine Rogers
 
 Our generous sponsors included:
-[Act Blue](http://actblue.com/)
-[Annkissam](http://annkissam.com/)
-[General Assembly](http://generalassemb.ly/)
-[Huville](http://www.huville-makerspace.com/)
-[Iora Health](http://iorahealth.com/)
-[Launch Academy](http://launchacademy.co/)
-[Pragmatic Bookshelf](http://pragprog.com/)
-[Thoughtbot](http://thoughtbot.com/)
-[Vermonster](http://vermonster.com/)
 
-Some info: TA applications for June 2013 workshop
-
-https://docs.google.com/spreadsheet/ccc?key=0ArqbLasiA0FZdGdzbFUwb2NfY1pPenhGcGJ1MnBvdlE#gid=0
-------------------------------------------------------------------------
-
+* [Act Blue](http://actblue.com/)
+* [Annkissam](http://annkissam.com/)
+* [General Assembly](http://generalassemb.ly/)
+* [Huville](http://www.huville-makerspace.com/)
+* [Iora Health](http://iorahealth.com/)
+* [Launch Academy](http://launchacademy.co/)
+* [Pragmatic Bookshelf](http://pragprog.com/)
+* [Thoughtbot](http://thoughtbot.com/)
+* [Vermonster](http://vermonster.com/)
 
 ## Take action!
 
