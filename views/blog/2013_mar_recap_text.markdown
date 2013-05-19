@@ -9,7 +9,6 @@ Rebecca's photos
 
 http://bost.ocks.org/mike/leaflet/
 
-
 On February 22 and March 2, RailsBridge Boston held a workshop for women
 and their friends at MIT. RailsBridge Boston workshops give a mostly female
 audience a guided, friendly, and fun introduction to building web applications
@@ -28,28 +27,35 @@ over 60 students and over 25 teaching assistants. We got through the Friday
 night installfest on the 22nd. We were set to run through the main curriculum 
 the next day. 
 
-Early Saturday morning, on February 23, reports spread of a man with firearm
-roaming MIT campus. About 15 students and teaching assistants had already
-showed up early for the workshop to start when MIT police advised everyone on
-the main campus to stay indoors and locks their doors. Other workshop
-volunteers got wind of the emergency by email and opted to stay home to wait
-for events to pan out. 
+Early Saturday morning, on February 23, reports spread of a man with long rifle
+roaming MIT campus. About 15 RailsBridge students and teaching assistants had
+already showed up early for the workshop to start when MIT police advised
+everyone on the main campus to stay indoors and locks their doors. Other
+workshop volunteers got wind of the emergency by email and opted to stay home
+to wait for events to pan out. 
+
+* show some tweets from this incident; or web page news report screengrab
 
 In the midst of uncertainty, we decided to cancel the Saturday workshop and
-reschedule the workshop for the following weekend. Less than an hour after that
-MIT announced the police had found no shooter and lifted the emergency. Later
-it was discovered that report was a hoax.
+reschedule for the following weekend. Less than an hour after that MIT
+announced the police had found no shooter and lifted the emergency. Later it
+was revealed that the original tip was a hoax.
 
+The shooter hoax cost us some money and attendance. We paid the cost of a
+breakfast which had been laid out but was left unconsumed. About half our
+original student pool also couldn't make the makeup Saturday workshop day
+because of schedule conflicts.
 
+But we forged ahead. On Saturday, March 2, 32 beginners, 27 of them women,
+spent a little over 5 hours building and deploying their first Rails web
+application. They were guided by 17 teaching assistants through exercises and
+6 lectures on the whole range of skills involved in web application development,
+from text editors and basic Ruby syntax to git source control, ActiveRecord
+associations, and Heroku deployment.  
 
-* show some tweets or something
-
-
-
-we made the call to cancel our the workshop for that day.
-
-We started out with 60 students and 25 TAs. 
-
+Our bad luck with shooter hoax was also more than made up for by our good luck
+in having two bonus inspirational presentations by Diana Kimball and Jessica
+McKellar.
 
 
 
