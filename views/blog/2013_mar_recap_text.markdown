@@ -70,6 +70,9 @@ confidence and joy. Jessica gave a strong, encouraging speech about the steps
 beginners could take after the workshop to further their self-development as
 programmers.
 
+After a day of intense work, filled with a sense of accomplishment and relief,
+a bunch of us headed over to the [Cambridge Brewing
+Company](http://www.cambrew.com/) for drinks and very friendly conversation.
 
 ## Feedback
 
