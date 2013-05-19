@@ -180,14 +180,41 @@ Our generous sponsors included:
 * [Thoughtbot](http://thoughtbot.com/)
 * [Vermonster](http://vermonster.com/)
 
-## Take action!
+## The next workshop
+
+We plan on holding our next RailsBridge Boston workshop on June 21-22, 2013 at
+Microsoft NERD in Cambridge.  
+
+If you're interested in attending the next workshop as a student or as a
+volunteer teaching assistant, [please fill out this form][interest-form]! We'll be sure to 
+let you know when we have more details.
+ 
+[interest-form]:https://docs.google.com/spreadsheet/viewform?formkey=dER6ZjhkT29PaklUcU11bXltaF9qMFE6MQ
+
+## Start a RailsBridge chapter in your area
 
 Since RailsBridge Boston started running its own workshops in August, we've
 help inspire more women's workshop efforts in other cities through the
 writeups, photos, and survey results we've posted of our events. 
 
-[FINISH THIS SECTION -- sign up to help organize, sponsor etc]
+If you would like to get your own Ruby community to start doing its own
+RailsBridge outreach, we are here to help, and so are the meta-organizers at
+RailsBridge San Francisco. Please email
+[railsbridgeboston@gmail.com](mailto:railsbridgeboston@gmail.com) if we've
+helped inspire you to hold RailsBridge workshops in your area and would like
+advice.  Please join the [RailsBridge Workshops Google
+Group](https://groups.google.com/forum/?fromgroups#!forum/railsbridge-workshops)
+and introduce yourself there as well.
 
-END
+
+## Stay in touch!
+
+* Follow us on Twitter: [@RailsBridgeBos](https://twitter.com/RailsBridgeBos).
+* Email us directly: [railsbridgeboston@gmail.com](mailto:railsbridgeboston@gmail.com).
+* If you graduated from or volunteered at one of our workshops, join our [RailsBridge Boston Alumni Google Group](https://groups.google.com/forum/?fromgroups#!forum/railsbridge-boston-alumni).
+* Fork and improve our curriculum on [GitHub](https://github.com/railsbridge-boston/railsbridge-boston).
+
+_Posted on May 21, 2013_
+
 
 
