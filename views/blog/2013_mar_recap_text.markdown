@@ -9,14 +9,16 @@ Rebecca's photos
 
 http://bost.ocks.org/mike/leaflet/
 
-On February 22 and March 2, RailsBridge Boston held a workshop for women
-and their friends at MIT. RailsBridge Boston workshops give a mostly female
-audience a guided, friendly, and fun introduction to building web applications
-with the Ruby programming language. 
+On February 22 and March 2, RailsBridge Boston proudly held its fourth workshop
+for women and their friends at MIT. 
 
-This was RailsBridge Boston's fourth workshop since we started our efforts in
-May of 2012. We were inspired to run these workshops when we saw a presentation
-about the [outreach efforts](http://www.youtube.com/watch?v=QrITN6GZDu4) of the
+The mission of RailsBridge Boston workshops is to to give a mostly female
+audience a guided, friendly, empowering, inspiring, and fun introduction to
+building web applications with the Ruby programming language. 
+
+RailsBridge Boston started running introductory Rails workshops in August of
+2012. We were inspired to run these workshops when we saw a presentation about
+the [outreach efforts](http://www.youtube.com/watch?v=QrITN6GZDu4) of the
 Python Community to welcome more beginners and women into their ranks.  The
 Boston Python effort was inspired in turn by the original
 [RailsBridge](http://workshops.railsbridge.org/) diversity outreach effort to
