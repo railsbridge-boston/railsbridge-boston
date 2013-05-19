@@ -14,15 +14,17 @@ had been inspired in turn by the original
 [RailsBridge](http://workshops.railsbridge.org/) diversity outreach effort to
 bring more women into the Ruby comunity in San Francisco. 
 
-We originally set out to run a large workshop on February 22nd and 23rd with
-over 60 students and over 25 teaching assistants. 
+We originally set out to run a large workshop on February 22nd and 23rd with 
+60 students and over 20 teaching assistants. 
 
 ------------------------------------------------------------------------
 MAYBE PUT HERE paragraph on the variety backgrounds of attendees 
-
 https://docs.google.com/spreadsheet/ccc?key=0Ar1UHvrwSrhudEN3ZmZncEFCRmpkTV9oQ3JBWWROeGc#gid=0
 
-The students came from a variety of backgrounds ...
+The students came from a variety of backgrounds: students, web designers, career-changers, 
+managers seeking to better understand their teams' work, entrepreneurs with an idea,
+and programmers updating their toolkits. Everyone had at least some familiarity with HTML,
+but the range of programming  experience covered the spectrum from beginner to professional.
 
 ------------------------------------------------------------------------
 
@@ -136,6 +138,47 @@ suggested that we could try harder to impart clear, organizing concepts.
 
 ------------------------------------------------------------------------
 PUT HERE thanks to sponsors, TAs, lecturers
+
+Thank you to our lecturers and TAs:
+- Diana Kimball
+- Jessica McKellar
+- Allen Madsen
+- Bence Magyar
+- Brandon Casci
+- Brendan Kemp
+- Brian Diesel
+- Caleb Thompson
+- Clara Raubertas
+- Dan Pickett
+- Daniel Choi
+- Decklin Foster
+- Elizabeth Kallman
+- Janet Riley
+- Jason Draper
+- Jason Woodward
+- Jennifer Morton
+- Jiyeon Woo
+- Jon Cheng
+- Josh Steiner
+- Mary Johnson
+- Michael Booth
+- Patrick Robertson
+- Paul Morganthall
+- Rebecca Nesson
+- Tara Tan
+- Valentine Rogers
+
+Our generous sponsors included:
+[Act Blue](http://actblue.com/)
+[Annkissam](http://annkissam.com/)
+[General Assembly](http://generalassemb.ly/)
+[Huville](http://www.huville-makerspace.com/)
+[Iora Health](http://iorahealth.com/)
+[Launch Academy](http://launchacademy.co/)
+[Pragmatic Bookshelf](http://pragprog.com/)
+[Thoughtbot](http://thoughtbot.com/)
+[Vermonster](http://vermonster.com/)
+
 
 Some info: TA applications for June 2013 workshop
 
