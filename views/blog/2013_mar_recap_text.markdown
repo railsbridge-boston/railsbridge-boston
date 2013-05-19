@@ -55,6 +55,16 @@ development, from text editors and basic Ruby syntax to Git source control,
 ActiveRecord associations, and pushing code to the web through Heroku. 
 
 
+Six of our teaching assistants gave lectures on technical topics:
+
+* Overview of web software development: Rebecca Nesson
+* Intro to Ruby: Clara Raubertas
+* Starting a Rails Application: Braulio Carreno
+* Models, Scaffolding, Migrations: Jason Draper
+* Model Associations and MVC: Dan Pickett
+* Rails Navigation, Links and Routers: Jason Draper
+
+
 We were also lucky to to have two bonus inspirational presentations by Diana
 Kimball and Jessica McKellar. To a beautiful slide deck, Diana shared a story of her
 own journey into programming, from a state of complete intimidation to
