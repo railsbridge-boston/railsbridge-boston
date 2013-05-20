@@ -2,7 +2,7 @@
 On February 22 and March 2, RailsBridge Boston proudly held its fourth workshop
 for women and their friends at MIT. 
 
-The mission of RailsBridge Boston workshops is to to give a mostly female
+The mission of RailsBridge Boston workshops is to give a mostly female
 audience a guided, friendly, empowering, inspiring, and fun introduction to
 building web applications with the Ruby programming language. 
 
@@ -63,7 +63,7 @@ the Rails web software development process:
 * Model Associations and MVC: Dan Pickett
 * Rails Navigation, Links and Routers: Jason Draper
 
-We were also lucky to to have two bonus inspirational presentations by Diana
+We were also lucky to have two bonus inspirational presentations by Diana
 Kimball and Jessica McKellar. To a beautiful slide deck, Diana shared a story
 of her own journey into programming, from a state of complete intimidation to
 confidence and joy. Jessica gave a strong, encouraging speech about the steps
