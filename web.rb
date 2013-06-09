@@ -132,6 +132,11 @@ class RubyWorkshop < Sinatra::Base
     erb :"blog/blog"
   end
 
+  get '/workshop-info/instructors' do
+    @instructors = YAML.load_file("instructors.yml").sort
+    erb :"workshop_info/instructors"
+  end
+
   # This handles default routes for the markdown files in `views/`
   # Mostly added so that people who don't want to fuss with a Sinatra app can
   # get right in and start making markdown files.
