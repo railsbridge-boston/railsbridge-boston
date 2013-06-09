@@ -133,8 +133,17 @@ class RubyWorkshop < Sinatra::Base
   end
 
   get '/workshop-info/instructors' do
-    @instructors = YAML.load_file("instructors.yml").sort
+    @instructors = load_instructors_from_yaml
     erb :"workshop_info/instructors"
+  end
+
+  def load_instructors_from_yaml
+    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
+
+    YAML.load_file("instructors.yml").map do |instructor|
+      instructor[1] = markdown.render(instructor[1])
+      instructor
+    end.sort
   end
 
   # This handles default routes for the markdown files in `views/`
