@@ -132,6 +132,20 @@ class RubyWorkshop < Sinatra::Base
     erb :"blog/blog"
   end
 
+  get '/workshop-info/instructors' do
+    @instructors = load_instructors_from_yaml
+    erb :"workshop_info/instructors"
+  end
+
+  def load_instructors_from_yaml
+    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
+
+    YAML.load_file("instructors.yml").map do |instructor|
+      instructor[1] = markdown.render(instructor[1])
+      instructor
+    end.sort
+  end
+
   # This handles default routes for the markdown files in `views/`
   # Mostly added so that people who don't want to fuss with a Sinatra app can
   # get right in and start making markdown files.
