@@ -6,9 +6,9 @@
 
 <div class="row">
   <div class='span12'>
-    <% @instructors.each do |instructor|%>
+    <% @instructors.each_with_index do |instructor, i|%>
       <p>
-        <strong><%= instructor[0] %></strong> <%= instructor[1] %>
+        <%= i+1 %>. <strong><%= instructor[0] %></strong> <%= instructor[1] %>
       </p>
     <% end %>
   </div>

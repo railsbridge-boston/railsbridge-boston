@@ -132,11 +132,6 @@ class RubyWorkshop < Sinatra::Base
     erb :"blog/blog"
   end
 
-  get '/workshop-info/instructors' do
-    @instructors = load_instructors_from_yaml
-    erb :"workshop_info/instructors"
-  end
-
   def load_instructors_from_yaml
     markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
 
