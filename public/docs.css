@@ -882,6 +882,25 @@ form.well {
   margin-left: 20px;
 }
 
+/* sponsors on homepage */
+
+#index-sponsors a {
+  width:47%;
+  margin: auto;
+  margin-right: 2%;
+  height: 160px;
+  display: block;
+  float: left;
+}
+#index-sponsors a img {
+  max-width: 100%;
+  max-height: 80%;
+  display:block;
+  margin:auto;
+  
+}
+
+
 #contact {
   clear: both;
 }
