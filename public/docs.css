@@ -885,18 +885,23 @@ form.well {
 /* sponsors on homepage */
 
 #index-sponsors a {
-  width:47%;
+  width: 47%;
   margin: auto;
   margin-right: 2%;
   height: 160px;
   display: block;
   float: left;
+  position: relative;
 }
 #index-sponsors a img {
   max-width: 100%;
-  max-height: 80%;
-  display:block;
-  margin:auto;
+  max-height: 90%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   
 }
 
