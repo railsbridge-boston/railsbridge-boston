@@ -882,7 +882,7 @@ form.well {
   margin-left: 20px;
 }
 
-/* sponsors on homepage */
+/* sponsors on homepage and on sponsors page */
 
 #index-sponsors a {
   width: 47%;
@@ -893,7 +893,18 @@ form.well {
   float: left;
   position: relative;
 }
-#index-sponsors a img {
+#sponsors-page a {
+  max-width: 268px;
+  min-width: 216px;
+  margin: 5% 2% 0;
+  min-height: 160px;
+  max-height: 205px;
+  display: block;
+  float: left;
+  position: relative;
+  border: none;
+}
+#index-sponsors a img, #sponsors-page a img {
   max-width: 100%;
   max-height: 90%;
   position: absolute;
@@ -902,9 +913,7 @@ form.well {
   left: 0;
   right: 0;
   margin: auto;
-  
 }
-
 
 #contact {
   clear: both;
