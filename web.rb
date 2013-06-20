@@ -123,7 +123,6 @@ class RubyWorkshop < Sinatra::Base
       ["http://actblue.com", "/sponsors/actblue.png"],
       ["http://oreilly.com", "/sponsors/ora.gif"],
       ["http://thoughtbot.com", "/sponsors/thoughtbot.png"],
-      ["https://www.thelevelup.com", "/sponsors/levelup.png"],
       ["http://paypal.com", "/sponsors/paypal_logo.gif"],
       ["http://www.visiblemeasures.com", "/sponsors/visible_measures.jpg"],
       ["http://annkissam.com", "/sponsors/annkissam.png"],
