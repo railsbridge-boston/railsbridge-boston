@@ -885,9 +885,9 @@ form.well {
 /* sponsors on homepage and on sponsors page */
 
 #index-sponsors a {
-  width: 47%;
+  width: 44%;
   margin: auto;
-  margin-right: 2%;
+  margin-right: 5%;
   height: 160px;
   display: block;
   float: left;
