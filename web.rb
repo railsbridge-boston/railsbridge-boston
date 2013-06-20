@@ -115,6 +115,21 @@ class RubyWorkshop < Sinatra::Base
   end
 
   get '/' do
+    @sponsors = [
+      ["http://www.microsoftcambridge.com", "/sponsors/microsoftlogo.png"],
+      ["http://www.a2vmedia.com", "/sponsors/a2vmedia.png"],
+      ["http://railscasts.com", "/sponsors/railscasts.png"],
+      ["http://www.launchacademy.com/", "/sponsors/LaunchAcademyLogo.png"],
+      ["http://actblue.com", "/sponsors/actblue.png"],
+      ["http://oreilly.com", "/sponsors/ora.gif"],
+      ["http://thoughtbot.com", "/sponsors/thoughtbot.png"],
+      ["https://www.thelevelup.com", "/sponsors/levelup.png"],
+      ["http://paypal.com", "/sponsors/paypal_logo.gif"],
+      ["http://www.visiblemeasures.com", "/sponsors/visible_measures.jpg"],
+      ["http://annkissam.com", "/sponsors/annkissam.png"],
+      ["http://terriblelabs.com", "/sponsors/terriblelabs.png"],
+      ["http://pragprog.com", "/sponsors/prag.png"],
+    ].shuffle
     erb :index
   end
 
