@@ -10,8 +10,8 @@
 ### 1. Download RailsInstaller
 
 Go to the <a href="http://railsinstaller.org" target="_blank">RailsInstaller</a> 
-page and click "Download the Kit"—the OS X version will 
-automatically be downloaded for you. Don't worry about watching the video; we have all the directions you need here.
+page and click your Mac OS X version under "Mac Downloads".
+Don't worry about watching the video; we have all the directions you need here.
 
 ### 2. Start the Installation
 
