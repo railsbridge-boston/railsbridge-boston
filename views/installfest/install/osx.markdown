@@ -18,10 +18,9 @@ Don't worry about watching the video; we have all the directions you need here.
 Once the installer is downloaded, find the file and double-click it. This will untar the installer.
 Then double click the installer. This will open an installation wizard. 
 
-(If you are told that the installer "can't be opened because it is from an unidentified developer," 
-then you need to go to "System Preferences > Security & Privacy". 
-Under the General tab, click the "Allow applications downloaded from: Anywhere" button (if that is greyed-out, click the lock in the bottom left). 
-Then double-click the installer again.)
+*If you are told that the installer "can't be opened because it is from an unidentified developer,"
+control-click (or right-click) on the RailsInstaller application in the Finder.
+Choose "Open" from then menu, then click "Open" in the dialog that appears.*
 
 * Select your language, then click "OK"
 * Click "Next >"
@@ -30,6 +29,6 @@ Then double-click the installer again.)
 * Uncheck 'Open readme.pdf'—you don't need it
 * Click "Finish" and you are done!
 
-Congratulations, you now have the Ruby development environment up and running. Now go forth and do something awesome with it!
+Congratulations, you now have the Ruby development environment up and running. Go forth and do something awesome with it!
 
 [« Back to Installfest](/installfest)
