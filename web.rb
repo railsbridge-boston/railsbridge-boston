@@ -141,6 +141,7 @@ class RubyWorkshop < Sinatra::Base
   def sponsors_urls_logos
     [
       ["http://www.microsoftcambridge.com", "/sponsors/microsoftlogo.png"],
+      ["http://www.digitallumens.com/", "/sponsors/DL_logo.jpg"],
       ["http://www.a2vmedia.com", "/sponsors/a2vmedia.png"],
       ["http://railscasts.com", "/sponsors/railscasts.png"],
       ["http://www.launchacademy.com/", "/sponsors/LaunchAcademyLogo.png"],
