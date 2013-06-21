@@ -127,6 +127,7 @@ class RubyWorkshop < Sinatra::Base
       ["http://www.visiblemeasures.com", "/sponsors/visible_measures.jpg"],
       ["http://annkissam.com", "/sponsors/annkissam.png"],
       ["http://terriblelabs.com", "/sponsors/terriblelabs.png"],
+      ["http://www.yesware.com", "/sponsors/yesware.png"],
       ["http://pragprog.com", "/sponsors/prag.png"],
     ].shuffle
     erb :index
