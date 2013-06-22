@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <link href="css/reset.css" rel="stylesheet" />
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -14,10 +16,6 @@
 
     <link href="css/style.css" rel="stylesheet" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,800italic,300,400,800' rel='stylesheet' type='text/css'>
-
-<style>
-  code { text-transform: none !important; }
-</style>
 
 
   </head>
@@ -32,27 +30,22 @@
 
 <h1>URLs &amp; the Router</h1>
 
-<h2>Caleb Thompson</h2>
+<h2>Melissa Xie</h2>
 
 <ul>
-<li>@thompson_caleb</li>
 <li>thoughtbot</li>
+<li>@mxie</li>
 </ul>
 </div>
       <div class='step' >
 
-<h2>Let&#39;s (quickly) go over what URLs are.</h2>
+<h2>What&#39;s a URL?</h2>
 
-<ul>
-<li>What you type into your browser to get to Google.</li>
-<li>Addresses for things on the Internet</li>
-</ul>
+<p>(besides &quot;uniform resource locator&quot;)</p>
 </div>
       <div class='step' >
 
-<h2>URLs are made up of several parts</h2>
-
-<p>Here is the URL for a typical Google search
+<p>Here is the URL for a typical Google search:
 <span style="white-space: nowrap"><code class='inline prettyprint'>http://www.google.com/search?q=kittens+and+puppies</code></span></p>
 </div>
       <div class='step' >
@@ -61,49 +54,61 @@
 </div>
       <div class='step' >
 
-<h2>scheme</h2>
+<h2>Let&#39;s dissect this a little bit</h2>
+</div>
+      <div class='step' >
+
+<h2>URLs are made up of several parts:</h2>
 
 <p><span style="white-space: nowrap"><strong><code class='inline prettyprint'>https://</code></strong><code class='inline prettyprint'>www.google.com/search?q=kittens+and+puppies</code></span></p>
+
+<h3>scheme</h3>
 </div>
       <div class='step' >
 
-<h2>subdomain</h2>
+<h2>URLs are made up of several parts:</h2>
 
 <p><span style="white-space: nowrap"><code class='inline prettyprint'>https://</code><strong><code class='inline prettyprint'>www.</code></strong><code class='inline prettyprint'>google.com/search?q=kittens+and+puppies</code></span></p>
+
+<h3>subdomain</h3>
 </div>
       <div class='step' >
 
-<h2>domain</h2>
+<h2>URLs are made up of several parts:</h2>
 
 <p><span style="white-space: nowrap"><code class='inline prettyprint'>https://www.</code><strong><code class='inline prettyprint'>google.com</code></strong><code class='inline prettyprint'>/search?q=kittens+and+puppies</code></span></p>
+
+<h3>domain</h3>
 </div>
       <div class='step' >
 
-<h2>path</h2>
+<h2>URLs are made up of several parts:</h2>
 
 <p><span style="white-space: nowrap"><code class='inline prettyprint'>https://www.google.com</code><strong><code class='inline prettyprint'>/search</code></strong><code class='inline prettyprint'>?q=kittens+and+puppies</code></span></p>
+
+<h3>path</h3>
 </div>
       <div class='step' >
 
-<h2>query</h2>
+<h2>URLs are made up of several parts:</h2>
 
 <p><span style="white-space: nowrap"><code class='inline prettyprint'>https://www.google.com/search</code><strong><code class='inline prettyprint'>?q=kittens+and+puppies</code></strong></span></p>
+
+<h3>query</h3>
 </div>
       <div class='step' >
-
-<h2>How URLs are used</h2>
-
-<ul>
-<li>The <strong>scheme</strong>, <strong>subdomain</strong>, and <strong>domain</strong> tell your browser how to find the webserver.</li>
-</ul>
 
 <p><span style="white-space: nowrap"><strong><code class='inline prettyprint'>https://www.google.com</code></strong><code class='inline prettyprint'>/search?q=kittens+and+puppies</code></span></p>
 
 <ul>
-<li>The <strong>path</strong> and <strong>query</strong> are used by the webserver to know what to do next.</li>
+<li>The <strong>scheme</strong>, <strong>subdomain</strong>, and <strong>domain</strong> tell your browser how and where to find the web server.</li>
 </ul>
 
 <p><span style="white-space: nowrap"><code class='inline prettyprint'>https://www.google.com</code><strong><code class='inline prettyprint'>/search?q=kittens+and+puppies</code></strong></span></p>
+
+<ul>
+<li>The <strong>path</strong> and <strong>query</strong> are used by the webserver to know what to do next.</li>
+</ul>
 </div>
       <div class='step' >
 
@@ -117,28 +122,21 @@ params[:q] # => "kittens and puppies"
 </code></pre></div>
       <div class='step' >
 
-<h2><code class='inline prettyprint'>localhost:3000/topics</code></h2>
-
-<h3>How does Rails...</h3>
-
-<ol>
-<li>Know how to handle this URL?</li>
-<li>Know to send <code class='inline prettyprint'>/topics</code> to the <code class='inline prettyprint'>index</code> action on the <code class='inline prettyprint'>TopicsController</code>?</li>
-</ol>
+<h3>So how does Rails know what to do with <code class='inline prettyprint'>localhost:3000/topics</code>?</h3>
 </div>
       <div class='step' >
 
 <h2>Enter the Router</h2>
 
 <ul>
-<li>The router is configured in <code class='inline prettyprint'>config/routes.rb</code>.</li>
+<li>Configured in <code class='inline prettyprint'>config/routes.rb</code>.</li>
 <li>Determines which code to run when a request is received.</li>
 <li>Generates path helper methods that you can use to generate links in your code.</li>
 </ul>
 </div>
       <div class='step' >
 
-<h2>What we already have</h2>
+<h2>What we already have in our <code class='inline prettyprint'>config/routes.rb</code>:</h2>
 <pre><code class='prettyprint ruby'>Suggestotron::Application.routes.draw do
   resources :votes
   resources :topics
@@ -150,71 +148,80 @@ end
 </div>
       <div class='step' >
 
-<h2>Order matters!</h2>
+<h2>First: order matters!</h2>
 
 <ul>
-<li>The router will start at the top of the file and move down.</li>
-<li>It will stop as soon as it find a route to match the request path (<code class='inline prettyprint'>/topics</code>)</li>
-<li>If none of the routes match, it will try to find a match in the <code class='inline prettyprint'>public</code> directory of your
+<li>Starts at the top of the file and move down.</li>
+<li>Stops as soon as it finds a route that matches the request path (<code class='inline prettyprint'>/topics</code>)</li>
+<li>No matching route? Tries matching in the <code class='inline prettyprint'>public</code> directory of your
 application.</li>
-<li>If there still isn&#39;t a match, you will get a routing error.</li>
+<li>Still no luck? Routing error!</li>
 </ul>
 </div>
       <div class='step' >
 
-<h2>:_(</h2>
+<p><img src="images/routing_error.png" alt=""></p>
 
-<p><img src="https://www.evernote.com/shard/s9/sh/80b6f29b-c5c2-4064-8d51-446a910fcc9b/e9447574ba7c11179a3e824920394e34/res/a72c093f-bbbe-4d04-92da-b64f7eb291e9/Action_Controller__Exception_caught-20130222-113433.jpg.jpg?resizeSmall&amp;width=832" alt=""></p>
-
-<p>Tells you that you need to add something to your application to deal with the <code class='inline prettyprint'>/bananas</code> path.</p>
+<p>Tells you that you need to add something to your application to deal with the <code class='inline prettyprint'>/puppies</code> path.</p>
 </div>
       <div class='step' >
 
-<h2><code class='inline prettyprint'>resources :topics</code></h2>
+<p><img src="http://wallfive.com/wp-content/uploads/2013/05/Sad-Puppy-Face-210x145.jpg" alt="">
+<img src="http://backofthebook.ca/frankmoher/bob/wp-content/uploads/2013/03/sad-puppy-300x275.jpg" alt="">
+<img src="http://whydyoueatthat.files.wordpress.com/2012/12/6eaf54f1-ab70-408a-a14a-a85ddbe76bcd.jpg" alt=""></p>
+</div>
+      <div class='step' >
 
-<ul>
-<li>Tells your application to provide the common routes for doing CRUD* with your topic model.
+<h2>Second: <code class='inline prettyprint'>resources</code></h2>
+<pre><code class='prettyprint ruby'>resources :topics
+</code></pre>
+<p>1) Tells your application to provide the common routes for performing CRUD* actions with your Topic model.
 <br/><br/>
-* CRUD stands for Create, Read, Update, Destroy</li>
-</ul>
+* CRUD stands for <strong>C</strong>reate, <strong>R</strong>ead, <strong>U</strong>pdate, <strong>D</strong>estroy</p>
 </div>
       <div class='step' >
 
-<h2>Adds the seven RESTful requests</h2>
+<p>2) Adds the seven RESTful requests</p>
 
-<p><small><pre><code style="font-size: 24px; line-height: 30px">
-HTTP Verb  Path              action   used for
+<p><small>
+  <pre>
+    <code style="font-size: 22px; line-height: 30px">
+HTTP Verb  Path              Action   Purpose
 GET        /topics           index    display a list of all topics
-GET        /topics/new       new      return an HTML form for creating a new topic
+GET        /topics/new       new      return an HTML form to create a new topic
 POST       /topics           create   create a new topic
 GET        /topics/:id       show     display a specific topic
-GET        /topics/:id/edit  edit     return an HTML form for editing a topic
+GET        /topics/:id/edit  edit     return an HTML form to edit a topic
 PUT        /topics/:id       update   update a specific topic
 DELETE     /topics/:id       destroy  delete a specific topic
-</code></pre></small></p>
+    </code>
+  </pre>
+</small></p>
 </div>
       <div class='step' >
 
-<h2>Creates link helpers</h2>
+<p>3) Creates path helpers for common <code class='inline prettyprint'>Topic</code> actions</p>
 
-<p><code class='inline prettyprint'>resources :topics</code> tells your application to generate paths for common <code class='inline prettyprint'>Topic</code> actions.</p>
-
-<p><small><pre><code>
+<p><small>
+  <pre>
+    <code>
+Path helper:            Links to:
 topics_path             /topics
 topic_path(topic)       /topics/42
 new_topic_path          /topics/new
 edit_topic_path(topic)  /topics/42/edit
-</code></pre></small></p>
+    </code>
+  </pre>
+</small></p>
 </div>
       <div class='step' >
 
-<h2>Request methods</h2>
+<h2>Request methods (HTTP verbs)</h2>
 
-<h3>Path helpers can do different things depending on the method.</h3>
+<p>Path helpers can do different things depending on the method.</p>
 
 <ul>
-<li><code class='inline prettyprint'>GET</code> is the default method.</li>
-<li><code class='inline prettyprint'>GET</code>, <code class='inline prettyprint'>POST</code>, <code class='inline prettyprint'>PUT</code>, <code class='inline prettyprint'>DELETE</code>.</li>
+<li><code class='inline prettyprint'>GET</code> (default), <code class='inline prettyprint'>POST</code>, <code class='inline prettyprint'>PUT</code>, <code class='inline prettyprint'>DELETE</code></li>
 <li><code class='inline prettyprint'>topic_path(topic)</code> goes to the <code class='inline prettyprint'>topics#show</code> action.</li>
 <li><code class='inline prettyprint'>topic_path(topic, :method => :delete)</code> goes to the <code class='inline prettyprint'>topics#destroy</code> action.</li>
 </ul>
@@ -227,23 +234,25 @@ edit_topic_path(topic)  /topics/42/edit
 <li>Gives information on all of the paths your application knows about.</li>
 </ul>
 
-<pre><code style="font-size: 24px; line-height: 30px">
-topics     GET    /topics(.:format)          topics#index
+<pre>
+  <code style="font-size: 24px; line-height: 30px">
+    topics GET    /topics(.:format)          topics#index
            POST   /topics(.:format)          topics#create
-new_topic  GET    /topics/new(.:format)      topics#new
+ new_topic GET    /topics/new(.:format)      topics#new
 edit_topic GET    /topics/:id/edit(.:format) topics#edit
-    topic  GET    /topics/:id(.:format)      topics#show
+     topic GET    /topics/:id(.:format)      topics#show
            PUT    /topics/:id(.:format)      topics#update
            DELETE /topics/:id(.:format)      topics#destroy
-</code></pre>
+  </code>
+</pre>
 </div>
       <div class='step' >
 
 <h2>RailsGuides</h2>
 
-<p><code class='inline prettyprint'>guides.rubyonrails.org/routing.html</code></p>
+<p><a href="guides.rubyonrails.org/routing.html">guides.rubyonrails.org/routing.html</a></p>
 
-<p><img src="https://www.evernote.com/shard/s9/sh/56f6a488-6163-47c4-bfbf-6faca0a25121/09f6f788153b83442c20aa5e91fd42be/res/d58905e9-4bae-4bbf-a0ae-1ff32717b53f/Ruby_on_Rails_Guides__Rails_Routing_from_the_Outside_In-20130222-113947.jpg.jpg?resizeSmall&amp;width=832" alt=""></p>
+<p><img src="images/railsguide_routing.png" alt=""></p>
 </div>
       <div class='step' >
 
@@ -254,9 +263,7 @@ edit_topic GET    /topics/:id/edit(.:format) topics#edit
 <p><img src="http://guides.rubyonrails.org/images/rails_welcome.png" alt=""></p>
 
       </div>
-      </div>
     <script src="js/impress.js"></script>
     <script>impress().init();</script>
   </body>
 </html>
-
