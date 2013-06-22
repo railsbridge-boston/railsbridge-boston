@@ -153,6 +153,7 @@ class RubyWorkshop < Sinatra::Base
       ["http://www.digitallumens.com/", "/sponsors/DL_logo.jpg"],
       ["http://terriblelabs.com", "/sponsors/terriblelabs.png"],
       ["http://www.yesware.com", "/sponsors/yesware.png"],
+      ["http://rbmtechnologies.com", "/sponsors/rbm.png"],
       ["http://pragprog.com", "/sponsors/prag.png"],
     ].shuffle
   end
