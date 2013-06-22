@@ -4,17 +4,17 @@ html {
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	line-height: .8;
-	font-size: 45px;
+	line-height: 40px;
+	font-size: 32px;
 }
 
 body {
 	min-height: 740px;
-	background: -moz-radial-gradient(50% 50%, farthest-side, #fff, #efefef);
-	background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 750, from(#fff), to(#efefef));
-	background: -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background: -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+	background: -moz-radial-gradient(50% 50%, farthest-side, #fff, #4494ad);
+	background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 750, from(#fff), to(#4494ad));
+	background: -ms-radial-gradient(rgb(240, 240, 240), rgb(68, 148, 173));
+	background: -o-radial-gradient(rgb(240, 240, 240), rgb(68, 148, 173));
+	background: radial-gradient(rgb(240, 240, 240), rgb(68, 148, 173));
 	pointer-events: none;	/* Fix Body Click */
 }
 
@@ -71,6 +71,7 @@ h1 {
 }
 
 h2 {
+  font-size: 48px;
 	font-weight: 300;
 	letter-spacing: .1em;
 	text-transform: uppercase;
@@ -101,6 +102,11 @@ table {
 	pointer-events: auto;	/* Enable Click on link */
 }
 
+code {
+  font-size: 30px;
+  line-height: 36px;
+}
+
 a {
 	pointer-events: none;	/* Fix Body Click */
 	color: inherit;
@@ -122,7 +128,6 @@ a:hover {
 p {
 	font-weight: 400;
 	line-height: 60px;
-	text-align: center;
 }
 
 ol {
@@ -134,9 +139,8 @@ ul {
 }
 
 li {
-	margin: 10px 0;
 	line-height: 50px;
-	list-style: none;
+	list-style: disc;
 }
 
 td,th {
