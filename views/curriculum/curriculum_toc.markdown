@@ -9,7 +9,7 @@
 * [_Lecture Slides: Opening_](/workshop/opening) 
 
 ## Learning Ruby ##
-* [_Lecture Slides: Intro to Ruby_](/workshop/ruby_intro)
+* [_Lecture Slides: Intro to Ruby_](/presentations/intro_to_ruby.pdf)
 * [Intro](curriculum) 
 * [The Ruby Language](ruby_language)  
 * [Tools to Help You Learn Ruby](tools)  
