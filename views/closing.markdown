@@ -1,8 +1,10 @@
 ## Survey
 
 We hope you will help us improve our event by responding
-this short [survey](https://docs.google.com/spreadsheet/viewform?formkey=dFNmcmFrRUNRSjVQOWpGZ0xmcUpPb2c6MQ),
+this short [survey][surveyForm]
 all answers will be anonymous.
+
+[surveyForm]:https://docs.google.com/spreadsheet/viewform?formkey=dFYzYkNRVE9uVTlKZjNyUXJ3dVUzZ3c6MA#gid=0
 
 By completing the survey you are entitled to receive
 2 free ebooks courtesy of [O'Reilly](http://oreilly.com/)
