@@ -62,7 +62,7 @@ Find a staff member and run through this checklist:
 2. Confirm that Ruby and Rails are installed on your machine.  From the command line type:
 
     ```text
-    rails -v
+    rails --version
     ```
     
     If you are on Mac you should see:
