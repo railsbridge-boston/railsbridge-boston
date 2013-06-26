@@ -87,7 +87,7 @@ instructor to help diagnose the installation issue.
 8. Close an re-open your terminal and confirm Ruby is installed properly
 
     ```text
-    ruby -v
+    ruby --version
     ```
 
     You should get something similar to `ruby 1.9.3p286 (2012-10-12 revision 37165) [i616-linux]` 
