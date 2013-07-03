@@ -3,9 +3,7 @@
 If you already are comfortable with a programming editor, use that one. Just double-check with an instructor to make 
 sure it will work.  
 
-If you are unsure, we suggest [Sublime Text 2](http://www.sublimetext.com/2), unless you are using Linux.
-
-If you use Linux, we suggest you set up gEdit as a Ruby editor.  
+If you are unsure, we suggest [Sublime Text 2](http://www.sublimetext.com/2)
 
 
 ### 1. Install 
