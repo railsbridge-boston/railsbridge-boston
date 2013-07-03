@@ -1,32 +1,19 @@
-<header class="jumbotron subhead" id="overview">
-  <h1>RailsBridge Workshop 2012</h1>
-  <div class="subnav">
-    <ul class="nav nav-pills">
-      <li><a href="#about">About the Workshop</a></li>
-      <li><a href="#instructors">Instructors</a></li>
-      <li><a href="#sponsors">Sponsors</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
-</header>
 
-<section id="about">
-  <div class="page-header">
-    <h1>About the Workshop</h1>
-  </div>
+<section id="workshop">
 
-  <!-- Headings & Paragraph Copy -->
   <div class="row">
-    <div class="span4 event-description">
+    <div class="span6">
+      <img style="width: 400px" src="/images/railsbridge-train-black.png" alt="RailsBridge Boston Logo with Train">
+      <p>
+        The <strong>RailsBridge Workshop</strong> is a <strong>free</strong> 1.5 day course that will help you
+        learn how to create software with <a href="http://ruby-lang.org/">Ruby</a> and <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+      </p>
+     
+      <h2>About RailsBridge Boston</h2>
+
       <h3>Empowering Women with Ruby</h3>
       <p>
-        Do you dream of someday writing software applications that help people
-        and improve the world?
-      </p>
-      <p>
-        The <strong>RailsBridge
-        Workshop</strong> is a <strong>free</strong> 1.5 day course that will help you
-        start learning how to create that software with <a href="http://ruby-lang.org/">Ruby</a> and <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+        Do you dream of someday writing software applications that help people and improve the world?
       </p>
       <p>
         Led by an all-volunteer team of seasoned and enthusiastic Ruby and Ruby on Rails developers,
@@ -34,18 +21,14 @@
         tools, and techniques of Ruby and Rails development, as well as an
         entry point into the active and supportive Boston Ruby community.
       </p>
-    </div>
 
-    <div class="span4 event-description">
       <h3>Promoting Diversity</h3>
       <p>
         The Boston software scene needs more women. So this workshop is for women and their guests. To
-        attend, you should either be a woman, identify as
-        a woman, or be the male guest of a woman who is going to attend.
+        attend, you should identify as a woman, or be the male guest of a woman who is attending.
       </p>
       <p>
-        We support mothers who want to code. We will provide free childcare for any attendee who needs it,
-        using a professional childcare service. Please let us know if you want to
+        We support mothers who want to code. We will provide childcare to those who need it. Please let us know if you want to
         use these services on the application form.
       </p>
       <p>
@@ -53,208 +36,77 @@
         But it will help if you are generally proficient with computers and know at least vaguely what a database and a web server are.
       </p>
 
+      <h2>Sponsors</h2>
+      <div id="index-sponsors">
+        <% @sponsors.each do |sponsor| %>
+          <a href="<%= sponsor[0] %>"><img src="<%= sponsor[1] %>"/></a>
+        <% end %>
+      </div>
+
+      <h2 style="clear:left; padding-top: 32px;">Workshop Recaps</h2>
+      <ul>
+        <li><a href="/blog/2013_mar_recap">March 2013 @ MIT</a></li>
+        <li><a href="/blog/2013_jan_recap">January 2013 @ intelligent.ly</a></li>
+        <li><a href="/blog/2012_nov_recap">November 2012 @ MIT</a></li>
+        <li><a href="/blog/2012_aug_recap">August 2012 @ Harvard Law School</a></li>
+      </ul>
+
+      <h2>Contact</h2>
+      <ul>
+        <li>Follow us on Twitter: <a href="https://twitter.com/RailsBridgeBos">@RailsBridgeBos</a>.</li>
+        <li>Email us directly: <a href="mailto:railsbridgeboston@gmail.com">railsbridgeboston@gmail.com</a>.</li>
+        <li>If you graduated from or volunteered at one of our workshops, join our <a href="https://groups.google.com/forum/?fromgroups#!forum/railsbridge-boston-alumni">RailsBridge Boston Alumni Google Group</a>.</li>
+        <li>Fork and improve our curriculum on <a href="https://github.com/railsbridge-boston/railsbridge-boston">GitHub</a>.</li>
+      </ul>
+
+      <h2>Links</h2>
+      <ul>
+        <li><a href="http://workshops.railsbridge.org/">RailsBridge</a>: The original San Francisco Ruby on Rails workshop that made our effort possible.</li>
+        <li><a href="https://openhatch.org">OpenHatch</a>: Our wonderful outreach effort mentors.</li>
+        <li><a href="http://bostonrb.org">BostonRB</a>: The official local Ruby user group, and a wonderful community of helpful Rubyists.</li>
+      </ul>
+
     </div>
 
-    <div class="span4">
+    <div class="span6 column-of-images">
+    
       <h3>When</h3>
       <p>
-        <strong>Friday, August 17</strong>, 7pm - 10pm<br/>
-        <strong>Saturday, August 18</strong>, 10am - 5pm
-      </p>
+        <strong>Friday, June 21 </strong> from 7:00pm-10:00pm and <br/>
+        <strong>Saturday, June 22 </strong> from 9:00am - 5pm        
+      </p>      
       <p>
-        Food on Friday night and breakfast and lunch on Saturday will be provided thanks to our generous sponsors.
-        We will also be organizing a mixer at a local tavern after the end of the Saturday session.
+        Breakfast and lunch will be served.
       </p>
-
-      <br/>
 
       <h3>Where</h3>
-      <address>
-        <strong>Harvard Law School</strong><br>
-        Wasserstein Hall<br/>
-        Room 1019 (both days)<br/>
-        Cambridge, MA 02138<br>
-        <a href="http://www.law.harvard.edu/about/directions.html">Directions to Harvard Law School</a><br/>
-        <a href="http://www.law.harvard.edu/about/map.html">Harvard Law School campus map</a>
-      </address>
+      <p>
+        <address>
+          <strong>Microsoft NERD Center</strong><br>
+          Mann/Sampson/Paul room - 1st floor<br>
+          One Memorial Drive<br>
+          Cambridge, MA 02142<br>
+          <a href="http://microsoftcambridge.com/About/Directions/tabid/89/Default.aspx">Directions to the NERD Center</a>
+        </address>
+      </p>
+      <p>
+        <strong>Weren't able to attend this session?</strong><br />
+        <a href="http://eepurl.com/vwrQT">Sign up here to get advance notice</a> when we announce the next workshop.
+      </p>
+      <p>
+        <a href="https://docs.google.com/spreadsheet/viewform?formkey=dGdzbFUwb2NfY1pPenhGcGJ1MnBvdlE6MA" class="btn btn-large">TAs: Apply Here</a>
+      </p>
+      
+      <hr/>
 
-      <p><a href="https://docs.google.com/spreadsheet/viewform?formkey=dHpSRHp4RDBTWUV3WWlCV2xuMjBBQlE6MQ" class="btn btn-success btn-large">Apply for the Waitlist</a></p>
-
-      <p>Sorry, we've filled our available spots. Please apply anyway if you are interested so we can contact you.</p>
-
-
+      <img src="/images/mar_2013/table1-r.jpg" title="Credit: Rebecca Frankel"/>
+      <img src="/images/2012-nov/IMG_9813-sm.jpg" title="Credit: Rebecca Frankel"/>
+      <img src="/images/aug2012/michael_durrant.jpg" title="Credit: Rebecca Frankel"/>
+      <img src="/images/2012-nov/8176931541_b8bf30fac4_z_d.jpg" title="Credit: Braulio Carreno"/>
     </div>
   </div>
 </section>
 
 
 
-<section id="instructors">
-  <div class="page-header">
-    <h1>Instructors</h1>
-  </div>
-  <!-- Headings & Paragraph Copy -->
-  <div class="row">
 
-    <div class="span12">
-      <p>
-        <strong>Rebecca Nesson</strong> is the head instructor for the workshop. She is the lead developer at <a href="http://prx.org">Public Radio Exchange</a>, an award-winning public media company based in Harvard Square. A computer science Ph.D. from Harvard, Rebecca was the lead developer of the hit <a href="http://apps.prx.org/our-apps/this-american-life/">iOS application for This American Life</a>.
-      </p>
-      <p>
-        <strong>Anita Patel</strong> is head teaching assistant.
-        Anita is a Web Applications Developer at the 
-        <a href="http://cyber.law.harvard.edu/">Berkman Center for Internet and Society at Harvard University</a> 
-        and holds a B.S in Computer Science
-        from Penn State University and an ALM in IT from Harvard Extension
-        School. She has been programming 12 years with the last 4 primarily
-        focused on Ruby and Rails. Anita has developed many projects for the
-        Berkman Center over the past 4 years and enjoys learning new skills to
-        produce useful applications.
-      </p>
-      <p>
-        <strong>Liana Leahy</strong> is a teaching assistant. She is a software engineer with <a href="http://www.practicallygreen.com/">Practically Green</a> and LOVES her job!  A graduate of Smith College in Computer Science and Theatre, Liana has worked as a software and database developer while singing and dancing professionally in New York, Off-Broadway and National Tour.  She is now a mom of two toddlers and a professional Rubyist for the last 5 and a half years.
-      </p>
-      <p>
-        <strong>Amy Newell</strong> is a teaching assistant.
-        Amy attended her first Boston Ruby Group meeting in early 2007,
-        3-month-old daughter in tow. She has been working in Ruby ever since. She
-        TA'd Harvard Extension School's Ruby and Rails class two years running, and
-        presently codes at <a href="http://www.patientslikeme.com/">PatientsLikeMe</a>. She really doesn't read her Twitter feed
-        much.
-      </p>
-      <p>
-        <strong>Elizabeth Kallman</strong> is a teaching assistant. She is a
-        Visiting Fellow at Harvard University.  Elizabeth wrote her first
-        computer code in B.A.S.I.C. when she was seven years old.  Elizabeth
-        holds a PhD in Mechanical Engineering from U.C. Berkeley and is
-        passionate about mentoring in science and engineering.  Among other
-        service activities, she has chaired two EYH (<a
-        href="http://www.expandingyourhorizons.org/">Expanding Your Horizons</a>) conferences, is the founder of the <a href="http://www.nmcwic.org/">New Mexico Regional
-        Celebration of Women in Computing</a>, President of the <a href="http://nmnwse.org/">New Mexico Network
-        of Women in Science and Engineering</a>, and is thrilled to be involved in
-        the newly-formed <a href="http://www.hcs.harvard.edu/~harvardwomenincs/">Harvard
-        Women in Computer Science</a>.
-      </p>
-      <p>
-        <strong>Andrew Kuklewicz</strong> is a teaching assistant.
-        He is the Tech Director at <a href="http://prx.org">Public Radio Exchange</a>. He's been a developer for 15 years, with 6 years of Rails experience.  He has a B.A.
-        in Philosophy from Yale, is a pretty good tap dancer, and lives in Brookline with his wife and daughter.
-      </p>
-      <p>
-        <strong>Kathryn Bennett</strong> is a teaching assistant.
-Kathryn is a senior at Harvard University studying Computer Science. She
-started working at <a href="http://www.vermonster.com/">Vermonster</a> earlier this year on Rails applications and
-also recently started interning with <a href="http://prx.org">Public Radio Exchange</a>.
-
-      </p>
-      <p>
-        <strong>Shana Golden</strong> is a teaching assistant. 
-She is a web software developer at <a href="http://vermonster.com">Vermonster</a>, where she has been building Rails applications for two years. She just completed a Certificate in Applied Sciences/Software Engineering at Harvard Extension School. She also has a Diploma from New England Conservatory and an M.M. in music performance from Yale University. She is expecting her first child in January.
-      </p>
-      <p>
-        <strong>Lindsay Ucci</strong> is a teaching assistant.
-Lindsay has been working with Ruby & Rails for almost 6 years - ever since
-she earned a B.S. in Computer Science from Stonehill College. She also
-holds a M.S. in Technological Entrepreneurship from Northeastern
-University, loves to travel, and is currently a member of the awesome
-engineering team at <a href="http://punchbowl.com">Punchbowl, Inc</a>. 
-      </p>
-      <p>
-        <strong>Brendan Kemp</strong> is a teaching assistant.
-        He has been building Rails apps for over 4 years. He got an early start teaching Ruby and Rails in a class he created for the UMass Amherst Experimental College. After fulfilling his ambition of working for a small startup in Hawaii, he returned to Massachusetts where he is Lead Developer at <a href="https://www.familyid.com/">FamilyID</a>.
-      </p>
-      <p>
-        <strong>Dan Pickett</strong> is a teaching assistant. Dan has been building Rails apps for over 6 years. He's Founder and Principal of
-        <a href="http://launchware.com">LaunchWare, Inc.</a>, a web and mobile application development agency that loves to ship.  Lately, his technical interests are around the mobile web and rich internet applications. Prior to starting LaunchWare, Dan was Director of Engineering at Gazelle.com. Dan lives in Bridgewater, MA with his wife Shannon and dog Linux.
-      </p>
-      <p>
-        <strong>Rebecca Frankel</strong> is a teaching assistant.
-        She is a programming language junkie. She first programmed
-        intensively, after studying math and physics in undergrad, in Scheme while
-        working with the author of Structure and Interpretation of Computer
-        Programs. This meant she was overjoyed when languages like Ruby and
-        Coffeescript became popular, so language features she had come to rely on
-        to express herself in code were available in the mainstream.
-      </p>
-      <p>
-        <strong>Justin Clark</strong> is a teaching assistant.  Justin is a junior web developer at 
-        <a href="http://cyber.law.harvard.edu/">Berkman Center for Internet and Society at Harvard University</a>.
-        While he got his start in the PHP world, he's
-        since taken up Ruby as his language of choice, and has written a number
-        of Ruby on Rails apps for the Berkman Center.
-      </p>
-      <p>
-        <strong>Aimee Barciauskas</strong> is a teaching assistant.
-Aimee is a web developer at <a href="http://fundraise.com">fundraise.com</a>.
-She started building
-websites in early 2011 and has been obsessed with all things tech ever
-since. She has been working in Rails since the beginning of 2012 and looks
-forward to working with other newbie programmers.
-      </p>
-      <p>
-        <strong>Valentine Rogers</strong> is a teaching assistant. Valentine is a budding Rails developer, who loves to teach himself new programming languages. He is passionate about Rails as a tool to build things that can have an impact on people's lives. He is excited to be helping with the workshop.
-      </p>
-      <p>
-<strong>Michael Durrant</strong> is a teaching assistant. Michael has programmed in many different languages and frameworks.
-He devoted himself to Ruby on Rails full-time two years ago.  He's spent a
-lot of that time learning and using Rails, Ruby, Ubuntu, Git, Heroku,
-jQuery,,etc. and he's keen to share the knowledge and expertise he's gained
-along the way.  In former lives he's also worked extensively with DEC's
-VMS, 8 bit assembler and Oracle. Michael lives in Cambridge with his wife Siobhan and 2 cats.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section id="sponsors">
-  <div class="page-header">
-    <h1>Sponsors</h1>
-  </div>
-
-  <div class="span12">
-    <div class="row">
-      <ul class="thumbnails">
-        <li class="span3"><a href="http://oreilly.com/" class="thumbnail"><img src="/sponsors/ora.gif"/></a></li>
-        <li class="span3"><a href="http://pragprog.com/" class="thumbnail"><img src="/sponsors/prag.png"/></a></li>
-        <li class="span3"><a href="http://cyber.law.harvard.edu/" class="thumbnail"><img src="/sponsors/Berkman.png"/></a></li>
-        <li class="span3"><a href="http://prx.org" class="thumbnail"><img src="/sponsors/prx.png"/></a></li>
-      </ul>
-    </div>
-    <div class="row">
-      <ul class="thumbnails">
-        <li class="span3"><a href="http://thoughtbot.com" class="thumbnail"><img src="/sponsors/thoughtbot.png"/></a></li>
-        <li class="span3"><a href="http://www.vermonster.com/" class="thumbnail"><img src="/sponsors/vermonster-logo.png"/></a></li>
-        <li class="span3"><a href="http://wegowise.com" class="thumbnail"><img src="/sponsors/wegowise.jpg"/></a></li>
-        <li class="span3"><a href="http://www.annkissam.com" class="thumbnail"><img src="/sponsors/annkissam.png"/></a></li>
-      </ul>
-    </div>
-    <div class="row">
-      <ul class="thumbnails">
-        <li class="span3"><a href="http://launchacademy.co" class="thumbnail"><img src="/sponsors/launch.png"/></a></li>
-        <li class="span3"><a href="http://www.officedrop.com/" class="thumbnail"><img src="/sponsors/officedrop.png"/></a></li>
-        <li class="span3"><a href="http://www.rbmtechnologies.com" class="thumbnail"><img src="/sponsors/rbm.png"/></a></li>
-        <li class="span3"><a href="http://www.heroku.com/" class="thumbnail"><img src="/sponsors/heroku.png"/></a></li>
-      </ul>
-    </div>
-  </div>
-
-  <p>
-    We are also grateful to these supporters:
-    <ul>
-      <li><a href="https://www.tddium.com/">Solano Labs</a></li>
-      <li>Michael Breen</li>
-    </ul>
-  </p>
-
-</section>
-
-<section id="contact">
-  <div class="page-header">
-    <h1>Contact / More Information</h1>
-  </div>
-  <div>
-    <p>
-      Have questions about the workshop?  Email <a href="mailto:dhchoi@gmail.com">Daniel Choi dhchoi@gmail.com</a>
-    </p>
-  </div>
-</section>
