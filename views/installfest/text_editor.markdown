@@ -39,15 +39,19 @@ sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /u
 ```
 
 #### Linux
+These are directions tested for Kubuntu/Ubuntu version 13.04, although it will probably work on other distributions such as Mint.
 
-
-If you use Ubuntu, type these commands in the Terminal:
-
+Open a terminal window, and enter these commands:
 ```text
-sudo add-apt-repository ppa:ubuntu-on-rails
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
 sudo apt-get update
-sudo apt-get install gedit-plugins gedit-gmate
+sudo apt-get install sublime-text
 ```
+You can then start it from the same terminal window with:
+```text
+/usr/bin/sublime-text
+'''
+However, a pretty icon has also been created, and you can start it from the Graphical User Interface (GUI)
 
 Sorry we don't have instructions ready yet for Fedora, so please ask a
 TA tonight for help.
