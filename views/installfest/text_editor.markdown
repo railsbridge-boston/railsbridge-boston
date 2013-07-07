@@ -62,7 +62,7 @@ Sorry we don't have instructions ready for Fedora, so please ask a TA for help.
 1. To start Sublime Text 2 please select it from the Start Menu under
    'All Programs'
 
-![Submlime Text 2](/images/installfest/sublime2.png)
+![Submlime Text 2](/public/images/installfest/sublime2.png)
 
 #### OSX
 
