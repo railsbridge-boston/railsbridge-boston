@@ -53,8 +53,7 @@ You can then start it from the same terminal window with:
 ```
 However, a pretty icon has also been created, and you can start it from the Graphical User Interface (GUI)
 
-Sorry we don't have instructions ready yet for Fedora, so please ask a
-TA tonight for help.
+Sorry we don't have instructions ready for Fedora, so please ask a TA for help.
 
 ### 2. Open your Editor
 
@@ -83,8 +82,6 @@ Or, you can use your GUIs menus, as an icon has most likely been installed.
 
 ### 3. Set some basic preferences
 
-#### If you are using Sublime Text 2
-
 Sublime Text 2 reads its preferences from text files. This means you can easily
 edit settings, check your settings into version control, or share settings with
 copy & paste. That's what we're going to do with some common preferences for
@@ -103,14 +100,6 @@ Open up User Settings (`Sublime Text 2 > Preferences > Settings - User`) and pas
 ```
 
 Save the User Settings file (`File > Save`). Your new preferences are now in effect.
-
-#### If you are using gEdit 
-
-Go to Edit > Preferences and click the Editor tab. Set the `Tab width`
-option to 2 and make sure `Insert spaces instead of tabs` and `Enable
-automatic indentation` are checked.
-
-![](/images/gedit-pref.png)
 
 ### Success!
 
