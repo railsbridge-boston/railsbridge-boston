@@ -74,7 +74,7 @@ Finder.
 
 #### Linux
 
-Type this in the Terminal to start gEdit:
+Type this in the Terminal to start Sublime:
 
 ```text
 /usr/bin/sublime-text
