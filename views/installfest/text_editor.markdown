@@ -50,18 +50,11 @@ sudo apt-get install sublime-text
 You can then start it from the same terminal window with:
 ```text
 /usr/bin/sublime-text
-'''
+```
 However, a pretty icon has also been created, and you can start it from the Graphical User Interface (GUI)
 
 Sorry we don't have instructions ready yet for Fedora, so please ask a
 TA tonight for help.
-
-For Mint and other non-Ubuntu distros, type these commands in the Terminal:
-
-```text
-sudo apt-get update
-sudo apt-get install gedit-plugins
-```
 
 ### 2. Open your Editor
 
@@ -84,9 +77,9 @@ Finder.
 Type this in the Terminal to start gEdit:
 
 ```text
-gedit
+/usr/bin/sublime-text
 ```
-
+Or, you can use your GUIs menus, as an icon has most likely been installed.
 
 ### 3. Set some basic preferences
 
