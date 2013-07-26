@@ -937,7 +937,7 @@ form.well {
 .recapContent img {
   border: 1px solid #ccc;
 }
-#workshop img, .recap img {
+#workshop img, .recap img, .recap iframe {
   margin: 10px 0;
 }
 .recap img.with-caption {
