@@ -115,12 +115,12 @@ class RubyWorkshop < Sinatra::Base
   end
 
   get '/' do
-    @sponsors = sponsors_urls_logos
+    @sponsors = 2013_jun_sponsors_urls_logos
     erb :index
   end
 
   get '/sponsors' do
-    @sponsors = sponsors_urls_logos
+    @sponsors = 2013_jun_sponsors_urls_logos
     erb :sponsors
   end
 
@@ -138,7 +138,12 @@ class RubyWorkshop < Sinatra::Base
     erb :"blog/blog"
   end
 
-  def sponsors_urls_logos
+  get '/blog/2013_jun_recap' do
+    @sponsors = 2013_jun_sponsors_urls_logos
+    erb :"blog/2013_jun_recap"
+  end
+
+  def 2013_jun_sponsors_urls_logos
     [
       ["http://www.microsoftcambridge.com", "/sponsors/microsoftlogo.png"],
       ["http://www.a2vmedia.com", "/sponsors/a2vmedia.png"],
