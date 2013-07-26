@@ -5,7 +5,7 @@ Rails, HTML, and CSS.  Armed with laptops, a projector, and
 determination the students built fully functional web applications, 
 deployed on Heroku servers for all the world to see.  
 
-The Boston Railsbridge Workshop for women and their friends was first
+The Boston RailsBridge Workshop for women and their friends was first
 held in August of 2012.  It set out to improve the diversity of an 
 increasingly-homogenized community of Ruby developers in Boston.  
 
@@ -82,7 +82,7 @@ Bates was kind enough to offer some free subscriptions to
 a discount to their education service, [Prime](https://learn.thoughtbot.com/prime).  
 
 Finally, we encouraged all students to keep in touch with the 
-Railsbridge mailing list.  
+RailsBridge mailing list.  
 
 ### Feedback
 
@@ -133,10 +133,11 @@ of expertise, possibly by adding more complicated extra credit.
 
 ## Thanks
 
-Railsbridge Boston owes a lot to the [original Railsbridge chapter](http://workshops.railsbridge.org/) in
-San Francisco.  In addition, we are indebted to the organizers of the 
-[Boston Python Workshop](http://bostonpythonworkshop.com/), who gave us advice
-they learned after starting their own workshop.
+RailsBridge Boston owes a lot to the 
+[original RailsBridge chapter](http://workshops.railsbridge.org/) in San
+Francisco.  In addition, we are indebted to the organizers of the [Boston
+Python Workshop](http://bostonpythonworkshop.com/), who gave us advice they
+learned after starting their own workshop.
 
 Thank you to our lecturers and TAs:
 
