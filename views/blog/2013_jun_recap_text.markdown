@@ -55,7 +55,7 @@ mother left us particularly kind feedback.
 ### Updated Curriculum
 
 Before each workshop, we do our best to take into account any 
-suggestions made and keep all references to technology up to date.  
+suggestions made and keep all references to technology up to date. 
 We faced an interesting quandary with Rails 4.0, which was to be 
 released imminently at the time of the workshop.  In the end, we 
 decided to stick with 3.2.  
@@ -86,8 +86,8 @@ Railsbridge mailing list.
 
 ### Feedback
 
-We sent out a survey to all students after the workshop finished up.  
-We received some really positive feedback.
+We sent out a survey to all students after the workshop finished up. We
+received some really positive feedback.
 
 69% of students responded that the workshop was excellent, with all 
 students giving at least a 3 out of 5.
