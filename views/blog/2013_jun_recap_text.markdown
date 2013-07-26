@@ -39,7 +39,7 @@ it is the key to our success.
 
 ### Childcare
 
-Thanks to sponsorship from [Thoughtbot](http://www.thoughtbot.com/), we 
+Thanks to sponsorship from [thoughtbot](http://www.thoughtbot.com/), we 
 were able to ofter childcare assistance during the workshop.  One 
 mother left us particularly kind feedback.
 
@@ -78,7 +78,7 @@ Thanks to our awesome sponsors, we were also able to offer our
 graduates several freebies and deals.  Every student was able to 
 choose an [O'Reilly E-book](http://oreilly.com/) for free.  Ryan 
 Bates was kind enough to offer some free subscriptions to 
-[Railscasts](railscasts.com) and [Thoughtbot](http://www.thoughtbot.com) provided 
+[Railscasts](railscasts.com) and [thoughtbot](http://www.thoughtbot.com) provided 
 a discount to their education service, [Prime](https://learn.thoughtbot.com/prime).  
 
 Finally, we encouraged all students to keep in touch with the 
@@ -187,7 +187,7 @@ Our generous sponsors included:
 * [ActBlue](http://actblue.com)
 * [Railscasts](http://railscasts.com)
 * [O'Reilly](http://oreilly.com)
-* [Thoughtbot](http://thoughtbot.com)
+* [thoughtbot](http://thoughtbot.com)
 * [Paypal](http://paypal.com)
 * [Visible Measures](http://www.visiblemeasures.com)
 * [Digital Lumens](http://www.digitallumens.com/)
