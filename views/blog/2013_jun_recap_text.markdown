@@ -198,9 +198,13 @@ Our generous sponsors included:
 
 ## The next workshop
 
-We plan on holding our next RailsBridge Boston workshop sometime in September.  Watch the [main page](http://www.railsbridgeboston.org/) and follow us on [twitter](https://twitter.com/RailsBridgeBos) to find out more details.
+We will be holding our next RailsBridge Boston workshop on October 4-5 at
+Microsoft NERD.  Watch the [home page](http://www.railsbridgeboston.org/) for a
+sign up link and follow us on [twitter](https://twitter.com/RailsBridgeBos) to
+find out more details.
 
-If you're interested in attending the next workshop as a teaching assistant, [please fill out this form][interest-form]! 
+If you're interested in attending the next workshop as a teaching assistant,
+[please fill out this form][interest-form]! 
  
 [interest-form]:https://docs.google.com/spreadsheet/viewform?formkey=dER6ZjhkT29PaklUcU11bXltaF9qMFE6MQ
 
