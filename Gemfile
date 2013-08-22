@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '1.9.3'
 
 gem 'tilt', :git => 'git://github.com/rtomayko/tilt.git'
 gem 'sinatra', '1.3.2'

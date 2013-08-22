@@ -9,7 +9,7 @@
 * [_Lecture Slides: Opening_](/workshop/opening) 
 
 ## Learning Ruby ##
-* [_Lecture Slides: Intro to Ruby_](/workshop/ruby_intro)
+* [_Lecture Slides: Intro to Ruby_](/presentations/intro_to_ruby.pdf)
 * [Intro](curriculum) 
 * [The Ruby Language](ruby_language)  
 * [Tools to Help You Learn Ruby](tools)  
@@ -17,7 +17,7 @@
     * [Extra Credit: Ruby classes](extra_credit/06_ruby_classes)
 
 ## Starting a New Rails Application ##
-* [_Lecture Slides: Starting a Rails Application_](/workshop/starting_a_rails_application)
+* [_Lecture Slides: Starting a Rails Application_](/presentations/intro_to_rails.pdf)
 * [Creating a Rails Application](getting_started)  
 * [Create a Git Repo](create_a_new_git_repo)  
 * [Add the Project Files to the Git Repo](add_the_project_to_the_git_repo)  
@@ -49,10 +49,10 @@
 * [Clean Up Links on the Topics List](clean_up_links_on_the_topics_list)  
 * [Commit and Push to Heroku, Yet Again](commit_and_push_to_heroku_yet_again)  
 
-## Emily's App!
-* [Vote on your favorite food](http://emilygapp.herokuapp.com/)
+## Rachel's App!
+* [Vote for beer!](http://railsbridgebeer.herokuapp.com/)
 
 ## Wrapping Up ##
 * [Credits](credits)
 * [Next Steps](next_steps)
-* [Survey](https://docs.google.com/spreadsheet/viewform?formkey=dDY2dGU4aEhhdWUtaG5RZVNCdWlvaEE6MA)
+* [Survey](https://docs.google.com/spreadsheet/viewform?formkey=dFYzYkNRVE9uVTlKZjNyUXJ3dVUzZ3c6MA#gid=0)

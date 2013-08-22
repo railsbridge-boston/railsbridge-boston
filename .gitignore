@@ -3,4 +3,5 @@ tmp/
 bin/*
 .bundle/
 .rbenv-version
+.ruby-gemset
 .DS_Store

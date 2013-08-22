@@ -1,0 +1,15 @@
+<div id="instructors" class="row">
+  <div class="span12">
+    <h2>Instructors</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class='span12'>
+    <% @instructors.each_with_index do |instructor, i|%>
+      <p>
+        <%= i+1 %>. <strong><%= instructor[0] %></strong> <%= instructor[1] %>
+      </p>
+    <% end %>
+  </div>
+</div>

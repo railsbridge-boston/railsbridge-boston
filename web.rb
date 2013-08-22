@@ -115,7 +115,13 @@ class RubyWorkshop < Sinatra::Base
   end
 
   get '/' do
+    @sponsors = jun_2013_sponsors_urls_logos
     erb :index
+  end
+
+  get '/sponsors' do
+    @sponsors = jun_2013_sponsors_urls_logos
+    erb :sponsors
   end
 
   get '/coderay_github' do
@@ -130,6 +136,40 @@ class RubyWorkshop < Sinatra::Base
 
   get '/blog' do
     erb :"blog/blog"
+  end
+
+  get '/blog/2013_jun_recap' do
+    @sponsors = jun_2013_sponsors_urls_logos
+    erb :"blog/2013_jun_recap"
+  end
+
+  def jun_2013_sponsors_urls_logos
+    [
+      ["http://www.microsoftcambridge.com", "/sponsors/microsoftlogo.png"],
+      ["http://www.a2vmedia.com", "/sponsors/a2vmedia.png"],
+      ["http://railscasts.com", "/sponsors/railscasts.png"],
+      ["http://www.launchacademy.com/", "/sponsors/LaunchAcademyLogo.png"],
+      ["http://actblue.com", "/sponsors/actblue.png"],
+      ["http://oreilly.com", "/sponsors/ora.gif"],
+      ["http://thoughtbot.com", "/sponsors/thoughtbot.png"],
+      ["http://paypal.com", "/sponsors/paypal_logo.gif"],
+      ["http://www.visiblemeasures.com", "/sponsors/visible_measures.jpg"],
+      ["http://annkissam.com", "/sponsors/annkissam.png"],
+      ["http://www.digitallumens.com/", "/sponsors/DL_logo.jpg"],
+      ["http://terriblelabs.com", "/sponsors/terriblelabs.png"],
+      ["http://www.yesware.com", "/sponsors/yesware.png"],
+      ["http://rbmtechnologies.com", "/sponsors/rbm.png"],
+      ["http://pragprog.com", "/sponsors/prag.png"],
+    ].shuffle
+  end
+
+  def load_instructors_from_yaml
+    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
+
+    YAML.load_file("instructors.yml").map do |instructor|
+      instructor[1] = markdown.render(instructor[1])
+      instructor
+    end.sort
   end
 
   # This handles default routes for the markdown files in `views/`
