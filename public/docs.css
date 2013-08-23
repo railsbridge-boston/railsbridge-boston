@@ -31,6 +31,10 @@ h3 {
 .column-of-images {
   margin-top: 1em;
 }
+.column-of-images img {
+  border: 1px solid gray;
+}
+
 .navbar-inner {
   -webkit-border-radius: 0 0 4px 4px;
      -moz-border-radius: 6px;
