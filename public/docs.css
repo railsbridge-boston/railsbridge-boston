@@ -31,7 +31,8 @@ h3 {
 .column-of-images {
   margin-top: 1em;
 }
-.column-of-images img {
+.column-of-images img,
+.column-of-images iframe {
   border: 1px solid gray;
 }
 
