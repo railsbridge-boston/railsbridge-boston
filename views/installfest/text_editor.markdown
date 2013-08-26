@@ -39,25 +39,21 @@ sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /u
 ```
 
 #### Linux
+These are directions tested for Kubuntu/Ubuntu version 13.04, although it will probably work on other distributions such as Mint.
 
-
-If you use Ubuntu, type these commands in the Terminal:
-
+Open a terminal window, and enter these commands:
 ```text
-sudo add-apt-repository ppa:ubuntu-on-rails
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
 sudo apt-get update
-sudo apt-get install gedit-plugins gedit-gmate
+sudo apt-get install sublime-text
 ```
-
-Sorry we don't have instructions ready yet for Fedora, so please ask a
-TA tonight for help.
-
-For Mint and other non-Ubuntu distros, type these commands in the Terminal:
-
+You can then start it from the same terminal window with:
 ```text
-sudo apt-get update
-sudo apt-get install gedit-plugins
+/usr/bin/sublime-text
 ```
+However, a pretty icon has also been created, and you can start it from the Graphical User Interface (GUI)
+
+Sorry we don't have instructions ready for Fedora, so please ask a TA for help.
 
 ### 2. Open your Editor
 
@@ -66,7 +62,7 @@ sudo apt-get install gedit-plugins
 1. To start Sublime Text 2 please select it from the Start Menu under
    'All Programs'
 
-![Submlime Text 2](/images/installfest/sublime2.png)
+![Submlime Text 2](../../public/images/installfest/sublime2.png?raw=true)
 
 #### OSX
 
@@ -77,16 +73,14 @@ Finder.
 
 #### Linux
 
-Type this in the Terminal to start gEdit:
+Type this in the Terminal to start Sublime:
 
 ```text
-gedit
+/usr/bin/sublime-text
 ```
-
+Or, you can use your GUIs menus, as an icon has most likely been installed.
 
 ### 3. Set some basic preferences
-
-#### If you are using Sublime Text 2
 
 Sublime Text 2 reads its preferences from text files. This means you can easily
 edit settings, check your settings into version control, or share settings with
@@ -106,14 +100,6 @@ Open up User Settings (`Sublime Text 2 > Preferences > Settings - User`) and pas
 ```
 
 Save the User Settings file (`File > Save`). Your new preferences are now in effect.
-
-#### If you are using gEdit 
-
-Go to Edit > Preferences and click the Editor tab. Set the `Tab width`
-option to 2 and make sure `Insert spaces instead of tabs` and `Enable
-automatic indentation` are checked.
-
-![](/images/gedit-pref.png)
 
 ### Success!
 
