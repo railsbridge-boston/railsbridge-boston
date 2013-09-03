@@ -34,7 +34,8 @@
     * [Extra Credit: The Rails Console](extra_credit/04_console)
 
 ## Model Associations and 'MVC' ##
-* [_Lecture Slides: Exploring Model View Controller_](/mvc)
+* [_Lecture Slides: Exploring Model View
+  Controller_](/presentations/mvc_associations.pdf)
 * [Voting on Topics](voting_on_topics)
 * [Hooking Up Votes and Topics](hooking_up_votes_and_topics)
 * [Allow People to Vote](allow_people_to_vote)
