@@ -1,91 +1,89 @@
 # Install Ruby on Windows
 
-Installing Ruby and Rails on Windows is easy thanks to <a href="http://railsinstaller.org" target="_blank">RailsInstaller</a>. 
+Installing Ruby and Rails on Windows is easy thanks to <a href="http://railsinstaller.org" target="_blank">RailsBridge Virtual Machine</a>. 
 This one installer will give you Ruby, Rails, Git and the Bash shell. Let's get started.
 
-## Install RailsInstaller
+## Step 1.
 
-### 1. Download RailsInstaller
+Download and install VirtualBox
+## Step 2.
 
-Go to the <a href="http://railsinstaller.org" target="_blank">RailsInstaller</a> page and click "Download the Kit"—the Windows version will 
-automatically be downloaded for you. Don't worry about watching the video; we have all the directions you need here.
+Download and install Vagrant
+## Step 3.
 
-### 2. Start the Installation
+Download the Railsbridge Boston Virtual Machine (579MB) with this command:
 
-Once the installer is downloaded, find the file and double-click it. This will open an installation wizard. 
+vagrant box add railsbridgebos http://66.228.42.213/railsbridgebos.box
 
-* Make sure you check the box for "Add executables for Ruby, Git and DevKit to the PATH". 
-* Leave the box for "Configure your git and ssh environment" checked.
-* Click 'next' a number of times, and accept all the defaults, until the package installs. 
+## Step 4.
 
-Next you should see a Command Prompt window.
+Change directory into a workspace for your Railsbridge tutorial, and start your machine!
 
+vagrant init railsbridgebos
+vagrant up
+vagrant ssh
 
-### 3. Configure your Git and SSH environment
+Here is what you should see (approximately):
 
-The installer will launch a Command Prompt which will ask for your input to configure your environment. 
+[choi@mini rbb]$ vagrant init railsbridgebos
+A `Vagrantfile` has been placed in this directory. You are now
+ready to `vagrant up` your first virtual environment! Please read
+the comments in the Vagrantfile as well as documentation on
+`vagrantup.com` for more information on using Vagrant.
+choi@mini rbb]$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+[default] Importing base box 'railsbridgebos'...
+[default] Matching MAC address for NAT networking...
+[default] Setting the name of the VM...
+[default] Clearing any previously set forwarded ports...
+[default] Creating shared folders metadata...
+[default] Clearing any previously set network interfaces...
+[default] Preparing network interfaces based on configuration...
+[default] Forwarding ports...
+[default] -- 22 => 2222 (adapter 1)
+[default] -- 3000 => 3000 (adapter 1)
+[default] Booting VM...
+[default] Waiting for VM to boot. This can take a few minutes.
+[default] VM booted and ready for use!
+[default] Configuring and enabling network interfaces...
+[default] Mounting shared folders...
+[default] -- /vagrant
+[choi@mini rbb]$ vagrant ssh
+Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
 
-* The first prompt will ask you for your name. This is the name that will be signed to your code commits in Git. 
-It's generally good to sign your real, full name.
-* The second prompt will be for your email address. You should use your real email address. You will use the same 
-address for GitHub, Heroku and SSH, so they can all work together.
+ * Documentation:  https://help.ubuntu.com/
 
-You just installed Ruby, Rails, and Git. That wasn't so bad, right?
+Welcome to the Railsbridge Boston virtual machine!
 
-## Configure your Shell
+Everything you need for the Suggestotron tutorial is installed, including:
 
-RailsInstaller comes with a nice shell called Bash. We will configure it for our purposes.
+- Ruby 2.0
+- Rails 4.0
+- sqlite3
+- heroku toolbelt
+- git
 
-### 1. Configure bash with .bashrc
+Next steps:
 
-We will add commands to the `.bashrc` file to configure our bash environment.
+1. Create a SSH key
+2. Configure Git
+3. Create a Heroku account
 
-* Open the "Git Bash". You can find it in "Start Menu > All Programs > RailsInstaller > Git Bash".
-* Open your `.bashrc` in Notepad by typing this into the Git Bash window:
+The ~/workspace directory from inside the VM shell is identical to the host
+directory of your VM workspace.
 
-    ```text
-    notepad ~/.bashrc &
-    ```
-    This asks Notepad to open a file named `.bashrc` in your home directory, here represented by a tilde (`~`).
+When you start your Rails app, visit http://localhost:3000 in your web browser.
 
-    Your home directory has the same name as your user name (the one you sign into your computer with).
+Last login: Tue Aug 27 00:38:27 2013 from 10.0.2.2
+vagrant@precise32:~$ 
 
-* Notepad will pop up and ask you if you want to create `.bashrc`. Click 'Yes'.
+## Step 5.
 
-* Copy/paste the following lines of code into your `.bashrc`:
+Do your stuff.
+## Step 6.
 
-    ```text
-    # More helpful file list
-    alias ls='ls -Alh --color=always'
+Logout and stop your machine with
 
-    alias subl='/c/Windows/"Programs Files"/"Sublime Text 2"/sublime_text'
-    alias irb='ruby -S irb'
-    ```
+logout
+vagrant halt
 
-* Save `.bashrc` ("File > Save").
-
-* Load the new `.bashrc` configuration by typing the following into Git Bash:
-
-    ```text
-    source ~/.bashrc
-    ```
-
-Bash is now configured—you now have done all the necessary installation for the workshop. You may now install Console2,
-or move on to the next section, "Using the Command Prompt". If you stop here, just remember how to open Git Bash, as it 
-is the command prompt you will be using. 
-
-
-### 2. Install and Configure Console2 [optional]
-
-Console2 is not a shell, it is a "console window enhancement".  
-
-That means it's a nicer way to view the Bash shell you just configured. 
-It has features like better font rendering, transparency, window resizing(!), tabs,
-text selection, and easier copy/paste, among others. You will be spending plenty of time in the command prompt, so
-this will make life easier.
-
-[Install and Configure Console2](/installfest/install/windows_console2)
-
-
-### Go Back
-[« Back to Installfest](/installfest)
