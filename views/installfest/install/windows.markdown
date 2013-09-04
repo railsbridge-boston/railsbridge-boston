@@ -5,12 +5,12 @@ This one installer will give you Ruby, Rails, Git and the Bash shell. Let's get 
 
 ## Install RailsInstaller
 
-### 1. Download RailsInstaller
+### SUPER STEP 1. Download RailsInstaller
 
 Go to the <a href="http://railsinstaller.org" target="_blank">RailsInstaller</a> page and click "Download the Kit"—the Windows version will 
 automatically be downloaded for you. Don't worry about watching the video; we have all the directions you need here.
 
-### 2. Start the Installation
+### SUPER STEP 2. Start the Installation
 
 Once the installer is downloaded, find the file and double-click it. This will open an installation wizard. 
 
@@ -21,7 +21,7 @@ Once the installer is downloaded, find the file and double-click it. This will o
 Next you should see a Command Prompt window.
 
 
-### 3. Configure your Git and SSH environment
+### SUPER STEP 3. Configure your Git and SSH environment
 
 The installer will launch a Command Prompt which will ask for your input to configure your environment. 
 
@@ -74,18 +74,5 @@ Bash is now configured—you now have done all the necessary installation for th
 or move on to the next section, "Using the Command Prompt". If you stop here, just remember how to open Git Bash, as it 
 is the command prompt you will be using. 
 
-
-### 2. Install and Configure Console2 [optional]
-
-Console2 is not a shell, it is a "console window enhancement".  
-
-That means it's a nicer way to view the Bash shell you just configured. 
-It has features like better font rendering, transparency, window resizing(!), tabs,
-text selection, and easier copy/paste, among others. You will be spending plenty of time in the command prompt, so
-this will make life easier.
-
-[Install and Configure Console2](/installfest/install/windows_console2)
-
-
-### Go Back
+###SECTION DELETED FOR TESTING
 [« Back to Installfest](/installfest)
