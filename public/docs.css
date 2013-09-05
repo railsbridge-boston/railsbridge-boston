@@ -898,7 +898,7 @@ form.well {
   float: left;
   position: relative;
 }
-#sponsors-page a {
+#sponsors-page .sponsor-images a {
   max-width: 268px;
   min-width: 216px;
   margin: 2% 2% 0;
@@ -1019,7 +1019,7 @@ body {
 #progress-tick{
   display:inline-block;
   margin-top:30px;
-  font-size: 18px;  
+  font-size: 18px;
   border-bottom: 1px solid #E74222;
   padding: 5px;
 }
