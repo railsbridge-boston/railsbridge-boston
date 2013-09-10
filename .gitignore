@@ -5,3 +5,4 @@ bin/*
 .rbenv-version
 .ruby-gemset
 .DS_Store
+*.un~

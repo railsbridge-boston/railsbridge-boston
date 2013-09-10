@@ -8,8 +8,9 @@ these sections in order, and ask questions if you get stuck! That's what the TAs
 When you are done with all the sections, find a staff member to go through the checklist with you.
 
 
-### 1. Set Up Ruby
-Instructions for installing and running Ruby.
+### 1. Set Up Ruby Development Environment
+The Ruby development environment includes several tools: Ruby, Rails, sqlite3, heroku toolbelt, and git.
+The instructions vary depending on the operating system of your computer.
 
 [Install Ruby on Windows](/installfest/install/windows)  
 [Install Ruby on Mac OS X](/installfest/install/osx)  

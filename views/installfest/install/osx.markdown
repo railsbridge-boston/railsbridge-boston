@@ -2,8 +2,12 @@
 
 ## Check your version of OS X
 
-10.6 - 10.8: Go ahead, your instructions are below  
-10.5: [Go here for your installation instructions](/installfest/install/osx-10-5)
+* 10.6 - 10.8: Go ahead, your instructions are below  
+* 10.5 running Intel processor:
+[Go here for your installation instructions using Vagrant](/installfest/install/osx-vagrant)    
+* 10.5 running non-Intel processor:
+[Go here for your installation instructions using Xcode](/installfest/install/osx-10-5)  
+*You can see what processor you are running by choosing **About This Mac** from the Apple menu.*
 
 ## Install RailsInstaller
 
