@@ -60,9 +60,24 @@ the comments in the Vagrantfile as well as documentation on
 `vagrantup.com` for more information on using Vagrant.
 ```
 
-Now type `vagrant up`
+That's all there is to installing the Ruby development environment!
 
-This will take a couple minutes, too. It will print something like this:
+Vagrant uses VirtualBox and a virtual machine script to create a *virtual
+environment*. A virtual environment is like have another computer inside your 
+computer. The script you downloaded and installed tells vagrant how to make a
+Linux machine set up for Ruby inside your Apple computer.
+
+### 4. Starting your virtual environment
+
+To start your virtual environment, type the following commands in a Terminal window:
+
+```text
+cd ~/rbb
+vagrant up
+vagrant ssh
+```
+
+`vagrant up` will take a couple minutes. It will print something like this:
 
 ```text
 Bringing machine 'default' up with 'virtualbox' provider...
@@ -83,13 +98,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 [default] -- /vagrant
 ```
 
-The `vagrant up` command starts a *virtual environment*. It's like having a
-second computer inside your computer, all set up to do Ruby. The next
-command connects you to that virtual environment.
-
-Type `vagrant ssh`
-
-It will print a long welcome message something like this:
+`vagrant ssh` will print a long welcome message something like this:
 
 ```text
 Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
@@ -125,3 +134,20 @@ Congratulations, you now have the Ruby development environment up and running. N
 
 [« Back to Installfest](/installfest)
 
+### FYI: Stopping your virtual environment
+
+To stop your virtual environment, type `logout` at the vagrant prompt like this:
+
+```text
+vagrant@precise32:~$ logout
+Connection to 127.0.0.1 closed.
+your_name: rbb$ 
+```
+
+Then type `vagrant halt` at your Terminal prompt.
+
+```text
+your_name: rbb$ vagrant halt
+[default] Attempting graceful shutdown of VM...
+your_name: rbb$ 
+```
