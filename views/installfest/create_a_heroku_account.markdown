@@ -33,10 +33,10 @@ Don't worry about it, that's expected.
 
 ## 6. Create an ssh key
 
-**Windows**  
+**If you installed using RailsInstaller**  
 You're all set, a key was created when you installed RailsInstaller.
 
-**OS X/Linux**  
+**Vagrant/XCode/Linux**  
 Type this in the terminal:
 
 ```text
