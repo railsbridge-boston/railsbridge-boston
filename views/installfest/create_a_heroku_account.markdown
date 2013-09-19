@@ -13,7 +13,7 @@ click the big **Sign Up** button (it's about halfway down the page)
 
 Enter your email address.
 
-![](/images/warning.png)Use the same email address for heroku, git, github, and ssh.
+![](/images/warning.png)Use the same email address for heroku, git, and ssh.
 
 ## 3. Activate your account
 Heroku will send you an activation email. Open it and click on the activation link. It will take you to the Heroku site. Enter and confirm your password. Hit Save.
