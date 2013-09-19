@@ -20,6 +20,11 @@ Heroku will send you an activation email. Open it and click on the activation li
 
 ## 4. Install the Heroku gem
 
+**If you installed using Vagrant**  
+You're all set; the heroku tools are included in your virtual environment.
+
+**Linux/RailsInstaller/XCode**
+
 ```text
 gem install heroku
 ```
@@ -34,9 +39,10 @@ Don't worry about it, that's expected.
 ## 6. Create an ssh key
 
 **If you installed using RailsInstaller**  
-You're all set, a key was created when you installed RailsInstaller.
+You're all set; a key was created when you installed RailsInstaller.
 
-**Vagrant/XCode/Linux**  
+**Linux/Vagrant/XCode**
+
 Type this in the terminal:
 
 ```text
