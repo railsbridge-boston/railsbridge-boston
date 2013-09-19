@@ -1,36 +1,73 @@
-# Install Ruby on Windows
+## Instructions for Windows
 
-Installing Ruby and Rails on Windows is easy thanks to <a href="http://railsinstaller.org" target="_blank">RailsBridge Virtual Machine</a>. 
-This one installer will give you Ruby, Rails, Git and the Bash shell. Let's get started.
+### 1. Download and Install VirtualBox
 
-## Step 1.
+Go to the <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox</a>
+website and click on *x86/amd64* to the right of **VirtualBox x.x.x for Windows hosts**. Save
+the file.
 
-Download and install VirtualBox
-## Step 2.
++ Once the installer is downloaded, find the file and double-click it. 
+This will open an installation wizard.
++ Run the wizard accepting all the defaults.
 
-Download and install Vagrant
-## Step 3.
+### 2. Download and Install Vagrant
 
-Download the Railsbridge Boston Virtual Machine (579MB) with this command:
+Go to the <a href="http://downloads.vagrantup.com/tags/v1.2.7" target="_blank">Vagrant</a>
+website and click on *Vagrant-1.2.7.msi*. Save the file.
 
++ Once the installer is downloaded, find the file and double-click it. 
+This will open an installation wizard.
++ Run the wizard accepting all the defaults.
+
+### 3. Download and install the RailsBridge Boston virtual machine
+
+Open a Command Prompt window. You can find the Command Prompt application through 
+the Start Menu, All Programs, probably in Accessories.
+
+Type the following command into the window:
+
+```text
 vagrant box add railsbridgebos http://66.228.42.213/railsbridgebos.box
+```
 
-## Step 4.
+This will take a while... After it finishes, type the following commands.
+Don't worry about what they mean right now. We'll explain soon.
 
-Change directory into a workspace for your Railsbridge tutorial, and start your machine!
-
+```text
+mkdir rbb
+cd rbb
 vagrant init railsbridgebos
-vagrant up
-vagrant ssh
+```
 
-Here is what you should see (approximately):
+You will see the following message:
 
-[choi@mini rbb]$ vagrant init railsbridgebos
+```text
 A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read
 the comments in the Vagrantfile as well as documentation on
 `vagrantup.com` for more information on using Vagrant.
-choi@mini rbb]$ vagrant up
+```
+
+That's all there is to installing the Ruby development environment!
+
+Vagrant uses VirtualBox and a virtual machine script to create a *virtual
+environment*. A virtual environment is like have another computer inside your 
+computer. The script you downloaded and installed tells vagrant how to make a
+Linux machine set up for Ruby inside your Apple computer.
+
+### 4. Starting your virtual environment
+
+To start your virtual environment, type the following commands in a Command Prompt window:
+
+```text
+cd rbb
+vagrant up
+vagrant ssh
+```
+
+`vagrant up` will take a couple minutes. It will print something like this:
+
+```text
 Bringing machine 'default' up with 'virtualbox' provider...
 [default] Importing base box 'railsbridgebos'...
 [default] Matching MAC address for NAT networking...
@@ -45,10 +82,13 @@ Bringing machine 'default' up with 'virtualbox' provider...
 [default] Booting VM...
 [default] Waiting for VM to boot. This can take a few minutes.
 [default] VM booted and ready for use!
-[default] Configuring and enabling network interfaces...
 [default] Mounting shared folders...
 [default] -- /vagrant
-[choi@mini rbb]$ vagrant ssh
+```
+
+`vagrant ssh` will print a long welcome message something like this:
+
+```text
 Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
 
  * Documentation:  https://help.ubuntu.com/
@@ -76,14 +116,26 @@ When you start your Rails app, visit http://localhost:3000 in your web browser.
 
 Last login: Tue Aug 27 00:38:27 2013 from 10.0.2.2
 vagrant@precise32:~$ 
+```
 
-## Step 5.
+Congratulations, you now have the Ruby development environment up and running. Now go forth and do something awesome with it!
 
-Do your stuff.
-## Step 6.
+[« Back to Installfest](/installfest)
 
-Logout and stop your machine with
+### FYI: Stopping your virtual environment
 
-logout
-vagrant halt
+To stop your virtual environment, type `logout` at the vagrant prompt like this:
 
+```text
+vagrant@precise32:~$ logout
+Connection to 127.0.0.1 closed.
+your_name: rbb$ 
+```
+
+Then type `vagrant halt` at your Command Prompt prompt.
+
+```text
+your_name: rbb$ vagrant halt
+[default] Attempting graceful shutdown of VM...
+your_name: rbb$ 
+```
