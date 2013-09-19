@@ -49,7 +49,24 @@ Heroku is the host that you will deploy your application to.
 [Create a Heroku Account](/installfest/create_a_heroku_account)
 
 
-### 7. Setup Checklist 
+### 7. Configure Git
+
+1. Type the following commands, substituting your name and the same
+email address you used for Heroku.
+
+    ```text
+    $ git config --global user.name "John Doe"
+    $ git config --global user.email johndoe@example.com
+    ```
+
+2. [optional] Git automatically colors most of its output if you ask it to.
+To turn on all the default terminal coloring, type:
+
+    ```text
+    $ git config --global color.ui true
+    ```
+
+### 8. Setup Checklist 
 
 Find a staff member and run through this checklist:
 
@@ -58,7 +75,8 @@ Find a staff member and run through this checklist:
     ``` ruby
     puts 'Hello World!'
     ```
-    Then save the file. From the command prompt, navigate to and execute the Ruby script you just created.
+    Then save the file. From the command prompt, navigate to and execute the
+    Ruby script you just created.
 
 2. Confirm that Ruby and Rails are installed on your machine.  From the command line type:
 
