@@ -5,10 +5,15 @@ This setup will give you Ruby, Rails, Git and the Bash shell. Let's get started.
 
 ## Step 1.
 
-Download and install VirtualBox
+Download [VirtualBox](https://www.virtualbox.org/). On the Downloads page, download 
+"VirtualBox *version_number* for Windows hosts". Run the installer after it downloads.
+
 ## Step 2.
 
-Download and install Vagrant
+Download [Vagrant](http://www.vagrantup.com/). On the Downloads page, 
+click the first version at the top, then download the **msi** file next to the Windows Flag.
+Run the installer after it downloads.
+
 ## Step 3.
 
 Download the Railsbridge Boston Virtual Machine (370MB) with this command:
