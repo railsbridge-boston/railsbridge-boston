@@ -28,8 +28,10 @@ Change directory into a workspace for your Railsbridge tutorial, and start your 
 vagrant init railsbridgebos
 vagrant up
 vagrant ssh
+  (passphrase? press ENTER)
+  (password? vagrant)
 ```
-**TBD: What will we use for SSH? PuTTY? WindowsOpenSSH from 2004?
+**TBD: Add instructions for installing OpenSSH, or other?**
 
 Here is what you should see (approximately):
 
@@ -50,6 +52,9 @@ Bringing machine 'default' up with 'virtualbox' provider...
 
 ```
 C:\Users\Diligent Student\workspace> vagrant ssh
+Enter passphrase for key 'C:/Users/Diligent Student/.vagrant.d/insecure_private_key':
+vagrant@127.0.0.1's password:
+
 Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
    ...many lines left out...
 vagrant@precise32:~$ 
