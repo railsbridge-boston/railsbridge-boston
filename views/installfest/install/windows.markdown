@@ -1,7 +1,7 @@
 # Install Ruby on Windows
 
-Installing Ruby and Rails on Windows is easy thanks to <a href="http://railsinstaller.org" target="_blank">RailsBridge Virtual Machine</a>. 
-This one installer will give you Ruby, Rails, Git and the Bash shell. Let's get started.
+Installing Ruby and Rails on Windows is easy thanks to the RailsBridge Virtual Machine. 
+This setup will give you Ruby, Rails, Git and the Bash shell. Let's get started.
 
 ## Step 1.
 
@@ -11,44 +11,34 @@ Download and install VirtualBox
 Download and install Vagrant
 ## Step 3.
 
-Download the Railsbridge Boston Virtual Machine (579MB) with this command:
+Download the Railsbridge Boston Virtual Machine (370MB) with this command:
 
-vagrant box add railsbridgebos http://66.228.42.213/railsbridgebos.box
+    vagrant box add railsbridgebos http://66.228.42.213/railsbridgebos-3.2.box
 
 ## Step 4.
 
 Change directory into a workspace for your Railsbridge tutorial, and start your machine!
 
+```
 vagrant init railsbridgebos
 vagrant up
 vagrant ssh
+```
 
 Here is what you should see (approximately):
 
-[choi@mini rbb]$ vagrant init railsbridgebos
+C:\Users\Diligent Student\workspace> vagrant init railsbridgebos
 A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read
 the comments in the Vagrantfile as well as documentation on
 `vagrantup.com` for more information on using Vagrant.
-choi@mini rbb]$ vagrant up
+
+C:\Users\Diligent Student\workspace> vagrant up
 Bringing machine 'default' up with 'virtualbox' provider...
-[default] Importing base box 'railsbridgebos'...
-[default] Matching MAC address for NAT networking...
-[default] Setting the name of the VM...
-[default] Clearing any previously set forwarded ports...
-[default] Creating shared folders metadata...
-[default] Clearing any previously set network interfaces...
-[default] Preparing network interfaces based on configuration...
-[default] Forwarding ports...
-[default] -- 22 => 2222 (adapter 1)
-[default] -- 3000 => 3000 (adapter 1)
-[default] Booting VM...
-[default] Waiting for VM to boot. This can take a few minutes.
-[default] VM booted and ready for use!
-[default] Configuring and enabling network interfaces...
-[default] Mounting shared folders...
+*many lines left out*
 [default] -- /vagrant
-[choi@mini rbb]$ vagrant ssh
+
+C:\Users\Diligent Student\workspace> vagrant ssh
 Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
 
  * Documentation:  https://help.ubuntu.com/
@@ -68,6 +58,7 @@ Next steps:
 1. Create a SSH key
 2. Configure Git
 3. Create a Heroku account
+```
 
 The ~/workspace directory from inside the VM shell is identical to the host
 directory of your VM workspace.
@@ -84,6 +75,7 @@ Do your stuff.
 
 Logout and stop your machine with
 
+```
 logout
 vagrant halt
-
+```
