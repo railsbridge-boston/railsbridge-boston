@@ -19,11 +19,11 @@ Don't worry about watching the video. Just leave the download in your Downloads 
 
 ### Option 2. Download the VirtualBox, Vagrant, and the Railsbridge Virtual Machine
 
-Download [VirtualBox](https://www.virtualbox.org/). On the Downloads page, download 
-"VirtualBox *version_number* for OS X hosts".  Run the installer after it downloads.
+Download
+[VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88780-OSX.dmg)
+for Mac. Run the installer after it downloads.
 
-Download [Vagrant](http://downloads.vagrantup.com/tags/v1.3.3). On the Vagrant Downloads page, 
-download the Vagrant-1.3.3.dmg next to the Apple icon.  Run the installer after it downloads.
+Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55cf8569167fc22415/Vagrant-1.3.3.dmg) for Mac. Run the installer after it downloads.
 
 Download the [Railsbridge Virtual
 Machine](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box). Just
@@ -44,11 +44,9 @@ and search for "Xcode 3.1.4"
 
 ## Windows
 
-Download [VirtualBox](https://www.virtualbox.org/). On the Downloads page, download 
-"VirtualBox *version_number* for Windows hosts. Run the installer after it downloads.
+Download [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88781-Win.exe) for Window. Run the installer after it downloads.
 
-Download [Vagrant](http://downloads.vagrantup.com/tags/v1.3.3). On the Vagrant Downloads page, 
-download the Vagrant-1.3.3.dmg next to the Windows icon.  Run the installer after it downloads.
+Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55cf8569167fc22415/Vagrant_1.3.3.msi) for Windows. Run the installer after it downloads.
 
 Download the [Railsbridge Virtual
 Machine](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box). Just
