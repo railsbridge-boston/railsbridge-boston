@@ -23,7 +23,7 @@ Download [VirtualBox](https://www.virtualbox.org/). On the Downloads page, downl
 "VirtualBox *version_number* for OS X hosts".  Run the installer after it downloads.
 
 Download [Vagrant](http://downloads.vagrantup.com/tags/v1.3.3). On the Vagrant Downloads page, 
-the download Vagrant-1.3.3.dmg next to the Apple icon.  Run the installer after it downloads.
+download the Vagrant-1.3.3.dmg next to the Apple icon.  Run the installer after it downloads.
 
 Download the [Railsbridge Virtual
 Machine](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box). Just
@@ -48,7 +48,7 @@ Download [VirtualBox](https://www.virtualbox.org/). On the Downloads page, downl
 "VirtualBox *version_number* for Windows hosts. Run the installer after it downloads.
 
 Download [Vagrant](http://downloads.vagrantup.com/tags/v1.3.3). On the Vagrant Downloads page, 
-the download Vagrant-1.3.3.dmg next to the Windows icon.  Run the installer after it downloads.
+download the Vagrant-1.3.3.dmg next to the Windows icon.  Run the installer after it downloads.
 
 Download the [Railsbridge Virtual
 Machine](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box). Just
