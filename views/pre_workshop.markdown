@@ -44,7 +44,7 @@ and search for "Xcode 3.1.4"
 
 ## Windows
 
-Download [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88781-Win.exe) for Window. Run the installer after it downloads.
+Download [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88781-Win.exe) for Windows. Run the installer after it downloads.
 
 Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55cf8569167fc22415/Vagrant_1.3.3.msi) for Windows. Run the installer after it downloads.
 
@@ -52,7 +52,7 @@ Download [Git for Windows](http://git-scm.com/downloads) and run the installer.
 
 Download the [Railsbridge Virtual
 Machine](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box). Just
-leave it in your Download folder. 
+leave it in your Downloads folder. 
 
 
 ## Linux
