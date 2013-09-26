@@ -48,7 +48,9 @@ Download [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBo
 
 Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55cf8569167fc22415/Vagrant_1.3.3.msi) for Windows. Run the installer after it downloads.
 
-Download [Git for Windows](http://git-scm.com/downloads) and run the installer.
+Download [GitHub for Windows](http://windows.github.com/) and run the installer.
+If prompted during installation, install the Microsoft .NET framework.
+If GitHub for Windows automatically launches after installation, quit the application.
 
 Download the [Railsbridge Virtual
 Machine](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box). Just
