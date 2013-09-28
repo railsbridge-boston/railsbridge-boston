@@ -36,7 +36,6 @@ end
 class RubyWorkshop < Sinatra::Base
   def initialize
     super
-    @app = ::Deck::RackApp.public_file_server
   end
 
   enable :sessions
