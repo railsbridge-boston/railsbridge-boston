@@ -27,8 +27,8 @@ heroku run rake db:migrate</pre>
 
 ### Step 2: Check that it worked
 Open your heroku app in the browser again by typing `heroku open`, then add "topics" to the end of the url.
-So if your app is called at <http://fierce-meadow-4845.heroku.com/> it should look lile
-<http://fierce-meadow-4845.heroku.com/topics>
+So if your app is called at http://fierce-meadow-4845.heroku.com/ it should look lile
+http://fierce-meadow-4845.heroku.com/topics
 
 
 You should see a page that looks shockingly similar to the one you had locally. Test that you can create new topics on Heroku. When you've had enough fun, move on.
