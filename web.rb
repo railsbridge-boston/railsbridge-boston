@@ -181,6 +181,7 @@ class RubyWorkshop < Sinatra::Base
   def load_instructors_from_yaml
     markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
 
+    return [] unless File.size?("instructors.yml")
     YAML.load_file("instructors.yml").map do |instructor|
       instructor[1] = markdown.render(instructor[1])
       instructor
