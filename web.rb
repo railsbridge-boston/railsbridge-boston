@@ -167,7 +167,6 @@ class RubyWorkshop < Sinatra::Base
     [
       ["http://actblue.com", "/sponsors/actblue.png"],
       ["http://oreilly.com", "/sponsors/ora.gif"],
-      ["http://pragprog.com", "/sponsors/prag.png"],
       ["http://rbmtechnologies.com", "/sponsors/rbm.png"],
       ["http://startupinstitute.com", "/sponsors/startup_institute.png"],
       ["http://terriblelabs.com", "/sponsors/terriblelabs.png"],
