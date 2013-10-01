@@ -188,6 +188,12 @@ class RubyWorkshop < Sinatra::Base
     end.sort
   end
 
+  # redirects for changed locations
+  get '/installfest' do
+    redirect '/friday'
+  end
+    
+
   # This handles default routes for the markdown files in `views/`
   # Mostly added so that people who don't want to fuss with a Sinatra app can
   # get right in and start making markdown files.
