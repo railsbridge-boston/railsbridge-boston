@@ -2,10 +2,9 @@
 
 ## Check your version of OS X
 
-10.6 - 10.8: Go ahead, your instructions are below  
-10.5: [Go here for your installation instructions](/installfest/install/osx-10-5)
+### Download prerequisites 
 
-## Install RailsInstaller
+Make sure you have downloaded 
 
 ### 1. Download RailsInstaller
 

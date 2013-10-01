@@ -12,7 +12,8 @@ When you are done with all the sections, find a staff member to go through the c
 Instructions for installing and running Ruby.
 
 [Install Ruby on Windows](/installfest/install/windows)  
-[Install Ruby on Mac OS X](/installfest/install/osx)  
+[Install Ruby on Mac OS X 10.6 and up](/installfest/install/osx)  
+[Install Ruby on Mac OS X 10.5](/installfest/install/osx-10-5)  
 [Install Ruby on Linux](/installfest/install/linux)  
 
 
