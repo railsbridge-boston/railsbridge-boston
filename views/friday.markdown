@@ -15,6 +15,10 @@ When you are done with all the sections, find a staff member to go through the c
 
 
 ### 1. Set Up Ruby
+
+Make sure you have first downloaded all the necessary software for your system
+in the [pre-workshop steps](/pre_workshop).
+
 Instructions for installing and running Ruby.
 
 [Install Ruby on Windows](/installfest/install/windows)  
@@ -131,6 +135,6 @@ If you have any questions, comments, or feedback on tonight's material, don't he
 
 1. Study the [Foundational Skills](/workshop/foundational_skills) slides.
 
-2. Go through the [Ruby in Twenty Minutes tutorial](https://www.ruby-lang.org/en/documentation/quickstart/).  Please note that for Windows users, you should use the Git Bash shell instead of `fxri`.
+2. Go through the [Ruby in Twenty Minutes tutorial](https://www.ruby-lang.org/en/documentation/quickstart/).  Please note that for Windows users, you should use the Git shell instead of `fxri`.
 
 
