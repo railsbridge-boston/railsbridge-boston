@@ -9,7 +9,10 @@ To prepare for the workshop, please download the appropriate software for your s
 
 ## OS X 10.6 and above:
 
-Pick one of the following options:
+Pick one of the following options. The main difference is that Option 1  will
+install Ruby and various tools directly into your computer operating system,
+whereas Option 2 will install a temporary and easy-to-remove "virtual machine"
+containing all the software you need for the workshop. 
 
 ### Option 1. Download RailsInstaller
 
@@ -28,6 +31,10 @@ Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55c
 Download the [Railsbridge Virtual
 Machine](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box). Just
 leave it in your Download folder. 
+
+
+
+
 
 ## OS X 10.5
 
