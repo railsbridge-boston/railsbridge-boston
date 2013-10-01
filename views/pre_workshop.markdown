@@ -1,10 +1,6 @@
-<div class="alert alert-info">
-<strong>Note to attendees</strong>: Please download the pre-requisite software onto your laptop computer before you attend the workshop. This helps speed things up on Friday and helps prevent the WiFi network from getting clogged.
-</div>
-
 # Pre-workshop downloads
 
-To prepare for the workshop, please download the appropriate software for your system.
+Please download the pre-requisite software onto your laptop computer before you attend the workshop. This helps speed things up on Friday and helps prevent the WiFi network from getting clogged.
 
 
 ## OS X 10.6 and above:
