@@ -3,8 +3,7 @@
 Installing Ruby and Rails on Windows is easy thanks to the RailsBridge Virtual Machine. 
 This setup will give you Ruby, Rails, Git and the Bash shell. Let's get started.
 
-Make sure you have downloaded RailsInstaller or the Railsbridge Virtual machine
-as instructed by the [pre-workshop steps](/pre_workshop).
+Make sure you have downloaded RailsInstaller as instructed by the [pre-workshop steps](/pre_workshop).
 
 ## Step 1.
 
