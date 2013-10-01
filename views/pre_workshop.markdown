@@ -26,7 +26,7 @@ Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55c
 
 Download the [Railsbridge Virtual
 Machine](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box). Just
-leave it in your Download folder. 
+leave it in your Downloads folder. 
 
 
 
