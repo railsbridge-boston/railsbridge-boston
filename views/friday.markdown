@@ -2,6 +2,9 @@
 <strong>Note to attendees</strong>: This is material that we expect you to read during the workshop, not before it. The contents are subject to change beforehand.
 </div>
 
+
+TODO: fix all directory references so that Railsbridge VM users don't get lost
+
 # Friday Night
 
 ## Installfest
