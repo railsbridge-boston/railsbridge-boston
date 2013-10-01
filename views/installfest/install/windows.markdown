@@ -3,41 +3,18 @@
 Installing Ruby and Rails on Windows is easy thanks to the RailsBridge Virtual Machine. 
 This setup will give you Ruby, Rails, Git and the Bash shell. Let's get started.
 
-If you followed steps 1-4 already before the workshop, jump to step 5. 
+Make sure you have downloaded RailsInstaller or the Railsbridge Virtual machine
+as instructed by the [pre-workshop steps](/pre_workshop).
 
 ## Step 1.
-
-Download
-[VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88781-Win.exe)
-for Windows. Run the installer after it downloads.
-
-## Step 2.
-
-Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55cf8569167fc22415/Vagrant_1.3.3.msi)
-for Windows. Run the installer after it downloads.
-
-## Step 3.
-
-Download the
-[Railsbridge Virtual
-Machine](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box).
-
-## Step 4.
-
-Download [GitHub for Windows](http://windows.github.com/).
-Run the installer after it downloads.
-If prompted during installation, install the Microsoft .NET framework.
-If GitHub for Windows launches after installation, quit the application.
-
-## Step 5.
 
 Launch the `Git Shell`. You can find a shortcut on your Desktop (grey circle with a cat), 
 or locate **Git Shell** in All Programs under GitHub. A new (mostly black) window will open. Create a workspace directory for your Railsbridge work.
 
 ```text
 cd ..
-mkdir workspace
-cd workspace
+mkdir railsbridge
+cd railsbridge
 ```
 
 You're ready to start your machine!
@@ -76,9 +53,9 @@ Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
 vagrant@precise32:~$ 
 ```
 
-## Step 5.
+## Step 2.
 
-Continue with the next step of the Installfest.
+Continue with the next step of the [Installfest](/installfest).
 
 ## Turning the virtual machine off and on
 

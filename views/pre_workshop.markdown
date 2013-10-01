@@ -14,13 +14,13 @@ install Ruby and various tools directly into your computer operating system,
 whereas Option 2 will install a temporary and easy-to-remove "virtual machine"
 containing all the software you need for the workshop. 
 
-### Option 1. Download RailsInstaller
+### Option 1. RailsInstaller
 
 Download Railsinstaller from the <a href="http://railsinstaller.org" target="_blank">RailsInstaller</a> webpage.
 
 Don't worry about watching the video. Just leave the download in your Downloads folder.
 
-### Option 2. Download the VirtualBox, Vagrant, and the Railsbridge Virtual Machine
+### Option 2. Railsbridge Virtual Machine
 
 Download
 [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88780-OSX.dmg)

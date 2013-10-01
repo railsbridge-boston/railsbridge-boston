@@ -1,25 +1,20 @@
 # Installing on Mac OS X
 
-## Check your version of OS X
+Make sure you have downloaded RailsInstaller or the Railsbridge Virtual machine
+as instructed by the [pre-workshop steps](/pre_workshop).
 
-### Download prerequisites 
+## 1. Start the Installation
 
-Make sure you have downloaded 
+###  Option 1. RailsInstaller
 
-### 1. Download RailsInstaller
+If you downloaded RailsInstaller in the pre-workshop steps, find the file you
+downloaded and double-click it. This will unarchive the installer.  Then double
+click the installer. This will open an installation wizard. 
 
-Go to the <a href="http://railsinstaller.org" target="_blank">RailsInstaller</a> 
-page and click your Mac OS X version under "Mac Downloads".
-Don't worry about watching the video; we have all the directions you need here.
-
-### 2. Start the Installation
-
-Once the installer is downloaded, find the file and double-click it. This will untar the installer.
-Then double click the installer. This will open an installation wizard. 
-
-*If you are told that the installer "can't be opened because it is from an unidentified developer,"
-control-click (or right-click) on the RailsInstaller application in the Finder.
-Choose "Open" from then menu, then click "Open" in the dialog that appears.*
+>   If you are told that the installer "can't be opened because it is from an
+    unidentified developer," control-click (or right-click) on the RailsInstaller
+    application in the Finder.  Choose "Open" from then menu, then click "Open" in
+    the dialog that appears.*
 
 * Select your language, then click "OK"
 * Click "Next >"
@@ -28,6 +23,34 @@ Choose "Open" from then menu, then click "Open" in the dialog that appears.*
 * Uncheck 'Open readme.pdf'—you don't need it
 * Click "Finish" and you are done!
 
-Congratulations, you now have the Ruby development environment up and running. Go forth and do something awesome with it!
+### Option 2. Railsbridge Virtual Machine
+
+Open a Terminal. Ask a TA to show you how to do this if you're not sure.
+
+You're ready to start the Railsbridge Virtual Machine.
+
+In the Terminal type the following:
+
+```text
+cd ~/Desktop
+mkdir railsbridge
+cd railsbridge
+```
+
+You're ready to start your machine!
+
+```text
+vagrant box add railsbridgebos ~/Downloads/railsbridgevm-3.2.box
+vagrant init railsbridgebos
+vagrant up
+vagrant ssh
+`
+
+Now you should see a welcome message and prompt. You're inside the Railsbridge
+Virtual Machine.
+
+Now continue with the Installfest and workshop. 
+
+
 
 [« Back to Installfest](/installfest)
