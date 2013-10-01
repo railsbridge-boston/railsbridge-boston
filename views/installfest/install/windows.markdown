@@ -9,7 +9,7 @@ as instructed by the [pre-workshop steps](/pre_workshop).
 ## Step 1.
 
 Launch the `Git Shell`. You can find a shortcut on your Desktop (grey circle with a cat), 
-or locate **Git Shell** in All Programs under GitHub. A new (mostly black) window will open. Create a workspace directory for your Railsbridge work.
+or locate **Git Shell** in All Programs under GitHub. A new (mostly black) window will open. Create a `railsbridge` directory for your Railsbridge work.
 
 ```text
 cd ..
@@ -29,7 +29,7 @@ vagrant ssh
 Here is what you should see (approximately):
 
 ```text
-C:\Users\Diligent Student\Documents\workspace> vagrant init railsbridgebos
+C:\Users\Diligent Student\Documents\railsbridge> vagrant init railsbridgebos
 
 A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read
@@ -38,7 +38,7 @@ the comments in the Vagrantfile as well as documentation on
 ```
 
 ```text
-C:\Users\Diligent Student\Documents\workspace> vagrant up
+C:\Users\Diligent Student\Documents\railsbridge> vagrant up
 
 Bringing machine 'default' up with 'virtualbox' provider...
    ...many lines left out...
@@ -46,7 +46,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ```
 
 ```text
-C:\Users\Diligent Student\Documents\workspace> vagrant ssh
+C:\Users\Diligent Student\Documents\railsbridge> vagrant ssh
 
 Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
    ...many lines left out...
@@ -72,7 +72,7 @@ When you want to use the virtual machine (tomorrow morning, for instance),
 start your machine. Launch Git Shell, then:
 
 ```text
-cd ../workspace
+cd ../railsbridge
 vagrant up
 vagrant ssh
 ```
