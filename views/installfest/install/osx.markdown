@@ -44,7 +44,7 @@ vagrant box add railsbridgebos ~/Downloads/railsbridgevm-3.2.box
 vagrant init railsbridgebos
 vagrant up
 vagrant ssh
-`
+```
 
 Now you should see a welcome message and prompt. You're inside the Railsbridge
 Virtual Machine.
