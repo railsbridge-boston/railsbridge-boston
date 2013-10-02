@@ -41,9 +41,14 @@ page](https://developer.apple.com/downloads) and search for "Xcode 3.1.4"
 
 ## Windows
 
-Download [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88781-Win.exe) for Windows. Run the installer after it downloads.
+Download
+[VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88781-Win.exe)
+for Windows. Run the installer after it downloads. You can quit the application
+if it launches at the end of the installation.
 
-Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55cf8569167fc22415/Vagrant_1.3.3.msi) for Windows. Run the installer after it downloads.
+Download
+[Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55cf8569167fc22415/Vagrant_1.3.3.msi)
+for Windows. Run the installer after it downloads. Agree to restart the computer if you're prompted to do so.
 
 Download [GitHub for Windows](http://windows.github.com/) and run the installer.
 If prompted during installation, install the Microsoft .NET framework.
