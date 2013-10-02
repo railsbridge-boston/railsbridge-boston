@@ -16,9 +16,7 @@ Let's get started! By the end of this step, we'll have brand-spankin'-new rails 
 Type this in the terminal
 
 ```text
-mkdir railsbridge
-cd railsbridge
-rails new suggestotron
+rails new suggestotron --skip-sprockets
 cd suggestotron
 ls
 ```
