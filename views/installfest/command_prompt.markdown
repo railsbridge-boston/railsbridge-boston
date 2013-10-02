@@ -24,7 +24,7 @@ or navigate to `Applications/Utilities/Terminal` in Finder.
 ### Windows
 
 Launch the Git Shell if it isn't already open. Go back to to Step 1 of [Install
-Ruby on Windows](installfest/install/windows) if you need to launch it again.
+Ruby on Windows](install/windows) if you need to launch it again.
 
 ### Linux
 
