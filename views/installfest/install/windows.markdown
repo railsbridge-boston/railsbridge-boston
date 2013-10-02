@@ -19,7 +19,7 @@ before typing the next one.
 cd ..
 mkdir railsbridge
 cd railsbridge
-vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box
+vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2-b.box
 vagrant init railsbridgebos
 vagrant up
 vagrant ssh
