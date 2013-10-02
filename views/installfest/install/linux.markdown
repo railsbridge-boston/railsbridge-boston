@@ -96,7 +96,8 @@ instructor to help diagnose the installation issue.
 9. Install Rails and other supporting gems
 
     ```text
-    gem install bundler rails
+    gem install bundler 
+    gem install rails -v 3.2.14
     ```
 
 10. Run `rbenv rehash` again so you can access the gems you just installed:
