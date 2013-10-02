@@ -16,8 +16,9 @@ Then type the following commands. Press ENTER after each command and wait for th
 before typing the next one.
 
 ```text
-mkdir ~/railsbridge
-cd ~/railsbridge
+cd ..
+mkdir railsbridge
+cd railsbridge
 vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box
 vagrant init railsbridgebos
 vagrant up
