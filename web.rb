@@ -200,7 +200,6 @@ class RubyWorkshop < Sinatra::Base
 
   get '/*' do
     page = File.join params[:splat]
-    @curriculum = true if (page =~ /^curriculum\// && page !~ /curriculum_toc/)
 
     if File.exist? "views/#{page}.deck.markdown"
       slides = Deck::Slide.split(File.read("views/#{page}.deck.markdown"))
