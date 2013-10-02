@@ -8,7 +8,7 @@ Make sure you have downloaded RailsInstaller as instructed by the [pre-workshop 
 ## Step 1.
 
 Launch the `Git Shell`. You can find a shortcut on your Desktop (grey circle with a cat), 
-or locate **Git Shell** in All Programs under GitHub. A new (mostly black) window will open. Create a `railsbridge` directory for your Railsbridge work.
+or locate **Git Shell** in All Programs under GitHub. A new (mostly black) window will open. 
 
 Then type the following commands. Press ENTER after each command and wait for the operation to finish
 before typing the next one.
@@ -23,7 +23,7 @@ vagrant up
 vagrant ssh
 ```
 
-Here is what you should see (approximately):
+After typing the last command, here is what you should see (approximately):
 
 ```text
 C:\Users\Diligent Student\Documents\railsbridge> vagrant init railsbridgebos

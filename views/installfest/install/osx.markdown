@@ -47,13 +47,11 @@ vagrant up
 vagrant ssh
 ```
 
-Now you should see a welcome message and prompt. You're inside the Railsbridge
-Virtual Machine.
+After typing the last command, you should see a welcome message and prompt
+telling you that you're inside the Railsbridge Virtual Machine.
 
 Leave this terminal window open on your computer.
 
 Now continue with the Installfest and workshop. 
-
-
 
 [« Back to Installfest](/installfest)
