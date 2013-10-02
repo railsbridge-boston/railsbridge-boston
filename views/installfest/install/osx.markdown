@@ -37,10 +37,11 @@ mkdir railsbridge
 cd railsbridge
 ```
 
-You're ready to start your machine!
+Then type the following commands. Press ENTER after each command and wait for the operation to finish
+before typing the next one.
 
 ```text
-vagrant box add railsbridgebos ~/Downloads/railsbridgevm-3.2.box
+vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box
 vagrant init railsbridgebos
 vagrant up
 vagrant ssh
@@ -48,6 +49,8 @@ vagrant ssh
 
 Now you should see a welcome message and prompt. You're inside the Railsbridge
 Virtual Machine.
+
+Leave this terminal window open on your computer.
 
 Now continue with the Installfest and workshop. 
 

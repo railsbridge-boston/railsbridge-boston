@@ -10,16 +10,14 @@ Make sure you have downloaded RailsInstaller as instructed by the [pre-workshop 
 Launch the `Git Shell`. You can find a shortcut on your Desktop (grey circle with a cat), 
 or locate **Git Shell** in All Programs under GitHub. A new (mostly black) window will open. Create a `railsbridge` directory for your Railsbridge work.
 
+Then type the following commands. Press ENTER after each command and wait for the operation to finish
+before typing the next one.
+
 ```text
 cd ..
 mkdir railsbridge
 cd railsbridge
-```
-
-You're ready to start your machine!
-
-```text
-vagrant box add railsbridgebos [file path to the Railsbridge Virtual Machine download from step 3]
+vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box
 vagrant init railsbridgebos
 vagrant up
 vagrant ssh
@@ -53,6 +51,8 @@ vagrant@precise32:~$
 ```
 
 ## Step 2.
+
+Leave this terminal window open on your computer.
 
 Continue with the next step of the [Installfest](/installfest).
 
