@@ -25,4 +25,4 @@ Congratulations, you just "finished" your first rails app!
 (They're never really ever finished... have fun tweaking it!)
 
 ## Next Step
-Go on to [Credits and Next Steps](credits_and_next_steps)
+Go on to [Next Steps](next_steps)
