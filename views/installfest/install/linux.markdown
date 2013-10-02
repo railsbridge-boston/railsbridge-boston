@@ -26,28 +26,14 @@ instructor to help diagnose the installation issue.
     sudo yum install -y git wget python zlib1g-dev libssl-dev libreadline-dev sqlite3 libsqlite3-dev
     ```
 
-2. Download and build node.js. Copy/paste this script into the terminal:
-
-    ```text
-    cd /usr/local/src
-    sudo git clone git://github.com/joyent/node.git
-
-    cd node
-    sudo git checkout v0.8.8
-
-    sudo ./configure
-    sudo make
-    sudo make install
-    ```
-
-3. Check out rbenv into `~/.rbenv`.
+2. Check out rbenv into `~/.rbenv`.
 
     ```text
     cd
     git clone git://github.com/sstephenson/rbenv.git .rbenv
     ```
 
-4. Add rbenv to your environment.
+3. Add rbenv to your environment.
 
     This adds `~/.rbenv/bin` to your `$PATH` for access to the `rbenv`
     command-line utility, and injects the rbenv shim in your ~/.bash_profile so that calls to ruby will be run through rbenv.
@@ -62,13 +48,13 @@ instructor to help diagnose the installation issue.
     **Linux Mint and Ubuntu 10.10**: Modify your `~/.bashrc` file instead of `~/.bash_profile`.  
     **Zsh**: Modify your `~/.zshenv` file instead of `~/.bash_profile`.
 
-5. Restart your shell so the path changes take effect. You can now begin using rbenv.
+4. Restart your shell so the path changes take effect. You can now begin using rbenv.
 
     ```text
     exec $SHELL
     ```
 
-6. Install ruby-build.
+5. Install ruby-build.
 
     ```text
     mkdir -p ~/.rbenv/plugins
@@ -77,14 +63,14 @@ instructor to help diagnose the installation issue.
     source ~/.bash_profile
     ```
 
-7. Install the latest Ruby. This may take a while.
+6. Install the latest Ruby. This may take a while.
 
     ```text
     rbenv install 1.9.3-p286
     rbenv global 1.9.3-p286
     ```
 
-8. Close an re-open your terminal and confirm Ruby is installed properly
+7. Close an re-open your terminal and confirm Ruby is installed properly
 
     ```text
     ruby --version
@@ -93,14 +79,14 @@ instructor to help diagnose the installation issue.
     You should get something similar to `ruby 1.9.3p286 (2012-10-12 revision 37165) [i616-linux]` 
     If you do not see `ruby 1.9.3` please call in an instructor to help diagnose the installation issue.
 
-9. Install Rails and other supporting gems
+8. Install Rails and other supporting gems
 
     ```text
     gem install bundler 
     gem install rails -v 3.2.14
     ```
 
-10. Run `rbenv rehash` again so you can access the gems you just installed:
+9. Run `rbenv rehash` again so you can access the gems you just installed:
 
     ```text
     rbenv rehash
