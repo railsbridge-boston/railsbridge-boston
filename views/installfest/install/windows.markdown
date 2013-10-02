@@ -25,6 +25,8 @@ vagrant up
 vagrant ssh
 ```
 
+If the process seems to hang after `vagrant up`, try hitting the ENTER key to get it going.
+
 After typing the last command, here is what you should see (approximately):
 
 ```text
