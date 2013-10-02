@@ -15,20 +15,21 @@ cd
 Let's practice using these commands.  
 
 ## Open a command prompt
-**OS X**
+
+### OS X
 
 You can find the Terminal application through Spotlight (click the magnifying glass in the top right of the screen and start typing "Terminal"), 
 or navigate to `Applications/Utilities/Terminal` in Finder.
 
-**Windows**
+### Windows
 
-If you have installed Console2, open that from the shortcut you created.  
-If you skipped that step, open Git Bash by going to "All Programs > RailsInstaller > Git Bash".
+Launch the Git Shell if it isn't already open. Go back to to Step 1 of [Install
+Ruby on Windows](installfest/install/windows) if you need to launch it again.
 
-**Linux**
+### Linux
 
-Ubuntu: Click the Ubuntu logo and start typing "Terminal".  
-Fedora: From the Main Menu bar select "Applications > System Tools > Terminal".
+* Ubuntu: Click the Ubuntu logo and start typing "Terminal".  
+* Fedora: From the Main Menu bar select "Applications > System Tools > Terminal".
 
 
 ### Practice using `ls`, `pwd`, and `cd`

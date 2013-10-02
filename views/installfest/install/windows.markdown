@@ -7,8 +7,10 @@ Make sure you have performed the [pre-workshop steps](/pre_workshop).
 
 ## Step 1.
 
-Launch the `Git Shell`. You can find a shortcut on your Desktop (grey circle with a cat), 
+Launch the Git Shell. You can find a shortcut on your Desktop (grey circle with a cat), 
 or locate **Git Shell** in All Programs under GitHub. A new (mostly black) window will open. 
+
+## Step 2.
 
 Then type the following commands. Press ENTER after each command and wait for the operation to finish
 before typing the next one.
@@ -49,7 +51,7 @@ Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
 vagrant@precise32:~$ 
 ```
 
-## Step 2.
+## Step 3.
 
 Leave this terminal window open on your computer.
 
