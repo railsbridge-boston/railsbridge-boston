@@ -3,11 +3,6 @@
 
 [http://heroku.com](http://heroku.com)
 
-**Warning: Don't install the Heroku Toolbelt**
-
-They will ask you to install Toolbelt on the Heroku website, but don't do it. It will mess up
-your ruby install.
-
 ## 2. Create an account
 click the big **Sign Up** button (it's about halfway down the page)
 
