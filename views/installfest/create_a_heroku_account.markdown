@@ -20,23 +20,15 @@ Heroku will send you an activation email. Open it and click on the activation li
 
 ## 4. Install the Heroku gem
 
+You can skip this step if you installed the Railsbridge Virtual Machine.
+Otherwise, enter the following command:
+
 ```text
 gem install heroku
 ```
 
-If you see: 
+## 5. Create an ssh key
 
-```text
-!    The `heroku` gem has been deprecated and replaced with the Heroku Toolbelt"
-```
-Don't worry about it, that's expected.
-
-## 6. Create an ssh key
-
-**Windows**  
-You're all set, a key was created when you installed RailsInstaller.
-
-**OS X/Linux**  
 Type this in the terminal:
 
 ```text
@@ -57,13 +49,15 @@ Enter passphrase (empty for no passphrase): [Type a passphrase]
 # Enter same passphrase again: [Type passphrase again]
 ```
 
-## 7. Then add your public key to your Heroku account
+## 6. Then add your public key to your Heroku account
 
 ```text
 heroku keys:add
 ```
 
-## 8. Install the gittyup gem
+## 7. Install the gittyup gem (optional)
+
+The `gittyup` gem is a optional shortcut for executing git commits.
 
 ```text
 gem install gittyup
