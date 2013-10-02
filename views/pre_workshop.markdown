@@ -24,13 +24,6 @@ for Mac. Run the installer after it downloads.
 
 Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55cf8569167fc22415/Vagrant-1.3.3.dmg) for Mac. Run the installer after it downloads.
 
-Download the [Railsbridge Virtual
-Machine](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box). Just
-leave it in your Downloads folder. 
-
-
-
-
 
 ## OS X 10.5
 
@@ -39,9 +32,10 @@ and click Register. Fill out the first page with your account information.
 The second page is a developer survey, which you can skip. Just go to the bottom and click
 "Continue". 
 
-Once you have confirmed your developer account, you can download [Xcode 3.1.4](http://adcdownload.apple.com/Developer_Tools/xcode_3.1.4_developer_tools/xcode314_2809_developerdvd.dmg).  
-If that link doesn't work, go to the [downloads page](https://developer.apple.com/downloads)
-and search for "Xcode 3.1.4"
+Once you have confirmed your developer account, you can download [Xcode
+3.1.4](http://adcdownload.apple.com/Developer_Tools/xcode_3.1.4_developer_tools/xcode314_2809_developerdvd.dmg).
+If that link doesn't work, go to the [downloads
+page](https://developer.apple.com/downloads) and search for "Xcode 3.1.4"
 
 
 
@@ -54,10 +48,6 @@ Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55c
 Download [GitHub for Windows](http://windows.github.com/) and run the installer.
 If prompted during installation, install the Microsoft .NET framework.
 If GitHub for Windows automatically launches after installation, quit the application.
-
-Download the [Railsbridge Virtual
-Machine](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2.box). Just
-leave it in your Downloads folder. 
 
 
 ## Linux
