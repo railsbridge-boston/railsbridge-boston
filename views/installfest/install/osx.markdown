@@ -28,7 +28,7 @@ Choose "Open" from then menu, then click "Open" in the dialog that appears.*
 
 * Select your language, then click "OK"
 * Click "Next >"
-* Enter your Full Name and Email. Use the same name and email for this, GitHub and Heroku. 
+* Enter your Full Name and Email. Use the same name and email for this, Git, and Heroku. 
 * Click "Next" and "Next" and let the installer run.
 * Uncheck 'Open readme.pdf'—you don't need it
 * Click "Finish" and you are done!

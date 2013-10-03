@@ -20,10 +20,28 @@ Let's practice using these commands.
 You can find the Terminal application through Spotlight (click the magnifying glass in the top right of the screen and start typing "Terminal"), 
 or navigate to `Applications/Utilities/Terminal` in Finder.
 
+If you installed `vagrant`, type the following commands into the Terminal 
+window to get to the command prompt of your Ruby development environment:
+
+```text
+cd ~/rbb
+vagrant up
+vagrant ssh
+```
+
 **Windows**
 
-If you have installed Console2, open that from the shortcut you created.  
-If you skipped that step, open Git Bash by going to "All Programs > RailsInstaller > Git Bash".
+Open a Command Prompt window. You can find the Command Prompt application through 
+the Start Menu, All Programs, probably in Accessories.
+
+Type the following commands into the window to get to the command prompt of
+your Ruby development environment:
+
+```text
+cd rbb
+vagrant up
+vagrant ssh
+```
 
 **Linux**
 

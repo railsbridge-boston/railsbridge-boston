@@ -55,8 +55,8 @@ Heroku is the host that you will deploy your application to.
 email address you used for Heroku.
 
     ```text
-    $ git config --global user.name "John Doe"
-    $ git config --global user.email johndoe@example.com
+    git config --global user.name "John Doe"
+    git config --global user.email johndoe@example.com
     ```
 
 2. [optional] Git automatically colors most of its output if you ask it to.
@@ -125,6 +125,20 @@ Find a staff member and run through this checklist:
 
     ```text
     git version 1.7.10.2 (Apple Git-33)
+    ```
+
+    Then type:
+
+    ```text
+    git config --global --list
+    ```
+
+    And you should see output like this (with your name and email address):
+
+    ```text
+    user.name=John Doe
+    user.email=johndoe@example.com
+    
     ```
 
 5. Get a setup confirmation sticker from a staff member and stick it on
