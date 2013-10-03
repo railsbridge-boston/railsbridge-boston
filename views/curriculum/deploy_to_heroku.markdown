@@ -15,7 +15,7 @@ Before you do anything, ensure that you have the `heroku` toolbelt installed
 heroku --version
 ```
 
-If heroku doesn't respond with it's version, then you need to go to [Create a Heroku Account](/installfest/create_a_heroku_account),
+If heroku doesn't respond with its version, then you need to go to [Create a Heroku Account](/installfest/create_a_heroku_account),
 follow the instructions, then come back here.
 
 ### Step 1: Create a heroku application
