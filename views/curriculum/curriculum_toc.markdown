@@ -2,6 +2,12 @@
 <strong>Note to attendees</strong>: This is material that we expect you to read during the workshop, not before it.  
 </div>
 
+<div class="alert alert-info">
+<strong>Ask your TA questions!</strong> They are here to help you understand
+what you are doing as you go through the tutorial. If you just go through the
+tutorial mechanically, you won't learn or remember nearly as much.
+</div>
+
 
 # Saturday Curriculum
 
