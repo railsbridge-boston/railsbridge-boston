@@ -6,7 +6,7 @@
 
 * Create Your New Application
 
-Let's get started! By the end of this step, we'll have brand-spankin'-new rails app.
+Let's get started! By the end of this step, we'll have brand new rails app.
 
 
 ## Steps
@@ -64,7 +64,7 @@ To see the contents of the current folder, type this in the terminal
 ls
 ```
 
-`ls` stands for 'list (stuff)'.
+`ls` stands for 'list'.
 
 
 Let's look at the structure of the whole project. 
@@ -83,8 +83,7 @@ You can see the project directory when you're using Sublime Text. This is
 convenient when you're going to edit several files and want to navigate
 quickly.  Start Sublime Text and go to the File menu. Windows users should
 select "Open Folder"; OS X and Linux users should select the "Open..." command.
-Choose the suggestotron folder. A new pane showing the suggestotron folder will
-appear.
+Choose the suggestotron folder. A new pane showing the suggestotron folder will appear.
 
 You can see that `rails new` created a lot directories and files. The ones we will focus on today are:
 
