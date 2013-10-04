@@ -125,4 +125,6 @@ If you have any questions, comments, or feedback on tonight's material, don't he
 
 Go through the [Ruby in Twenty Minutes tutorial](https://www.ruby-lang.org/en/documentation/quickstart/).  Please note that for Windows users, you should use the Git shell instead of `fxri`.
 
+To go through this tutorial you should start your environment in the same way as you did in Step 3 above.
+
 
