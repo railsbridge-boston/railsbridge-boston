@@ -43,7 +43,7 @@ make more sense. Most people use `git add .` but `git add -A` can be safer. No m
 Type this in the terminal
 
 ```text
-git commit -m "Added all the things"
+git commit -m "Added initial project files"
 ```
 
 `git commit` tells git to actually do all things you've said you wanted to do.
