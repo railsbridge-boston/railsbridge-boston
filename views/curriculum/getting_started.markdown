@@ -37,8 +37,9 @@ rails new suggestotron --skip-sprockets
 In this case we told it to create a new project called suggestotron. We'll go
 into detail on what it created shortly.
 
-`--skip-sprockets` turns off a feature called the Asset Pipeline which we won't
-be using.
+`--skip-sprockets` turns off a complex optimization feature called the [Asset
+Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) which we won't be
+using.
 
 ## Step 2
 
