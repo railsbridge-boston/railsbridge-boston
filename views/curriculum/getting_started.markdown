@@ -39,7 +39,7 @@ into detail on what it created shortly.
 
 `--skip-sprockets` turns off a complex optimization feature called the [Asset
 Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) which we won't be
-using.
+using. Note there are *two leading dashes* in `--skip-sprockets`.
 
 ## Step 2
 
