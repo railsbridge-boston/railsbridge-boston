@@ -2,7 +2,7 @@ create table students (
   student_id serial primary key,
   name varchar null,
   ip varchar null,
-  workshop varchar,
+  workshop integer,
   created timestamp with time zone default now()
 );
 
