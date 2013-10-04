@@ -69,16 +69,6 @@ ls
 
 Let's look at the structure of the whole project. 
 
-In OS X, type this command to make Finder open the current directory:
-
-```text
-open .
-```
-
-You will see the entire directory tree of your project. We suggest leaving this
-open during the workshop, since the Rails lectures will mention many folders
-and files. 
-
 You can see the project directory when you're using Sublime Text. This is
 convenient when you're going to edit several files and want to navigate
 quickly.  Start Sublime Text and go to the File menu. Windows users should
