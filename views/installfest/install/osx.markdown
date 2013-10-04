@@ -41,7 +41,7 @@ Then type the following commands. Press ENTER after each command and wait for th
 before typing the next one.
 
 ```text
-vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2-c.box
+vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2-a.box
 vagrant init railsbridgebos
 vagrant up
 vagrant ssh
