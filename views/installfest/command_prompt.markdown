@@ -101,6 +101,11 @@ You can return to your home directory with this command:
 cd ~
 ```
 
+The tilde (`~`) is an abbreviation that points to your home directory. Type
+`pwd` while you're here in your home directory to see what your home directory
+looks like when it is spelled out.
+
+
 ### Tab Completion
 
 You can use Tab to auto-complete directory and file names. 
