@@ -1069,3 +1069,7 @@ code {
   font-family: Courier, monospace;
 
 }
+
+.alert {
+  font-size: 18px;
+}
