@@ -32,9 +32,8 @@ You're ready to start the Railsbridge Virtual Machine.
 In the Terminal type the following:
 
 ```text
-cd ~/Desktop
-mkdir railsbridge
-cd railsbridge
+mkdir ~/Desktop/railsbridge
+cd ~/Desktop/railsbridge
 ```
 
 Then type the following commands. Press ENTER after each command and wait for the operation to finish
@@ -54,7 +53,7 @@ Leave this terminal window open on your computer. To open an extra Terminal (con
 open a new Terminal window, then type:
 
 ```text
-cd Desktop/railsbridge
+cd ~/Desktop/railsbridge
 vagrant ssh
 ```
 
@@ -75,21 +74,10 @@ When you want to use the virtual machine (tomorrow morning, for instance),
 start your machine. Launch Terminal, then:
 
 ```text
-cd Desktop/railsbridge
+cd ~/Desktop/railsbridge
 vagrant up
 vagrant ssh
 ```
-
-When you're done the workshop on Saturday, you can remove the virtual machine from your computer with these steps.
-Launch Git Shell, then type:
-
-```text
-cd Desktop/railsbrdige
-vagrant halt
-vagrant box remove railsbridgebos
-```
-
-
 
 
 [« Back to Installfest](/installfest)
