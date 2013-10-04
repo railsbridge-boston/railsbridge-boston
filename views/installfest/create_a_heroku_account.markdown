@@ -50,7 +50,7 @@ Enter passphrase (empty for no passphrase): [Type a passphrase]
 heroku keys:add
 ```
 
-## 7. Install the gittyup gem (optional)
+## 7. Install the gittyup gem 
 
 The `gittyup` gem is a optional shortcut for executing git commits.
 
