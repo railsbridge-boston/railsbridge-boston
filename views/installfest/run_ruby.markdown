@@ -80,7 +80,7 @@ Save `hello.rb` and run it again.
 
 `print` is like `puts`, but it doesn't create a new line after its output.
 
-`upto` is an instance mehod of `Integer`. Look up the documentation from the command line by typing
+`upto` is an instance method of `Integer`. Look up the documentation from the command line by typing
 
 ```text
 ri Integer#upto
