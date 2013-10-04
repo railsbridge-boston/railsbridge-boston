@@ -175,7 +175,7 @@ weather BOS
 
 Example output:
 
-```
+```text
 vagrant@precise32:~/workspace$ weather BOS
 Current conditions at Boston Logan International, MA (KBOS)
 Last updated Oct 04, 2013 - 09:54 AM EDT / 2013.10.04 1354 UTC
