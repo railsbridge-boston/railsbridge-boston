@@ -86,5 +86,7 @@ Save `hello.rb` and run it again.
 ri Integer#upto
 ```
 
+Can you rewrite this last program to start at 1000 and count down to 1?
+
 
 [«Back](/installfest)
