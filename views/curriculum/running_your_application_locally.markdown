@@ -7,7 +7,7 @@
 ### Step 1
 
 
-We'll need to add a two more files and move a file to make the application
+We'll need to add two more files and move another to make the application
 work. Type this on the command line:
 
 ```text
