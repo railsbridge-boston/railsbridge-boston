@@ -84,14 +84,3 @@ cd ~/Documents/railsbridge
 vagrant up
 vagrant ssh
 ```
-
-When you're done the workshop on Saturday, you can remove the virtual machine from your computer with these steps.
-Launch Git Shell, then type:
-
-```text
-cd ~/Documents/railsbridge
-vagrant halt
-vagrant box remove railsbridgebos
-```
-
-
