@@ -13,7 +13,6 @@ require 'sequel'
 require 'json'
 
 DB = Sequel.connect(ENV['DATABASE_URL'] || 'postgres:///students')
-puts DB[:tables].inspect
 
 class Student < Sequel::Model
   one_to_many :completions
@@ -35,6 +34,8 @@ class HTMLwithCodeRay < Redcarpet::Render::HTML
 end
 
 class RubyWorkshop < Sinatra::Base
+
+  CURRENT_WORKSHOP = "NERD-OCT-2013"
   def initialize
     super
     @app = ::Deck::RackApp.public_file_server
@@ -86,7 +87,7 @@ class RubyWorkshop < Sinatra::Base
     res = if @student
       @student.values.merge(:completions => @student.completions.map(&:values))
     else
-      @student = Student.create(:name => nil)
+      @student = Student.create(:name => nil, :workshop => CURRENT_WORKSHOP)
       session[:student_id] = @student.student_id
       puts "Created student #{@student.student_id}"
       @student.values
@@ -110,9 +111,12 @@ class RubyWorkshop < Sinatra::Base
 
   # completions for this workshop 
   get '/completions' do
-    completions = DB["select page, count(student_id) from completions inner join students using (student_id) where students.name is not null  group by page"].to_a
-    total_students = DB["select count(*) as total from completions inner join students using (student_id) where students.name is not null  group by student_id"].first[:total]
-    total_completions = DB["select count(*) as total from completions inner join students using (student_id) where students.name is not null"].first[:total]
+    completions = DB["select page, count(student_id) from completions inner join students using (student_id) \ 
+       where students.name is not null and workshop = ? group by page"].to_a
+    total_students = DB["select count(*) as total from completions inner join students using (student_id) \
+       where students.name is not null and workshop = ?  group by student_id", CURRENT_WORKSHOP].first[:total]
+    total_completions = DB["select count(*) as total from completions inner join students using (student_id) \
+       where students.name is not null and workshop = ?", CURRENT_WORKSHOP].first[:total]
     {completions: completions, total_students: total_students, total_completions: total_completions }.to_json
   end
 
