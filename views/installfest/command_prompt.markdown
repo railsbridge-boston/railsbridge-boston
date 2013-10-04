@@ -42,7 +42,7 @@ Shell and enter the Railsbridge Virtual Machine.
 * Fedora: From the Main Menu bar select "Applications > System Tools > Terminal".
 
 
-### Practice using `ls`, `pwd`, and `cd`
+### Practice using `ls`, `pwd`, `cd`, and `man`
 
 Type each of these commands and hit enter:
 
