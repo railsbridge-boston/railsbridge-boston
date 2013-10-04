@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>RailsBridge Boston</title>
@@ -21,15 +20,17 @@
 
   <script id="studentProgress" type="text/html">
     <form id="progress-tick">
-      Check this box if you're done this unit:
-      <input type="checkbox" value="<%= request.path_info %>" id="doneBox"/>
-      |&nbsp; &nbsp; 
-      Your name (Click to focus, type, and then press TAB):
-      <span id="name" contenteditable="true">{{ name }}</span>
-      &nbsp; |&nbsp; &nbsp; 
-      {{#student_id}}
-        Student ID: <span id="studentId">{{student_id}}</span>
-      {{/student_id}}
+      <ul>
+        <li>Check this box if you're done this unit: <input type="checkbox" value="<%= request.path_info %>" id="doneBox"/>
+        </li>
+        <li>
+        Your name (click to focus, type, and then press TAB):
+        <span id="name" contenteditable="true">{{ name }}</span>
+        </li>
+        <li>
+          {{#student_id}} Student ID: <span id="studentId">{{student_id}}</span> {{/student_id}}
+        </li>
+      </ul>
     </div>
   </script>
   <script id="tweetTemplate" type="text/html">
