@@ -105,13 +105,18 @@ The tilde (`~`) is an abbreviation that points to your home directory. Type
 `pwd` while you're here in your home directory to see what your home directory
 looks like when it is spelled out.
 
-
 ### Tab Completion
 
-You can use Tab to auto-complete directory and file names. 
+Say you want to type `cd Documents` but you're too lazy to type out `Documents` every time.
+You can use a feature of the command line called tab completion. Tab completion lets you type
+part of the word and then press TAB to let the command line environment figure
+out how to complete it.
 
-So from inside the root directory, if you type `cd U` and hit Tab, the command
-prompt will auto-complete the directory name as much as it can.  
+So if you typed `cd Doc` and then pressed TAB, it would change your line to `cd
+Documents` if there was actually a Documents subdirectory in your working
+directory.
+
+
 
 ### Spaces in File and Folder Names
 
@@ -120,12 +125,6 @@ on the command line.  The command line expects a space means the end of a name,
 and you have to do extra work to show you mean a space.
 
 Suppose you want to go to a folder called "My Files".
-
-- The easiest way: type the beginning of the name and hit Tab for auto-complete.
-
-```text
-cd My<TAB>
-```
 
 - You can put the name inside double quotes or single quotes.
 
@@ -143,22 +142,14 @@ special, and you'd write them as \ , \\, \', and \".
 cd My\ Files
 ```
 
-- You can use a '\*', the wildcard character. Type in the beginning or end of
-  the name and a \* where it should fill in the blank, and hit Enter. If more
-  than one file matches that pattern, you may get an error,
-or the command line may pick the first match.
-
-```text
-cd My\*Files
-cd My\*les
-cd My\*
-```
-
 
 ### Command History
 
 The command prompt also maintains a command history. You can use the up arrow
-to cycle through old commands.
+to cycle through old commands. Press ENTER to execute an old command you want to run again. 
+Press CTRL-u to abort.
+
+
 
 ### Success!
 

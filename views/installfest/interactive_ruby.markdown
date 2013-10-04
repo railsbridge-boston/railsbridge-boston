@@ -84,4 +84,5 @@ Try this for a few of the instance methods you see for String.
 You can now run Ruby code in the IRB prompt and look up documentation for Ruby
 methods and classes with `ri`. Practice these steps until you feel comfortable.
 
+
 [«Back](/installfest)
