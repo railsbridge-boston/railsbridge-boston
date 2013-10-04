@@ -117,7 +117,6 @@ Documents` if there was actually a Documents subdirectory in your working
 directory.
 
 
-
 ### Spaces in File and Folder Names
 
 It's ok to include a space in a file or folder name, but it's a little tricky
@@ -146,18 +145,44 @@ need to be escaped. So the correct way to spell the command is this:
 cd My\ Files
 ```
 
-
 ### Command History
 
 The command prompt also maintains a command history. You can use the up arrow
 to cycle through old commands. Press ENTER to execute an old command you want to run again. 
 Press CTRL-u to abort.
 
-
-
 ### Success!
 
 You've practiced using `ls`, `pwd`, and `cd` to navigate your computer's
 filesystem from the command prompt.
+
+
+### Extra Credit (Railsbridge Virtual Machine and Ubuntu only)
+
+Wouldn't it be nerdy to be able to check local weather conditions from the command line? 
+
+You can by installing a program called weather utils. Type this command to install it
+
+```text
+sudo apt-get install weather-utils
+```
+
+Now you can check the weather with this command:
+
+```text
+weather BOS
+```
+
+Example output:
+
+```
+vagrant@precise32:~/workspace$ weather BOS
+Current conditions at Boston Logan International, MA (KBOS)
+Last updated Oct 04, 2013 - 09:54 AM EDT / 2013.10.04 1354 UTC
+Temperature: 66.0 F (18.9 C)
+Relative Humidity: 56%
+Wind: from the NNE (020 degrees) at 3 MPH (3 KT)
+Sky conditions: overcast
+```
 
 [«Back](/installfest)
