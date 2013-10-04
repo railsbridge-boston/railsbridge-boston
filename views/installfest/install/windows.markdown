@@ -16,8 +16,8 @@ Then type the following commands. Press ENTER after each command and wait for th
 before typing the next one.
 
 ```text
-mkdir ~/Documents/railsbridge
-cd ~/Documents/railsbridge
+mkdir ~/Desktop/railsbridge
+cd ~/Desktop/railsbridge
 vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2-a.box
 vagrant init railsbridgebos
 vagrant up
@@ -29,7 +29,7 @@ If the process seems to hang after `vagrant up`, try hitting the ENTER key to ge
 After typing the last command, here is what you should see (approximately):
 
 ```text
-C:\Users\Diligent Student\Documents\railsbridge> vagrant init railsbridgebos
+C:\Users\Diligent Student\Desktop\railsbridge> vagrant init railsbridgebos
 
 A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read
@@ -38,7 +38,7 @@ the comments in the Vagrantfile as well as documentation on
 ```
 
 ```text
-C:\Users\Diligent Student\Documents\railsbridge> vagrant up
+C:\Users\Diligent Student\Desktop\railsbridge> vagrant up
 
 Bringing machine 'default' up with 'virtualbox' provider...
    ...many lines left out...
@@ -46,7 +46,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ```
 
 ```text
-C:\Users\Diligent Student\Documents\railsbridge> vagrant ssh
+C:\Users\Diligent Student\Desktop\railsbridge> vagrant ssh
 
 Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
    ...many lines left out...
@@ -59,7 +59,7 @@ Leave this terminal window open on your computer.  To open an extra Terminal
 (console) into the virtual machine, open another Git Shell window, then type:
 
 ```text
-cd ~/Documents/railsbridge
+cd ~/Desktop/railsbridge
 vagrant ssh
 ```
 
@@ -80,7 +80,7 @@ When you want to use the virtual machine (tomorrow morning, for instance),
 start your machine. Launch Git Shell, then:
 
 ```text
-cd ~/Documents/railsbridge
+cd ~/Desktop/railsbridge
 vagrant up
 vagrant ssh
 ```
