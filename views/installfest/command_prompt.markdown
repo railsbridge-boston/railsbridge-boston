@@ -60,14 +60,27 @@ ls -l
 
 The `-l` is called a command flag or option. Many Unix commands have options.
 
-This displays the full directory path to your current directory, which is your home directory (pwd stands for Print Working Directory):
+Unix commands also come with on-line manuals, called *manpages* (short for
+"manual pages"). To view the manpage for the `ls` command, type 
+
+```text
+man ls
+
+```
+You should see the manpage for `ls` appear on the screen. You can scroll
+through it by pressing `f` and `b`, and then press `q` to quit.
+
+The following command displays the full directory path to your current
+directory, which is your home directory (pwd stands for Print Working
+Directory):
 
 ```text
 pwd
 ```
 
-Now you can change directories to the parent of the current directory.
+Once again, type `man pwd` to view the manpage.
 
+Now you can change directories to the parent of the current directory.
 
 
 ```text
