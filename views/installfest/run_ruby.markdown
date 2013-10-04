@@ -1,6 +1,14 @@
 # Run Ruby from a File
 
 
+**If you are using the Railsbridge Virtual Machine**, there should be a folder
+inside the virtual machine called `~/workspace`. This folder should be mapped
+to a folder at `~/Desktop/railsbridge` or `Documents\railsbridge` in your host
+operating system. Make sure you can find this second folder. It should already
+contain a file called `Vagrantfile`. When you are editing files in your text
+editor, make sure you save files to this folder or into a subdirectory inside
+this folder.  
+
 ### Start Your Text Editor
 
 1. Launch your text editor. See the [text editor setup instructions](/installfest/text_editor) 
@@ -17,10 +25,13 @@ for how to do this.
     puts "Hello World!"
     ```
 
-2. Save as `hello.rb` in your working directory. The `.rb` extension indicates that this file contains Ruby code.
+2. Save as `hello.rb` in your *working directory*. The `.rb` extension indicates that this file contains Ruby code.
 
-TODO Your **working directory** for VM.
+Your *working directory* is different depending on how you installed Ruby:
 
+* Windows: Documents\railsbridge
+* OS X + Railsbridge Virtual Machine: ~/Desktop/railsbridge
+* OS X + Railsinstaller: Create a folder called ~/Desktop/railsbridge and save your file there
 
 ### Run the Script
 

@@ -18,13 +18,21 @@ Let's practice using these commands.
 
 ### OS X
 
-You can find the Terminal application through Spotlight (click the magnifying glass in the top right of the screen and start typing "Terminal"), 
+You can find the Terminal application through Spotlight (click the magnifying
+glass in the top right of the screen and start typing "Terminal"), 
 or navigate to `Applications/Utilities/Terminal` in Finder.
+
+If you installed Ruby with the Railsbridge Virtual Machine, your command
+prompt should look like `vagrant@precise32:`.  If not, start up and enter the
+virtual machine with the steps at the bottom of the [pre-workshop
+instructions](/pre_workshop).
+
 
 ### Windows
 
 Launch the Git Shell if it isn't already open. Go back to to Step 1 of [Install
-Ruby on Windows](install/windows) if you need to launch it again.
+Ruby on Windows](install/windows) if you need to launch it again. 
+
 
 ### Linux
 
@@ -42,6 +50,13 @@ This lists all the files in your home directory (ls is short for 'list'):
 ls
 ```
 
+You can see the list in a more detailed way with this command:
+
+```text
+ls -l
+```
+
+The `-l` is called a command flag or option. Many Unix commands have options.
 
 This displays the full directory path to your current directory, which is your home directory (pwd stands for Print Working Directory):
 
@@ -49,73 +64,41 @@ This displays the full directory path to your current directory, which is your h
 pwd
 ```
 
-This will change you into the `/` top-level (or 'root') directory ('cd' stands for Change Directory): 
-
-```text
-cd /
-```
+Now you can change directories to the parent of the current directory.
 
 
-This lists the contents of the `/` root directory:
-
-```text
-ls
-```
-
-
-This will change you into the `Users` subdirectory of the `/` root directory:
-
-For OS X, Linux:
-
-```text
-cd Users    
-```
-
-For Windows:
-
-```text
-cd /c/Users 
-```
-
-
-Now that you are in the 'Users' directory, list all the files there.
-You should see a list of all the files in `/Users`, including the directory for your username—your home directory:
-
-```text
-ls
-```
-
-
-Print the working directory again. This displays the full directory path to your current directory, `/Users`:
-
-```text
-pwd
-```
-
-
-Change directories to the parent of the current directory.
-`..` means "parent directory", so this command moved you up to the parent directory. 
-You were in `/Users`, so now you are in `/`, the root directory:
 
 ```text
 cd ..
 ```
 
-This lists the contents of the '/', root directory, confirming where you are.
+`..` means "parent directory", so this command moved you up to the parent directory. 
+
+This lists the contents of this parent directory:
 
 ```text
 ls
 ```
 
+You can return to your home directory with this command:
+
+```text
+cd ~
+```
 
 ### Tab Completion
+
 You can use Tab to auto-complete directory and file names. 
-So from inside the root directory, if you type `cd U` and hit Tab, the command prompt will auto-complete the directory
-name as much as it can.  
+
+So from inside the root directory, if you type `cd U` and hit Tab, the command
+prompt will auto-complete the directory name as much as it can.  
 
 ### Spaces in File and Folder Names
-It's ok to include a space in a file or folder name, but it's a little tricky on the command line.
-The command line expects a space means the end of a name, and you have to do extra work to show you mean a space.
+
+It's ok to include a space in a file or folder name, but it's a little tricky
+on the command line.  The command line expects a space means the end of a name,
+and you have to do extra work to show you mean a space.
+
 Suppose you want to go to a folder called "My Files".
 
 - The easiest way: type the beginning of the name and hit Tab for auto-complete.
@@ -132,15 +115,17 @@ cd 'My Files'
 ```
 
 - You can put a backslash before the space. This is called "escaping".
-It turns any character that the command line treats as special back into the un-special character. Space, backslash, and
-single and double quotes are all special, and you'd write them as \ , \\, \', and \".
+It turns any character that the command line treats as special back into the
+un-special character. Space, backslash, and single and double quotes are all
+special, and you'd write them as \ , \\, \', and \".
 
 ```text
 cd My\ Files
 ```
 
-- You can use a '\*', the wildcard character. Type in the beginning or end of the name and a \*
-where it should fill in the blank, and hit Enter. If more than one file matches that pattern, you may get an error,
+- You can use a '\*', the wildcard character. Type in the beginning or end of
+  the name and a \* where it should fill in the blank, and hit Enter. If more
+  than one file matches that pattern, you may get an error,
 or the command line may pick the first match.
 
 ```text
@@ -151,9 +136,13 @@ cd My\*
 
 
 ### Command History
-The command prompt also maintains a command history. You can use the up arrow to cycle through old commands.
+
+The command prompt also maintains a command history. You can use the up arrow
+to cycle through old commands.
 
 ### Success!
-You've practiced using `ls`, `pwd`, and `cd` to navigate your computer's filesystem from the command prompt.
+
+You've practiced using `ls`, `pwd`, and `cd` to navigate your computer's
+filesystem from the command prompt.
 
 [«Back](/installfest)
