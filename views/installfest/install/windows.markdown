@@ -16,10 +16,9 @@ Then type the following commands. Press ENTER after each command and wait for th
 before typing the next one.
 
 ```text
-cd ..
 mkdir railsbridge
 cd railsbridge
-vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2-c.box
+vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2-a.box
 vagrant init railsbridgebos
 vagrant up
 vagrant ssh
@@ -56,7 +55,13 @@ vagrant@precise32:~$
 
 ## Step 3.
 
-Leave this terminal window open on your computer.
+Leave this terminal window open on your computer.  To open an extra Terminal
+(console) into the virtual machine, open another Git Shell window, then type:
+
+```text
+cd railsbridge
+vagrant ssh
+```
 
 Continue with the next step of the [Installfest](/installfest).
 
@@ -75,7 +80,18 @@ When you want to use the virtual machine (tomorrow morning, for instance),
 start your machine. Launch Git Shell, then:
 
 ```text
-cd ~/railsbridge
+cd railsbridge
 vagrant up
 vagrant ssh
 ```
+
+When you're done the workshop on Saturday, you can remove the virtual machine from your computer with these steps.
+Launch Git Shell, then type:
+
+```text
+cd railsbrdige
+vagrant halt
+vagrant box remove railsbridgebos
+```
+
+

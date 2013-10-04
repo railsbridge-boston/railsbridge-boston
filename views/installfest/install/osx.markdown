@@ -50,8 +50,46 @@ vagrant ssh
 After typing the last command, you should see a welcome message and prompt
 telling you that you're inside the Railsbridge Virtual Machine.
 
-Leave this terminal window open on your computer.
+Leave this terminal window open on your computer. To open an extra Terminal (console) into the virtual machine,
+open a new Terminal window, then type:
+
+```text
+cd Desktop/railsbridge
+vagrant ssh
+```
 
 Now continue with the Installfest and workshop. 
+
+## Turning the virtual machine off and on
+
+When you're done for the day, logout and stop your machine:
+
+```text
+logout
+vagrant halt
+```
+
+And quit the Terminal.
+
+When you want to use the virtual machine (tomorrow morning, for instance),
+start your machine. Launch Terminal, then:
+
+```text
+cd Desktop/railsbridge
+vagrant up
+vagrant ssh
+```
+
+When you're done the workshop on Saturday, you can remove the virtual machine from your computer with these steps.
+Launch Git Shell, then type:
+
+```text
+cd Desktop/railsbrdige
+vagrant halt
+vagrant box remove railsbridgebos
+```
+
+
+
 
 [« Back to Installfest](/installfest)
