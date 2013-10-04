@@ -27,6 +27,10 @@ Instructions for installing and running Ruby.
 [Install Ruby on Mac OS X 10.5](/installfest/install/osx-10-5)  
 [Install Ruby on Linux](/installfest/install/linux)  
 
+If you're using ChromeOS, please ask a TA to help you get set up. TA, please
+consult the Nitrous.io instructions added to [this GitHub
+repo](https://github.com/tdenkinger/docs/tree/nitrous.io/sites/installfest).
+
 
 ### 2. Using the Command Prompt
 The command prompt is the primary way to run Ruby files. In this section you will learn to navigate your filesystem
