@@ -101,7 +101,7 @@ You can return to your home directory with this command:
 cd ~
 ```
 
-The tilde (`~`) is an abbreviation that points to your home directory. Type
+The tilde `~` is an abbreviation that points to your home directory. Type
 `pwd` while you're here in your home directory to see what your home directory
 looks like when it is spelled out.
 
@@ -153,8 +153,8 @@ Press CTRL-u to abort.
 
 ### Success!
 
-You've practiced using `ls`, `pwd`, and `cd` to navigate your computer's
-filesystem from the command prompt.
+You've practiced using `ls`, `pwd`, `cd` to navigate your computer's
+filesystem from the command prompt. You also know how to look up documentation for Unix commands with `man`.
 
 
 ### Extra Credit 
