@@ -157,6 +157,41 @@ You've practiced using `ls`, `pwd`, and `cd` to navigate your computer's
 filesystem from the command prompt.
 
 
+### Extra Credit 
+
+Let's generate some ASCII art from the command line.
+
+If you are in the Railsbridge Virtual Machine, install the `curl` program first with this command:
+
+```text
+sudo apt-get -y install curl 
+```
+
+You should already have `curl` if you are using Railsinstaller.
+
+Now you can generate some ASCII art. Try this command:
+
+```text
+curl 'http://artii.herokuapp.com/make?text=I+love+ruby'
+```
+
+You should see output like this:
+
+```text
+
+vagrant@precise32:~/workspace$ curl 'http://artii.herokuapp.com/make?text=I+love+ruby'
+  _____   _                             _           
+ |_   _| | |                           | |          
+   | |   | | _____   _____   _ __ _   _| |__  _   _ 
+   | |   | |/ _ \ \ / / _ \ | '__| | | | '_ \| | | |
+  _| |_  | | (_) \ V /  __/ | |  | |_| | |_) | |_| |
+ |_____| |_|\___/ \_/ \___| |_|   \__,_|_.__/ \__, |
+                                               __/ |
+                                              |___/ vagrant@precise32:~/workspace$ 
+```
+
+Change the end of the command string to generate your own message.
+
 ### Extra Credit (Railsbridge Virtual Machine and Ubuntu only)
 
 Wouldn't it be nerdy to be able to check local weather conditions from the command line? 
