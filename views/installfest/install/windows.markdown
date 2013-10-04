@@ -16,8 +16,8 @@ Then type the following commands. Press ENTER after each command and wait for th
 before typing the next one.
 
 ```text
-mkdir railsbridge
-cd railsbridge
+mkdir ~/Documents/railsbridge
+cd ~/Documents/railsbridge
 vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2-a.box
 vagrant init railsbridgebos
 vagrant up
@@ -59,7 +59,7 @@ Leave this terminal window open on your computer.  To open an extra Terminal
 (console) into the virtual machine, open another Git Shell window, then type:
 
 ```text
-cd railsbridge
+cd ~/Documents/railsbridge
 vagrant ssh
 ```
 
@@ -80,7 +80,7 @@ When you want to use the virtual machine (tomorrow morning, for instance),
 start your machine. Launch Git Shell, then:
 
 ```text
-cd railsbridge
+cd ~/Documents/railsbridge
 vagrant up
 vagrant ssh
 ```
@@ -89,7 +89,7 @@ When you're done the workshop on Saturday, you can remove the virtual machine fr
 Launch Git Shell, then type:
 
 ```text
-cd railsbrdige
+cd ~/Documents/railsbridge
 vagrant halt
 vagrant box remove railsbridgebos
 ```
