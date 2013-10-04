@@ -1075,6 +1075,10 @@ code {
   line-height: 1.5em;
 }
 
+ul {
+  margin-top: 1em;
+}
+
 .CodeRay {
   padding-bottom: 0px;
   padding-left: 0;
