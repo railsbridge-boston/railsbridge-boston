@@ -34,9 +34,6 @@ type `subl Gemfile` (for instance) on the command line
 to edit your Gemfile.
 Type this command in the Terminal:
 
-```text
-sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
-```
 
 #### Linux
 These are directions tested for Kubuntu/Ubuntu version 13.04, although it will probably work on other distributions such as Mint.
