@@ -1060,8 +1060,9 @@ span[contenteditable=true]:focus {
 }
 
 pre {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: Courier, monospace;
+  line-height: 1.3em;
 }
 code {
   font-size: 1.0em;
