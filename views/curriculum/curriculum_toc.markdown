@@ -49,9 +49,6 @@
 * [Clean Up Links on the Topics List](clean_up_links_on_the_topics_list)  
 * [Commit and Push to Heroku, Yet Again](commit_and_push_to_heroku_yet_again)  
 
-## Rachel's App!
-* [Vote for beer!](http://railsbridgebeer.herokuapp.com/)
-
 ## Wrapping Up ##
 * [Next Steps](next_steps)
 * [Survey](https://docs.google.com/spreadsheet/viewform?formkey=dGs2QmpsUUNveml5ODBtV3NxLUZsNHc6MA#gid=0)
