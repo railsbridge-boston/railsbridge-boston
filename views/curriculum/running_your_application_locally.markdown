@@ -6,7 +6,17 @@
 
 ### Step 1
 
-Type this in the terminal
+
+Open the `Gemfile` in your text editor and add these lines to the bottom:
+
+```
+gem 'execjs'
+gem 'therubyracer'
+```
+
+Save the file.
+
+Type this in the terminal:
 
 ```text
 bundle
