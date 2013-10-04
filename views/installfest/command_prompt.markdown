@@ -126,17 +126,21 @@ and you have to do extra work to show you mean a space.
 
 Suppose you want to go to a folder called "My Files".
 
-- You can put the name inside double quotes or single quotes.
+If you typed 
 
 ```text
-cd "My Files"
-cd 'My Files'
+cd My Files
 ```
 
-- You can put a backslash before the space. This is called "escaping".
-It turns any character that the command line treats as special back into the
-un-special character. Space, backslash, and single and double quotes are all
-special, and you'd write them as \ , \\, \', and \".
+You would get an error message that looks like this:
+
+```text
+bash: cd: My: No such file or directory
+```
+
+You need to a backslash before the space inside "My Files". This is called "escaping".
+Space, backslash, and single and double quotes in filenames are all special and
+need to be escaped. So the correct way to spell the command is this:
 
 ```text
 cd My\ Files
