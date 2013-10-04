@@ -32,5 +32,43 @@ Now save your file and try reloading in your browser to see the changes.
 We did this because the title now links to the show page and from the show page you can reach the edit page.
 * The second change we made was to make the link text 'Delete' instead of destroy.
 
+## Extra Credit
+
+Give your new website a personal touch by styling it and adding an image.
+
+Your Rails application loads a CSS stylesheet from the file `public/stylesheets/application.css`. 
+Open this file in your text editor.
+
+If you have web design skills already, you can go to town. If not, let's make a simple font change.
+
+Add this style rule:
+
+```css
+body {
+  font-family: Comic Sans MS;
+}
+```
+
+Reload your browser to see your web pages styles in a different font.
+
+Let's add an image to the layout. Open `app/views/layouts/application.html.erb` in your text editor.
+
+Right after the opening `<body>` tag, lets add an image:
+
+```html
+<img src="http://www.bordobello.com/wp-content/uploads/2013/05/beer-cat-15.jpg"/>
+```
+
+Reload your browser. You should see an image!
+
+You can choose another image from the web and change the `src` attribute value. If the image is too big, you 
+can resize it like this
+
+```html
+<img src="http://www.bordobello.com/wp-content/uploads/2013/05/beer-cat-15.jpg" height=100 />
+```
+
+`height=100` ensures that the image is 100 pixels tall, and no more.
+
 ## Next Step
 Go on to [Commit and Push to Heroku, Yet Again](commit_and_push_to_heroku_yet_again)
