@@ -7,16 +7,21 @@
 ### Step 1
 
 
-Open the `Gemfile` in your text editor and add these lines to the bottom:
+We'll need to add a two more files and move a file to make the application
+work. Type this on the command line:
 
-```ruby
-gem 'execjs'
-gem 'therubyracer'
+```text
+mkdir public/assets
+mkdir public/javascripts
+mkdir public/stylesheets
+mv app/assets/rails.png public/assets
+touch public/javascripts/application.js
+touch  public/stylesheets/application.css
 ```
 
-Save the file.
+If you're curious what these commands are doing, as a teaching assistant.
 
-Type this in the terminal:
+Now we can start the server locally. Type this in the terminal:
 
 ```text
 bundle

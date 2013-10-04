@@ -16,7 +16,7 @@ Let's get started! By the end of this step, we'll have brand-spankin'-new rails 
 Type this in the terminal
 
 ```text
-rails new suggestotron 
+rails new suggestotron --skip-sprockets
 cd suggestotron
 ls
 ```
@@ -29,13 +29,16 @@ Here's a step-by-step breakdown, with explanations:
 Type this in the terminal
 
 ```text
-rails new suggestotron 
+rails new suggestotron --skip-sprockets
 ```
 
 `rails new` creates a new rails project with the name you give.
 
 In this case we told it to create a new project called suggestotron. We'll go
 into detail on what it created shortly.
+
+`--skip-sprockets` turns off a feature called the Asset Pipeline which we won't
+be using.
 
 ## Step 2
 
