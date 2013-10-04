@@ -35,9 +35,8 @@ Your *working directory* is different depending on how you installed Ruby:
 
 ### Run the Script
 
-1. Start the Command Prompt. See the [terminal navigation instructions](/installfest/command_prompt) for how to do this.
 
-2. Navigate to your working directory from a command prompt.
+2. Navigate to your working directory from the command line.
 Don't hesitate to get help from a staff member on this step if you need it -- it's a new way of navigating your 
 computer, so it may be unintuitive at first!
 
@@ -50,7 +49,7 @@ computer, so it may be unintuitive at first!
     ```
 
     and hit enter. This instructs Ruby to execute the contents of `hello.rb`. The `puts "Hello World!"` call will be 
-    executed within the script, and that should print "Hello World!" to the command prompt. You should see something
+    executed within the script, and that should print "Hello World!" to the command line. You should see something
     like this:
 
     ```text

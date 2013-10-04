@@ -2,9 +2,10 @@
 
 Console2 is not a shell, it is a "console window enhancement".  
 
-That means it's a nicer way to view the Bash shell you just configured. It has features like better font rendering, 
-transparency, window resizing(!), tabs, text selection, and easier copy and paste, among others. You will be spending plenty
-of time in the command prompt; these features will make life easier.
+That means it's a nicer way to view the Bash shell you just configured. It has
+features like better font rendering, transparency, window resizing(!), tabs,
+text selection, and easier copy and paste, among others. You will be spending
+plenty of time in the command line; these features will make life easier.
 
 
 ## 1. Install Console2
@@ -108,7 +109,7 @@ If you don't see these things, there may be something wrong with your configurat
 instructor.
 
 If you do see these things, congratulations! You've just installed and configured an awesome console. You are ready
-for the next section, "Using the Command Prompt".
+for the next section, "Using the Command Line".
 
 [« Back to Installfest](/installfest)
 

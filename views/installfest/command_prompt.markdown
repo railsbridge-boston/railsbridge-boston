@@ -1,6 +1,14 @@
-# Using the Command Prompt
+# Using the Command Line
 
-There are three commands that we'll be using at a command prompt to navigate the filesystem on your computer:  
+Now it's time to introduce you to the [command
+line](http://en.wikipedia.org/wiki/Command-line_interface). You're certainly
+used to interacting with computers through [Graphical User
+Interfaces](http://en.wikipedia.org/wiki/Graphical_user_interface). The command
+line is an alternative way of interacting with the computer. Though it may seem
+very austere compared to a GUI, it is much more versatile and powerful if you know
+what you are doing. 
+
+There are three commands that we'll be using at a command line to navigate the filesystem on your computer:  
 
 ```text
 ls
@@ -14,7 +22,7 @@ cd
 
 Let's practice using these commands.  
 
-## Open a command prompt
+## Open a command line
 
 ### OS X
 
@@ -147,14 +155,14 @@ cd My\ Files
 
 ### Command History
 
-The command prompt also maintains a command history. You can use the up arrow
+The command line also maintains a command history. You can use the up arrow
 to cycle through old commands. Press ENTER to execute an old command you want to run again. 
 Press CTRL-u to abort.
 
 ### Success!
 
 You've practiced using `ls`, `pwd`, `cd` to navigate your computer's
-filesystem from the command prompt. You also know how to look up documentation for Unix commands with `man`.
+filesystem from the command line. You also know how to look up documentation for Unix commands with `man`.
 
 
 ### Extra Credit 

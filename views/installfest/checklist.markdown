@@ -5,7 +5,7 @@
     ``` ruby
     puts 'Hello World!'
     ```
-    Then save the file. From the command prompt, navigate to and execute the Ruby script you just created.
+    Then save the file. From the command line, navigate to and execute the Ruby script you just created.
 
 2. Confirm that Ruby and Rails are installed on your machine.  From the command line type:
 

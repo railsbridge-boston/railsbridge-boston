@@ -5,7 +5,7 @@ It is "interactive" because every time you write a line of code and press
 'Enter', the code executes and shows you the result. This allows you to
 experiment and get instant feedback.
 
-Start up a new command prompt (or 'Terminal').
+Start up a new command line (or 'Terminal').
 
 To run irb, type
 
@@ -47,7 +47,7 @@ Exit IRB by typing
 exit
 ```
 
-and hitting enter. You are now back at the command prompt.
+and hitting enter. You are now back at the command line.
 
 Assuming things worked, you invoked a Ruby method called `puts`.
 If you want to look up the documentation for `puts`, there is a nifty command Ruby

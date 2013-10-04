@@ -32,11 +32,11 @@ consult the Nitrous.io instructions added to [this GitHub
 repo](https://github.com/tdenkinger/docs/tree/nitrous.io/sites/installfest).
 
 
-### 2. Using the Command Prompt
-The command prompt is the primary way to run Ruby files. In this section you will learn to navigate your filesystem
-from your command prompt.
+### 2. Using the Command Line
+The command line is the primary way to run Ruby files. In this section you will
+learn to navigate your filesystem from your command line.
 
-[Using the Command Prompt](/installfest/command_prompt)
+[Using the Command Line](/installfest/command_prompt)
 
 ### 3. Starting and Exiting Interactive Ruby
 To start writing Ruby code, you will use the Interactive Ruby Shell (irb). It is "interactive" because every time you 
