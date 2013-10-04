@@ -13,7 +13,7 @@ Let's get started! By the end of this step, we'll have brand-spankin'-new rails 
 
 <img src="/images/info.png"></img> If you have any problems, contact a TA immediately.
 
-Type this in the terminal
+You will type this in the terminal. But please read the explanations for each line below as you type them.
 
 ```text
 rails new suggestotron --skip-sprockets
