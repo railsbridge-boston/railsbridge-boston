@@ -1,6 +1,7 @@
 create table students (
   student_id serial primary key,
   name varchar null,
+  ip varchar null,
   created timestamp with time zone default now()
 );
 

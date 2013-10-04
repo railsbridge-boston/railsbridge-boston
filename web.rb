@@ -13,6 +13,7 @@ require 'sequel'
 require 'json'
 
 DB = Sequel.connect(ENV['DATABASE_URL'] || 'postgres:///students')
+puts DB[:tables].inspect
 
 class Student < Sequel::Model
   one_to_many :completions
@@ -72,7 +73,7 @@ class RubyWorkshop < Sinatra::Base
 
   post '/student' do
     if load_student
-      @student.update(:name => params[:name])
+      @student.update(:name => params[:name], :ip => request.ip)
       @student.values.to_json
     else
       {:error => "No student found"}
@@ -107,10 +108,11 @@ class RubyWorkshop < Sinatra::Base
     "OK"
   end
 
+  # completions for this workshop 
   get '/completions' do
-    completions = DB["select page, count(student_id) from completions  group by page"].to_a
-    total_students = DB["select count(*) as total from completions  group by student_id"].first[:total]
-    total_completions = DB["select count(*) as total from completions "].first[:total]
+    completions = DB["select page, count(student_id) from completions inner join students using (student_id) where students.name is not null  group by page"].to_a
+    total_students = DB["select count(*) as total from completions inner join students using (student_id) where students.name is not null  group by student_id"].first[:total]
+    total_completions = DB["select count(*) as total from completions inner join students using (student_id) where students.name is not null"].first[:total]
     {completions: completions, total_students: total_students, total_completions: total_completions }.to_json
   end
 
