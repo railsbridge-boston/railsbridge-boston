@@ -24,14 +24,16 @@ or navigate to `Applications/Utilities/Terminal` in Finder.
 
 If you installed Ruby with the Railsbridge Virtual Machine, your command
 prompt should look like `vagrant@precise32:`.  If not, start up and enter the
-virtual machine with the steps at the bottom of the [pre-workshop
-instructions](/pre_workshop).
+virtual machine with the steps at the bottom of the [install 
+instructions](install/osx).
 
 
 ### Windows
 
-Launch the Git Shell if it isn't already open. Go back to to Step 1 of [Install
-Ruby on Windows](install/windows) if you need to launch it again. 
+Launch the Git Shell and enter the Railsbridge Virtual Machine if it isn't
+already open. Go back to the [Install Ruby on
+Windows](install/windows) instructions if you need to see how to start Git
+Shell and enter the Railsbridge Virtual Machine.
 
 
 ### Linux
