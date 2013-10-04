@@ -65,4 +65,26 @@ You learned:
 
 * When you run the `ruby` command with a file name as an argument, Ruby executes the Ruby code in that file.
 
+
+### Extra Credit
+
+Edit your `hello.rb` file to use a Ruby loop.
+
+```
+1.upto(1000) do |x|
+  print "hello for the #{x}th time! "
+end
+```
+
+Save `hello.rb` and run it again.
+
+`print` is like `puts`, but it doesn't create a new line after its output.
+
+`upto` is an instance mehod of `Integer`. Look up the documentation from the command line by typing
+
+```text
+ri Integer#upto
+```
+
+
 [«Back](/installfest)
