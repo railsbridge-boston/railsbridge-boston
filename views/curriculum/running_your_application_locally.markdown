@@ -16,7 +16,7 @@ mkdir public/javascripts
 mkdir public/stylesheets
 mv app/assets/rails.png public/assets
 touch public/javascripts/application.js
-touch  public/stylesheets/application.css
+touch public/stylesheets/application.css
 ```
 
 If you're curious what these commands are doing, ask a teaching assistant.
