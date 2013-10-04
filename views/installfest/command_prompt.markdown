@@ -161,7 +161,7 @@ filesystem from the command prompt.
 
 Wouldn't it be nerdy to be able to check local weather conditions from the command line? 
 
-You can by installing a program called weather utils. Type this command to install it
+You can by installing a program called weather-utils. Type this command to install it
 
 ```text
 sudo apt-get install weather-utils
