@@ -9,7 +9,7 @@
 
 Open the `Gemfile` in your text editor and add these lines to the bottom:
 
-```
+```ruby
 gem 'execjs'
 gem 'therubyracer'
 ```
