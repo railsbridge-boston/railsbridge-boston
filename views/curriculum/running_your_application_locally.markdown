@@ -19,7 +19,7 @@ touch public/javascripts/application.js
 touch  public/stylesheets/application.css
 ```
 
-If you're curious what these commands are doing, as a teaching assistant.
+If you're curious what these commands are doing, ask a teaching assistant.
 
 Now we can start the server locally. Type this in the terminal:
 
