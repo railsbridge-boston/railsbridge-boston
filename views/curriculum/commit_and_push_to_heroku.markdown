@@ -26,7 +26,8 @@ heroku run rake db:migrate</pre>
 </div>
 
 ### Step 2: Check that it worked
-Open your heroku app in the browser again by typing `heroku open`, then add "topics" to the end of the url.
+
+Reload your Heroku app in the web browser, then add "topics" to the end of the url.
 So if your app is called at http://fierce-meadow-4845.heroku.com/ it should look lile
 http://fierce-meadow-4845.heroku.com/topics
 

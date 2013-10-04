@@ -262,12 +262,7 @@ heroku create
 git push heroku master
 
 
-
-
-
-
-Notice the URL that heroku reports after you typed "heroku create."  Type this URL in your browser to see your application on the web.  If you don't want to do that, the command 
-heroku open does this for you by opening the browser.
+Notice the URL that heroku reports after you typed "heroku create."  Type this URL in your browser to see your application on the web.  
 
 
 #A Closer Look at the Features
