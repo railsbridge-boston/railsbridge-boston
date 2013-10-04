@@ -28,12 +28,6 @@ If you are unsure, we suggest [Sublime Text 2](http://www.sublimetext.com/2)
 1. Inside the `Downloads` folder you should find the `Sublime Text 2.x.x.dmg` — double click it to open it.  
 1. That will open the Sublime Text installer disk image in the Finder window in front of you. Drag `Sublime Text 2` into 
 `Applications`.
-1. (optional) To edit files in Sublime Text from the command line,
-you need to add a `symlink`. This will allow you to
-type `subl Gemfile` (for instance) on the command line
-to edit your Gemfile.
-Type this command in the Terminal:
-
 
 #### Linux
 These are directions tested for Kubuntu/Ubuntu version 13.04, although it will probably work on other distributions such as Mint.
