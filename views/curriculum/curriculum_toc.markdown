@@ -23,7 +23,6 @@
 * [Add the Project Files to the Git Repo](add_the_project_to_the_git_repo)  
 * [Run Your Application on Your Machine](running_your_application_locally)  
 * [Deploy to Heroku](deploy_to_heroku)  
-    * [Extra Credit: Git Branches](extra_credit/02_git_branches)
     * [Extra Credit: More Heroku](extra_credit/03_more_heroku)
 
 ## Models, Scaffolding, and Migrations ##

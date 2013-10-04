@@ -136,7 +136,8 @@ If you need a reminder on how to run the rails server, go back to [Running Your 
 The instructions for Git and Heroku are up above on this page.
 
 ## Extra Credit
-Looking for some Extra Credit? Why not try learning about [git branches](extra_credit/02_git_branches)? You can also try doing some [more with Heroku](extra_credit/03_more_heroku).
+
+Try doing some [more with Heroku](extra_credit/03_more_heroku).
 
 ## Next Step
 
