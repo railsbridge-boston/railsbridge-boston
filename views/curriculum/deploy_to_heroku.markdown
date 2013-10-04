@@ -82,13 +82,17 @@ This takes all changes you've committed locally and pushes them to heroku.
 
 ### Step 5: Visit your application
 
-Type this in the terminal
+Find out the web URL of your application with this command:
 
 ```text
-heroku open
+heroku apps:info
 ```
 
-This opens the new application in your browser.
+You should see some output. The last line should be the web URL of your
+deployed Rails application.
+
+Copy this URL into your web browser and load it.  This opens your new web
+application in your browser.
 
 
 ## Explanation
