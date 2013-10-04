@@ -48,8 +48,29 @@ git commit -m "Added initial project files"
 
 `git commit` tells git to actually do all things you've said you wanted to do.
 This is done in two steps so you can group multiple changes together.
-`-m "Added all the things"` is just a shortcut to say what your commit message is.
-You can skip that part and git will bring up an editor to fill out a more detailed message.
+
+`-m` is a option that tells git to add the commit message that follows.
+
+You can see what you've just added to the repository in several ways:
+
+```text
+git log
+```
+
+will show a log of your commit messages with timestamps. Scroll with `f` and `b` and quit the view with `q`.
+
+```text
+git log --stat
+```
+
+adds some information about which files you changed in each commit and how many lines you deleted or added.
+
+```text
+git log -p
+```
+
+shows a log of your previous changes in detail.
+
 
 ## Explanation
 
