@@ -164,7 +164,7 @@ Let's generate some ASCII art from the command line.
 If you are in the Railsbridge Virtual Machine, install the `curl` program first with this command:
 
 ```text
-sudo apt-get -y install curl 
+sudo apt-get install -y curl 
 ```
 
 You should already have `curl` if you are using Railsinstaller.
@@ -196,10 +196,10 @@ Change the end of the command string to generate your own message.
 
 Wouldn't it be nerdy to be able to check local weather conditions from the command line? 
 
-You can by installing a program called weather-utils. Type this command to install it
+You can by installing a program called weather-util. Type this command to install it
 
 ```text
-sudo apt-get install weather-utils
+sudo apt-get install -y weather-util
 ```
 
 Now you can check the weather with this command:
