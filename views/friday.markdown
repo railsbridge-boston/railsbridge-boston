@@ -3,8 +3,6 @@
 </div>
 
 
-TODO: fix all directory references so that Railsbridge VM users don't get lost
-
 # Friday Night
 
 ## Installfest
