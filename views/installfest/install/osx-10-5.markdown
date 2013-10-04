@@ -1,5 +1,9 @@
 ## Instructions for Mac OS X 10.5
 
+Before you start these steps, please let a TA know that you are running OS X 10.5.
+This will help us know that you may need extra assistance doing the installatino.
+
+
 ### Install Command Line Tools from XCode
 
 Download Xcode 3.1.4 from the Apple Developer Center:  
