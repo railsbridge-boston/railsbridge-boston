@@ -14,7 +14,7 @@ work. Type this on the command line:
 mkdir public/assets
 mkdir public/javascripts
 mkdir public/stylesheets
-mv app/assets/rails.png public/assets
+mv app/assets/images/rails.png public/assets
 touch public/javascripts/application.js
 touch public/stylesheets/application.css
 ```
