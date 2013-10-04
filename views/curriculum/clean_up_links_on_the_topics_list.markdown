@@ -45,11 +45,11 @@ Add this style rule:
 
 ```css
 body {
-  font-family: Comic Sans MS;
+  font-family: "Comic Sans MS";
 }
 ```
 
-Reload your browser to see your web pages styles in a different font.
+Reload your browser to see your web pages styled in a different font.
 
 Let's add an image to the layout. Open `app/views/layouts/application.html.erb` in your text editor.
 
