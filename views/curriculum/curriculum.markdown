@@ -57,7 +57,7 @@ $ irb
 $
 ```
 
-If you can do that, you are probably good to go.
+If you can do that, you are probably good to go. If you can't get this to work, ask a TA to help.
 
 
 ## Working Effectively and Efficiently
