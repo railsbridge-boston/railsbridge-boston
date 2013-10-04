@@ -60,13 +60,13 @@ ls -l
 
 The `-l` is called a command flag or option. Many Unix commands have options.
 
-Unix commands also come with on-line manuals, called *manpages* (short for
+Many Unix commands also come with on-line manuals, called *manpages* (short for
 "manual pages"). To view the manpage for the `ls` command, type 
 
 ```text
 man ls
-
 ```
+
 You should see the manpage for `ls` appear on the screen. You can scroll
 through it by pressing `f` and `b`, and then press `q` to quit.
 
