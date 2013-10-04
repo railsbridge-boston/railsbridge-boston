@@ -70,7 +70,7 @@ You learned:
 
 Edit your `hello.rb` file to use a Ruby loop.
 
-```
+```ruby
 1.upto(1000) do |x|
   print "hello for the #{x}th time! "
 end
