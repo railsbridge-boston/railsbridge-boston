@@ -1,56 +1,87 @@
-# Interactive Ruby (IRB)
-The Interactive Ruby Shell (irb) is a console that lets you execute Ruby code. It is "interactive" because every time you
-write a line of code and press 'Enter', the code executes and shows you the result. This allows you to experiment
-and get instant feedback.
+# Interactive Ruby (IRB) and looking up Ruby documentation (RI)
 
-1. Start up a new command prompt (or 'Terminal').
+The Interactive Ruby Shell (irb) is a console that lets you execute Ruby code.
+It is "interactive" because every time you write a line of code and press
+'Enter', the code executes and shows you the result. This allows you to
+experiment and get instant feedback.
 
-2. To run irb, type
+Start up a new command prompt (or 'Terminal').
 
-    ```text
-    irb
-    ```
-    You should see something like this:
+To run irb, type
 
-    ```text
-    irb(main):001:0> 
-    ```
-    or
+```text
+irb
+```
+You should see something like this:
 
-    ```text
-    1.9.3-p327 :001 >
-    ```
+```text
+irb(main):001:0> 
+```
+or
 
-    This is the irb prompt. It means that irb is running and ready for you to type something.
+```text
+1.9.3-p327 :001 >
+```
 
-    The numbers at the end are a counter.  Hit enter a few times and watch the number go up.
+This is the irb prompt. It means that irb is running and ready for you to type something.
 
-3. Try out a line of ruby. Type:
+The numbers at the end are a counter.  Hit enter a few times and watch the number go up.
 
-    ```ruby
-    puts 'Hello world!'
-    ```
+Try out a line of ruby. Type:
 
-    You should see something like this:
+```ruby
+puts 'Hello world!'
+```
 
-    ```ruby
-    irb(main):001:0> puts 'Hello world!'
-    Hello world!
-    => nil
-    ```
+You should see something like this:
 
-4. Exit IRB by typing
-    
-    ```ruby
-    exit
-    ```
+```ruby
+irb(main):001:0> puts 'Hello world!'
+Hello world!
+=> nil
+```
 
-    and hitting enter. You are now back at the command prompt.
+Exit IRB by typing
 
-    On Windows, you can also exit by pressing the control and C keys (a.k.a "Ctrl-C" or "^C") at the same time.
+```ruby
+exit
+```
+
+and hitting enter. You are now back at the command prompt.
+
+Assuming things worked, you invoked a Ruby method called `puts`.
+If you want to look up the documentation for `puts`, there is a nifty command Ruby
+provdies called `ri`. Type this on the command line:
+
+```text
+ri puts
+```
+
+You should see some documentation for several different versions of the `puts` method.
+Use `f` and `b` to scroll, and `q` to quit.
+
+If might be confusing which version of `puts` you actually invoked, but after you
+learn more Ruby you should get the hang of it.
+
+Try looking up the documentation for `String`:
+
+```text
+ri String
+```
+
+You'll see a long list of words under the heading "Instance methods". You can
+look up further documentation for each of those instance methods of String like so: 
+
+```text
+ri String#capitalize
+```
+
+Try this for a few of the instance methods you see for String. 
+
+
 
 ### Success
-You can now run Ruby code in the IRB prompt. Practice these steps until you feel comfortable starting a command prompt, 
-then starting and exiting IRB.
+You can now run Ruby code in the IRB prompt and look up documentation for Ruby
+methods and classes with `ri`. Practice these steps until you feel comfortable.
 
 [«Back](/installfest)
