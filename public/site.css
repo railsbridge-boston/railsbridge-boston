@@ -1074,3 +1074,8 @@ code {
   font-size: 18px;
   line-height: 1.5em;
 }
+
+.CodeRay {
+  padding-bottom: 0px;
+  padding-left: 0;
+}
