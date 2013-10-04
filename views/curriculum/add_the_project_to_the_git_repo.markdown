@@ -32,11 +32,8 @@ git add .
 With Git, there are many ways to do the same thing.
 
 * `git add foo.txt` adds a file named `foo.txt`
-* `git add .` adds all new files and changed files, but *keeps* files that you've deleted
-* `git add -A` adds everything, including deletions
+* `git add .` adds all new files and changed files
 
-"Adding deletions" may sound weird, but if you think of a version control system as keeping track of changes, it might
-make more sense. Most people use `git add .` but `git add -A` can be safer. No matter what, `git status` is your friend.
 
 ### Step 3
 
