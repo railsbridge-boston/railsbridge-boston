@@ -183,6 +183,7 @@ class RubyWorkshop < Sinatra::Base
       ["http://www.microsoftcambridge.com", "/sponsors/microsoftlogo.png"],
       ["http://www.vermonster.com", "/sponsors/vermonster.png"],
       ["http://www.visiblemeasures.com", "/sponsors/visible_measures.jpg"],
+      ["https://generalassemb.ly/boston", "/sponsors/GA_logo.png"],
     ].shuffle
   end
 
