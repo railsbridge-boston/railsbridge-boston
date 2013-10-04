@@ -52,7 +52,7 @@ heroku keys:add
 
 ## 7. Install the gittyup gem 
 
-The `gittyup` gem is a optional shortcut for executing git commits.
+The `gittyup` gem is a shortcut for executing git commits.
 
 ```text
 gem install gittyup
