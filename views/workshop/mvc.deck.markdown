@@ -63,6 +63,18 @@ In terminal:
   $ rails generate scaffold post
 ```
 
+<!SLIDE>
+
+# Resources
+
+* A resource is similar to a scaffold, but it doesn't do as much work, you have to fill some of the blanks
+* This is what you'll use in the exercise
+
+In terminal:
+
+```
+  $ rails generate resource post
+```
 
 <!SLIDE>
 
