@@ -1,6 +1,6 @@
 # MVC and Associations
-### Dan Pickett
-##### [@dpickett](http://twitter.com/dpickett)
+### Braulio Carreno
+##### [@bcarreno](http://twitter.com/bcarreno)
 
 <!SLIDE>
 
