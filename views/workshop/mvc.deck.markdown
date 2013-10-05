@@ -6,9 +6,9 @@
 
 # What does MVC stand for?
 
-* <strong>M</strong>odel
-* <strong>V</strong>iew
-* <strong>C</strong>ontroller
+* **M**odel
+* **V**iew
+* **C**ontroller
 
 <!SLIDE>
 
@@ -20,7 +20,7 @@ We break down the system into pieces and interactions between those pieces.
 
 <!SLIDE>
 
-# MVC is a <strong>design pattern</strong>
+# MVC is a **design pattern**
 
 Hint: it's just a better way for programmers to understand their own code.
 
@@ -32,8 +32,8 @@ Hint: it's just a better way for programmers to understand their own code.
 # When you hear MVC, remember:
 
 * Models know my data and the business logic
-* Controllers direct the traffic
 * Views handle the presentation
+* Controllers direct the traffic
 
 <!SLIDE>
 
@@ -55,12 +55,12 @@ app
 # Scaffolds Make It Easy!
 
 * A scaffold (like the one you just generated) creates a model, controller, and set of views for you.
-* <strong>GREAT</strong> for learning.
+* **GREAT** for learning.
 
 In terminal:
 
 ```
-  $ rails generate scaffold post
+  $ rails generate scaffold article
 ```
 
 <!SLIDE>
@@ -73,7 +73,7 @@ In terminal:
 In terminal:
 
 ```
-  $ rails generate resource post
+  $ rails generate resource article
 ```
 
 <!SLIDE>
@@ -86,7 +86,7 @@ In terminal:
 
 # The Model
 
-![Model](http://carreno.me/assets/a/model.png)
+![Model](/images/slides/mvc/model.png)
 
 <!SLIDE>
 
@@ -95,7 +95,7 @@ In terminal:
 * The **data** components of my system
 * How these pieces relate to each other with **associations**
 * Validating objects to ensure good data gets in the system
-* These depend on the "business" logic, ex: bookstore, blog, forum
+* These depend on the "business" logic, ex: bookstore, blog, social network
 * Where the CRUD interaction with the database happens!
   * Create
   * Read
@@ -106,49 +106,53 @@ In terminal:
 
 # The Model in Rails: ActiveRecord and ActiveModel
 
-* Maps your real world objects to database tables with <strong>persistence</strong>
-* Relate real world objects together with <strong>associations</strong>
-* Keeps your data clean with <strong>validations</strong>
+* Maps your real world objects to database tables with **persistence**
+* Relate real world objects together with **associations**
+* Keeps your data clean with **validations**
 
 <!SLIDE>
 
-# Related real world objects with <strong>associations</strong>
+# Relate real world objects with **associations**
 
-Objects can be <strong>related</strong> using foreign key relationships.
+Objects can be **related** using foreign key relationships.
 
 There are different types of relationships.
 
 <!SLIDE>
 
-![OneToMany](http://screens.launchware.com/f6bf450896f4f3367f262802a15d3bae.jpg)
+## One to Many Association
 
-* A post <strong>has_many</strong> comments
-* A comment <strong>belongs_to</strong> a post
+![OneToMany](/images/slides/mvc/association_one_to_many.png)
+
+* An article **has_many** comments
+* A comment **belongs_to** an article
 
 <!SLIDE>
 
-![OneToMany](http://screens.launchware.com/f6bf450896f4f3367f262802a15d3bae.jpg)
+![OneToMany](/images/slides/mvc/association_one_to_many.png)
 
 ``` Ruby
-  class Post < ActiveRecord::Base
+  class Article < ActiveRecord::Base
     has_many :comments
   end
 
   class Comment < ActiveRecord::Base
-    belongs_to :post
+    belongs_to :article
   end
 ```
 
 <!SLIDE>
 
-![OneToOne](http://screens.launchware.com/c3941a04d4049395b49c2b262d8ea2cf.jpg)
+## One to One Association
 
-* A user <strong>has_one</strong> favorite url
-* A favorite url <strong>belongs_to</strong> a user
+![OneToOne](/images/slides/mvc/association_one_to_one.png)
+
+* A user **has_one** favorite url
+* A favorite url **belongs_to** a user
 
 <!SLIDE>
 
-![OneToOne](http://screens.launchware.com/c3941a04d4049395b49c2b262d8ea2cf.jpg)
+![OneToOne](/images/slides/mvc/association_one_to_one.png)
 
 ``` Ruby
   class User < ActiveRecord::Base
@@ -192,7 +196,7 @@ There are different types of relationships.
 
 * Determines what view to render or where to send you
 * Determines what models to show in the view (the bridge between the model and the view)
-* Determines if you have access to the information? (<strong>Authentication and Authorization</strong>)
+* Determines if you have access to the information? (**Authentication and Authorization**)
 
 ![Serious Traffic Cop](http://screens.launchware.com/6e7866cab4c2d0c251620915cae4fd21.jpg)
 
@@ -264,8 +268,8 @@ There are different types of relationships.
 # Remember: when their forces combine...
 
 * Models take care of business!
-* Controllers direct the traffic
 * Views handle the presentation
+* Controllers direct the traffic
 
 <!SLIDE>
 
