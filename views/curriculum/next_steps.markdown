@@ -11,7 +11,8 @@ some resources you can explore next:
 
 ### Online Resources
 
+ * [DevChix Mailing List](http://www.devchix.com/join-devchix/)
  * [BostonRB Mailing List](https://groups.google.com/forum/#!forum/boston-rubygroup)
  * [Learn to Program by Chris Pine](http://pragprog.com/book/ltp2/learn-to-program)
  * [Ruby on Rails Tutorial](http://ruby.railstutorial.org/)
- 
+
