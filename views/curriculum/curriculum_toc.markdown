@@ -11,8 +11,6 @@ tutorial mechanically, you won't learn or remember nearly as much.
 
 # Saturday Curriculum
 
-## Introduction ##
-* [_Lecture Slides: Opening_](/workshop/opening) 
 
 ## Learning Ruby ##
 * [_Lecture Slides: Intro to Ruby_](/presentations/intro_to_ruby.pdf)
