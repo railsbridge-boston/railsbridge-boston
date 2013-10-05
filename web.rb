@@ -111,7 +111,7 @@ class RubyWorkshop < Sinatra::Base
 
   # completions for this workshop 
   get '/completions' do
-    completions = DB["select page, count(student_id) from completions inner join students using (student_id) \ 
+    completions = DB["select page, count(distinct student_id) from completions inner join students using (student_id) \ 
        where students.name is not null and workshop = ? group by page", CURRENT_WORKSHOP].to_a
 
     total_students = DB["select count(*) as total from students 
