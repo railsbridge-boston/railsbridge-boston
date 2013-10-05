@@ -17,5 +17,5 @@ some resources you can explore next:
  * thoughtbot's [Ruby](https://learn.thoughtbot.com/ruby) and [Rails](https://learn.thoughtbot.com/rails) learning trails map out the path
  * [Learn to Program by Chris Pine](http://pragprog.com/book/ltp2/learn-to-program) 
  * [DevChix Mailing List](http://www.devchix.com/join-devchix/)
- * [Learn to Program by Chris Pine](http://pragprog.com/book/ltp2/learn-to-program)
+
 
