@@ -178,8 +178,9 @@ There are different types of relationships.
 
  topic = Topic.new(description: 'topic with no title')
 
- topic.save => false
- # the save fails and does not write the database
+ # evaluates false and it does not
+ # write to the database
+ topic.save
 ```
 
 <!SLIDE>
