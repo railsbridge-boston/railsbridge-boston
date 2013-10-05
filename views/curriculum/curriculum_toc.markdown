@@ -45,7 +45,7 @@ tutorial mechanically, you won't learn or remember nearly as much.
     * [Extra Credit: Pagination](extra_credit/05_pagination)
 
 ## Rails Navigation, Links, and Routes ##
-* [_Lecture Slides: Rails Navigation, Links, and Routes_](/presentations/router/index.html)
+* [_Lecture Slides: Rails Navigation, Links, and Routes_](/presentations/router/nav_links_routes.pptx)
 * [Setting the Default Page](setting_the_default_page)  
 * [Redirect to the Topics List After Creating a New Topic](redirect_to_the_topics_list_after_creating_a_new_topic)  
 * [Make the Topic Title a Link](make_the_topic_title_a_link)  
