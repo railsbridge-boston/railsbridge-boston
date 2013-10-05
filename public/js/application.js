@@ -191,6 +191,7 @@ function getTweets(query) {
                   var aTag = $(".content a[href$='" + last + "']");
                   var li = aTag.parent();
                   var spanTag = li.find("span.completionCount");
+
                   spanTag.sparkline([ completions[i].count, total_students ] , {type: 'pie', sliceColors: ['#F00', '#CCC' ] });
               }
 
