@@ -14,7 +14,9 @@
 
 # Ok, so what does it really mean?
 
-Object Oriented Languages like Ruby use *metaphors* to make code more human friendly.
+Object Oriented Languages like Ruby use *metaphors* or *abstractions* to make code more human friendly.
+
+We break down the system into pieces and interactions between those pieces.
 
 <!SLIDE>
 
@@ -29,7 +31,7 @@ Hint: it's just a better way for programmers to understand their own code.
 
 # When you hear MVC, remember:
 
-* Models take care of business!
+* Models know my data and the business logic
 * Controllers direct the traffic
 * Views handle the presentation
 
@@ -61,6 +63,18 @@ In terminal:
   $ rails generate scaffold post
 ```
 
+<!SLIDE>
+
+# Resources
+
+* A resource is similar to a scaffold, but it doesn't do as much work, you have to fill some of the blanks
+* This is what you'll use in the exercise
+
+In terminal:
+
+```
+  $ rails generate resource post
+```
 
 <!SLIDE>
 
@@ -72,14 +86,21 @@ In terminal:
 
 # The Model
 
+![Model](http://carreno.me/assets/a/model.png)
+
+<!SLIDE>
+
+# The Model
+
+* The **data** components of my system
+* How these pieces relate to each other with **associations**
+* Validating objects to ensure good data gets in the system
+* These depend on the "business" logic, ex: bookstore, blog, forum
 * Where the CRUD interaction with the database happens!
   * Create
   * Read
   * Update
   * Delete
-* relating objects together with <strong>associations</strong>
-* validating your objects to ensure good data gets in the system
-
 
 <!SLIDE>
 
@@ -159,7 +180,7 @@ There are different types of relationships.
 
 <!SLIDE>
 
-# The Controller (The Traffic Cop)
+# The Controller
 
 ![Serious Traffic Cop](http://screens.launchware.com/6e7866cab4c2d0c251620915cae4fd21.jpg)
 
@@ -167,7 +188,7 @@ There are different types of relationships.
 
 <!SLIDE>
 
-# The Controller (The Traffic Cop)
+# The Controller
 
 * Determines what view to render or where to send you
 * Determines what models to show in the view (the bridge between the model and the view)
