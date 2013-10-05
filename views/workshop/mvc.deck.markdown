@@ -18,7 +18,7 @@ Object Oriented Languages like Ruby use *metaphors* to make code more human frie
 
 <!SLIDE>
 
-# MVC is a <strong>design pattern</strong>.
+# MVC is a <strong>design pattern</strong>
 
 Hint: it's just a better way for programmers to understand their own code.
 
@@ -27,7 +27,7 @@ Hint: it's just a better way for programmers to understand their own code.
 
 <!SLIDE>
 
-# When you hear MVC, remember this:
+# When you hear MVC, remember:
 
 * Models take care of business!
 * Controllers direct the traffic
@@ -39,13 +39,14 @@ Hint: it's just a better way for programmers to understand their own code.
 
 In terminal:
 
+```text
+$ ls app
+app
+├── controllers
+├── helpers
+├── models
+└── views
 ```
- #> ls app
-```
-
-<!SLIDE>
-
-![NerdTree Screenshot](http://screens.launchware.com/9b7fa2ddba357e509279f0e0513ec652.jpg)
 
 <!SLIDE>
 
@@ -57,19 +58,19 @@ In terminal:
 In terminal:
 
 ```
-  #> rails generate scaffold post
+  $ rails generate scaffold post
 ```
 
 
 <!SLIDE>
 
-# The Model (The Hard Worker)
+# The Model
 
-![We Can Do It!](http://screens.launchware.com/d6622ad02739451dcef7436b244c056d.jpg)
+![Model](http://carreno.me/assets/a/zegna.jpg)
 
 <!SLIDE>
 
-# The Model (The Hard Worker)
+# The Model
 
 * Where the CRUD interaction with the database happens!
   * Create
@@ -79,7 +80,6 @@ In terminal:
 * relating objects together with <strong>associations</strong>
 * validating your objects to ensure good data gets in the system
 
-![We Can Do It!](http://screens.launchware.com/d6622ad02739451dcef7436b244c056d.jpg)
 
 <!SLIDE>
 
@@ -143,15 +143,18 @@ There are different types of relationships.
 
 # Models: Validations
 
-``` Ruby
-  #app/models/topic.rb
-  class Topic < ActiveRecord::Base
-    validates_presence_of :title #save will fail if a title is not specified
-  end
+```ruby
+ # app/models/topic.rb
 
-  topic = Topic.new(description: 'a topic without a title')
+ class Topic < ActiveRecord::Base
+   # save will fail if a title is not specified
+   validates_presence_of :title
+ end
 
-  topic.save => false #the save fails and does not write the database
+ topic = Topic.new(description: 'topic with no title')
+
+ topic.save => false
+ # the save fails and does not write the database
 ```
 
 <!SLIDE>
@@ -179,22 +182,27 @@ There are different types of relationships.
 # Controllers
 
 ``` Ruby
-  #app/controllers/topics_controller.rb
-  class TopicsController < ApplicationController
-    def new
-      @topic = Topic.new #the model that's made available to the view
-      render :new #render the 'new' view
-    end
+ # app/controllers/topics_controller.rb
 
-    def create
-      @topic = Topic.new(params[:topic])
-      if @topic.save
-        redirect_to '/' #send back to the home page
-      else
-        render :new #render the new view again because something went wrong
-      end
-    end
-  end
+ class TopicsController < ApplicationController
+   def new
+     # the model that's made available to the view
+     @topic = Topic.new
+     # render the 'new' view
+     render :new
+   end
+
+   def create
+     @topic = Topic.new(params[:topic])
+     if @topic.save
+       # send back to the home page
+       redirect_to '/'
+     else
+       # render the new view again
+       render :new
+     end
+   end
+ end
 ```
 
 # The View (The Presenter)
@@ -215,18 +223,19 @@ There are different types of relationships.
 # The View: An Example
 
 ``` Ruby
-  <!-- app/views/topics/new.html.erb -->
-  <!-- a form for a user to create a new topic -->
-  <h1>New Topic</h1>
-  <%= form_for @topic do |f| %>
-    <%= f.label :title %>
-    <%= f.text_field :title %>
+ <!-- app/views/topics/new.html.erb -->
+ <!-- a form for a user to create a new topic -->
 
-    <%= f.label :description %>
-    <%= f.text_area :description %>
+ <h1>New Topic</h1>
+ <%= form_for @topic do |f| %>
+   <%= f.label :title %>
+   <%= f.text_field :title %>
 
-    <%= f.submit %>
-  <%- end -%>
+   <%= f.label :description %>
+   <%= f.text_area :description %>
+
+   <%= f.submit %>
+ <% end %>
 ```
 
 <!SLIDE>
