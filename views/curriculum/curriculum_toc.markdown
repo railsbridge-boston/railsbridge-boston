@@ -55,6 +55,7 @@ tutorial mechanically, you won't learn or remember nearly as much.
 ## Vote on your favorite TV show! 
 
 * [Liane's first Rails app!](http://intense-bastion-3415.herokuapp.com/)
+
 ## Wrapping Up ##
 * [Next Steps](next_steps)
 * [Survey](https://docs.google.com/spreadsheet/viewform?formkey=dGs2QmpsUUNveml5ODBtV3NxLUZsNHc6MA#gid=0)
