@@ -23,7 +23,7 @@ tutorial mechanically, you won't learn or remember nearly as much.
     * [Extra Credit: Ruby classes](extra_credit/06_ruby_classes)
 
 ## Starting a New Rails Application ##
-* [_Lecture Slides: Starting a Rails Application_](/presentations/intro_to_rails.pdf)
+* [_Lecture Slides: Starting a Rails Application_](/presentations/starting_rails_application/index.html)
 * [Creating a Rails Application](getting_started)  
 * [Create a Git Repo](create_a_new_git_repo)  
 * [Add the Project Files to the Git Repo](add_the_project_to_the_git_repo)  
