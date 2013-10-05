@@ -52,6 +52,9 @@ tutorial mechanically, you won't learn or remember nearly as much.
 * [Clean Up Links on the Topics List](clean_up_links_on_the_topics_list)  
 * [Commit and Push to Heroku, Yet Again](commit_and_push_to_heroku_yet_again)  
 
+## Vote on your favorite TV show! 
+
+* [Liane's first Rails app!](http://intense-bastion-3415.herokuapp.com/)
 ## Wrapping Up ##
 * [Next Steps](next_steps)
 * [Survey](https://docs.google.com/spreadsheet/viewform?formkey=dGs2QmpsUUNveml5ODBtV3NxLUZsNHc6MA#gid=0)
