@@ -12,7 +12,7 @@ some resources you can explore next:
 ### Online Resources
  * Join the [RailsBridge Boston Alumni List](https://groups.google.com/forum/#!forum/railsbridge-boston-alumni). 
  * [BostonRB Mailing List](https://groups.google.com/forum/#!forum/boston-rubygroup) 
- * thoughtbot's [Ruby](https://learn.thoughtbot.com/ruby) and [Rails](https://learn.thoughtbot.com/rails) learning trails maps out the path
+ * thoughtbot's [Ruby](https://learn.thoughtbot.com/ruby) and [Rails](https://learn.thoughtbot.com/rails) learning trails map out the path
  * [Learn to Program by Chris Pine](http://pragprog.com/book/ltp2/learn-to-program)
  * [Ruby on Rails Tutorial](http://ruby.railstutorial.org/)
  
