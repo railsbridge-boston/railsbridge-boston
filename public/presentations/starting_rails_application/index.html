@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/reset.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1024">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" href="css/favicon.png">
+  <link rel="apple-touch-icon" href="css/apple-touch-icon.png"><!-- Code Prettifier: -->
+  <link href="css/highlight.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="js/highlight.pack.js">
+  </script>
+  <script type="text/javascript">
+  hljs.initHighlightingOnLoad();
+  </script>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,800italic,300,400,800' rel='stylesheet' type='text/css'>
+  <title></title>
+</head>
+<body>
+  <div class="fallback-message">
+    <p>
+      Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.
+    </p>
+    <p>
+      For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.
+    </p>
+  </div>
+  <div id="impress">
+
+    <div class='step'>
+      <h1>
+        Starting a Rails Application
+      </h1>
+      <h2>
+        Andrew Kuklewicz
+      </h2>
+      <ul>
+        <li>Public Radio Exchange (prx.org)
+        </li>
+        <li>@kookster
+        </li>
+      </ul>
+    </div>
+
+    <div class='step'>
+      <h2>
+        The Plan
+      </h2>
+      <h1>
+        Generate<br/>Track Changes<br/>Run<br/>Deploy
+      </h1>
+    </div>
+
+    <div class='step' data-x="0" data-y="0" data-scale="4">
+      <p>
+        <img src="images/wat.jpg"></img>
+      </p>
+    </div>
+
+    <div class='step'>
+      <h2>Framework</h2>
+      <h1>Reusable Code</h1>
+      <h1>Generates Code</h1>
+      <h1>Tools</h1>
+    </div>
+
+    <div class='step'>
+      <h2>Big Idea</h2>
+      <h1>DRY: Don't Repeat Yourself</h1>
+      <h1 class="delayed">DRY: Don't Repeat Yourself</h1>
+    </div>
+
+    <div class='step'>
+      <h2>Big Idea</h2>
+      <h1><span class="scale-up">convention</span><div>&gt;</div><span class="scale-down">configuration</span></h1>
+    </div>
+
+    <div class='step'>
+      <h2>Big Idea</h2>
+      <h1 class="stroke">Open Source</h1>
+      <h2>2,042 contributors</h2>
+    </div>
+
+    <div class='step'>
+      <h2>Big Idea</h2>
+      <h1>Running <em>(Tested)</em> Code</h1>
+    </div>
+
+    <div class='step'>
+      <h1>Generate</h1>
+      <pre><code class='bash inline prettyprint'>rails new suggestotron --skip-sprockets</code></pre>
+        <ul class="dir-tree">
+          <li>app/
+            <ul>
+              <li>models/<li>
+              <li>views/<li>
+              <li>controllers/<li>
+            </ul>
+          </li>
+          <li>config/
+            <ul>
+              <li>environments/<li>
+            </ul>
+          </li>
+          <li>db/
+            <ul>
+              <li>migrate/<li>
+            </ul>
+          </li>
+          <li>public/
+            <ul>
+              <li>css/<li>
+              <li>js/<li>
+            </ul>
+          </li>
+          <li>tests/</li>
+        </ul>
+      </code>
+    </div>
+
+    <div class='step'>
+      <h1>
+        Track Changes (git)
+      </h1>
+      <ul>
+        <li>Repository of all changes and versions</li>
+        <li>No fear of lost work, or undoing</li>
+        <li>Commit early and often; find your rhythm</li>
+        <li>Synch Local to Remote Repos (e.g. heroku, github)</li>
+      </ul>
+    </div>
+
+    <div class='step'>
+      <h1>
+        Track Changes (git)
+      </h1>
+      <ul>  
+        <li><code class="bash pretty">git init</code> start tracking folder/project</li>
+        <li><code class="bash pretty">git add</code> files you want to track</li>
+        <li><code class="bash pretty">git commit</code> changes to keep them, w/message</li>
+        <li><code class="bash pretty">git push</code> changes from local -> remote repo</li>
+        <li><code class="bash pretty">gittyup</code> to add, commit, push -> heroku</li>
+      </ul>
+    </div>
+
+
+    <div class='step'>
+      <h3>Join GitHub Now!</h3>
+      <img src="images/Octocat.png"></img>
+    </div>
+
+    <div class='step'>
+      <h1>
+        Run!
+      </h1>
+      <img src="images/sagal500.jpg" style="width:80%"></img>
+      <p style="font-size:16px"><em>Peter Sagal http://www.runnersworld.com/runners-stories/time-of-the-ancient-marathoner</em></p>
+    </div>
+
+
+    <div class='step'>
+      <h1>
+        Run!
+      </h1>
+
+      <div>Install needed libraries in <code>GemFile</code>
+        <pre><code class='bash inline prettyprint'>bundle</code></pre>
+      </div>
+
+      <br/>
+        
+      <div>Start up a webserver
+        <pre><code class='bash inline prettyprint'>rails server</code></pre>
+      </div>
+
+      <br/>
+
+      <h2>Edit, save, refresh!</h2>
+
+    </div>
+
+    <div class='step'>
+      <h1>
+        Deploy (Heroku)
+      </h1>
+
+      <ul>
+        <li>A service for running apps</li>
+        <li>Started with Rails, now runs anything</li>
+        <li>Create new, small apps for free</li>
+        <li>For beginners and experts</li>
+        <li>Start small, scale big</li>
+        <li>Has great docs, and online examples</li>
+      </ul>
+    </div>
+
+    <div class='step'>
+      <h1>
+        Deploy (Heroku)
+      </h1>
+
+      <ul>
+        <li><code>heroku create</code> to start an app</li>
+        <li><code>git push</code> to heroku starts deployment</li>
+        <li><code>gittyup</code> shortcut to save and deploy</li>
+      </ul>
+    </div>
+
+    <div class='step'>
+      <h2>
+        do it
+      </h2>
+      <pre><code class="bash"># Generate
+rails new suggestotron
+
+# Track Changes
+git init
+git add .
+git commit -m 'new project!'
+
+# Run
+bundle
+rails server
+
+# Deploy
+heroku create
+gittyup</code></pre>
+    </div>
+    <div class='step'>
+      <h1>Questions?</h1>
+    </div>
+    <script src="js/impress.js" type="text/javascript">
+      </script> <script type="text/javascript">
+      impress().init();
+      </script>
+    </div>
+  </body>
+  </html>
