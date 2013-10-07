@@ -8,7 +8,7 @@ Please download the pre-requisite software onto your laptop computer before you 
 Pick one of the following options. The main difference is that Option 1  will
 install Ruby and various tools directly into your computer operating system,
 whereas Option 2 will install a temporary and easy-to-remove "virtual machine"
-containing all the software you need for the workshop. 
+containing all the software you need for the workshop.
 
 ### Option 1. RailsInstaller
 
@@ -27,10 +27,10 @@ Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55c
 
 ## OS X 10.5
 
-Go to the [Apple Developer Center](https://developer.apple.com/downloads), 
+Go to the [Apple Developer Center](https://developer.apple.com/downloads),
 and click Register. Fill out the first page with your account information.
 The second page is a developer survey, which you can skip. Just go to the bottom and click
-"Continue". 
+"Continue".
 
 Once you have confirmed your developer account, you can download [Xcode
 3.1.4](http://adcdownload.apple.com/Developer_Tools/xcode_3.1.4_developer_tools/xcode314_2809_developerdvd.dmg).
@@ -40,6 +40,9 @@ page](https://developer.apple.com/downloads) and search for "Xcode 3.1.4"
 
 
 ## Windows
+
+Note that unlike the OS X instructions, these are not multiple options - you
+should do all of the steps below.
 
 Download
 [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88781-Win.exe)
