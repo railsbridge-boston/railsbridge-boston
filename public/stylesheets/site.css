@@ -5,7 +5,7 @@
   Special styles for presenting Bootstrap's documentation and examples
 */
 
-@import "coderay_github";
+@import "../coderay_github";
 
 /* Body and structure
 -------------------------------------------------- */
