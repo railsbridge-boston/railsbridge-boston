@@ -142,7 +142,7 @@ class RubyWorkshop < Sinatra::Base
   end
 
   get '/blog' do
-    erb :"blog/blog"
+    erb :blog
   end
 
   get '/blog/2013_jun_recap' do
