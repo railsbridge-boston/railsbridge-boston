@@ -42,6 +42,11 @@ h3 {
           border-radius: 0 0 4px 4px;
 }
 
+.btn-primary {
+  background-image: linear-gradient(rgb(231,66,34), rgb(231,66,34) 90%, #D85333);
+  background-color: inherit;
+}
+
 /* Space out sub-sections more
 -------------------------------------------------- */
 section {
