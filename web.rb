@@ -109,9 +109,9 @@ class RubyWorkshop < Sinatra::Base
     "OK"
   end
 
-  # completions for this workshop 
+  # completions for this workshop
   get '/completions' do
-    completions = DB["select page, count(distinct student_id) from completions inner join students using (student_id) \ 
+    completions = DB["select page, count(distinct student_id) from completions inner join students using (student_id) \
        where students.name is not null and students.ip = '64.119.130.114' and workshop = ? group by page", CURRENT_WORKSHOP].to_a
 
     total_students = DB["select count(*) as total from students where students.name is not null and students.ip = '64.119.130.114' and workshop = ?", CURRENT_WORKSHOP].first[:total]
@@ -124,6 +124,10 @@ class RubyWorkshop < Sinatra::Base
   get '/' do
     @sponsors = sponsor_url_logos
     erb :index
+  end
+
+  get '/about' do
+    erb :about
   end
 
   get '/sponsors' do
@@ -142,7 +146,7 @@ class RubyWorkshop < Sinatra::Base
   end
 
   get '/blog' do
-    erb :"blog/blog"
+    erb :blog
   end
 
   get '/blog/2013_jun_recap' do
@@ -200,7 +204,6 @@ class RubyWorkshop < Sinatra::Base
   get '/installfest' do
     redirect '/friday'
   end
-    
 
   # This handles default routes for the markdown files in `views/`
   # Mostly added so that people who don't want to fuss with a Sinatra app can
