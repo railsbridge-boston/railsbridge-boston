@@ -55,6 +55,25 @@ h3 {
   margin-top: .8em;
 }
 
+.main-sponsor p {
+  float: left;
+}
+
+.main-sponsor img {
+  max-height: 20%;
+  max-width: 10%;
+}
+
+.main-sponsor a {
+  margin-left: 3em;
+}
+
+#sponsors-page .sponsor {
+  width: 75%;
+  float: left;
+  margin-bottom: 2em;
+}
+
 /* Space out sub-sections more
 -------------------------------------------------- */
 section {

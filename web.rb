@@ -176,17 +176,8 @@ class RubyWorkshop < Sinatra::Base
 
   def sponsor_url_logos
     [
-      ["http://actblue.com", "/sponsors/actblue.png"],
-      ["http://oreilly.com", "/sponsors/ora.gif"],
-      ["http://rbmtechnologies.com", "/sponsors/rbm.png"],
-      ["http://startupinstitute.com", "/sponsors/startup_institute.png"],
-      ["http://terriblelabs.com", "/sponsors/terriblelabs.png"],
-      ["http://thoughtbot.com", "/sponsors/thoughtbot.png"],
-      ["http://www.launchacademy.com/", "/sponsors/LaunchAcademyLogo.png"],
-      ["http://www.microsoftcambridge.com", "/sponsors/microsoftlogo.png"],
-      ["http://www.vermonster.com", "/sponsors/vermonster.png"],
-      ["http://www.visiblemeasures.com", "/sponsors/visible_measures.jpg"],
-      ["https://generalassemb.ly/boston", "/sponsors/GA_logo.png"],
+      ["https://github.com", "/sponsors/github.png"],
+      ["http://thisismetis.com", "/sponsors/metis.png"],
     ].shuffle
   end
 
