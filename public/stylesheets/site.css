@@ -47,6 +47,14 @@ h3 {
   background-color: inherit;
 }
 
+.upcoming-workshop p {
+  margin: 0;
+}
+
+.upcoming-workshop p:last-child {
+  margin-top: .8em;
+}
+
 /* Space out sub-sections more
 -------------------------------------------------- */
 section {
