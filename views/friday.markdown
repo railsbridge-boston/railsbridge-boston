@@ -32,39 +32,16 @@ consult the Nitrous.io instructions added to [this GitHub
 repo](https://github.com/tdenkinger/docs/tree/nitrous.io/sites/installfest).
 
 
-### 2. Using the Command Line
-The command line is the primary way to run Ruby files. In this section you will
-learn to navigate your filesystem from your command line.
-
-[Using the Command Line](/installfest/command_prompt)
-
-### 3. Starting and Exiting Interactive Ruby
-To start writing Ruby code, you will use the Interactive Ruby Shell (irb). It is "interactive" because every time you 
-write a line of code and press 'Enter', the code executes and shows you the result. This will allow you to experiment
-and get instant feedback.
-
-[Interactive Ruby (irb)](/installfest/interactive_ruby)  
-
-### 4. Install a Text Editor
+### 3. Install a Text Editor
 You will want a text editor that is designed for coding. These instructions will show you how to install a good text 
 editor, and the basics of using it effectively.
 
 [Text Editor](/installfest/text_editor)  
 
-### 5. Run Ruby from a File
-In this section you will learn to run Ruby code from a file, a prerequisite of writing more complex and powerful
-programs.
+### 4. Start IRB
+TO DO - add quick instructions for starting terminal and type 'irb'
 
-[Run Ruby from a File](/installfest/run_ruby)
-
-
-### 6. Create a Heroku Account
-Heroku is the host that you will deploy your application to.
-
-[Create a Heroku Account](/installfest/create_a_heroku_account)
-
-
-### 7. Setup Checklist 
+### 5. Setup Checklist 
 
 Find a staff member and run through the [Installfest Completion Checklist](installfest/checklist):
 
@@ -75,11 +52,5 @@ the same laptop you used tonight.
 
 If you have any questions, comments, or feedback on tonight's material, don't hesitate to let a staff member know. We also have a feedback form that you can use early and often to provide feedback about the workshop. 
 
-
-### Extra Credit
-
-Go through the [Ruby in Twenty Minutes tutorial](https://www.ruby-lang.org/en/documentation/quickstart/).  Please note that for Windows users, you should use the Git shell instead of `fxri`.
-
-To go through this tutorial you should start your environment in the same way as you did in Step 3 above.
 
 
