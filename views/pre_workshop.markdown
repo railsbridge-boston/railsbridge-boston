@@ -47,7 +47,7 @@ If you you have an older Mac and cannot run RailsInstaller, get Xcode and ask fo
 
 ## <a name="windows">Windows</a>
 
-All Windows users should use a virtual machine.
+Windows is a different kind of operating system, so you will have to use a virtual machine. In particular, it doesn't have the same kind of command prompt. Since we are going to start and access the virtual machine by running Vagrant in a command prompt, we'll fix this by installing GitHub for Windows, which comes with an OS X and Linux-like "shell". You don't need to use the actual Github for Windows app in the workshop.
 
 1. Download [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88781-Win.exe) for Windows. Run the installer after it downloads. Start VirtualBox after installation to ensure that it launches.  You can quit once it starts.
 
