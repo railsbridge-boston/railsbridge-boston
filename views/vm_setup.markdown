@@ -1,6 +1,6 @@
 # Virtual Machine Setup
 
-Windows and OS X users need to set up the virtual machine they (downloaded)[/pre_workshop/].  Linux and Chromebook users may skip this step. 
+Windows and OS X users need to set up the virtual machine they [downloaded](/pre_workshop/).  Linux and Chromebook users may skip this step. 
 
 
 ## Setting up a workspace
