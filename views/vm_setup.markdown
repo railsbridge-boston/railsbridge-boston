@@ -1,18 +1,11 @@
 # Virtual Machine Setup
 
-Open a command prompt. See the [Using the Command Prompt](/command_prompt), for a refresher on how to start the command prompt.
+Windows and OS X users need to set up the virtual machine they (downloaded)[/pre_workshop/].  Linux and Chromebook users may skip this step. 
 
-Download the Railsbridge Boston Virtual Machine with this command:
-
-    `vagrant box add railsbridgebox http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-4.0.box`
-
-If you don't have Vagrant and VirtualBox working, just [download the image](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-4.0.box). Then come to the installfest and we'll help you get up and running. Once Vagrant and VirtualBox are set up, you can run
-
-    `vagrant box add railsbridgebox file:///path/to/railsbridgevm-4.0.box`
-
-To add the image from the already downloaded file.
 
 ## Setting up a workspace
+Open a command prompt. See the [Using the Command Prompt](/command_prompt), for a refresher on how to start the command prompt.
+
 
 Create a workspace directory for your Railsbridge tutorial.
 
@@ -30,11 +23,19 @@ Move into that directory:
 
 This directory will be shared between the virtual machine and your computer. Like sharing files between two real computers with Dropbox or Google Docs, files need to be saved in a place that both computers can see. Save all your work in the hands-on exercises here so they can be run in the virtual machine.
 
-## Starting the Virtual Machine
 
-Create and start your machine!
+## Set up the virtual machine
 
 This is a one-time step to create the virtual machine for the workshop.
+
+[Before the workshop](/pre_workshop), you downloaded railsbridgevm-4.0.box, the RailsBridge virtual machine, and saved it in the Downloads folder. 
+In File Explorer or Finder, drag and drop railsbridgevm-4.0.box from your downloads folder to your new workspace folder.  Return to the command line window.
+
+*If you were unable to download the vm ahead of time, we have copies on USB drives.*
+
+    `vagrant box add railsbridgebox ./railsbridgevm-4.0.box`
+
+Then type:
 
     `vagrant init railsbridgebox`
 
@@ -47,7 +48,13 @@ Here is what you should see (approximately):
     `vagrantup.com` for more information on using Vagrant.
     </pre>
 
-Start the virtual machine:
+
+## Starting the Virtual Machine
+
+The virtual machine has to be running in order to use it.  There are two ways to start it.
+
+The first way is through VirtualBox.  Start the VirtualBox application. 
+To start the virtual machine.  From the command line type:
 
     `vagrant up`
 
@@ -73,44 +80,32 @@ It will do something like this:
     [default] -- /vagrant
     </pre>
 
-Connect to the virtual machine and start a command prompt: 
+## Connect to the virtual machine
 
-    `vagrant ssh`
+To use the virtual machine, you must connect to it.  From the command line, type  `vagrant ssh`  to connect to the virtual machine. 
 
-You will see a welcome message, along the lines of:
+You will see a welcome message something like this:
     <pre>
     [choi@mini rbb]$ vagrant ssh
     Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
-
     * Documentation:  https://help.ubuntu.com/
-
     Welcome to the Railsbridge Boston virtual machine!
 
-    Everything you need for the Suggestotron tutorial is installed, including:
-
-    - Ruby 2.0
-    - Rails 4.0
-    - sqlite3
-    - heroku toolbelt
-    - git
-
-    Next steps:
-
-    1. Create a SSH key
-    2. Configure Git
-    3. Create a Heroku account
-
-    The ~/workspace directory from inside the VM shell is identical to the host
-    directory of your VM workspace.
-
-    When you start your Rails app, visit http://localhost:3000 in your web browser.
+    ...
 
     Last login: Tue Aug 27 00:38:27 2013 from 10.0.2.2
     vagrant@precise32:~$ 
     </pre>
 
-We will walk through creating an SSH key, configuring git, and creating a Heroku account in the workshop.  They are one-time steps.
 
-Run `vagrant up` every time you start the virtual machine.
+## Disconnect from the virtual machine
 
-Run `vagrant ssh` every time you connect to the virtual machine.
+When you're done, type `exit` to disconnect from the virtual machine.
+To stop the virtual machine, type `vagrant halt` from the command line.  
+
+
+## Reminders
+
+* Run `vagrant halt` from the command line when you're done with the virtual machine.
+* Run `vagrant up` from the command line to restart the machine after you've rebooted or halted it.
+* Run `vagrant ssh` from the command line every time you connect to the virtual machine.
