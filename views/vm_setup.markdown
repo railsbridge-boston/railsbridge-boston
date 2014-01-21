@@ -4,7 +4,7 @@ Windows and OS X users need to set up the virtual machine they [downloaded](/pre
 
 
 ## Setting up a workspace
-Open a command prompt. See the [Using the Command Prompt](/command_prompt), for a refresher on how to start the command prompt.
+Open the command line. See the [Using the Command Line](http://docs.railsbridgeboston.org/ruby/command_line), for a refresher on how to start the command line.
 
 
 Create a workspace directory for your Railsbridge tutorial.
