@@ -48,15 +48,25 @@ Here is what you should see (approximately):
     `vagrantup.com` for more information on using Vagrant.
     </pre>
 
+Look at the workspace folder in Finder or File Explorer. You'll notice it now contains a file called Vagrantfile.  This contains configuration information that Vagrant needs to start and connect to the new virtual machine.  We have to have a command line open and be in this folder when we start or connect to the vm so Vagrant can read the configuration information.
+
+Leave this window open for the next step.
 
 ## Starting the Virtual Machine
 
 The virtual machine has to be running in order to use it.  There are two ways to start it.
 
-The first way is through VirtualBox.  Start the VirtualBox application. 
-To start the virtual machine.  From the command line type:
 
-    `vagrant up`
+### Start and Connect Through The Commandline
+
+If you closed your command line, open it again and type 
+`cd ~/Desktop/workspace` 
+to return to the workspace folder.  This folder contains the file Vagrantfile, which has the configuration settings needed to start the vm. 
+
+
+From the command line type:
+
+    **`vagrant up`**
 
 It will do something like this:
     <pre>
@@ -80,9 +90,10 @@ It will do something like this:
     [default] -- /vagrant
     </pre>
 
-## Connect to the virtual machine
 
-To use the virtual machine, you must connect to it.  From the command line, type  `vagrant ssh`  to connect to the virtual machine. 
+To use the virtual machine, you must connect to it.  From the command line, type  
+**`vagrant ssh`** 
+to connect to the virtual machine. 
 
 You will see a welcome message something like this:
     <pre>
@@ -98,10 +109,22 @@ You will see a welcome message something like this:
     </pre>
 
 
+### Start and Connect Through VirtualBox
+
+The easier way is through VirtualBox.  Start the VirtualBox application.  On Mac, go to Finder > Applications > Virtual Box.   On Windows, go to the Start menu.   A VirtualBox dashboard will open.  On the left you'll see an item called 'railsbridgebox', and the status 'Powered off'.  Select it and click the Start button. 
+
+A command line window will open.  If it asks which OS to boot into, wait and let it accept the default.
+When you're shown a login prompt, use the username 'vagrant' and password 'vagrant'.   
+
+While you're using the VM, your keyboard and mouse clicks will be sent to this program.  This graphical interface is the most familiar way to use a program, but it can be hard to switch to other applications while it's running.  
+
+
+
 ## Disconnect from the virtual machine
 
-When you're done, type `exit` to disconnect from the virtual machine.
-To stop the virtual machine, type `vagrant halt` from the command line.  
+When you're done working in the virtual machine, type `exit` to disconnect from the virtual machine.
+
+To stop the virtual machine, type `vagrant halt` from the command line, or Machine > Close from the VirtualBox dashboard.  
 
 
 ## Reminders
