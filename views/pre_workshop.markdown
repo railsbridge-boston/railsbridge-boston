@@ -21,7 +21,7 @@ VirtualBox does not support OS X 10.5, so if you are using that version or an ol
 
 2. Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55cf8569167fc22415/Vagrant-1.3.3.dmg) for Mac. Run the installer after it downloads.
 
-3. Download the Railsbridge Boston Virtual Machine.  From a web browser, visit [http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-4.0.box](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-4.0.box) and save the file.   We'll [set up the virtual machine](/installfest/vm_setup) together on Friday. 
+3. Download the Railsbridge Boston Virtual Machine.  From a web browser, visit [http://downloads.railsbridge.org/railsbridgevm-2014-01.box](http://downloads.railsbridge.org/railsbridgevm-2014-01.box) and save the file.   We'll [set up the virtual machine](/installfest/vm_setup) together on Friday. 
 
 4. Download and install the [SublimeText 2](http://www.sublimetext.com/2) text editor.
 
@@ -35,7 +35,7 @@ Windows is a different kind of operating system, so you will have to use a virtu
 
 3. Download [GitHub for Windows](http://windows.github.com/) and run the installer. If prompted during installation, install the Microsoft .NET framework. If GitHub for Windows automatically launches after installation, quit the application.
 
-4. Download the Railsbridge Boston Virtual Machine.  From a web browser, visit [http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-4.0.box](http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-4.0.box) and save the file.   We'll [set up the virtual machine](/installfest/vm_setup) together on Friday. 
+4. Download the Railsbridge Boston Virtual Machine.  From a web browser, visit [http://downloads.railsbridge.org/railsbridgevm-2014-01.box](http://downloads.railsbridge.org/railsbridgevm-2014-01.box) and save the file.   We'll [set up the virtual machine](/installfest/vm_setup) together on Friday. 
 
 5. Download and install the [SublimeText 2](http://www.sublimetext.com/2) text editor.
 
