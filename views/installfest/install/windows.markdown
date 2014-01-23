@@ -12,46 +12,7 @@ or locate **Git Shell** in All Programs under GitHub. A new (mostly black) windo
 
 ## Step 2.
 
-Then type the following commands. Press ENTER after each command and wait for the operation to finish
-before typing the next one.
-
-```text
-mkdir ~/Desktop/railsbridge
-cd ~/Desktop/railsbridge
-vagrant box add railsbridgebos http://s3.amazonaws.com/railsbridgeboston/railsbridgevm-3.2-a.box
-vagrant init railsbridgebos
-vagrant up
-vagrant ssh
-```
-
-If the process seems to hang after `vagrant up`, try hitting the ENTER key to get it going.
-
-After typing the last command, here is what you should see (approximately):
-
-```text
-C:\Users\Diligent Student\Desktop\railsbridge> vagrant init railsbridgebos
-
-A `Vagrantfile` has been placed in this directory. You are now
-ready to `vagrant up` your first virtual environment! Please read
-the comments in the Vagrantfile as well as documentation on
-`vagrantup.com` for more information on using Vagrant.
-```
-
-```text
-C:\Users\Diligent Student\Desktop\railsbridge> vagrant up
-
-Bringing machine 'default' up with 'virtualbox' provider...
-   ...many lines left out...
-[default] -- /vagrant
-```
-
-```text
-C:\Users\Diligent Student\Desktop\railsbridge> vagrant ssh
-
-Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
-   ...many lines left out...
-vagrant@precise32:~$ 
-```
+Follow the instructions to [set up your virtual machine](/installfest/vm_setup).
 
 ## Step 3.
 
@@ -84,3 +45,5 @@ cd ~/Desktop/railsbridge
 vagrant up
 vagrant ssh
 ```
+
+[« Back to Installfest](/installfest)

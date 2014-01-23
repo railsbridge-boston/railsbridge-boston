@@ -27,11 +27,7 @@ for how to do this.
 
 2. Save as `hello.rb` in your *working directory*. The `.rb` extension indicates that this file contains Ruby code.
 
-Your *working directory* is different depending on how you installed Ruby:
-
-* Windows: ~/Desktop/railsbridge
-* OS X + Railsbridge Virtual Machine: ~/Desktop/railsbridge
-* OS X + Railsinstaller: Create a folder called ~/Desktop/railsbridge and save your file there
+Your *working directory* should be `~/Desktop/railsbridge`.
 
 ### Run the Script
 
