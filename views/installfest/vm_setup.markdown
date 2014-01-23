@@ -28,12 +28,12 @@ This directory will be shared between the virtual machine and your computer. Lik
 
 This is a one-time step to create the virtual machine for the workshop.
 
-[Before the workshop](/pre_workshop), you downloaded railsbridgevm-4.0.box, the RailsBridge virtual machine, and saved it in the Downloads folder. 
-In File Explorer or Finder, drag and drop railsbridgevm-4.0.box from your downloads folder to your new workspace folder.  Return to the command line window.
+[Before the workshop](/pre_workshop), you downloaded railsbridgevm-2014-01.box, the RailsBridge virtual machine, and saved it in the Downloads folder. 
+In File Explorer or Finder, drag and drop railsbridgevm-2014-01.box from your downloads folder to your new workspace folder.  Return to the command line window.
 
 *If you were unable to download the vm ahead of time, we have copies on USB drives.*
 
-    `vagrant box add railsbridgebox ./railsbridgevm-4.0.box`
+    `vagrant box add railsbridgebox ./railsbridgevm-2014-01.box`
 
 Then type:
 
