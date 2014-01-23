@@ -4,7 +4,7 @@ Windows and OS X users need to set up the virtual machine they [downloaded](/pre
 
 
 ## Setting up a workspace
-Open a command prompt. See the [Using the Command Prompt](/command_prompt), for a refresher on how to start the command prompt.
+Open the command line. See the [Using the Command Line](http://docs.railsbridgeboston.org/ruby/command_line), for a refresher on how to start the command line.
 
 
 Create a workspace directory for your Railsbridge tutorial.
@@ -28,12 +28,12 @@ This directory will be shared between the virtual machine and your computer. Lik
 
 This is a one-time step to create the virtual machine for the workshop.
 
-[Before the workshop](/pre_workshop), you downloaded railsbridgevm-4.0.box, the RailsBridge virtual machine, and saved it in the Downloads folder. 
-In File Explorer or Finder, drag and drop railsbridgevm-4.0.box from your downloads folder to your new workspace folder.  Return to the command line window.
+[Before the workshop](/pre_workshop), you downloaded railsbridgevm-2014-01.box, the RailsBridge virtual machine, and saved it in the Downloads folder. 
+In File Explorer or Finder, drag and drop railsbridgevm-2014-01.box from your downloads folder to your new workspace folder.  Return to the command line window.
 
 *If you were unable to download the vm ahead of time, we have copies on USB drives.*
 
-    `vagrant box add railsbridgebox ./railsbridgevm-4.0.box`
+    `vagrant box add railsbridgebox ./railsbridgevm-2014-01.box`
 
 Then type:
 

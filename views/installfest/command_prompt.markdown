@@ -32,8 +32,8 @@ or navigate to `Applications/Utilities/Terminal` in Finder.
 
 If you installed Ruby with the Railsbridge Virtual Machine, your command
 prompt should look like `vagrant@precise32:`.  If not, start up and enter the
-virtual machine with the steps at the bottom of the [install 
-instructions](install/osx).
+virtual machine with the steps at the bottom of the [virtual machine setup
+instructions](/installfest/vm_setup).
 
 
 ### Windows
@@ -169,13 +169,11 @@ filesystem from the command line. You also know how to look up documentation for
 
 Let's generate some ASCII art from the command line.
 
-If you are in the Railsbridge Virtual Machine, install the `curl` program first with this command:
+Install the `curl` program first with this command:
 
 ```text
 sudo apt-get install -y curl 
 ```
-
-You should already have `curl` if you are using Railsinstaller.
 
 Now you can generate some ASCII art. Try this command:
 

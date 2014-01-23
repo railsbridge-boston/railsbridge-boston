@@ -9,7 +9,7 @@
 
 Install Ruby, Install a Text Editor, and Start Coding
 
-At the end of this tutorial, you will have all the tools you need to write and run Ruby code. Work thourgh
+At the end of this tutorial, you will have all the tools you need to write and run Ruby code. Work through
 these sections in order, and ask questions if you get stuck! That's what the TAs and instructors are here for.
 
 When you are done with all the sections, find a staff member to go through the checklist with you.

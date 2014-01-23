@@ -40,7 +40,7 @@ Now we have to configure Console2 to use the Bash shell. And to look nice.
 ### Set the Shell and Startup directory
 Right-click inside the new Console2 window you just opened. Select `Edit > Settings…` in the context menu that appears.
 
-Copy and paste the following into "Shell":
+Copy and paste the following into "Shell": (TODO: update sh path for Github for Windows)
 
 ```text
 C:\Windows\System32\cmd.exe /c ""C:\RailsInstaller\Git\bin\sh.exe" --login -i"
