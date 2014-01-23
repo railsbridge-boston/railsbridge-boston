@@ -47,7 +47,7 @@ If you you have an older Mac and cannot run RailsInstaller, get Xcode and ask fo
 
 ## <a name="windows">Windows</a>
 
-Windows is a different kind of operating system, so you will have to use a virtual machine. In particular, it doesn't have the same kind of command prompt. Since we are going to start and access the virtual machine by running Vagrant in a command prompt, we'll fix this by installing GitHub for Windows, which comes with an OS X and Linux-like "shell". You don't need to use the actual Github for Windows app in the workshop.
+Windows is a different kind of operating system, so you will have to use a virtual machine. In particular, it doesn't have the same kind of command line. Since we are going to start and access the virtual machine by running Vagrant from the command line, we'll fix this by installing GitHub for Windows, which comes with an OS X and Linux-like "shell". You don't need to use the actual Github for Windows app in the workshop.
 
 1. Download [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88781-Win.exe) for Windows. Run the installer after it downloads. Start VirtualBox after installation to ensure that it launches.  You can quit once it starts.
 
@@ -62,7 +62,7 @@ Windows is a different kind of operating system, so you will have to use a virtu
 
 ## <a name="linux">Linux</a>
 
-First, check whether Ruby is already installed.  At a command prompt, type
+First, check whether Ruby is already installed.  At the command line, type
 `ruby -v`
 If Ruby is installed, you'll see something like
 <pre>ruby 2.0.0p353 (2013-11-22 revision 43784)</pre>
