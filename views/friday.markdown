@@ -33,15 +33,12 @@ repo](https://github.com/tdenkinger/docs/tree/nitrous.io/sites/installfest).
 
 
 ### 3. Install a Text Editor
-You will want a text editor that is designed for coding. These instructions will show you how to install a good text 
-editor, and the basics of using it effectively.
+You should have installed a text editor that is designed for coding. Here are some suggestions for using it more effectively. 
 
 [Text Editor](/installfest/text_editor)  
 
-### 4. Start IRB
-TO DO - add quick instructions for starting terminal and type 'irb'
 
-### 5. Setup Checklist 
+### 4. Setup Checklist 
 
 Find a staff member and run through the [Installfest Completion Checklist](installfest/checklist):
 
