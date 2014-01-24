@@ -1,51 +1,18 @@
 # Installfest Completion Checklist
 
-1. Create a new ruby file (with an .rb extension). In that file, type:
+1. Open a command line, then go to the workspace folder : type `cd ~/Desktop/workspace`
 
-    ``` ruby
-    puts 'Hello World!'
-    ```
-    Then save the file. From the command line, navigate to and execute the Ruby script you just created.
-
-2. Confirm that Ruby and Rails are installed on your machine.  From the command line type:
-
-    ```text
-    rails --version
-    ```
+2. Start the virtual machine: type `vagrant up`
     
-    You should see:
-    
-    ```text
-    Rails 3.2.14
-    ```
-   ```
-    
-3. Confirm that your Heroku account is set with your key. From the
-   command line, type:
+3. Connect to the virtual machine: type  `vagrant ssh`
 
-    ```text
-    heroku keys
-    ```
-    And you should see something like:
+4. Start the Ruby interactive editor:  type  `irb`
 
-    ```text
-    === youremail@example.com Keys
-    ssh-dss AAAAAAAA..12312asfdsdf== user@system.local
-    ```
+5. Disconnect from the virtual machine by typing `exit`
 
-4. Confirm that `git` is set up properly. From the command line, type:
+6. Stop the virtual machine for the night:  type `vagrant halt`.
 
-    ```text
-    git --version
-    ```
-
-    And you should see output like this (the version number doesn't need to be exact):
-
-    ```text
-    git version 1.7.10.2 (Apple Git-33)
-    ```
-
-5. Get a setup confirmation sticker from a staff member and stick it on
+7. Get a setup confirmation sticker from a staff member and stick it on
    your laptop where it will be visible when you come back tomorrow morning.
 
 Congratulations! You are ready to learn how to program with Ruby! 
