@@ -17,7 +17,7 @@ We recommend that you install a "virtual machine" containing all the software yo
 
 VirtualBox does not support OS X 10.5, so if you are using that version or an older one, try to follow the [OS X 10.5 installfest instructions].
 
-1. Download [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88780-OSX.dmg) for Mac. Run the installer after it downloads.  Start VirtualBox to ensure it works on your system.
+1. Download [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88780-OSX.dmg) for Mac. Run the installer after it downloads.
 
 2. Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55cf8569167fc22415/Vagrant-1.3.3.dmg) for Mac. Run the installer after it downloads.
 
@@ -29,7 +29,7 @@ VirtualBox does not support OS X 10.5, so if you are using that version or an ol
 
 Windows is a different kind of operating system, so you will have to use a virtual machine. In particular, it doesn't have the same kind of command line. Since we are going to start and access the virtual machine by running Vagrant from the command line, we'll fix this by installing GitHub for Windows, which comes with an OS X and Linux-like "shell". You don't need to use the actual Github for Windows app in the workshop.
 
-1. Download [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88781-Win.exe) for Windows. Run the installer after it downloads. Start VirtualBox after installation to ensure that it launches.  You can quit once it starts.
+1. Download [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.18/VirtualBox-4.2.18-88781-Win.exe) for Windows. Run the installer after it downloads.
 
 2. Download [Vagrant](http://files.vagrantup.com/packages/db8e7a9c79b23264da129f55cf8569167fc22415/Vagrant_1.3.3.msi) for Windows. Run the installer after it downloads. Agree to restart the computer if you're prompted to do so.
 
