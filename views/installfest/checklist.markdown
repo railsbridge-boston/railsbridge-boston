@@ -8,6 +8,8 @@
 
 4. Start the Ruby interactive editor:  type  `irb`
 
+5. Exit the Ruby interactive editor:  type  `exit`
+
 5. Disconnect from the virtual machine by typing `exit`
 
 6. Stop the virtual machine for the night:  type `vagrant halt`.

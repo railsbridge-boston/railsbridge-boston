@@ -4,7 +4,7 @@ Windows and OS X users need to set up the virtual machine they [downloaded](/pre
 
 
 ## Setting up a workspace
-Open the command line. See the [Using the Command Line](http://docs.railsbridgeboston.org/ruby/command_line), for a refresher on how to start the command line.
+Open the command line. See the [Using the Command Line](http://docs.railsbridgeboston.org/ruby/command_line), for a refresher on how to start the command line.  Windows users, be sure to use the Git shell you downloaded - Power Shell will not work.
 
 
 Create a workspace directory for your Railsbridge tutorial.
@@ -29,9 +29,12 @@ This directory will be shared between the virtual machine and your computer. Lik
 This is a one-time step to create the virtual machine for the workshop.
 
 [Before the workshop](/pre_workshop), you downloaded railsbridgevm-2014-01.box, the RailsBridge virtual machine, and saved it in the Downloads folder. 
-In File Explorer or Finder, drag and drop railsbridgevm-2014-01.box from your downloads folder to your new workspace folder.  Return to the command line window.
 
 *If you were unable to download the vm ahead of time, we have copies on USB drives.*
+
+In File Explorer or Finder, drag and drop railsbridgevm-2014-01.box from your downloads folder to your new workspace folder.  
+
+Return to the command line window.  Type this:
 
     `vagrant box add railsbridgebox ./railsbridgevm-2014-01.box`
 
@@ -47,6 +50,9 @@ Here is what you should see (approximately):
     the comments in the Vagrantfile as well as documentation on
     `vagrantup.com` for more information on using Vagrant.
     </pre>
+
+Sneak preview of the command line lesson!  Type this to list all the files you've made:
+    `ls`
 
 Look at the workspace folder in Finder or File Explorer. You'll notice it now contains a file called Vagrantfile.  This contains configuration information that Vagrant needs to start and connect to the new virtual machine.  We have to have a command line open and be in this folder when we start or connect to the vm so Vagrant can read the configuration information.
 
