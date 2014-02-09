@@ -35,7 +35,7 @@ end
 
 class RubyWorkshop < Sinatra::Base
 
-  CURRENT_WORKSHOP = 6
+  CURRENT_WORKSHOP = 8
   def initialize
     super
     @app = ::Deck::RackApp.public_file_server
@@ -146,7 +146,8 @@ class RubyWorkshop < Sinatra::Base
   end
 
   get '/blog' do
-    erb :blog
+    redirect "http://railsbridgeboston.tumblr.com/"
+    #erb :blog
   end
 
   get '/blog/2013_jun_recap' do
