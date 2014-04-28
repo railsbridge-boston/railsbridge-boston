@@ -177,8 +177,10 @@ class RubyWorkshop < Sinatra::Base
 
   def sponsor_url_logos
     [
-      ["https://github.com", "/sponsors/github.png"],
-      ["http://thisismetis.com", "/sponsors/metis.png"],
+      ["http://startupinstitute.com/", "/sponsors/startup_institute.png"],
+      ["http://actblue.com", "/sponsors/actblue.png"],
+      ["http://launchacademy.com", "/sponsors/launch.png"],
+      ["http://annkissam.com", "/sponsors/annkissam.png"],
     ].shuffle
   end
 

@@ -9,29 +9,31 @@
     </p>
   </div>
   <div class="sponsor-images row">
-    <div class="sponsor">
-      <a href="http://www.thisismetis.com/"><img src="/sponsors/metis.png"/></a>
-      <h3>Workshop sponsor</h3>
+    <div class="sponsor-category">
+      <h3>May 2014 Workshop Sponsors</h3>
+      <ul>
+        <% @sponsors.each do |sponsor| %>
+          <li><a href="<%= sponsor[0] %>"><img src="<%= sponsor[1] %>"></a></li>
+        <% end %>
+      </ul>
+    </div>
+    <div class="sponsor-category">
+      <h3>After-Party Sponsor</h3>
+      <a href="http://www.arcadiasolutions.com/"><img src="/sponsors/arcadia.png"/></a>
       <p>
-        Metis provides intensive courses teaching you job-ready skills for the
-        new economy. Their first course is a 12-week in-person Ruby on Rails
-        bootcamp in Boston.  The course is created and taught by thoughtbot
-        developers.
+        Founded in 2002 and headquartered outside Boston, with offices in New
+        York, Seattle, and Nashville, Arcadia Healthcare Solutions is an
+        innovative and nationally recognized leader in the healthcare technology
+        and services industry. Arcadia provides services and technology for EHR
+        Outsourcing and Consulting; Data Integration and Population Analytics; and
+        Care Delivery Transformation and Coaching. With a focus on both healthcare
+        provider and payer solutions, Arcadia has a unique cross-industry
+        perspective on using data to drive healthcare transformation.
       </p>
     </div>
-    <div class="sponsor">
-      <a href="https://github.com/"><img src="/sponsors/github.png"/></a>
-      <h3>After-party sponsor</h3>
-      <p>
-        GitHub is a web-based hosting service for software development projects
-        that use the Git revision control system. GitHub offers both commercial
-        plans and free accounts for open source projects. GitHub is the most
-        popular Git hosting site.
-      </p>
-    </div>
-    <div class="sponsor">
+    <div class="sponsor-category">
+      <h3>Venue Sponsor</h3>
       <a href="https://microsoft.com/"><img src="/sponsors/microsoftlogo.png"/></a>
-      <h3>Venue sponsor</h3>
       <p>
         Microsoft New England Research &amp; Development Center (NERD) is a
         world-renowned research and software development center and home to
