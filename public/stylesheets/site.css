@@ -47,12 +47,18 @@ h3 {
   background-color: inherit;
 }
 
-.upcoming-workshop p {
-  margin: 0;
+.upcoming-workshop {
+  padding:10px;
+  margin-bottom:10px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background-color: rgb(245,245,245);
 }
 
-.upcoming-workshop p:last-child {
-  margin-top: .8em;
+.workshop-title{
+  font-size: larger;
+  font-weight: bold;
+
 }
 
 .main-sponsor p {
