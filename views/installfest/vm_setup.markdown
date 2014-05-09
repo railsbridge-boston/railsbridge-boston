@@ -14,11 +14,11 @@ Open Finder or File Explorer.  By default, they open to your home directory.  Cr
 
 This is a one-time step to create the virtual machine for the workshop.
 
-[Before the workshop](/pre_workshop), you downloaded railsbridgevm-2014-05-14-rc3.box, the RailsBridge virtual machine, and saved it in the Downloads folder.   Note that this is updated from the January 2014 workshop. 
+[Before the workshop](/pre_workshop), you downloaded railsbridgevm-2014-05.box, the RailsBridge virtual machine, and saved it in the Downloads folder.   Note that this is updated from the January 2014 workshop. 
 
 *If you were unable to download the vm ahead of time, we have copies on USB drives.*
 
-In File Explorer or Finder, drag and drop railsbridgevm-2014-05-14-rc3.box from your downloads folder to your new workspace folder.  
+In File Explorer or Finder, drag and drop railsbridgevm-2014-05.box from your downloads folder to your new workspace folder.  
 
 
 Open the command line. See the [Using the Command Line](http://docs.railsbridgeboston.org/ruby/command_line), for a refresher on how to start the command line.  
@@ -38,7 +38,7 @@ If you've installed the railsbridge vm in the January workshop, delete it.  If y
 
 Type this:
 
-    `vagrant box add railsbridgebox ./railsbridgevm-2014-05-14-rc3.box`
+    `vagrant box add railsbridgebox ./railsbridgevm-2014-05.box`
 
 Then type:
 
