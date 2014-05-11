@@ -11,7 +11,7 @@ Create a workspace directory for your Railsbridge tutorial.
 
 Go to your home directory:
 
-    `cd ~`
+    `cd`
 
 Make a new directory for the workshop:
 
@@ -66,7 +66,7 @@ The virtual machine has to be running in order to use it.  There are two ways to
 ### Start and Connect Through The Commandline
 
 If you closed your command line, open it again and type 
-`cd ~/Desktop/workspace` 
+`cd workspace` 
 to return to the workspace folder.  This folder contains the file Vagrantfile, which has the configuration settings needed to start the vm. 
 
 
