@@ -106,7 +106,13 @@ ls
 You can return to your home directory with this command:
 
 ```text
-cd ~
+cd
+```
+
+Or to your workspace directory with:
+
+```text
+cd ~/workspace
 ```
 
 The tilde `~` is an abbreviation that points to your home directory. Type
