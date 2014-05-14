@@ -23,7 +23,7 @@ in the [pre-workshop steps](/pre_workshop).
 Instructions for installing and running Ruby.
 
 [Install Ruby on Windows](/installfest/install/windows)  
-[Install Ruby on Mac OS X 10.6 and up](/installfest/install/osx)  
+[Install the Virtual Machine on Mac OS X 10.6 and up](/installfest/install/osx)  
 [Install Ruby on Mac OS X 10.5](/installfest/install/osx-10-5)  
 [Install Ruby on Linux](/installfest/install/linux)  
 
@@ -37,8 +37,14 @@ You should have installed a text editor that is designed for coding. Here are so
 
 [Text Editor](/installfest/text_editor)  
 
+### 4. Create a Heroku Account
+ Heroku is the host that you will deploy your application to.
+ 
+ [Create a Heroku Account](/installfest/create_a_heroku_account)
+ 
+ 
 
-### 4. Setup Checklist 
+### 5. Setup Checklist 
 
 Find a staff member and run through the [Installfest Completion Checklist](installfest/checklist):
 
