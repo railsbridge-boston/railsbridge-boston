@@ -1,9 +1,9 @@
 # Installfest Completion Checklist
 
-1. Open a command line, then go to the workspace folder : type `cd ~/Desktop/workspace`
+1. Open a command line, then go to the workspace folder : type `cd ~/workspace`
 
 2. Start the virtual machine: type `vagrant up`
-    
+
 3. Connect to the virtual machine: type  `vagrant ssh`
 
 4. Start the Ruby interactive editor:  type  `irb`
