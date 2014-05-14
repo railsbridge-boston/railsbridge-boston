@@ -14,11 +14,11 @@ Open Finder or File Explorer.  By default, they open to your home directory.  Cr
 
 This is a one-time step to create the virtual machine for the workshop.
 
-[Before the workshop](/pre_workshop), you downloaded railsbridgevm-2014-05-14-rc3.box, the RailsBridge virtual machine, and saved it in the Downloads folder.   Note that this is updated from the January 2014 workshop. 
+[Before the workshop](/pre_workshop), you downloaded railsbridgevm-2014-05.box, the RailsBridge virtual machine, and saved it in the Downloads folder.   Note that this is updated from the January 2014 workshop. 
 
 *If you were unable to download the vm ahead of time, we have copies on USB drives.*
 
-In File Explorer or Finder, drag and drop railsbridgevm-2014-05-14-rc3.box from your downloads folder to your new workspace folder.  
+In File Explorer or Finder, drag and drop railsbridgevm-2014-05.box from your downloads folder to your new workspace folder.  
 
 
 Open the command line. See the [Using the Command Line](http://docs.railsbridgeboston.org/ruby/command_line), for a refresher on how to start the command line.  
@@ -38,7 +38,7 @@ If you've installed the railsbridge vm in the January workshop, delete it.  If y
 
 Type this:
 
-    `vagrant box add railsbridgebox ./railsbridgevm-2014-05-14-rc3.box`
+    `vagrant box add railsbridgebox ./railsbridgevm-2014-05.box`
 
 Then type:
 
@@ -106,14 +106,13 @@ to connect to the virtual machine.
 You will see a welcome message something like this:
     <pre>
     [choi@mini rbb]$ vagrant ssh
-    Welcome to Ubuntu 12.04 LTS (GNU/Linux 3.2.0-23-generic-pae i686)
+    Welcome to Ubuntu 14.04 LTS (GNU/Linux 3.13.0-24-generic i686)
     * Documentation:  https://help.ubuntu.com/
     Welcome to the Railsbridge Boston virtual machine!
 
     ...
 
-    Last login: Tue Aug 27 00:38:27 2013 from 10.0.2.2
-    vagrant@precise32:~$ 
+    RailsBridge-VM:~/workspace$ 
     </pre>
 
 
