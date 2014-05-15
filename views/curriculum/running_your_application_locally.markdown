@@ -1,32 +1,28 @@
 # Run Your Application on Your Machine
+## Overview
+With one command, Rails built a skeleton application. Let's fire it up. 
+
 ## Goals
 
-* Let's fire up the application locally
+* start a Rails server
 
 
 ### Step 1
 
-
-We'll need to add two more files and move another to make the application
-work. Type this on the command line:
-
-```text
-mkdir public/assets
-mkdir public/javascripts
-mkdir public/stylesheets
-mv app/assets/images/rails.png public/assets
-touch public/javascripts/application.js
-touch public/stylesheets/application.css
-```
-
-If you're curious what these commands are doing, ask a teaching assistant.
-
-Now we can start the server locally. Type this in the terminal:
+Now we can run the application on your laptop. Type this in the terminal:
 
 ```text
 bundle
+```
+Bundle updates helper libraries that your application uses. 
+
+
+Now start your server. Type this in the terminal:
+
+```text
 rails server
 ```
+
 
 You should see something like this:
 
@@ -53,7 +49,8 @@ It should look like this:
 
 ### Step 3
 
-When at the terminal with your running rails server, Type `Ctrl+c` to stop rails server, you can do this now.
+Now let's stop the server. Switch from your web browser back to your terminal.  In the terminal, hold the CONTROL or CTRL key and hit the  C key. ( We'll abbreviate this as `Ctrl+c` in later steps.)
+
 Expected result:
 
 ```text
