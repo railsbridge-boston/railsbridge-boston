@@ -2,6 +2,11 @@
 
 <img src="/images/curriculum/Start_page.png" class="thumbnail"></img>
 
+## Overview
+
+Rails makes it very fast to create a new application. With only a few steps, you can create a simple web application. 
+
+
 ## Goals
 
 * Create Your New Application
@@ -13,23 +18,13 @@ Let's get started! By the end of this step, we'll have brand new rails app.
 
 <img src="/images/info.png"></img> If you have any problems, contact a TA immediately.
 
-You will type this in the terminal. But please read the explanations for each line below as you type them.
-
-```text
-rails new suggestotron --skip-sprockets
-cd suggestotron
-ls
-```
-
-Here's a step-by-step breakdown, with explanations:
-
 
 ## Step 1
 
 Type this in the terminal
 
 ```text
-rails new suggestotron --skip-sprockets
+rails new suggestotron
 ```
 
 `rails new` creates a new rails project with the name you give.
@@ -37,13 +32,15 @@ rails new suggestotron --skip-sprockets
 In this case we told it to create a new project called suggestotron. We'll go
 into detail on what it created shortly.
 
-`--skip-sprockets` turns off a complex optimization feature called the [Asset
-Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) which we won't be
-using. Note there are *two leading dashes* in `--skip-sprockets`.
 
 ## Step 2
 
 Type this in the terminal
+```text
+ls
+```
+Notice that rails created a new folder called suggestotron. 
+
 
 ```text
 cd suggestotron
@@ -64,7 +61,7 @@ To see the contents of the current folder, type this in the terminal
 ls
 ```
 
-`ls` stands for 'list'.
+`ls` stands for 'list'.  Alternatively, look at the suggestotron folder in Finder or File Explorer. 
 
 
 Let's look at the structure of the whole project. 
@@ -80,10 +77,10 @@ You can see that `rails new` created a lot directories and files. The ones we wi
 * `app/` Contains controllers, models, and views for your application.  You will do most of your work here.  
 * `config/` Configure your application's runtime rules, routes, database, and more.  
 * `db/` Shows your current database schema, as well as the database migrations.  
-* `public/` The only folder seen by the world as-is. This is where your static files go. You can also put stylesheets, javascript and images in this folder.
+* `public/` The only folder seen by the world as-is. This is where your plain html files go. You can also put stylesheets, javascript and images in this folder.
 
-There is a lot more that `rails new` created. Probably enough to fill a book,
-so we're going to ignore them for now.
+There is a lot more that `rails new` created --  enough to fill a book,
+so we're going to move ahead for now. 
 
 
 ## Next Step
