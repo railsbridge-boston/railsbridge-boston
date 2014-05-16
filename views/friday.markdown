@@ -15,17 +15,15 @@ these sections in order, and ask questions if you get stuck! That's what the TAs
 When you are done with all the sections, find a staff member to go through the checklist with you.
 
 
-### 1. Set Up Ruby
+### 1. Set Up Your Programming Environment
 
 Make sure you have first downloaded all the necessary software for your system
 in the [pre-workshop steps](/pre_workshop).
 
-Instructions for installing and running Ruby.
-
-[Install Ruby on Windows](/installfest/install/windows)  
-[Install the Virtual Machine on Mac OS X 10.6 and up](/installfest/install/osx)  
-[Install Ruby on Mac OS X 10.5](/installfest/install/osx-10-5)  
-[Install Ruby on Linux](/installfest/install/linux)  
+[On Windows](/installfest/install/windows)  
+[On Mac OS X 10.6 and up](/installfest/install/osx)  
+[On Mac OS X 10.5](/installfest/install/osx-10-5)  
+[On Linux](/installfest/install/linux)  
 
 If you're using ChromeOS, please ask a TA to help you get set up. TA, please
 consult the Nitrous.io instructions added to [this GitHub
