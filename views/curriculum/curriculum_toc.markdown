@@ -50,7 +50,8 @@ tutorial mechanically, you won't learn or remember nearly as much.
 * [Liane's first Rails app!](http://intense-bastion-3415.herokuapp.com/)
 
 ## BONUS TRACK: Deploying to the Web with Git and Heroku ##
-* [Create a Git Repo](create_a_new_git_repo)  
+* [Create a Git Repository](create_a_new_git_repo)
+* [Configure a Database for Heroku](configure_db_for_heroku)
 * [Add the Project Files to the Git Repo](add_the_project_to_the_git_repo)  
 * [Deploy to Heroku](deploy_to_heroku)  
     * [Extra Credit: More Heroku](extra_credit/03_more_heroku)
