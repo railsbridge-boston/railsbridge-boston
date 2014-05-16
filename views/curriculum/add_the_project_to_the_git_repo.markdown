@@ -94,13 +94,11 @@ shows a log of your previous changes in detail.
 
 ## Explanation
 
-By checking your application into git now, you're creating a record of your starting point. Whenever you make a
-change during today's workshop, we'll add it to git before moving on. This way, if anything ever breaks, or you make a
-change you don't like, you can use git as an all-powerful "undo" technique. But that only works when you remember to
-commit early and often!
+You created a snapshot of your application by checking it into git. Heroku will copy your code from git to a web server.
+
 
 ## Next Step
 
-Go on to [Running Your Application Locally](running_your_application_locally)
+Go on to [Deploying to Heroku](deploy_to_heroku)
 
 

@@ -67,6 +67,12 @@ This provides a very simple means to see your changes before you commit and push
 `Ctrl+c` is a way of closing or cancelling terminal programs. Since rails server runs forever, 
 you need to interrupt it with `Ctrl+c`.
 
-## Next Step
 
-Go on to [Deploy to Heroku](deploy_to_heroku)
+## Next Step
+Wait for the next lecture!  
+
+[(…is the lecture over? Go to the next section)](/curriculum/creating_a_migration)
+
+[<<< Table of Contents](/curriculum/curriculum_toc)
+
+

@@ -87,5 +87,13 @@ always have filenames starting with an underscore character.
 * This is the controller file that rails created as part of the scaffold
 * If you look you'll see a method (a line beginning with `def`) for each of the views listed above (except `_form.html.erb`)
 
+
+## Extra Credit
+Finish a little early? Try [working with the console](extra_credit/04_console).
+
 ## Next Step
-Go on to [Commit and Push to Heroku](commit_and_push_to_heroku)
+Wait for the next lecture!  
+
+[(…is the lecture over? Go to the next section)](/curriculum/voting_on_topics)
+
+[<<< Table of Contents](/curriculum/curriculum_toc)
