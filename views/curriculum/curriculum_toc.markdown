@@ -51,6 +51,7 @@ tutorial mechanically, you won't learn or remember nearly as much.
 
 ## BONUS TRACK: Deploying to the Web with Git and Heroku ##
 * [Create a Git Repository](create_a_new_git_repo)
+* [Create a Heroku site](create_a_heroku_site)
 * [Configure a Database for Heroku](configure_db_for_heroku)
 * [Add the Project Files to the Git Repo](add_the_project_to_the_git_repo)  
 * [Deploy to Heroku](deploy_to_heroku)  
