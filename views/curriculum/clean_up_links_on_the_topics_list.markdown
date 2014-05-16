@@ -70,5 +70,13 @@ can resize it like this
 
 `height=100` ensures that the image is 100 pixels tall, and no more.
 
+## Explanation
+Nothing new here... Except... **you're done!!!**
+Congratulations, you just "finished" your first rails app!
+
+(They're never really ever finished... have fun tweaking it!)
+
 ## Next Step
-Go on to [Commit and Push to Heroku, Yet Again](commit_and_push_to_heroku_yet_again)
+Go on to [Next Steps](next_steps)
+
+[<<< Table of Contents](/curriculum/curriculum_toc)

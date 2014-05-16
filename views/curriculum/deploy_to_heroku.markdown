@@ -1,7 +1,7 @@
 # Deploy to Heroku
 
 ## Overview
-We've got an empty app and it has been added to git. What now?
+We've committed our code to git. What now?
 
 **Ship it!**
 
@@ -165,14 +165,10 @@ Make a change to the "Welcome aboard" page, commit the change to Git, and deploy
 
 Hints:
 If you need a reminder on how to run the rails server, go back to [Running Your Application Locally](/curriculum/running_your_application_locally)  
-The instructions for Git and Heroku are up above on this page.
+
 
 ## Extra Credit
 
 Try doing some [more with Heroku](extra_credit/03_more_heroku).
 
-## Next Step
-
-Wait for the next lecture!  
-
-[(…is the lecture over? Go to the next section)](/curriculum/creating_a_migration)
+[<<< Table of Contents](/curriculum/curriculum_toc)

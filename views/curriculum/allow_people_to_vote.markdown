@@ -62,5 +62,13 @@ The changes we made to votes controller are a bit more complicated so let's work
 * `vote.save!` saves the vote to the database.
 * `redirect_to(topics_path)` tells the browser to go back to topics_path (the topics list).
 
+## Extra Credit
+If you already tried working with the [Rails console](extra_credit/04_console),
+why not [add some pagination](extra_credit/05_pagination)?
+
 ## Next Step
-Go on to [Commit and Push to Heroku Again](commit_and_push_to_heroku_again)
+Wait for the next lecture!  
+
+[(…is the lecture over? Go to the next section)](/curriculum/setting_the_default_page)
+
+[<<< Table of Contents](/curriculum/curriculum_toc)

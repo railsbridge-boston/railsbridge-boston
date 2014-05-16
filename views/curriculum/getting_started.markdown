@@ -86,4 +86,4 @@ so we're going to move ahead for now.
 
 ## Next Step
 
-Go on to [Create a New Git Repo](create_a_new_git_repo)
+Go on to [Running Your Application Locally](running_your_application_locally)
