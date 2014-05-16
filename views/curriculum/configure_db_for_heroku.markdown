@@ -1,7 +1,7 @@
 # Configure a database for Heroku
 
 ## Overview
-Heroku uses a database called PostGres. So far, locally, you've been using a database called Sqlite3. We'll make a small change to our Gemfile to make this this distinction.
+Heroku uses a database called PostgreSQL. So far, locally, you've been using a database called SQLite3. We'll make a small change to our Gemfile to make this this distinction.
 
 ## Goals
 * Update your application's configuration to use PostGres in production.
@@ -40,7 +40,7 @@ Every time the Gemfile changes, you need to run `bundle install` for the changes
 ## Explanation
 
 The Gemfile is a list of all the Ruby libraries your application needs. What we've declared here is that we want to
-use the sqlite3 library while we're developing on our computer (the development group) but when deploying to heroku
+use the SQLite3 library while we're developing on our computer (the development group) but when deploying to heroku
 (the production group) we want to use the pg library, which is made for the type of database that heroku uses.
 
 Bundler is how Ruby projects keep track of the gems that they use. We told bundler what we wanted to use in the Gemfile,
