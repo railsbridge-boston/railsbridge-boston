@@ -86,10 +86,10 @@ this as we add more functionality to the application. Your typical workflow will
 
 1. Add or change some code
 1. If you added anything new in your db/migrate/ folder, rake your database (`rake db:migrate`)
-1. Tell git about it ('git add .')
+1. Tell git about it (`git add .`)
 1. Commit your changes (`git commit -m "made some change"`)
 1. Deploy your changes (`git push heroku master`)
-1. If you added anything new in your db/migrate/ folder, rake your database on heroku ('heroku run rake db:migrate')
+1. If you added anything new in your db/migrate/ folder, rake your database on heroku (`heroku run rake db:migrate`)
 1. Boom! Your changes are live!
 1. Repeat
 
