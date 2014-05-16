@@ -36,6 +36,7 @@ into detail on what it created shortly.
 ## Step 2
 
 Type this in the terminal
+
 ```text
 ls
 ```

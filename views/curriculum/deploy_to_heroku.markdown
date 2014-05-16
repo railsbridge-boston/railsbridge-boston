@@ -1,9 +1,12 @@
 # Deploy to Heroku
 
-## Goals
-* OK. We've got an empty app and it has been added to git. What now?
+## Overview
+We've got an empty app and it has been added to git. What now?
 
 **Ship it!**
+
+## Goals
+* Deploy your app to the web
 
 ## Steps
 
@@ -69,15 +72,44 @@ of the changes is stored in another file called `Gemfile.lock`.
 
 There are now changes to Gemfile and Gemfile.lock that need to be committed before we can push to heroku.
 
+`gittyup` is a helper that simplifies copying your code to heroku. 
+
+
 Type this in the terminal
 
 ```text
 gittyup
 ```
 
-This command will ask `enter commit message (blank to exit)` type `some changes to Gemfile`
-
 This takes all changes you've committed locally and pushes them to heroku.
+Gittyup will ask `enter commit message (blank to exit)`. Type `some changes to Gemfile` and hit return.
+
+You'll see something like this:
+
+```text
+Commiting files with: git commit --message gemfile changes
+[master 0268bd7] gemfile changes
+ 3 files changed, 54 insertions(+), 1 deletion(-)
+ create mode 100644 Gemfile~
+
+Pushing to heroku with: git push heroku master
+```
+
+The first time you push to heroku, you may see a message like this:
+
+```text
+The authenticity of host 'heroku.com (50.19.85.156)' can't be established.
+RSA key fingerprint is 8b:48:5e:67:0e:c9:16:47:32:f2:87:0c:1f:c8:60:ad.
+Are you sure you want to continue connecting (yes/no)? 
+```
+Your latop is cautioning that you've never connected to Heroku before, 
+and your latop can't be absolutely sure that Heroku is who it says it is. 
+
+Say `yes` and hit return.  It will reply:
+
+```text
+Warning: Permanently added 'heroku.com,50.19.85.156' (RSA) to the list of known hosts.
+```
 
 
 ### Step 5: Visit your application
@@ -112,7 +144,7 @@ this as we add more functionality to the application. Your typical workflow will
 
 1. Add or change some code
 1. Commit your changes (`git commit`)
-1. Deploy your changes (`git push heroku`)
+1. Deploy your changes (`gittyup` or `git push heroku`)
 1. Boom! Your changes are live!
 1. Repeat
 
