@@ -37,7 +37,7 @@ Rails will create a lot of directories and files.  Notice that some of the direc
 
 ### Step 2
 
-Database don't create tables by themselves - they need instructions. 
+Databases don't create tables by themselves - they need instructions. 
 
 One of the files the scaffold command created will be named something like "db/migrate/20140515115208_create_topics.rb".  The numbers 
 in the name are the date and time the file was made, so yours will be named differently.  

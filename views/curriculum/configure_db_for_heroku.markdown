@@ -47,4 +47,6 @@ Bundler is how Ruby projects keep track of the gems that they use. We told bundl
 now we need make sure those gems are installed. Since we don't have the type of database heroku does, we skip the
 production gems. Don't worry though! Bundler still logs them so Heroku will install them when they get your code.
 
-[<<< Table of Contents](/curriculum/curriculum_toc)
+
+## Next Step
+Go on to [Add the Project Files to the Git Repo](add_the_project_to_the_git_repo)  

@@ -48,4 +48,7 @@ You should see some output. The last line should be the web URL of your
 deployed Rails application. Hint: You can rename it later in the Extra Credit section.
 
 Copy this URL into your web browser and load it.  You haven't deployed your code yet, so you'll see "The page you were looking for doesn't exist."
-[<<< Table of Contents](/curriculum/curriculum_toc)
+
+
+## Next Step
+Go on to [Configure a Database for Heroku](configure_db_for_heroku)

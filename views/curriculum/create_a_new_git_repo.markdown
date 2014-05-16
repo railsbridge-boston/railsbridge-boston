@@ -57,4 +57,4 @@ called `.git`. You can see this by typing `ls -a` (list all files).
 
 
 ## Next Step
-Go on to [Add the Project to the Git Repo](add_the_project_to_the_git_repo)
+Go on to [Create a Heroku site](create_a_heroku_site)
