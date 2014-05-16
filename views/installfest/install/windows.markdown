@@ -20,7 +20,7 @@ Leave this terminal window open on your computer.  To open an extra Terminal
 (console) into the virtual machine, open another Git Shell window, then type:
 
 ```text
-cd ~/Desktop/railsbridge
+cd ~/workspace
 vagrant ssh
 ```
 
@@ -41,7 +41,7 @@ When you want to use the virtual machine (tomorrow morning, for instance),
 start your machine. Launch Git Shell, then:
 
 ```text
-cd ~/Desktop/railsbridge
+cd ~/workspace
 vagrant up
 vagrant ssh
 ```

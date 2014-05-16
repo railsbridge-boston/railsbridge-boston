@@ -3,8 +3,8 @@
 
 **If you are using the Railsbridge Virtual Machine**, there is a folder
 inside the virtual machine called `~/workspace`. This folder is mapped
-to a folder at `~/Desktop/railsbridge` in your host
-operating system. Make sure you can find `~/Desktop/railsbridge`. It should already
+to a folder at `~/workspace` in your host
+operating system. Make sure you can find `~/workspace`. It should already
 contain a file called `Vagrantfile`. When you are editing files in your text
 editor, make sure you save files to this folder or into a subdirectory inside
 this folder.  
@@ -27,7 +27,7 @@ for how to do this.
 
 2. Save as `hello.rb` in your *working directory*. The `.rb` extension indicates that this file contains Ruby code.
 
-Your *working directory* should be `~/Desktop/railsbridge`.
+Your *working directory* should be `~/workspace`.
 
 ### Run the Script
 
