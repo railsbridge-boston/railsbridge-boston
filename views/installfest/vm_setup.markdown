@@ -7,7 +7,7 @@ Windows and OS X users need to set up the virtual machine they [downloaded](/pre
 Create a workspace folder in your home directory. This directory will be shared between the virtual machine and your computer. Like sharing files between two real computers with Dropbox or Google Docs, files need to be saved in a place that both your computer and the virtual machine can see. Save all your work in the hands-on exercises here so they can be run in the virtual machine.
 
 
-Open Finder or File Explorer.  By default, they open to your home directory.  Create a folder named workspace.  If you attended the January workshop, you already have this folder. 
+Open Finder or File Explorer.  By default, they open to your home directory.  Create a folder named `workspace`.  If you attended the January workshop, rename your old `workspace` folder and create a new one.
 
 
 ## Set up the virtual machine
