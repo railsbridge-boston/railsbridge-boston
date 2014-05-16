@@ -46,14 +46,6 @@ Enter passphrase (empty for no passphrase): [Type a passphrase]
 heroku keys:add
 ```
 
-## 7. Install the gittyup gem (optional)
-
-The `gittyup` gem is a shortcut for executing git commits.
-
-```text
-gem install gittyup
-```
-
 ## Success!
 You are now ready to deploy web applications with Heroku!
 
