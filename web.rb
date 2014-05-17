@@ -112,12 +112,12 @@ class RubyWorkshop < Sinatra::Base
   # completions for this workshop
   get '/completions' do
     completions = DB["select page, count(distinct student_id) from completions inner join students using (student_id) \
-       where students.name is not null and students.ip = '64.119.130.114' and workshop = ? group by page", CURRENT_WORKSHOP].to_a
+       where students.name is not null  group by page"].to_a
 
     total_students = DB["select count(*) as total from students where students.name is not null and students.ip = '64.119.130.114' and workshop = ?", CURRENT_WORKSHOP].first[:total]
 
     total_completions = DB["select count(*) as total from completions inner join students using (student_id) \
-       where students.name is not null and students.ip = '64.119.130.114' and workshop = ?", CURRENT_WORKSHOP].first[:total]
+       where students.name is not null "].first[:total]
     {completions: completions, total_students: total_students, total_completions: total_completions }.to_json
   end
 
