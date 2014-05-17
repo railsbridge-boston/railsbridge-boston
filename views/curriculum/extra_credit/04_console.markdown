@@ -63,7 +63,6 @@ All you need to do is type `quit` to leave the console. If that doesn't work,
 try pressing `^C` (Control+C).
 
 ## Further Exploration
-* Try creating some records on Heroku, instead of on your local machine (Hint: try `heroku run console` instead of `rails console`)
 * Try making some changes to the Topics you create, or to the number of Topics.
   Be careful, though! If you make too many topics, you can always start over with
   `Topic.delete_all`.
