@@ -10,13 +10,13 @@ tutorial mechanically, you won't learn or remember nearly as much.
 
 ## Reminders
 
-* We're doing all our work inside the Vagrant virtual machine.  We need to start and connect to Vagrant before doing the exercises.
+We're doing all our work inside the Vagrant virtual machine.  We need to start and connect to Vagrant before doing the exercises.
 [Here's a cheat sheet.](start_vagrant)
 
-* The /workspace folder is shared between your laptop and Vagrant - like Google Docs or DropBox.  
+The /workspace folder is shared between your laptop and Vagrant - like Google Docs or DropBox.  
 When you save code in the editor, put it in this shared folder
 
-*  We suggest opening Sublime Text to show your workspace directory.  It will open up a side bar that shows all the folders and files you're making.  It makes it easier to see what's happening and to edit files.  In the File menu, select Open, then click on your workspace directory.
+We suggest opening Sublime Text to show your workspace directory.  It will open up a side bar that shows all the folders and files you're making.  It makes it easier to see what's happening and to edit files.  In the File menu, select Open, then click on your workspace directory.
 
 
 # Saturday Curriculum
