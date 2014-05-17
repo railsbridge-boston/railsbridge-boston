@@ -18,15 +18,7 @@ When you are done the last few lines should look like this:
 root to: 'topics#index'
 ```
 
-### Step 2: Remove the static welcome file
-You also need to remove the welcome aboard page for the new route to work.  
-Type this in the terminal:
-
-```text
-git rm public/index.html
-```
-
-### Step 3: Confirm your changes
+### Step 2: Confirm your changes
 Go back to [http://localhost:3000/](http://localhost:3000/). You should be taken to the topics list automatically.
 
 ## Explanation
