@@ -24,4 +24,16 @@ To start the app:
     rackup
 
 
-TEST
+## How to reset the db on production instance in Heroku
+
+Jump into the database and delete all the records:
+
+    heroku pg:psql --app railsbridge-boston
+    # wait for prompt
+    delete from completions;
+    delete from students;
+    \q 
+
+That should do it.
+
+
