@@ -60,4 +60,4 @@ tutorial mechanically, you won't learn or remember nearly as much.
 
 ## Wrapping Up ##
 * [Next Steps](next_steps)
-* [Survey](https://docs.google.com/spreadsheet/viewform?formkey=dFh4UzJiRmR0bmJ3S1FJLVhudENyZnc6MA#gid=0)
+* [Survey](https://docs.google.com/forms/d/1VJzy73VH6VFFA5UQ5lp5xNzJqT4YV-4O_GgLqaUG1fI/viewform?usp=send_form)
