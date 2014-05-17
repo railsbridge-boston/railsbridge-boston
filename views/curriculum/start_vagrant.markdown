@@ -13,18 +13,11 @@ You can find the Terminal application through Spotlight (click the magnifying
 glass in the top right of the screen and start typing "Terminal"), 
 or navigate to `Applications/Utilities/Terminal` in Finder.
 
-If you installed Ruby with the Railsbridge Virtual Machine, your command
-prompt should look like `vagrant@precise32:`.  If not, start up and enter the
-virtual machine with the steps at the bottom of the [virtual machine setup
-instructions](/installfest/vm_setup).
-
 
 ### Windows
 
 Launch the Git Shell and enter the Railsbridge Virtual Machine if it isn't
-already open. Go back to the [Install Ruby on
-Windows](install/windows) instructions if you need to see how to start Git
-Shell and enter the Railsbridge Virtual Machine.
+already open. 
 
 
 ### Linux
