@@ -77,6 +77,6 @@ Congratulations, you just "finished" your first rails app!
 (They're never really ever finished... have fun tweaking it!)
 
 ## Next Step
-Go on to [Next Steps](next_steps)
+Go on to [Next Steps](/next_steps)
 
 [<<< Table of Contents](/curriculum/curriculum_toc)
