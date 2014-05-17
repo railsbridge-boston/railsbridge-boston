@@ -36,7 +36,7 @@ We did this because the title now links to the show page and from the show page 
 
 Give your new website a personal touch by styling it and adding an image.
 
-Your Rails application loads a CSS stylesheet from the file `public/stylesheets/application.css`. 
+Your Rails application loads a CSS stylesheet from the file `assets/stylesheets/application.css`. 
 Open this file in your text editor.
 
 If you have web design skills already, you can go to town. If not, let's make a simple font change.
