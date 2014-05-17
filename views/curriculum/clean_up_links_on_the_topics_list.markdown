@@ -45,7 +45,7 @@ Add this style rule:
 
 ```css
 body {
-  font-family: "Comic Sans MS";
+  font-style: italic;
 }
 ```
 

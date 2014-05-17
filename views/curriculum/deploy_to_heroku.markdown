@@ -52,18 +52,15 @@ To git@heroku.com:boiling-waters-1263.git
 Type this in the terminal
 
 ```text
-heroku run rake db:migrate
+heroku run:detached rake db:migrate
 ```
 
 Remember when you ran `rake db:migrate` in the terminal? This does the same thing in heroku land. You should see:
 
 ```text
-Running `rake db:migrate` attached to terminal... up, run.9433
-== 20140516201901 CreateTopics: migrating =====================================
--- create_table(:topics)
-   -> 0.0248s
-== 20140516201901 CreateTopics: migrated (0.0251s) ============================
-```
+Running 'rake db:migrate' detached...
+```text
+
 
 ### Step 3: Visit your application
 
@@ -89,7 +86,7 @@ this as we add more functionality to the application. Your typical workflow will
 1. Tell git about it (`git add .`)
 1. Commit your changes (`git commit -m "made some change"`)
 1. Deploy your changes (`git push heroku master`)
-1. If you added anything new in your db/migrate/ folder, rake your database on heroku (`heroku run rake db:migrate`)
+1. If you added anything new in your db/migrate/ folder, rake your database on heroku (`heroku run:detached rake db:migrate`)
 1. Boom! Your changes are live!
 1. Repeat
 
