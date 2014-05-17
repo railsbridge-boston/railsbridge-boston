@@ -69,5 +69,5 @@ When you save code in the editor, put it in this shared folder
 
 
 ## Wrapping Up ##
-* [Next Steps](next_steps)
+* [Next Steps](/next_steps)
 * [Survey](https://docs.google.com/forms/d/1VJzy73VH6VFFA5UQ5lp5xNzJqT4YV-4O_GgLqaUG1fI/viewform?usp=send_form)
