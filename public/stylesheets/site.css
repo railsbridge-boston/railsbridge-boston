@@ -1125,3 +1125,15 @@ ul {
   padding-bottom: 0px;
   padding-left: 0;
 }
+
+.downloads-files {
+  width: 100%;
+}
+.downloads-files td, .downloads-files th {
+  padding: 1em;
+  background-color: #eee;
+  border: .25em solid #fff;
+}
+.downloads-files th {
+  background-color: #ddd;
+}

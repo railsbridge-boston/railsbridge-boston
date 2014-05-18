@@ -21,5 +21,5 @@
 
 Congratulations! You are ready to learn how to program with Ruby! 
 
-[«Back](/friday)
+[« Back to Installfest](/installfest)
 

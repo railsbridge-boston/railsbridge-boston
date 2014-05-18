@@ -1,4 +1,6 @@
-# Using the Command Line
+# Command Line Tutorial
+
+<!-- TODO: this should be rewritten before the next Intro workshop. -->
 
 Now it's time to introduce you to the [command
 line](http://en.wikipedia.org/wiki/Command-line_interface). You're certainly
@@ -21,33 +23,6 @@ cd
 `cd` moves you into a new directory. (It stands for "change directory".)
 
 Let's practice using these commands.  
-
-## Open a command line
-
-### OS X
-
-You can find the Terminal application through Spotlight (click the magnifying
-glass in the top right of the screen and start typing "Terminal"), 
-or navigate to `Applications/Utilities/Terminal` in Finder.
-
-If you installed Ruby with the Railsbridge Virtual Machine, your command
-prompt should look like `vagrant@precise32:`.  If not, start up and enter the
-virtual machine with the steps at the bottom of the [virtual machine setup
-instructions](/installfest/vm_setup).
-
-
-### Windows
-
-Launch the Git Shell and enter the Railsbridge Virtual Machine if it isn't
-already open. Go back to the [Install Ruby on
-Windows](install/windows) instructions if you need to see how to start Git
-Shell and enter the Railsbridge Virtual Machine.
-
-
-### Linux
-
-* Ubuntu: Click the Ubuntu logo and start typing "Terminal".  
-* Fedora: From the Main Menu bar select "Applications > System Tools > Terminal".
 
 
 ### Practice using `ls`, `pwd`, `cd`, and `man`

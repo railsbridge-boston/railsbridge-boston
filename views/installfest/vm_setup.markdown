@@ -1,28 +1,22 @@
 # Virtual Machine Setup
 
-Windows and OS X users need to set up the virtual machine they [downloaded](/pre_workshop).  Linux and Chromebook users may skip this step.
-
-
 ## Setting up a workspace
+
 Create a workspace folder in your home directory. This directory will be shared between the virtual machine and your computer. Like sharing files between two real computers with Dropbox or Google Docs, files need to be saved in a place that both your computer and the virtual machine can see. Save all your work in the hands-on exercises here so they can be run in the virtual machine.
 
-
-Open Finder or File Explorer.  By default, they open to your home directory.  Create a folder named workspace.  If you attended the January workshop, you already have this folder. 
-
+Open Finder or File Explorer.  By default, they open to your home directory.  Create a folder named workspace.  If you attended the January workshop, you already have this folder.
 
 ## Set up the virtual machine
 
 This is a one-time step to create the virtual machine for the workshop.
 
-[Before the workshop](/pre_workshop), you downloaded railsbridgevm-2014-05.box, the RailsBridge virtual machine, and saved it in the Downloads folder.   Note that this is updated from the January 2014 workshop. 
+Before the workshop, you [downloaded](/downloads) the RailsBridge virtual machine image, and saved it in the Downloads folder.   Note that this is updated from the January 2014 workshop.
 
 *If you were unable to download the vm ahead of time, we have copies on USB drives.*
 
-In File Explorer or Finder, drag and drop railsbridgevm-2014-05.box from your downloads folder to your new workspace folder.  
+In File Explorer or Finder, drag and drop railsbridgevm-2014-05.box from your downloads folder to your new workspace folder.
 
-
-Open the command line. See the [Using the Command Line](http://docs.railsbridgeboston.org/ruby/command_line), for a refresher on how to start the command line.  
-
+Open your computer's command line. See the [Command Line page](/installfest/command_line) for instructions on how to open it.
 
 Go to your home directory:
 
@@ -47,10 +41,10 @@ Then type:
 Here is what you should see (approximately):
     <pre>
     [choi@mini rbb]$ vagrant init railsbridgebox
-    A `Vagrantfile` has been placed in this directory. You are now
-    ready to `vagrant up` your first virtual environment! Please read
+    A \`Vagrantfile\` has been placed in this directory. You are now
+    ready to \`vagrant up\` your first virtual environment! Please read
     the comments in the Vagrantfile as well as documentation on
-    `vagrantup.com` for more information on using Vagrant.
+    \`vagrantup.com\` for more information on using Vagrant.
     </pre>
 
 Sneak preview of the command line lesson!  Type this to list all the files you've made:
@@ -67,9 +61,9 @@ The virtual machine has to be running in order to use it.  There are two ways to
 
 ### Start and Connect Through The Commandline
 
-If you closed your command line, open it again and type 
-`cd workspace` 
-to return to the workspace folder.  This folder contains the file Vagrantfile, which has the configuration settings needed to start the vm. 
+If you closed your command line, open it again and type
+`cd workspace`
+to return to the workspace folder.  This folder contains the file Vagrantfile, which has the configuration settings needed to start the vm.
 
 
 From the command line type:
@@ -78,7 +72,7 @@ From the command line type:
 
 It will do something like this:
     <pre>
-    choi@mini rbb]$ vagrant up
+    [choi@mini rbb]$ vagrant up
     Bringing machine 'default' up with 'virtualbox' provider...
     [default] Importing base box 'railsbridgebox'...
     [default] Matching MAC address for NAT networking...
@@ -109,33 +103,50 @@ You will see a welcome message something like this:
     Welcome to Ubuntu 14.04 LTS (GNU/Linux 3.13.0-24-generic i686)
     * Documentation:  https://help.ubuntu.com/
     Welcome to the Railsbridge Boston virtual machine!
-
     ...
-
     RailsBridge-VM:~/workspace$ 
     </pre>
-
-
-### Start and Connect Through VirtualBox
-
-The easier way is through VirtualBox.  Start the VirtualBox application.  On Mac, go to Finder > Applications > Virtual Box.   On Windows, go to the Start menu.   A VirtualBox dashboard will open.  On the left you'll see an item called 'railsbridgebox', and the status 'Powered off'.  Select it and click the Start button. 
-
-A command line window will open.  If it asks which OS to boot into, wait and let it accept the default.
-When you're shown a login prompt, use the username 'vagrant' and password 'vagrant'.   
-
-While you're using the VM, your keyboard and mouse clicks will be sent to this program.  This graphical interface is the most familiar way to use a program, but it can be hard to switch to other applications while it's running.  
-
-
 
 ## Disconnect from the virtual machine
 
 When you're done working in the virtual machine, type `exit` to disconnect from the virtual machine.
 
-To stop the virtual machine, type `vagrant halt` from the command line, or Machine > Close from the VirtualBox dashboard.  
+To stop the virtual machine, type `vagrant halt` from the command line.
 
+## Turning the virtual machine off and on
+
+When you're done for the day, logout and stop your machine:
+
+    <pre>
+    logout
+    vagrant halt
+    </pre>
+
+And close the command line window.
+
+When you want to use the virtual machine (tomorrow morning, for instance),
+start your machine. Open the command line, then:
+
+    <pre>
+    cd ~/workspace
+    vagrant up
+    vagrant ssh
+    </pre>
 
 ## Reminders
 
 * Run `vagrant halt` from the command line when you're done with the virtual machine.
 * Run `vagrant up` from the command line to restart the machine after you've rebooted or halted it.
 * Run `vagrant ssh` from the command line every time you connect to the virtual machine.
+
+To open an extra command line
+on the virtual machine, open another command line window, then type:
+
+    <pre>
+    cd ~/workspace
+    vagrant ssh
+    </pre>
+
+
+
+[« Back to Installfest](/installfest)
