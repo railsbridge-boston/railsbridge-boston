@@ -25,10 +25,8 @@ in the [pre-workshop steps](/pre_workshop).
 [On Mac OS X 10.5](/installfest/install/osx-10-5)  
 [On Linux](/installfest/install/linux)  
 
-If you're using ChromeOS, please ask a TA to help you get set up. TA, please
-consult the Nitrous.io instructions added to [this GitHub
-repo](https://github.com/tdenkinger/docs/tree/nitrous.io/sites/installfest).
-
+If you're using ChromeOS, please ask a TA to help you get set up using
+[Nitrous.io](https://www.nitrous.io/).
 
 ### 3. Install a Text Editor
 You should have installed a text editor that is designed for coding. Here are some suggestions for using it more effectively. 
