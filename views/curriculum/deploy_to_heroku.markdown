@@ -27,6 +27,7 @@ The authenticity of host 'heroku.com (50.19.85.156)' can't be established.
 RSA key fingerprint is 8b:48:5e:67:0e:c9:16:47:32:f2:87:0c:1f:c8:60:ad.
 Are you sure you want to continue connecting (yes/no)? 
 ```
+
 Your laptop is cautioning that you've never connected to Heroku before, 
 and your latop can't be absolutely sure that Heroku is who it says it is. 
 
@@ -59,7 +60,7 @@ Remember when you ran `rake db:migrate` in the terminal? This does the same thin
 
 ```text
 Running 'rake db:migrate' detached...
-```text
+```
 
 
 ### Step 3: Visit your application
