@@ -28,6 +28,7 @@
 # If you're nervous...
 
 ![Before there was doge...](http://upload.wikimedia.org/wikipedia/en/f/f8/Internet_dog.jpg)
+<p style="text-align: center; font-size: 0.5em">wikimedia.org</p>
 
 <!SLIDE>
 # Here's how we programmed in the Intro workshop...
@@ -88,12 +89,14 @@ You'll hear programmers use it.
 
 <!SLIDE center>
 ![Pile of shipping containers falling over](http://www.cargolaw.com/images/disaster2007.Ital.Florida7.GIF)
+<p style="text-align: center; font-size: 0.5em">cargolaw.com</p>
 
 <!SLIDE>
 # What tools do we have?
 
 <!SLIDE center>
 ![We can do it](http://www.veteranstoday.com/wp-content/uploads/2014/01/we-can-do-it.jpg)
+<p style="text-align: center; font-size: 0.5em">veteranstoday.com</p>
 
 <!SLIDE>
 # 1. Object Orientation
@@ -113,6 +116,7 @@ You'll hear programmers use it.
 
 <!SLIDE>
 ![can u not](https://lh6.googleusercontent.com/-wGi0W5qO_S0/UsWfIOMgtgI/AAAAAAAAAEY/XjHrempJP3o/s0-d/canyounot.gif)
+<p style="text-align: center; font-size: 0.5em">googleusercontent.com</p>
 
 <!SLIDE>
 # OK, What *do* we want to avoid?
@@ -120,12 +124,14 @@ You'll hear programmers use it.
 We don't want users on the Internet to directly tell our code what to run.
 
 ![big-endian or little-endian](http://farm3.static.flickr.com/2021/2060860569_b42c04642a_m.jpg)
+<p style="text-align: center; font-size: 0.5em">flickr.com</p>
 
 (There are many reasons this style is bad, but I'll just give one example...)
 
 <!SLIDE center>
 # Hackers!
 ![Lisbeth (well, this is what a "hacker" looks like in popular culture I guess)](http://www.writeups.org/img/inset/Lisbeth_Salander_h5.jpg)
+<p style="text-align: center; font-size: 0.5em">writeups.org</p>
 
 <!SLIDE>
 # Abstraction
@@ -169,6 +175,7 @@ Imagine a social network type site:
 
 <!SLIDE center>
 ![Fakebook](http://wireframesketcher.com/mockups/images/small/Facebook.jpg)
+<p style="text-align: center; font-size: 0.5em">wireframesketcher.com</p>
 
 <!SLIDE center>
 # Resources represent these "things" in the real world.
@@ -176,15 +183,18 @@ Imagine a social network type site:
 <!SLIDE>
 # Users will ask us for information about resources
 ![Cat at work](http://www.travisbewley.com/wp-content/uploads/2013/05/37361-cats-cat-in-computer.jpg)
+<p style="text-align: center; font-size: 0.5em">travisbewley.com</p>
 
 <!SLIDE center>
 ![Not pictured, a series of tubes](http://www.w3.org/wiki/images/1/1d/Article3.gif)
+<p style="text-align: center; font-size: 0.5em">w3.org</p>
 
 <!SLIDE center>
 # GET /users/42
 
 <!SLIDE center>
 ![not ALL ikea men](https://dsjanvisser.files.wordpress.com/2011/05/ikea1.jpg)
+<p style="text-align: center; font-size: 0.5em">dsjanvisser.files.wordpress.com</p>
 
 <!SLIDE center>
 # Object Orientation!
@@ -216,6 +226,7 @@ Users have IDs
 
 <!SLIDE center>
 ![Tongue twister](http://1.bp.blogspot.com/-JWAsRbJ2xts/UuEf_r_RFGI/AAAAAAAAA0E/_w60iOaPwNo/s1600/la_tongue_twister.gif)
+<p style="text-align: center; font-size: 0.5em">blogspot.com</p>
 
 <!SLIDE center>
 # Models!
@@ -224,6 +235,7 @@ Users have IDs
 # Models
 
 ![Not the Museum of Science orrery](http://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Grand_orrery_in_Putnam_Gallery%2C_2009-11-24.jpg/640px-Grand_orrery_in_Putnam_Gallery%2C_2009-11-24.jpg)
+<p style="text-align: center; font-size: 0.5em">wikimedia.org</p>
 
 We'll talk about how models work later.
 
@@ -263,6 +275,7 @@ For now, know that they are Ruby `Class`es.
 
 <!SLIDE center>
 ![lost in the tubes again](http://www.w3.org/wiki/images/1/1d/Article3.gif)
+<p style="text-align: center; font-size: 0.5em">w3.org</p>
 
 <!SLIDE center>
 # HTML
@@ -281,6 +294,7 @@ For now, know that they are Ruby `Class`es.
 # a View presents a resource in a particular format
 
 ![ASL interpreter](http://www.gpc.edu/programsofstudy/sites/default/files/images/Interpreter018.secondary.jpg)
+<p style="text-align: center; font-size: 0.5em">gpc.edu</p>
 
 <!SLIDE center>
 # Just HTML
@@ -354,6 +368,7 @@ You'll learn more as you create your app.
 <!SLIDE center>
 # Organization!
 ![things organized neatly](http://31.media.tumblr.com/d981d42fb48c643218c7f00115201dfc/tumblr_n19itn22Vo1qbycdbo1_500.jpg)
+<p style="text-align: center; font-size: 0.5em">tumblr.com</p>
 
 <!SLIDE center>
 # Separated logic and presentation
@@ -368,7 +383,7 @@ You'll learn more as you create your app.
 # The Controller
 
 ![Serious Traffic Cop](http://cdn.newsday.com/polopoly_fs/1.2994620.1309388241!/httpImage/image.JPG_gen/derivatives/display_600/image.JPG)
-<p style="text-align: center; font-size: 0.75em">http://newsday.com</p>
+<p style="text-align: center; font-size: 0.5em">newsday.com</p>
 
 <!SLIDE>
 # What does the Controller do?
@@ -428,14 +443,17 @@ You may also hear "design pattern", but I like the architecture metaphor because
 <!SLIDE>
 # From small...
 ![The shell script of housing](http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Lotam_Mud_Hut.JPG/640px-Lotam_Mud_Hut.JPG)
+<p style="text-align: center; font-size: 0.5em">wikimedia.org</p>
 
 <!SLIDE>
 # To big...
 ![Greenspun's tenth rule](http://img593.imageshack.us/img593/6258/sagradafamilia007.jpg)
+<p style="text-align: center; font-size: 0.5em">imageshack.us</p>
 
 <!SLIDE>
 # To standard
 ![Boring is good](http://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Wood-framed_house.jpg/640px-Wood-framed_house.jpg)
+<p style="text-align: center; font-size: 0.5em">wikimedia.org</p>
 
 <!SLIDE>
 # TMTOWTDI
@@ -475,6 +493,7 @@ No need to spend time deciding where to put your files!
 <!SLIDE>
 # Rails does the heavy lifting
 ![The dozer will not clear a path](http://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Construction_worker_at_Westlake_Center%2C_1988.jpg/640px-Construction_worker_at_Westlake_Center%2C_1988.jpg)
+<p style="text-align: center; font-size: 0.5em">wikimedia.org</p>
 
 <!SLIDE>
 
@@ -535,6 +554,7 @@ In your command line:
 <!SLIDE>
 # Let's check out that model
 ![Moisture is the essence of wetness, and wetness is the essence of beauty](http://carreno.me/assets/a/zegna.jpg)
+<p style="text-align: center; font-size: 0.5em">carreno.me</p>
 
 <!SLIDE>
 # Let's check out that (ahem) Model
@@ -557,6 +577,7 @@ In your command line:
 
 <!SLIDE>
 ![Hey it's that orrery again](http://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Grand_orrery_in_Putnam_Gallery%2C_2009-11-24.jpg/640px-Grand_orrery_in_Putnam_Gallery%2C_2009-11-24.jpg)
+<p style="text-align: center; font-size: 0.5em">wikimedia.org</p>
 
 * The **data** components of my system
 * How these pieces relate to each other with **associations**
@@ -697,6 +718,7 @@ You will also add your own business logic with code.
 Now you know the three pillars that you will use to build apps: **M**odels, **V**iews, and **C**ontrollers.
 
 ![Generic three-pillar image](http://cdn2.hubspot.net/hub/69576/file-15310885-jpg/images/3-pillars-of-successful-online-marketing.jpg?t=1364704108000)
+<p style="text-align: center; font-size: 0.5em">hubspot.net</p>
 
 <!SLIDE>
 # Remember: when their forces combine...
