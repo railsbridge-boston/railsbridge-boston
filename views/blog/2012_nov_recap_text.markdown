@@ -146,8 +146,7 @@ implemented three new workshop "features":
 
 We didn't have a logo for our August workshop. But we got one for this
 one.  Martha Rettig made us a fabulous logo and designed two stickers to
-match (see picture on right). We ordered 500 of these babies from
-[PrintRunner](http://www.printrunner.com/) and handed them out to
+match (see picture on right). We handed out 500 of these to
 everyone at the workshop. We're grateful to team member Anita Patel for
 coming up with the whole brilliantly cost-effective idea, which was
 very budget and schedule friendly.
