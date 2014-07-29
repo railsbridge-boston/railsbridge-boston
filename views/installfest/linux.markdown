@@ -1,5 +1,9 @@
 ## Instructions for Linux (with VM)
 
+<div class="alert alert-info">
+Don't have these files yet? Go back to the <a href="/downloads">Downloads page</a>.
+</div>
+
  1. **Install VirtualBox**
 
     Depending on your distribution, this may mean installing a package

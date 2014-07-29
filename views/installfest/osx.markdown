@@ -1,5 +1,9 @@
 ## Instructions for Mac OS X
 
+<div class="alert alert-info">
+Don't have these files yet? Go back to the <a href="/downloads">Downloads page</a>.
+</div>
+
  1. **Install for VirtualBox**
 
     Double-click the .dmg ("disk image") file to open it, then
