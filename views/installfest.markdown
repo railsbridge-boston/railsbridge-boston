@@ -9,70 +9,53 @@
 
 Install Ruby, Install a Text Editor, and Start Coding
 
-At the end of this tutorial, you will have all the tools you need to write and run Ruby code. Work through
-these sections in order, and ask questions if you get stuck! That's what the TAs and instructors are here for.
+At the end of this tutorial, you will have all the tools you need to write and
+run Ruby code. Work through these sections in order, and ask questions if you
+get stuck! That's what the TAs and instructors are here for.
 
-**Note**: If you are using an older version of OS X or a version of
-Linux that does not support the virtual machine, please skip steps 1 and
-2 and instead use the instructions for your OS:
-
-* [Mac OS X non-VM Setup](/installfest/osx_novm)
-* [Linux non-VM Setup](/installfest/linux_novm)
-
-When you are done with all the steps, find a staff member to go through the checklist with you.
+When you are done with all the steps, find a staff member to go through the
+checklist with you.
 
 ### 1. Set Up Your Programming Environment
 
-Make sure you have first downloaded all the necessary software for your system
-on the [Downloads page](/downloads). Then:
+First, make sure you have downloaded the files for your operating system from
+the [Downloads page](/downloads). If you don't have them, you can get them
+from a TA with a USB drive.
 
- 1. **Open and run the installer for VirtualBox**
+Choose the instructions below for your operating system. This will take you to
+a new page. Use your browser's back button to return here. Most students will
+have one of the operating systems in this row.
 
-    On Macs, double-click the .dmg ("disk image") file to open it, then
-    double-click the installer file. After the installer completes, eject
-    the disk image.
+<table class="downloads-files">
+<tr>
+  <th>Mac OS X (10.6+)</th>
+  <th>Windows (7+)</th>
+  <th>Windows (XP-Vista)</th>
+  <th>Linux (Ubuntu/Fedora)</th>
+</tr>
+<tr>
+  <td>Follow the <a href="/installfest/osx">Mac OS X Setup</a> instructions</td>
+  <td>Follow the <a href="/installfest/windows_7">Windows (7+) Setup</a> instructions</td>
+  <td>Follow the <a href="/installfest/windows_xp">Windows Setup</a> instructions</td>
+  <td>Follow the <a href="/installfest/linux">Linux Setup</a> instructions</td>
+</tr>
+</table>
 
-    On Windows, double-click the .exe or .msi file. If you are prompted
-    with a security warning, click "Run" to allow the installer to run.
+If you have one of the operating systems in the next row below, let a TA know,
+in case we need to offer extra assistance.
 
-    On Linux, depending on your distribution, this may mean installing a
-    package file. Ask a TA if you have any questions.
-
- 2. **Open and run the installer for Vagrant**
-
-    On Macs, double-click the .dmg ("disk image") file to open it, then
-    double-click the installer file. After the installer completes, eject
-    the disk image.
-
-    On Windows, double-click the .exe or .msi file. If you are prompted
-    with a security warning, click "Run" to allow the installer to run.
-    You may need to reboot.
-
-    On Linux, you will need to install a package file. Ask a TA if you
-    have any questions.
-
- 3. **Open and run the installer for Sublime Text**
-
-    On Macs, double-click the .dmg ("disk image") file to open it, then
-    drag the Sublime Text app to your Applications folder. Then eject
-    the disk image.
-
-    On Windows, double-click the .exe or .msi file. If you are prompted
-    with a security warning, click "Run" to allow the installer to run.
-
-    On Linux, you will need to unpack the .tar.bz2 file and follow the
-    instructions inside. Ask a TA if you have any questions.
-
-#### Extra Steps for Windows
-
-4. Open the GitHub for Windows installer that you downloaded. If
-   prompted during installation, install the Microsoft .NET framework.
-   If GitHub for Windows automatically launches after installation, quit
-   the application.
-
-5. Launch the Git Shell. You can find a shortcut on your Desktop (grey
-   circle with a cat), or locate **Git Shell** in All Programs under
-   GitHub. A new (mostly black) window will open.
+<table class="downloads-files">
+<tr>
+  <th>Mac OS X (10.4-10.5)</th>
+  <th>Linux (Other Distributions)</th>
+  <th>ChromeOS (Chromebook)</th>
+</tr>
+<tr>
+  <td>Follow the <a href="/installfest/osx_novm">Mac OS X non-VM Setup</a> instructions</td>
+  <td>Follow the <a href="/installfest/linux_novm">Linux non-VM Setup</a> instructions</td>
+  <td>Ask a TA</a>
+</tr>
+</table>
 
 ### 2. Set up your Virtual Machine
 

@@ -1,0 +1,22 @@
+## Instructions for Windows (7+)
+
+ 1. **Install VirtualBox**
+
+    Double-click the .exe or .msi file. If you are prompted with a
+    security warning, click "Run" to allow the installer to run.
+
+ 2. **Install Vagrant**
+
+    Double-click the .exe or .msi file. If you are prompted with a
+    security warning, click "Run" to allow the installer to run. You may
+    need to reboot.
+
+    On Linux, you will need to install a package file. Ask a TA if you
+    have any questions.
+
+ 3. **Install Sublime Text**
+
+    On double-click the .exe or .msi file. If you are prompted with a
+    security warning, click "Run" to allow the installer to run.
+
+[« Back to Installfest](/installfest)

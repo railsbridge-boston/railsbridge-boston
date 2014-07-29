@@ -18,7 +18,9 @@ sure what version you have, do this:
 
 Find the column for your OS, and download each file.
 
-**IMPORTANT: Please download these files even if you have been to a previous workshop. Versions have changed.**
+<div class="alert alert-info">
+<strong>Important</strong>: Please download these files even if you have been to a previous workshop. Versions have changed.
+</div>
 
 <table class="downloads-files">
 <tr>
@@ -69,6 +71,7 @@ don't support using the virtual machine, but we'll do our best to help
 you get up and running. Do these steps before coming to the workshop.
 
 <table class="downloads-files">
+<tr>
   <th>Mac OS X (10.4-10.5)</th>
   <th>Linux (Other Distributions)</th>
   <th>ChromeOS (Chromebook)</th>
