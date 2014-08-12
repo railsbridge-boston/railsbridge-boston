@@ -122,7 +122,7 @@ class RubyWorkshop < Sinatra::Base
   end
 
   get '/' do
-    @sponsors = sponsor_url_logos
+    @registration_url = registration_url
     erb :index
   end
 
@@ -192,6 +192,10 @@ class RubyWorkshop < Sinatra::Base
       instructor[1] = markdown.render(instructor[1])
       instructor
     end.sort
+  end
+
+  def registration_url
+    "https://railsbridge-boston-sept-2014.eventbrite.com"
   end
 
   # redirects for changed locations
