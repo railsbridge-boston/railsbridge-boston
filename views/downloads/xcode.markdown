@@ -11,7 +11,7 @@ Confirm your account and log in.
 # OS X 10.5
 
 Download
-[Xcode 3.1.4](http://adcdownload.apple.com/Developer_Tools/xcode_3.1.4_developer_tools/xcode314_2809_developerdvd.dmg)
+[Xcode 3.1.4](https://developer.apple.com/downloads/download.action?path=Developer_Tools/xcode_3.1.4_developer_tools/xcode314_2809_developerdvd.dmg)
 from the Apple Developer Center.
 
 If that link doesn't work, go to the
