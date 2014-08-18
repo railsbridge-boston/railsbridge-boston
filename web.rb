@@ -199,8 +199,13 @@ class RubyWorkshop < Sinatra::Base
   end
 
   # redirects for changed locations
-  get '/installfest' do
-    redirect '/friday'
+  # The theme here is that a resource name represents what, not when.
+  # That way we can change the schedule in the future by changing the text that links to those pages.
+  get '/friday' do
+    redirect '/installfest'
+  end
+  get '/pre_workshop' do
+    redirect '/downloads'
   end
 
   # This handles default routes for the markdown files in `views/`
