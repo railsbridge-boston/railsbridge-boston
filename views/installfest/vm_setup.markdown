@@ -18,6 +18,9 @@ In File Explorer or Finder, drag and drop "railsbridgevm-2014-09.box" from your 
 
 Open your computer's command line. See the [Command Line page](/installfest/command_line) for instructions on how to open it.
 
+<!-- INSTRUCTORS: please remember to update all occurrences of the box -->
+<!-- name below when the VM version changes. -->
+
 Go to your home directory:
 
     `cd`
@@ -26,21 +29,17 @@ Move into your workspace directory:
 
     `cd workspace`
 
-If you've installed the RailsBridge VM from a previous workshop, delete it.  If you're not sure, run the command anyway; you may see an error that the box could not be found.
-
-    `vagrant box remove railsbridgebox`
-
 Type this:
 
-    `vagrant box add railsbridgebox ./railsbridgevm-2014-09.box`
+    `vagrant box add railsbridge201409 ./railsbridgevm-2014-09.box`
 
 Then type:
 
-    `vagrant init railsbridgebox`
+    `vagrant init railsbridge201409`
 
 Here is what you should see (approximately):
     <pre>
-    [~/workspace]$ vagrant init railsbridgebox
+    [~/workspace]$ vagrant init railsbridge201409
     A \`Vagrantfile\` has been placed in this directory. You are now
     ready to \`vagrant up\` your first virtual environment! Please read
     the comments in the Vagrantfile as well as documentation on
@@ -74,7 +73,7 @@ It will do something like this:
     <pre>
     [~/workspace]$ vagrant up
     Bringing machine 'default' up with 'virtualbox' provider...
-    [default] Importing base box 'railsbridgebox'...
+    [default] Importing base box 'railsbridge201409'...
     [default] Matching MAC address for NAT networking...
     [default] Setting the name of the VM...
     [default] Clearing any previously set forwarded ports...
