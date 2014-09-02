@@ -2,9 +2,9 @@
 
 ## Setting up a workspace
 
-Create a workspace folder in your home directory. This directory will be shared between the virtual machine and your computer. Like sharing files between two real computers with Dropbox or Google Docs, files need to be saved in a place that both your computer and the virtual machine can see. Save all your work in the hands-on exercises here so they can be run in the virtual machine.
+Open Finder or File Explorer.  By default, they open to your home directory.  Create a folder named "workspace".  If you've attended our Ruby workshop before, you already have this folder.
 
-Open Finder or File Explorer.  By default, they open to your home directory.  Create a folder named workspace.  If you've attended our Ruby workshop before, you already have this folder.
+This directory will be shared between the virtual machine and your computer. Like sharing files between two real computers with Dropbox or Google Docs, files need to be saved in a place that both your computer and the virtual machine can see. Save all your work in the hands-on exercises here so they can be run in the virtual machine.
 
 ## Set up the virtual machine
 
@@ -14,7 +14,7 @@ Before the workshop, you [downloaded](/downloads) the RailsBridge virtual machin
 
 *If you were unable to download the vm ahead of time, we have copies on USB drives.*
 
-In File Explorer or Finder, drag and drop railsbridgevm-2014-05.box from your downloads folder to your new workspace folder.
+In File Explorer or Finder, drag and drop "railsbridgevm-2014-05.box" from your downloads folder to your new workspace folder.
 
 Open your computer's command line. See the [Command Line page](/installfest/command_line) for instructions on how to open it.
 
@@ -50,7 +50,7 @@ Here is what you should see (approximately):
 Sneak preview of the command line lesson!  Type this to list all the files you've made:
     `ls`
 
-Look at the workspace folder in Finder or File Explorer. You'll notice it now contains a file called Vagrantfile.  This contains configuration information that Vagrant needs to start and connect to the new virtual machine.  We have to have a command line open and be in this folder when we start or connect to the vm so Vagrant can read the configuration information.
+Look at the "workspace" folder in Finder or File Explorer. You'll notice it now contains a file called Vagrantfile.  This contains configuration information that Vagrant needs to start and connect to the new virtual machine.  We have to have a command line open and be in this folder when we start or connect to the vm so Vagrant can read the configuration information.
 
 Leave this Finder or File Explorer window open for the next step.
 
