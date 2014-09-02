@@ -4,13 +4,13 @@
 
 Create a workspace folder in your home directory. This directory will be shared between the virtual machine and your computer. Like sharing files between two real computers with Dropbox or Google Docs, files need to be saved in a place that both your computer and the virtual machine can see. Save all your work in the hands-on exercises here so they can be run in the virtual machine.
 
-Open Finder or File Explorer.  By default, they open to your home directory.  Create a folder named workspace.  If you attended the January workshop, you already have this folder.
+Open Finder or File Explorer.  By default, they open to your home directory.  Create a folder named workspace.  If you've attended our Ruby workshop before, you already have this folder.
 
 ## Set up the virtual machine
 
 This is a one-time step to create the virtual machine for the workshop.
 
-Before the workshop, you [downloaded](/downloads) the RailsBridge virtual machine image, and saved it in the Downloads folder.   Note that this is updated from the January 2014 workshop.
+Before the workshop, you [downloaded](/downloads) the RailsBridge virtual machine image, and saved it in the Downloads folder.  Note that this may have been updated since our last workshop.
 
 *If you were unable to download the vm ahead of time, we have copies on USB drives.*
 
@@ -26,7 +26,7 @@ Move into your workspace directory:
 
     `cd workspace`
 
-If you've installed the railsbridge vm in the January workshop, delete it.  If you're not sure, run the command anyway; you may see an error that the box could not be found. 
+If you've installed the RailsBridge VM from a previous workshop, delete it.  If you're not sure, run the command anyway; you may see an error that the box could not be found.
 
     `vagrant box remove railsbridgebox`
 
