@@ -40,7 +40,7 @@ Then type:
 
 Here is what you should see (approximately):
     <pre>
-    [choi@mini rbb]$ vagrant init railsbridgebox
+    [~/workspace]$ vagrant init railsbridgebox
     A \`Vagrantfile\` has been placed in this directory. You are now
     ready to \`vagrant up\` your first virtual environment! Please read
     the comments in the Vagrantfile as well as documentation on
@@ -72,7 +72,7 @@ From the command line type:
 
 It will do something like this:
     <pre>
-    [choi@mini rbb]$ vagrant up
+    [~/workspace]$ vagrant up
     Bringing machine 'default' up with 'virtualbox' provider...
     [default] Importing base box 'railsbridgebox'...
     [default] Matching MAC address for NAT networking...
@@ -99,7 +99,7 @@ to connect to the virtual machine.
 
 You will see a welcome message something like this:
     <pre>
-    [choi@mini rbb]$ vagrant ssh
+    [~/workspace]$ vagrant ssh
     Welcome to Ubuntu 14.04 LTS (GNU/Linux 3.13.0-24-generic i686)
     * Documentation:  https://help.ubuntu.com/
     Welcome to the Railsbridge Boston virtual machine!
