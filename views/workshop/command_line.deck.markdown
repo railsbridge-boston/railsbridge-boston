@@ -33,6 +33,7 @@ Let's all open up a terminal (command line window) to follow along, if you don't
   or find the Terminal application through Spotlight (click the magnifying glass in the top right of the screen and start typing 'Terminal')"
 * **On Windows:** open up Git Shell from your desktop or All Programs menu.
 * **On Linux:** press Ctrl + Alt + T or Find Terminal under the Accessories category of your applications menu.
+* **On Chromebook:** From the [boxes page](https://www.nitrous.io/app#/boxes), click the "IDE" button. The command line window should appear at the bottom of the screen under the "Console" tab.
 
 # Terminology
 
