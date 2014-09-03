@@ -71,7 +71,7 @@ vagrant@precise32:~/workspace$ curl 'http://artii.herokuapp.com/make?text=I+love
 
 Change the end of the command string to generate your own message.
 
-### Installing Commands (Railsbridge Virtual Machine and Ubuntu only)
+### Installing Commands (RailsBridge Virtual Machine and Ubuntu only)
 
 Wouldn't it be nerdy to be able to check local weather conditions from the command line? 
 

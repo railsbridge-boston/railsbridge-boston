@@ -16,8 +16,8 @@ or navigate to `Applications/Utilities/Terminal` in Finder.
 
 ### Windows
 
-Launch the Git Shell and enter the Railsbridge Virtual Machine if it isn't
-already open. 
+Launch the Git Shell and enter the RailsBridge Virtual Machine if it isn't
+already open.
 
 
 ### Linux

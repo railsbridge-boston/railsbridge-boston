@@ -1,7 +1,7 @@
 # Run Ruby from a File
 
 
-**If you are using the Railsbridge Virtual Machine**, there is a folder
+**If you are using the RailsBridge Virtual Machine**, there is a folder
 inside the virtual machine called `~/workspace`. This folder is mapped
 to a folder at `~/workspace` in your host
 operating system. Make sure you can find `~/workspace`. It should already

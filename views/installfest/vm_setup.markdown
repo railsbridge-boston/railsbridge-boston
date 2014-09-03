@@ -102,7 +102,7 @@ You will see a welcome message something like this:
     [choi@mini rbb]$ vagrant ssh
     Welcome to Ubuntu 14.04 LTS (GNU/Linux 3.13.0-24-generic i686)
     * Documentation:  https://help.ubuntu.com/
-    Welcome to the Railsbridge Boston virtual machine!
+    Welcome to the RailsBridge Boston virtual machine!
     ...
     RailsBridge-VM:~/workspace$ 
     </pre>

@@ -1,7 +1,7 @@
 # Introduction to the command line
 
 Decklin Foster  
-Railsbridge Boston  
+RailsBridge Boston  
 September 20, 2014
 
 .notes (This is a note; it is not displayed on the slide.)
