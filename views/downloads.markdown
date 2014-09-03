@@ -86,3 +86,5 @@ you get up and running. Do these steps before coming to the workshop.
 **MAC AND LINUX EXPERTS:** if you prefer, you can use these methods to
 install Ruby natively on your computer, without a virtual machine,
 even on supported versions of Mac OS X or Linux.
+
+[Go to Installfest »](/installfest)
