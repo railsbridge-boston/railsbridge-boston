@@ -24,3 +24,5 @@ If you have an older version of OS X, ask a TA for help. If you have a
 newer version of OS X but still want to use this installation method
 (**not** necessary if you are using the virtual machine), get XCode from
 the App Store.
+
+You are now ready to [for the Installfest](/installfest/osx_novm)!
