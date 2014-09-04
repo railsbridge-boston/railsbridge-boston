@@ -15,7 +15,7 @@ Heroku will send you an activation email. Open it and click on the activation li
 
 ## 4. Install the Heroku Toolbelt
 
-You can skip this step if you installed the Railsbridge Virtual Machine.
+You can skip this step if you installed the RailsBridge Virtual Machine.
 Otherwise, go to the [Heroku Toolbelt Site](https://toolbelt.heroku.com/) and follow the instructions for your operating system.
 
 ## 5. Create an ssh key

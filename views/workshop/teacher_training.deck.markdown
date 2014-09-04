@@ -3,7 +3,7 @@
 
 <!SLIDE bullets>
 # What are we doing here?
-* Over the next two hours, we will share advice about how to teach/TA a Railsbridge Open Workshop.
+* Over the next two hours, we will share advice about how to teach/TA a RailsBridge Open Workshop.
 * This will be a conversation, not a lecture. 
   * You will share your experiences and advice
 * (yes, this is a sneaky way of modeling how you should teach your class)
@@ -20,7 +20,7 @@
 * Why are you here?
 
 <!SLIDE bullets incremental>
-# What are the goals of the Railsbridge Open Workshop?
+# What are the goals of the RailsBridge Open Workshop?
 
 * Teaching Ruby on Rails?
   * yes, but...

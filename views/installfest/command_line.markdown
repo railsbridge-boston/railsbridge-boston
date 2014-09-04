@@ -28,5 +28,6 @@ has its own command line inside.
 
 ## Using the Command line
 
-There is a short tutorial for
-[Command Line Basics](/installfest/command_line_basics).
+You can read the slides for the
+[Command Line Intro](/workshop/command_line) presentation. If you finish
+that, there's some [Command Line Extra Credit](/installfest/command_line_extras).
