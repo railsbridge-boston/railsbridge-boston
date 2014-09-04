@@ -14,7 +14,7 @@ Before the workshop, you [downloaded](/downloads) the RailsBridge virtual machin
 
 *If you were unable to download the vm ahead of time, we have copies on USB drives.*
 
-In File Explorer or Finder, drag and drop "railsbridgevm-2014-05.box" from your downloads folder to your new workspace folder.
+In File Explorer or Finder, drag and drop "railsbridgevm-2014-09.box" from your downloads folder to your new workspace folder.
 
 Open your computer's command line. See the [Command Line page](/installfest/command_line) for instructions on how to open it.
 
@@ -32,7 +32,7 @@ If you've installed the RailsBridge VM from a previous workshop, delete it.  If 
 
 Type this:
 
-    `vagrant box add railsbridgebox ./railsbridgevm-2014-05.box`
+    `vagrant box add railsbridgebox ./railsbridgevm-2014-09.box`
 
 Then type:
 
